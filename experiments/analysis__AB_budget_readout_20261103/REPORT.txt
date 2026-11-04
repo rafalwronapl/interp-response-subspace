@@ -1,0 +1,548 @@
+A fresh native-readout learning-budget TEST, 2026-11-03
+
+Completed64 new lexical blocks,256 prompts,1024 intervention conditions; Qwen3-0.6B-Base,
+literal E041 upstream intervention, MLP21 prediction and exact native L22-27 suffix.
+One fixed lexicographic FIT0seed17 training sequence, not independent-fit replication.
+All16 learned/P forecasts were frozen globally before first intervenedTEST native target.
+
+| Vector-label budget | C readout MSE | same-U readout MSE | Direct readout MSE |
+|---:|---:|---:|---:|
+| 32 | 0.000875571358297 | 0.0014351040026 | 0.00168481373957 |
+| 64 | 0.00127586621765 | 0.000927737918273 | 0.000790169262243 |
+| 128 | 0.000767452401714 | 0.000696753118945 | 0.000481286556941 |
+| 256 | 0.000489642817445 | 0.000496113657238 | 0.000440073665113 |
+| 384 | 0.000342340068782 | 0.000321220079972 | 0.000308196420551 |
+
+P MSE=0.0152095786461; zero-change MSE=0.870107090078.
+Primary fixed C32-Direct32 paired deltaMSE=-0.000809242381277; bootstrap95%=[-0.0012152982217236818, -0.0004463334236314065].
+Positive delta favors Direct; negative favors C. This is the single prespecified primary.
+C32 readout MSE is 48.0316% lower than Direct32 in this fixed-sequence TEST.
+The primary interval lies below zero. This supports lower readout squared error for the selected
+prior-assisted C32 predictor on these64 fresh lexical pairs, conditional on its fixed historical resources.
+C32 also has lower mean MSE than same-U32. Direct has lower mean MSE than C at64/128/256/384.
+C is nonmonotonic: the64-label C predictor is worse than the32-label C predictor. No point is removed.
+This is not equal-total-information superiority, an average over training-set draws, or transfer evidence.
+Other budget/method contrasts and intervals are descriptive, nominal pointwise, no familywise claim.
+
+ALL CONTRASTS
+{
+  "C_128-Direct_128": {
+    "delta_MSE": 0.0002861658447725901,
+    "nominal95": [
+      0.0001462511232671826,
+      0.0004392872621753696
+    ]
+  },
+  "C_128-P": {
+    "delta_MSE": -0.014442126244352593,
+    "nominal95": [
+      -0.01630194983809905,
+      -0.012668331913930153
+    ]
+  },
+  "C_128-same_U_128": {
+    "delta_MSE": 7.069928276859372e-05,
+    "nominal95": [
+      -4.4600391811577825e-05,
+      0.00018555432688733824
+    ]
+  },
+  "C_256-Direct_256": {
+    "delta_MSE": 4.956915233123027e-05,
+    "nominal95": [
+      -4.866021029372724e-05,
+      0.00014108643417243272
+    ]
+  },
+  "C_256-P": {
+    "delta_MSE": -0.014719935828622077,
+    "nominal95": [
+      -0.01660933757414762,
+      -0.012925888221803473
+    ]
+  },
+  "C_256-same_U_256": {
+    "delta_MSE": -6.470839793770722e-06,
+    "nominal95": [
+      -7.911484436617933e-05,
+      6.545330394986946e-05
+    ]
+  },
+  "C_32-Direct_32": {
+    "delta_MSE": -0.0008092423812771088,
+    "nominal95": [
+      -0.0012152982217236818,
+      -0.0004463334236314065
+    ]
+  },
+  "C_32-P": {
+    "delta_MSE": -0.014334007287769346,
+    "nominal95": [
+      -0.016177405313029157,
+      -0.01260035865481246
+    ]
+  },
+  "C_32-same_U_32": {
+    "delta_MSE": -0.0005595326443055271,
+    "nominal95": [
+      -0.0009121971624207248,
+      -0.0002335545564745802
+    ]
+  },
+  "C_384-Direct_384": {
+    "delta_MSE": 3.41436482305113e-05,
+    "nominal95": [
+      -3.402657750015692e-05,
+      0.00010113713829067448
+    ]
+  },
+  "C_384-P": {
+    "delta_MSE": -0.01486723857728478,
+    "nominal95": [
+      -0.01681000594636304,
+      -0.013014177378545133
+    ]
+  },
+  "C_384-same_U_384": {
+    "delta_MSE": 2.1119988809381596e-05,
+    "nominal95": [
+      -2.0856017829595783e-05,
+      6.471238878877903e-05
+    ]
+  },
+  "C_64-Direct_64": {
+    "delta_MSE": 0.00048569695540390256,
+    "nominal95": [
+      0.0002960547867326468,
+      0.0006764723616142554
+    ]
+  },
+  "C_64-P": {
+    "delta_MSE": -0.013933712428420009,
+    "nominal95": [
+      -0.015692980560938395,
+      -0.012264066601431846
+    ]
+  },
+  "C_64-same_U_64": {
+    "delta_MSE": 0.0003481282993735846,
+    "nominal95": [
+      0.0001229790507721873,
+      0.0005907083526642153
+    ]
+  },
+  "Direct_128-P": {
+    "delta_MSE": -0.014728292089125183,
+    "nominal95": [
+      -0.016613952462887837,
+      -0.012933239099137774
+    ]
+  },
+  "Direct_256-P": {
+    "delta_MSE": -0.014769504980953307,
+    "nominal95": [
+      -0.01666936520064617,
+      -0.012945402796327832
+    ]
+  },
+  "Direct_32-P": {
+    "delta_MSE": -0.013524764906492237,
+    "nominal95": [
+      -0.01543175400329666,
+      -0.01171741306341736
+    ]
+  },
+  "Direct_384-P": {
+    "delta_MSE": -0.014901382225515292,
+    "nominal95": [
+      -0.01686245704987179,
+      -0.013030222042665018
+    ]
+  },
+  "Direct_64-P": {
+    "delta_MSE": -0.014419409383823911,
+    "nominal95": [
+      -0.0162849674366341,
+      -0.012642155521321509
+    ]
+  },
+  "same_U_128-P": {
+    "delta_MSE": -0.014512825527121187,
+    "nominal95": [
+      -0.016415534986241244,
+      -0.012718500134693533
+    ]
+  },
+  "same_U_256-P": {
+    "delta_MSE": -0.014713464988828306,
+    "nominal95": [
+      -0.016619081773616085,
+      -0.01289230752615982
+    ]
+  },
+  "same_U_32-P": {
+    "delta_MSE": -0.013774474643463819,
+    "nominal95": [
+      -0.015700284474628567,
+      -0.01198146837695151
+    ]
+  },
+  "same_U_384-P": {
+    "delta_MSE": -0.014888358566094162,
+    "nominal95": [
+      -0.016816960181909257,
+      -0.013035593779325172
+    ]
+  },
+  "same_U_64-P": {
+    "delta_MSE": -0.014281840727793593,
+    "nominal95": [
+      -0.016142281285300396,
+      -0.012487971623637595
+    ]
+  },
+  "zero_change-P": {
+    "delta_MSE": 0.8548975114323589,
+    "nominal95": [
+      0.7982367196511022,
+      0.9134211810213648
+    ]
+  }
+}
+
+VECTOR / COEFFICIENT ERRORS, SIGN AGREEMENT AND BIAS
+{
+  "C_128": {
+    "vector_L2": 3.2180769369901405,
+    "coefficient_L2": 0.0727353291955875,
+    "delta_sign_agreement": 1.0,
+    "signed_bias": 0.00031065940856933594
+  },
+  "C_256": {
+    "vector_L2": 3.205744373816835,
+    "coefficient_L2": 0.060402766022281854,
+    "delta_sign_agreement": 1.0,
+    "signed_bias": -0.0013841362670063972
+  },
+  "C_32": {
+    "vector_L2": 3.2451999482592475,
+    "coefficient_L2": 0.09985834046469486,
+    "delta_sign_agreement": 1.0,
+    "signed_bias": 0.003939676098525524
+  },
+  "C_384": {
+    "vector_L2": 3.191779508163025,
+    "coefficient_L2": 0.04643790036847176,
+    "delta_sign_agreement": 1.0,
+    "signed_bias": -0.0013545900583267212
+  },
+  "C_64": {
+    "vector_L2": 3.243705176612021,
+    "coefficient_L2": 0.09836356881746822,
+    "delta_sign_agreement": 1.0,
+    "signed_bias": 0.004553481936454773
+  },
+  "Direct_128": {
+    "vector_L2": 0.56732005334635,
+    "coefficient_L2": 0.07069790520567387,
+    "delta_sign_agreement": 1.0,
+    "signed_bias": 0.002834565006196499
+  },
+  "Direct_256": {
+    "vector_L2": 0.39620860452794116,
+    "coefficient_L2": 0.059483703214504455,
+    "delta_sign_agreement": 1.0,
+    "signed_bias": -0.003397173248231411
+  },
+  "Direct_32": {
+    "vector_L2": 1.1416287234100901,
+    "coefficient_L2": 0.17075626102736005,
+    "delta_sign_agreement": 1.0,
+    "signed_bias": -0.01988161727786064
+  },
+  "Direct_384": {
+    "vector_L2": 0.31529020141978104,
+    "coefficient_L2": 0.044204841577433984,
+    "delta_sign_agreement": 1.0,
+    "signed_bias": -0.00453786738216877
+  },
+  "Direct_64": {
+    "vector_L2": 0.6515919061409716,
+    "coefficient_L2": 0.09183549080231446,
+    "delta_sign_agreement": 1.0,
+    "signed_bias": -0.0012815361842513084
+  },
+  "P": {
+    "vector_L2": 4.387823331036685,
+    "coefficient_L2": 1.2424817232421321,
+    "delta_sign_agreement": 1.0,
+    "signed_bias": 0.005420416593551636
+  },
+  "same_U_128": {
+    "vector_L2": 3.2174368919596956,
+    "coefficient_L2": 0.0720952847198657,
+    "delta_sign_agreement": 1.0,
+    "signed_bias": -0.0020048143342137337
+  },
+  "same_U_256": {
+    "vector_L2": 3.2048253104543356,
+    "coefficient_L2": 0.05948370321450559,
+    "delta_sign_agreement": 1.0,
+    "signed_bias": -0.0012832824140787125
+  },
+  "same_U_32": {
+    "vector_L2": 3.3160978682671924,
+    "coefficient_L2": 0.17075626102736186,
+    "delta_sign_agreement": 1.0,
+    "signed_bias": -0.013799995183944702
+  },
+  "same_U_384": {
+    "vector_L2": 3.1895464488172687,
+    "coefficient_L2": 0.04420484157743828,
+    "delta_sign_agreement": 1.0,
+    "signed_bias": -0.0012962939217686653
+  },
+  "same_U_64": {
+    "vector_L2": 3.2367231572891093,
+    "coefficient_L2": 0.09138155004927921,
+    "delta_sign_agreement": 1.0,
+    "signed_bias": -0.0008860062807798386
+  },
+  "zero_change": {
+    "vector_L2": 6.713913050936977,
+    "coefficient_L2": 3.5685714436971465,
+    "delta_sign_agreement": 0.0,
+    "signed_bias": -0.1633526161313057
+  }
+}
+Exact zero is its own class; agreement compares signs of arm/nativetarget margin change from natural. Allconditions retained.
+
+ALL MARGINAL SUBGROUPS
+{
+  "A=0": {
+    "MSE": {
+      "C_128": 0.0008281515736925371,
+      "C_256": 0.0005385542624321005,
+      "C_32": 0.0008980776572773408,
+      "C_384": 0.0003980539541039718,
+      "C_64": 0.0013372317392068567,
+      "Direct_128": 0.00048423938970110214,
+      "Direct_256": 0.00045307053323107027,
+      "Direct_32": 0.0016683794946548147,
+      "Direct_384": 0.0003398865227310921,
+      "Direct_64": 0.0007600916097789678,
+      "P": 0.014878666127120965,
+      "same_U_128": 0.0007384282139231146,
+      "same_U_256": 0.000539155079138709,
+      "same_U_32": 0.0013430911692537961,
+      "same_U_384": 0.00036665908543120906,
+      "same_U_64": 0.0007784624814242136,
+      "zero_change": 0.9258631054804489
+    },
+    "conditions": 512
+  },
+  "A=1": {
+    "MSE": {
+      "C_128": 0.0007067532297355683,
+      "C_256": 0.0004407313724570372,
+      "C_32": 0.0008530650593172595,
+      "C_384": 0.00028662618345975943,
+      "C_64": 0.001214500696086418,
+      "Direct_128": 0.00047833372418182307,
+      "Direct_256": 0.00042707679699560686,
+      "Direct_32": 0.0017012479844940032,
+      "Direct_384": 0.00027650631837161654,
+      "Direct_64": 0.0008202469147065017,
+      "P": 0.015540491165012327,
+      "same_U_128": 0.0006550780239678033,
+      "same_U_256": 0.00045307223533797014,
+      "same_U_32": 0.0015271168359518583,
+      "same_U_384": 0.000275781074513759,
+      "same_U_64": 0.0010770133551218919,
+      "zero_change": 0.8143510746764022
+    },
+    "conditions": 512
+  },
+  "S=0": {
+    "MSE": {
+      "C_128": 0.0010160348247865159,
+      "C_256": 0.000697047147296459,
+      "C_32": 0.001174583037064636,
+      "C_384": 0.00046770521158023826,
+      "C_64": 0.0017632272430745388,
+      "Direct_128": 0.0006929946873999171,
+      "Direct_256": 0.0006164560851882328,
+      "Direct_32": 0.0017943116526986103,
+      "Direct_384": 0.000426955094539494,
+      "Direct_64": 0.0009809218362537564,
+      "P": 0.016237963464252658,
+      "same_U_128": 0.0008861145624070588,
+      "same_U_256": 0.0006871642807979583,
+      "same_U_32": 0.0015292433852707177,
+      "same_U_384": 0.00042232441662726217,
+      "same_U_64": 0.0010840377384404576,
+      "zero_change": 1.1853569651629847
+    },
+    "conditions": 512
+  },
+  "S=1": {
+    "MSE": {
+      "C_128": 0.0005188699786415896,
+      "C_256": 0.00028223848759267867,
+      "C_32": 0.0005765596795299643,
+      "C_384": 0.000216974925983493,
+      "C_64": 0.0007885051922187358,
+      "Direct_128": 0.0002695784264830081,
+      "Direct_256": 0.0002636912450384443,
+      "Direct_32": 0.0015753158264502076,
+      "Direct_384": 0.00018943774656321466,
+      "Direct_64": 0.0005994166882317131,
+      "P": 0.014181193827880634,
+      "same_U_128": 0.0005073916754838592,
+      "same_U_256": 0.0003050630336787208,
+      "same_U_32": 0.0013409646199349368,
+      "same_U_384": 0.0002201157433177059,
+      "same_U_64": 0.0007714380981056479,
+      "zero_change": 0.5548572149938664
+    },
+    "conditions": 512
+  },
+  "branch=B": {
+    "MSE": {
+      "C_128": 0.0008261445181645399,
+      "C_256": 0.000533680756392485,
+      "C_32": 0.0009413534769713294,
+      "C_384": 0.00037133226708441214,
+      "C_64": 0.001329504863745612,
+      "Direct_128": 0.0005528158228926827,
+      "Direct_256": 0.0004992556037510809,
+      "Direct_32": 0.0019043418207616014,
+      "Direct_384": 0.0003492842764067916,
+      "Direct_64": 0.0008727291780488144,
+      "P": 0.01750276211964419,
+      "same_U_128": 0.0007645694391822389,
+      "same_U_256": 0.0005402875163991183,
+      "same_U_32": 0.001553392101978801,
+      "same_U_384": 0.0003488032955161202,
+      "same_U_64": 0.000980428418857926,
+      "zero_change": 1.0160690396186567
+    },
+    "conditions": 512
+  },
+  "branch=C": {
+    "MSE": {
+      "C_128": 0.0007087602852635655,
+      "C_256": 0.00044560487849665265,
+      "C_32": 0.0008097892396232709,
+      "C_384": 0.0003133478704793191,
+      "C_64": 0.0012222275715476627,
+      "Direct_128": 0.0004097572909902425,
+      "Direct_256": 0.0003808917264755962,
+      "Direct_32": 0.0014652856583872165,
+      "Direct_384": 0.00026710856469591704,
+      "Direct_64": 0.0007076093464366551,
+      "P": 0.012916395172489104,
+      "same_U_128": 0.0006289367987086791,
+      "same_U_256": 0.0004519397980775608,
+      "same_U_32": 0.0013168159032268534,
+      "same_U_384": 0.00029363686442884784,
+      "same_U_64": 0.0008750474176881795,
+      "zero_change": 0.7241451405381945
+    },
+    "conditions": 512
+  },
+  "dose=0.5": {
+    "MSE": {
+      "C_128": 0.0002944340988921823,
+      "C_256": 0.0001891739359827227,
+      "C_32": 0.00036654291966264907,
+      "C_384": 0.0001331216458737572,
+      "C_64": 0.0004852594216870898,
+      "Direct_128": 0.0001635550493297444,
+      "Direct_256": 0.00015501921245508754,
+      "Direct_32": 0.00046152879140315406,
+      "Direct_384": 0.00011014684275245656,
+      "Direct_64": 0.0002780435292706329,
+      "P": 0.005565431632705398,
+      "same_U_128": 0.0002660293362826138,
+      "same_U_256": 0.00019183314466708623,
+      "same_U_32": 0.00043793347529863524,
+      "same_U_384": 0.00012656256389220744,
+      "same_U_64": 0.0004058049724768864,
+      "zero_change": 0.3148460621503446
+    },
+    "conditions": 512
+  },
+  "dose=1.0": {
+    "MSE": {
+      "C_128": 0.0012404707045359231,
+      "C_256": 0.000790111698906415,
+      "C_32": 0.0013845997969319512,
+      "C_384": 0.0005515584916899741,
+      "C_64": 0.002066473013606185,
+      "Direct_128": 0.0007990180645531808,
+      "Direct_256": 0.0007251281177715896,
+      "Direct_32": 0.002908098687745664,
+      "Direct_384": 0.0005062459983502521,
+      "Direct_64": 0.0013022949952148366,
+      "P": 0.024853725659427894,
+      "same_U_128": 0.0011274769016083042,
+      "same_U_256": 0.0008003941698095929,
+      "same_U_32": 0.002432274529907019,
+      "same_U_384": 0.0005158775960527606,
+      "same_U_64": 0.001449670864069219,
+      "zero_change": 1.4253681180065065
+    },
+    "conditions": 512
+  }
+}
+
+Interpretation limits:32vectorlabels are only2 whole lexical blocks, not32 independent units.
+Hyperparameters for each lower budget were selected strictly within its labels in historical A-FIT.
+Only six necessary coefficient systems were materialized from the saved choices, no new selection;
+12 saved vector-validation losses reproduced.384 uses the original packed fullpool models unchanged.
+The384 point adds FIT0 training blocks and is not strictly the same nested lower-budget population.
+Historical P/W/U/scale consume additional training information. same-U and C share rank8 U;
+Direct predicts all output directions. Vector error does not substitute for readout MSE.
+Freshness means disjoint recorded unordered pairs/prompts against812 inventoried exposure files;
+individual nouns and prompt family recur. This does not prove pretraining or construction novelty.
+Intervals use64 paired lexical blocks,1999 bootstrap draws,seed3111033,conditional on fixed priors/fits.
+Budgets and models are dependent, not separate independent replications. One model/layer/readout.
+Predictions require native target-free upstream prefixes; this is not a stand-alone surrogate from text.
+No oracle target labels enter predictors; negative comparisons remain valid outcomes.
+
+ACCOUNTING
+{
+  "aliases": 0,
+  "attempts": 18726,
+  "backwards": 0,
+  "blocks": 64,
+  "complete": true,
+  "conditions": 1024,
+  "identity": {
+    "code": "1764b0dc3f88940960b999cba097954d5a234bb2ae62d8393e6af017b41c07c4",
+    "model": {
+      "attention": "eager",
+      "device": "cpu",
+      "dtype": "float32",
+      "id": "Qwen/Qwen3-0.6B-Base",
+      "revision": "da87bfb608c14b7cf20ba1ce41287e8de496c0cd",
+      "threads": 4,
+      "use_cache": false,
+      "weights_sha256": "cd2a512003e2f9f3cd3c32a9c3573f820bb28c940f73c57b1ddaa983d9223eba"
+    }
+  },
+  "model_load_attempts": 1,
+  "physical_forward_calls": 3336,
+  "physical_full_prefix_calls": 2310,
+  "physical_suffix_batches": 1026
+}
+Walltime from first recorded model-load attempt through immutable completion: 1659.328s (includes loading,prefixes,forecasting,measurement,serialization).
+FIT16batch full/suffix qualification maxabs=4.76837158203e-06 (limit1e-4).
+Scheduled18726logicalF/0B includes38FITparity,256natural,1024prefix,1024target and16384suffix predictions.
+Maximum3336 physical calls with batches16; exact aliases cost0. Actual accounting above includes every load attempt.
+No cloud/downloads/newFIT acquisition. Historical384 nativevectorlabels plusE036 prior are additional resources.
+
+Evidence: run/summary.json,1024 immutable rows,TEST_forecasts.json,ledger,raw cache and completed.json.
+Pre-run approval: review/pre_run_review.json bound to pre_run_snapshot.json.
+Independent completion status is in review/completion_review.json; this report does not substitute for review.

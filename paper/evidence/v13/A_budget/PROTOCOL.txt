@@ -1,0 +1,65 @@
+A-FIT developmental learning-budget curve; frozen before actual fits, 2026-11-03.
+Question: how does existing native-vector label budget affect C, same-U, Direct?
+Prior literature boundary: learning curves and ridge/kernel regression are established.
+Nearest specific comparison is original learned L21 FIT methodology and the existing
+A12 discussion; no new novelty claim or new literature review is made here.
+
+Input: only existing FIT0/FIT1/FIT2 native vector captures, 24 blocks,384 rows.
+One lexical block is16 intervention rows:4 forms x B/C branches x .5/1 doses.
+Historical frozen E036 P and rank8 U are extra prior resources, not free learning.
+E036 completion receipt records128 documents,512 target operations,640 network,
+640 CLT,512 JVP and233.05 ledger seconds (not total training/development walltime).
+Its data registry has512 vector rows; FIT/SELECT partition must be acknowledged
+when comparing total resource use. Direct also shares E036 input normalization;
+same-U shares U. C/P additionally use learned prior W. No retraining P/U.
+No TEST source or historical stage1 selected hyperparameters are used by runner.
+
+Outer evaluation: leave one FIT group out,8 blocks/128 rows held out each time;
+remaining16 blocks/256 rows available. Seeds17,43,101 independently permute
+available whole blocks using NumPy default_rng. Budgets32/64/128/256 are nested
+prefixes2/4/8/16 blocks. Same subsets for every method.256 repeats are identical
+across seeds and are cached; seed repeats are NOT independent test observations.
+There is no heldout384 point: that requires a future separate TEST.
+
+Inputs exactly follow historical stage1: dx20/scale20,dx21/scale21 concatenated
+and divided by sqrt2. Prior P uses historical float32 casting convention.
+C fits (D-P)U then predicts P+coefficient*U.T; same-U linearly fits DU; Direct
+fits full D. Original candidate order: linear/rbf x lambdas1,.01,.0001,.000001.
+Same-U restricted to4 linear candidates. Each method selects its own parameters.
+Inner CV uses ONLY budget rows: sorted lexical blocks assigned modulo min(4,nblocks).
+At budget32,2fold CV trains1 block/16labels and validates1,then refits2blocks.
+Other budgets use4fold. Score is block-mean squared L2 of the relevant regression
+target; exact ties use candidate order. Kernel scales, means and coefficients
+are estimated from inner-training only, and refitted solely on budget rows.
+Joint multioutput fitting reuses the exact same linear system across targets;
+outputs remain mathematically independent. Synthetic comparison checks this.
+
+Primary descriptive output: mean vector squared L2 and U-coefficient squared L2
+over three groups and three seeds, with per-block and branch/dose strata saved.
+Equal block weights; inner fold means are exact because fold sizes are equal.
+No inferential p-values or independent-seed CI. All methods, budgets and negative
+outcomes reported; no positive-effect gate. No downstream readout measurement.
+Uncertainty is developmental: historical FIT exposure,24 independent blocks,
+smallest budget only2 blocks and tiny inner training, shared prior, reused lexical
+families, overlapping training sets. Vector errors cannot establish readout MSE.
+
+Forecast frozen before actual fits: no guaranteed C superiority. C is expected to
+improve over P with increasing budget; Direct may remain better at vector error.
+Any contrary result is retained. No threshold authorizes a new measurement stage.
+
+Cost/schedule:0 model imports/loads/native forward/backward,0 new label captures.
+36 logical subset evaluations; candidate fits share C/same-U/Direct targets;
+identical train/validation/param requests cached, including256seed duplicates.
+Upper bound36*(8*4+3)=1260 joint fits (budget32 has2fold and fewer). Fits contain
+at most256rows and1040 outputs, two BLAS threads. Expected1-5min pure NumPy,
+not guaranteed. Existing384 label captures and historical E036 costs shown apart.
+All JSON fit/subset results atomically immutable; completed receipts hash every
+fit/subset/summary. Resume skips durable fits, verifies identities and completed
+hashes, preserves timestamps. Cache keys bind full input manifest and worker hash,
+row indices,parameters,mode. Crash before publication may require repeating an
+uncommitted fit; no completed fit is repeated. Synthetic failure/resume tested.
+
+Future A-TEST design only: after independent review, freeze all budget models and
+predict on a single new64-block cohort before native suffix measurement. Choose
+whole-curve primary contrast/multiplicity before results.384 requires separate
+test. This document and this worker do not authorize or execute that stage.

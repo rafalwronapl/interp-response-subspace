@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "reviewer_id": "/root/astra_learned_plan_review",
+  "independent": true,
+  "verdict": "approved",
+  "snapshot": "editorial_snapshot.json",
+  "snapshot_file_sha256": "b66bd6b6f0215329a9965da0380f53cb8ec0faea81f31f9855a916512417e40b",
+  "topics_checked": [
+    "claims",
+    "methods",
+    "evidence",
+    "tables",
+    "build",
+    "preservation"
+  ],
+  "checks": [
+    "All85 snapshot entries independently hash-verified; all12 new compact evidence copies match actual approved sources;45 earlier evidence files are byte-identical to A11.",
+    "Actual abstract/introduction/cohort map/methods/learned results/shared data/discussion integrate approved learnedL21 study, not merely append it. Old no-learned-L21 discussion removed from actual main.tex and builtPDF.",
+    "Seven-arm learned table and primary/secondary contrasts agree with accepted summary:97.21percent improvement versusP; Direct384 lowerMSE thanC; sameU lower point loss; mean correction worsensP; subgroupS1 exception retained.",
+    "Original oracle64 and new learned64 TEST cohorts remain distinct;384existing FITlabels are reused, historical priors add training information, native target-free prefix cost is explicit, and coefficient CV is not substituted for downstream result.",
+    "Oracle-correctable-error wording preserves substantive historical/FIT-only-subspace result; rank16/32 improvement and fixed random draws do not support exact intrinsic rank8 or universal transfer. OldL27 and other-model negative/scoped results retained.",
+    "Four build stages exit0;17pages,no undefined references/citations or overfull boxes. Independently rendered and visually checked learned table page8 and integrated discussion page11."
+  ],
+  "findings": [
+    {
+      "id": "STALE-DISCUSSION",
+      "severity": "high",
+      "status": "resolved",
+      "evidence": "Pre-freeze draft main.tex still contained A11 no-new-learned-L21 text despite correct new discussion.tex.",
+      "resolution": "Actual final main uses input{discussion}; finalPDF includes new learned result and its direct-baseline limitations. No stale no-learned-L21 claim remains."
+    },
+    {
+      "id": "MEAN-CONTROL-SCOPE",
+      "severity": "low",
+      "status": "resolved",
+      "evidence": "Pre-freeze sentence generalized from one FIT mean to any fixed average correction.",
+      "resolution": "Actual final wording limits conclusion to the tested FIT-mean correction."
+    },
+    {
+      "id": "EDITORIAL-APPROVAL-SCOPE",
+      "severity": "low",
+      "status": "accepted",
+      "evidence": "Manuscript remains a private draft with public identity/licensing/release tasks outstanding.",
+      "resolution": "Approve this revision and faithful integration of accepted evidence, not external replication, public submission readiness or worldwide priority."
+    }
+  ],
+  "limitations": "Fresh editorial/source-copy/build review only; no native calls, refits, bootstrap or repeated raw-campaign audit. New scientific results were independently approved separately at completion snapshot a341d3bf...34015. Current review binds exact final editorial snapshot bytes."
+}

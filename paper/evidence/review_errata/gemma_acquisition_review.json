@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "snapshot_sha256": "464c78fea3762ba9e4a4e817ce48b8af61475ee06e1c9526e00aa25692498df6",
+  "reviewer_id": "/root/astra_goals_and_concurrency_review",
+  "independent": true,
+  "verdict": "approved",
+  "topics_checked": [
+    "design",
+    "implementation",
+    "data",
+    "cost",
+    "claims"
+  ],
+  "findings": [
+    {
+      "id": "ACTUAL-A256-CLOSED",
+      "severity": "low",
+      "status": "accepted",
+      "evidence": "All256blocks/5120documents/76800immutable scientific files covered: first39blocks reuse independently hash-checked Sol raw receipts; remaining217 independently checked by Astra. Request identities, exact native/suffix targets, saved readout, squared losses, vector norms, zero controls and full grid checked. Raw audit digests all match producer seal and official snapshot.",
+      "resolution": "Accept completed fixed256 estimation acquisition,35840unique attempts/computed,0backward, runtimeexit0. Existing qualified frozen P/U recipe proof reused; no model/native replay or bootstrap."
+    },
+    {
+      "id": "A2-NOT-SUPPORTED",
+      "severity": "low",
+      "status": "accepted",
+      "evidence": "Separate focused all5120-result tensor reconstruction agrees with frozen primary analysis: A1/A3 supported, A2 readout contrast negative; original jointsuccess false.",
+      "resolution": "Preserve A2 negative and original power-selector infeasibility; no claim80percent jointpower or15extraFIT stability extension."
+    }
+  ],
+  "limitations": "Completion acceptance of fixed-r0 Gemma A TEST under resourcecap amendment. It is not universal generalization or mechanism proof. No fresh bootstrap regeneration: stored inference checked against validated frozen kernel/semantics and independent tensor reconstruction. Frozen fitted P/U numerical recipe and technical controls reused from prior accepted stages; cache arithmetic checked without redoing fitting. New A2 posthoc explanatory audit has separate review status."
+}

@@ -1,0 +1,21 @@
+{
+  "snapshot_members_verified": 45,
+  "forward_schedule": 9,
+  "backward_schedule": 0,
+  "model_identity": "Original Qwen3-0.6B-Base weights cd2a512003e2f9f3cd3c32a9c3573f820bb28c940f73c57b1ddaa983d9223eba",
+  "inspected": [
+    "adapter.py",
+    "pilot.py",
+    "fixtures.py",
+    "fixtures.json",
+    "pilot_config.json",
+    "pilot_contract.json",
+    "pilot_schedule.json",
+    "pilot_inputs.json",
+    "e039/subject.py",
+    "e036/learning.py",
+    "e031/loading.py",
+    "ab_confirmatory_20261101/runtime.py"
+  ],
+  "reviewer_model_calls": 0
+}

@@ -1,0 +1,31 @@
+2026-11-02, before first Q06 A/C finite heldout intervention-head evaluation.
+Native capture ongoing; no A/C intervention outcomes or B outputs inspected.
+
+Adopt the same already frozen A_gemma270_extension_20261102/analyze.analyze
+for Q06 matched-three A comparisons via deterministic schema translation.
+P/native/inside/outside and actual squared residual norms preserve FP64 values.
+Same256blocks/T2T5/fourconditions, fixed1999draws/seed and bootstrap-t95nominal
+intervals; no calibratedcoverage/power/family-decision claim. This avoids
+different A inferential recipes across models. All C3 noD/oracle/allnine
+utility and sign metrics remain descriptive means, without a second bootstrap.
+Earlier unexecuted percentile99 prototype is superseded before headpacket
+freeze; no analysis-method choice was based on finite heldout outcomes.
+Independent design assessment by SolGemma peer; actual new source/snapshot
+must still pass independent pre-run review. Original capture snapshot/code
+and its qualification remain unchanged.
+
+Compact vector storage regenerates noD quantities three times at the same
+6144unique gradient points:18432actual analyticgradient evaluations. These
+are explicitly counted separately from102400finiteheads and0LLMloads.
+NoD exactzero-score predicts abstention and gate skips. Preserve earlierC3
+exact-ties-compatible sign accuracy as an additional comparison metric;
+also report nonzero coverage/conditionalaccuracy/actualties and constant
+alwayshelp/alwaysharm accuracies, with unconditional utility unchanged.
+
+Before first head measurement, stage-local BundleRuntime replaces per-operation
+filesystem receipt nodes with ONE immutable receipt per context containingall50
+logical forwardIDs. Frozen102400schedule/serialFP32headmath/FP64vectors unchanged.
+Durablebatchattempt precedes callback; partialfailure consumesall50 and requires
+reviewedretry; validcachedresume/missingreceipt restoration invokes no callback.
+AllIDs retained in request/ledger/bundle, no coverage or budget reduction.
+Global Runtime and current/historical capture/Gemma stages remain unchanged.

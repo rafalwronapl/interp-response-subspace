@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "qualifications": [
+    {
+      "maxabs": 5.7220458984375e-06,
+      "sensitivity": [
+        0.0001926422119140625,
+        7.43865966796875e-05
+      ]
+    },
+    {
+      "maxabs": 7.62939453125e-06,
+      "sensitivity": [
+        0.00031280517578125,
+        0.0001506805419921875
+      ]
+    }
+  ],
+  "semantic_amendment_only_renames_four_fields": true,
+  "pretrained_calls": 0
+}

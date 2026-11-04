@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "snapshot_sha256": "b32fbec394861dcb6bd16ac5d2de09e678d626237bc53ef1cdb002801d1fc75f",
+  "reviewer_id": "/root/next_review",
+  "independent": true,
+  "verdict": "approved",
+  "topics_checked": ["design", "implementation", "data", "cost", "claims"],
+  "findings": [],
+  "limitations": "Pre-run approval only:96new vector FIT labels from three disjoint2-block cohorts, old64-block TEST reused posthoc, new grammatical have-minus-has readout and descriptive are-minus-is stability. Independently ran actual worker synthetic fixture with actual four-head adapter12batch/directfullhook check, crashresumption byte preservation, completed replay0calls, corrupt completion seal and uncertain reservation pre-load rejection. Independently verified813 historical exposure hashes/pair-disjointness,1120 contextual token extensions for280prompts and2304 adopted bundle/cache request bindings; old historical complete raw cache canonical verification also independently passed. Inspected whole-block2fold FIT-only eight-candidate selection, frozen E036 prior asymmetry, global new forecasts seal before all new TESTreadouts, exact dynamic L22-27 suffix, FITfull/suffix numericalparity and fixednonzero bothhead sensitivity gates. Budget12516logical/1248physical forward0backward, single localQwenload; source/model/prior/adoptedinput closure snapshotbound. Trained controls must still pass during canonical execution. This is selected-regime followup motivated by known oldTEST outcome, not historically preregistered discovery or independent confirmation; conditional three fits do not establish average across training populations. Each CVfold has only one trainingblock. Historical P/U training resources prevent equal-total-information superiority claim; same grammatical template/readout extension is not context/model transfer. Bootstrap conditions on three learned fits and resamples64TESTblocks; auxiliary intervals/strata descriptive. No worldwide novelty claim. Reviewer made0pretrainedcalls. See review/audit_pre_run.py and independent_pre_run_audit.json."
+}

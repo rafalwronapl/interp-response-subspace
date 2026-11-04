@@ -1,0 +1,15 @@
+{
+  "ok": true,
+  "new_fit_blocks": 12,
+  "new_fit_cohorts": 6,
+  "labels_per_cohort": 32,
+  "new_fit_prompts": 48,
+  "new_test_blocks": 64,
+  "new_test_prompts": 256,
+  "history_files": 815,
+  "historical_pairs": 273,
+  "fresh_pairs": 76,
+  "pretrained_calls": 0,
+  "excludes_previous_3FIT_and_oldTEST": true,
+  "scope": "Unordered pair exclusion across cumulative inventoried corpora; no worldwide dataset guarantee"
+}

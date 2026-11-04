@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "reviewer_id": "/root/sol_qwen06_parallel",
+  "independent": true,
+  "head_calls": 0,
+  "bootstrap_draws_repeated": 0,
+  "checks": [
+    "All20480scalarvalues/docarmgrid and6144energyrows finite/metadata/orthogonalidentity",
+    "Pointlosses/frame/perFIT/blockmeans andSE independentlyvalidated",
+    "Saved1999drawCI metadata/direction/sourcehashes checked; no resampling replay",
+    "PRIMARY_SUMMARY values exactsavedanalysis projection; outside pooledbetter butnotallfits"
+  ]
+}

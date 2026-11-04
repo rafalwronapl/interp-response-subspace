@@ -1,0 +1,15 @@
+from pathlib import Path
+p=Path(__file__).parent
+s=(p/'prepare_pilot_v3.py').read_text()
+s=s.replace('v3','v4').replace('nine','35 logical').replace('9F','35F').replace('forward=9','forward=35')
+s=s.replace("['natural','prefix','native','full_native','tail_native','full_baseline','tail_baseline','full_changed','tail_changed']","(['natural','prefix','native']+[f'full_{i}' for i in range(16)]+[f'tail_{i}' for i in range(16)])")
+s=s.replace("'pilot_schedule.json'","'pilot_schedule_v4.json'").replace("'/pilot_schedule.json'","'/pilot_schedule_v4.json'")
+s=s.replace("'fixtures_v4.py'","'batch_fixture.py','fixtures_v3.py','pipeline_fixture_v4.py'")
+s=s.replace("BASE/'fixtures_v4.json'","BASE/'fixtures_v3.json',BASE/'batch_fixture.json',BASE/'pipeline_fixture_v4.json'")
+s=s.replace("REL+'/fixtures_v4.json'","REL+'/fixtures_v3.json'")
+s=s.replace("put(BASE/'pilot_config.json',cfg)","assert __import__('json').loads((BASE/'pilot_config.json').read_text())==cfg")
+s=s.replace("put(BASE/'pilot_contract_v4.json',contract)","contract['gates'].append(dict(id='batch_equivalence',category='hooks',evidence=REL+'/batch_fixture.json',pointer='/ok',op='eq',expected=True,reason='16 independent batch rows vs full and singleton on random native model'))\n put(BASE/'pilot_contract_v4.json',contract)")
+(p/'prepare_pilot_v4.py').write_text(s)
+s=(p/'prepare_main.py').read_text().replace('from .worker import','from .worker_v4 import').replace('adapter_v3','adapter_v4').replace('pilot_snapshot_v3','pilot_snapshot_v4').replace('pilot_review_v3','pilot_review_v4').replace('pilot_run','pilot_run_v4').replace('pipeline_fixture.py','pipeline_fixture_v4.py').replace('pipeline_fixture.json','pipeline_fixture_v4.json').replace("'worker.py'","'worker_v4.py'").replace("'prepare_main.py'","'prepare_main_v4.py'").replace('A_L21.worker\'', 'A_L21.worker_v4\'').replace('Nine-call','35-logical-evaluation batched')
+s=s.replace("'library_identity.json','PROTOCOL.txt'","'library_identity.json','PROTOCOL.txt','BATCH_AMENDMENT.txt','batch_fixture.json'")
+(p/'prepare_main_v4.py').write_text(s)

@@ -1,0 +1,36 @@
+\subsection{Learned L21 correction helps; direct prediction has lower mean loss}\label{sec:learnedresults}
+
+On the separate 64-block prospective TEST, C reduces historical P readout MSE by 97.21\% (Table~\ref{tab:learnedL21}). Its paired primary loss change is $-.0149633$, with nominal 95\% interval $[-.01669,-.01329]$. This is measured downstream utility without true TEST-error access, not the FIT-only coefficient prediction score.
+
+\begin{table}[ht]\centering\small
+
+\begin{tabular}{lrrr}\toprule Arm & Readout MSE & Vector squared error & Coefficient squared error\\\midrule
+
+Historical P & 0.01539272 & 4.08662 & 1.24271\\
+
+Learned C & 0.00042944 & 2.89175 & 0.04785\\
+
+Same-$U$ direct & 0.00040599 & 2.88978 & 0.04587\\
+
+Direct384 & 0.00032652 & 0.29801 & 0.04587\\
+
+Mean correction & 0.01605005 & 4.07251 & 1.22861\\
+
+Oracle inside & 0.00008828 & 2.84390 & 0.00000\\
+
+Zero-change & 0.76689144 & 5.93717 & 3.09327\\
+
+\bottomrule\end{tabular}
+
+\caption{New learned L21 TEST: 64 blocks, 1,024 conditions, frozen models trained with 384 reused FIT labels. Vector columns are mean squared L2 errors, not relative errors. Oracle is diagnostic. Zero-change uses the original natural margin.}\label{tab:learnedL21}
+
+\end{table}
+
+Direct384 has lower mean MSE than C: the secondary C-minus-Direct384 contrast is $+.000102919$, nominal 95\% interval $[+.000036397,+.000174289]$. C therefore has 31.52\% higher loss than Direct384. The same-$U$ linear direct predictor also has lower point loss than C, although this is not an additional corrected hypothesis test. A mean coefficient correction increases loss by $.000657337$ relative to P. The gain is not reproduced by the tested FIT-mean correction.
+
+
+Relative to Direct384, C has about 9.7 times the mean squared vector error but only 31.52\% higher readout MSE. This descriptive comparison shows that the two losses weight prediction errors differently in this fixed setting; it does not identify which error directions cause the difference or establish transfer to another readout.
+
+C improves P in all reported branch/dose/subject/attractor marginal groups. Direct384 has lower mean loss in both branches and doses, but the descriptive S=1 subgroup slightly favors C; no subgroup is selected or tuned after TEST. The full subgroup table remains in the saved summary. Oracle inside again has substantially lower loss, but neither its value nor the earlier 99.25\% reduction is treated as a learned-method guarantee.
+
+The earlier FIT-only outer evaluation reduced coefficient squared error by about 95.8\%; that metric did not establish readout improvement. The new TEST supplies that missing measurement. Nevertheless, direct prediction remains stronger overall. Learning residual coefficients under a historical prior is therefore useful here without being a superior new learning method.

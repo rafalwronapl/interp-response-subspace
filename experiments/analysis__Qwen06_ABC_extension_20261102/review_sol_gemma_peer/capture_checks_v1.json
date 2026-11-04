@@ -1,0 +1,44 @@
+{
+  "status": "PASS",
+  "reviewer_id": "/root/sol_parallel_acceptance",
+  "independent": true,
+  "operations": 2844,
+  "natural_captures": 2816,
+  "controls": [
+    {
+      "document": "A_r1_FIT_MAP_0000_F0_s0_q0",
+      "parity": 0.0,
+      "branch": 0.0,
+      "sensitivity": 0.012172698974609375
+    },
+    {
+      "document": "A_r1_FIT_MAP_0000_F0_s0_q1",
+      "parity": 0.0,
+      "branch": 0.0,
+      "sensitivity": 0.013034820556640625
+    },
+    {
+      "document": "A_r1_FIT_MAP_0000_F0_s1_q0",
+      "parity": 0.0,
+      "branch": 0.0,
+      "sensitivity": 0.01227569580078125
+    },
+    {
+      "document": "A_r1_FIT_MAP_0000_F0_s1_q1",
+      "parity": 0.0,
+      "branch": 0.0,
+      "sensitivity": 0.012216567993164062
+    }
+  ],
+  "ledger_attempts": 2844,
+  "ledger_computed": 2844,
+  "identity": {
+    "code": "2c0a29a87f38515f774a722141dd5172265ba3a7ff0c668e0a76892b6d3185dd",
+    "model": "e273df023ee7d2bf67817199a8f4da097f4d3110f0d9a16e8fe8c1309f3465e5"
+  },
+  "source_sha256": {
+    "analysis\\A_gemma270_extension_20261102\\finalize_qwen06_capture_review.py": "daa7788d520b4fcfc4eb9cb5eb5e3ad478df8ad61f71cbe365d4bcd374d90c1b"
+  },
+  "index_sha256": "9b2e9b5fa3a8d97c31f1b1c78d8f0580ae3572d561cabaf6de39727bb45e1742",
+  "limitations": "All saved request/cache/token/vector/ledger/control records checked once incrementally. No checkpoint rehash, model/head calls, refit/SVD or statistical resampling. Actual official completion membership and exit0 join still required before formal approval."
+}

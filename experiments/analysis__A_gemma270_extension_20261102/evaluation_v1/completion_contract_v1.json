@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "id": "A_G270_EXTENSION_FIXED_HEADS_V1_COMPLETION",
+  "kind": "experiment",
+  "primary_agent": "/root/sol_parallel_acceptance",
+  "purpose": "All fresh256blocks T2/T5, three fixed matched fits; primaryT5 inside-P, outside secondary, no fitting or selection; frozen1999 block analysis only after sealed head outcomes.",
+  "tracked_files": [
+    "a_short_qwen_20261101/__init__.py",
+    "a_short_qwen_20261101/native.py",
+    "ab_confirmatory_20261101/__init__.py",
+    "ab_confirmatory_20261101/baselines_b.py",
+    "ab_confirmatory_20261101/fitting.py",
+    "ab_confirmatory_20261101/native.py",
+    "ab_confirmatory_20261101/runtime.py",
+    "ab_confirmatory_20261101/statistics.py",
+    "analysis/AB_confirmatory_execution_20261101/close_short_pilot_imports_v1.py",
+    "analysis/A_crossed_diagnostic_20261102/diagnostic.py",
+    "analysis/A_gemma270_extension_20261102/PROTOCOL.md",
+    "analysis/A_gemma270_extension_20261102/analyze.py",
+    "analysis/A_gemma270_extension_20261102/evaluate.py",
+    "analysis/A_gemma270_extension_20261102/head_fixture_v1.py",
+    "analysis/A_gemma270_extension_20261102/head_fixture_v5.json",
+    "analysis/A_gemma270_extension_20261102/prepare_evaluation.py",
+    "analysis/C2_fresh_fit_holdout_20261102/worker.py",
+    "analysis/C3_noD_more_models_20261102/evaluate.py",
+    "research_checks/__init__.py",
+    "research_checks/gate.py",
+    "research_checks/persistence.py",
+    "research_checks/reachability.py"
+  ],
+  "tracked_trees": [],
+  "input_manifests": [
+    "analysis/A_gemma270_extension_20261102/evaluation_v1/input_manifest.json",
+    "analysis/A_gemma270_extension_20261102/evaluation_v1/completion_outputs_manifest_v1.json"
+  ],
+  "gates": [
+    {
+      "id": "hooks",
+      "category": "hooks",
+      "evidence": "analysis/A_gemma270_extension_20261102/evaluation_v1/evidence.json",
+      "pointer": "/accepted_capture",
+      "op": "eq",
+      "expected": true,
+      "reason": "Actual independently accepted capture and bound current consumed files; fixed fits and qualified head arithmetic."
+    },
+    {
+      "id": "data",
+      "category": "data",
+      "evidence": "analysis/A_gemma270_extension_20261102/evaluation_v1/evidence.json",
+      "pointer": "/accepted_capture",
+      "op": "eq",
+      "expected": true,
+      "reason": "Actual independently accepted capture and bound current consumed files; fixed fits and qualified head arithmetic."
+    },
+    {
+      "id": "pilot",
+      "category": "pilot",
+      "evidence": "analysis/A_gemma270_extension_20261102/evaluation_v1/evidence.json",
+      "pointer": "/accepted_capture",
+      "op": "eq",
+      "expected": true,
+      "reason": "Actual independently accepted capture and bound current consumed files; fixed fits and qualified head arithmetic."
+    },
+    {
+      "id": "accounting",
+      "category": "accounting",
+      "evidence": "analysis/A_gemma270_extension_20261102/evaluation_v1/evidence.json",
+      "pointer": "/accepted_capture",
+      "op": "eq",
+      "expected": true,
+      "reason": "Actual independently accepted capture and bound current consumed files; fixed fits and qualified head arithmetic."
+    },
+    {
+      "id": "restart",
+      "category": "restart",
+      "evidence": "analysis/A_gemma270_extension_20261102/evaluation_v1/evidence.json",
+      "pointer": "/accepted_capture",
+      "op": "eq",
+      "expected": true,
+      "reason": "Actual independently accepted capture and bound current consumed files; fixed fits and qualified head arithmetic."
+    }
+  ],
+  "circuits": [],
+  "structural_scope": "Exact qualified lastL17 Gemma offset RMSNorm/two-head rows; no model loading, no refit.",
+  "entrypoint": {
+    "module": "analysis.A_gemma270_extension_20261102.evaluate",
+    "args": [
+      "--config",
+      "analysis/A_gemma270_extension_20261102/evaluation_v1/config.json"
+    ]
+  },
+  "schedule": "analysis/A_gemma270_extension_20261102/evaluation_v1/operations.json",
+  "budget": {
+    "forward": 20480,
+    "backward": 0
+  }
+}

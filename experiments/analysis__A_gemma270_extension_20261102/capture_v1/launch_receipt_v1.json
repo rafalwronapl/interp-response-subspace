@@ -1,0 +1,20 @@
+﻿{
+    "args":  [
+                 "-X",
+                 "utf8",
+                 "-m",
+                 "concurrency_a270_q06_20261102",
+                 "--snapshot",
+                 "analysis/A_gemma270_extension_20261102/capture_v1/pre_run_snapshot_v1.json",
+                 "--review",
+                 "analysis/A_gemma270_extension_20261102/capture_v1/pre_run_review_resume_v1.json",
+                 "--policy",
+                 "analysis/A_gemma270_extension_20261102/parallel_policy_v1/policy.json",
+                 "--policy-snapshot",
+                 "analysis/A_gemma270_extension_20261102/parallel_policy_v1/snapshot_v1.json",
+                 "--policy-review",
+                 "analysis/A_gemma270_extension_20261102/parallel_policy_v1/review_resume_v1.json"
+             ],
+    "pid":  19716,
+    "started_utc":  "2026-11-02T14:23:48.2921686Z"
+}

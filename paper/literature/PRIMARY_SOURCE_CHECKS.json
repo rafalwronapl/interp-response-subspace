@@ -1,0 +1,26 @@
+{
+  "date": "2026-11-04",
+  "sources": [
+    {
+      "url": "https://arxiv.org/html/2610.15850v1",
+      "copy": "2610.15850v1.html",
+      "sha256": "63e489e825e92895995eea47bfd302f7f6bb253325daec592aa5c4948be4a80a"
+    },
+    {
+      "url": "https://arxiv.org/html/2607.10226v1",
+      "copy": "2607.10226v1.html",
+      "sha256": "1acebc733dabf8a354619d53eb51a9060d5e09c8643ce58c0336e6b05267efb9"
+    },
+    {
+      "url": "https://arxiv.org/html/2607.17425v3",
+      "copy": "2607.17425v3.html",
+      "sha256": "cec5e7709844813c53de66ac44ab6070deb82a66650cd33bf50d481afa5e9dbf"
+    }
+  ],
+  "notes": [
+    "Guo/Li/Chen: intervention attribution is an average edit dot output-gradient estimand; finite effects depend on gradient variation along the edit path. Direct precedent for proposed gradient analysis, not a new method of this laboratory.",
+    "Luo/Liang/Xuan authors confirmed by versioned HTML and independently checked PDF; landing abstract metadata lists only Luo and is inconsistent. Study matches effect and norm, then surface/basis. This differs from fixed TC prediction-direction diagnostics.",
+    "Deshpande v3: decoder preservation with ridge/readout distortion and structured task prior under sparse compression; distinct from native-intervention-delta oracle repair and finite native suffix readout."
+  ],
+  "new_empirical_results": false
+}

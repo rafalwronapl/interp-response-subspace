@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "snapshot_sha256": "67b3ded9852cef03e6d8fe6808698d27e4d8c722e3bfa19e38710f2530116b49",
+  "snapshot_files": 10356,
+  "raw_native_targets_checked": 1024,
+  "raw_suffix_batches_checked": 1024,
+  "prefixes_checked": 1024,
+  "native_rows1024_blocks64": true,
+  "all17metrics_recomputed": true,
+  "all_vector_and_coefficient_errors_recomputed": true,
+  "all16384suffix_targets_and_margins_checked": true,
+  "global_forecast_chronology": true,
+  "logical_forward": 18726,
+  "physical_forward": 3336,
+  "model_loads": 1,
+  "backwards": 0,
+  "primary_delta_MSE": -0.0008092423812771088,
+  "exact_prespecified_bootstrap95": [
+    -0.0012152982217236818,
+    -0.0004463334236314065
+  ],
+  "retained_other_budget_losses_and_nonmonotonicity": true,
+  "native_calls_by_reviewer": 0
+}

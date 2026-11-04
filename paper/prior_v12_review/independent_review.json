@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "reviewer_id": "/root/minor_edits_review",
+  "independent": true,
+  "verdict": "approved",
+  "reviewed_utc": "2026-11-03T14:47:31.307135+00:00",
+  "topics_checked": [
+    "actual manuscript diff",
+    "snapshot hashes",
+    "archived evidence preservation",
+    "claims",
+    "PDF build and amended-page rendering"
+  ],
+  "findings": [],
+  "limitations": "Narrow independent editorial review against archived pre-amendment packages, not a fresh raw-data scientific audit, literature survey, external peer review, or experiment pre-run approval. No native model calls, fitting or resampling. PDF page counts, text and logs checked across documents; visual inspection limited to amended A page 8 and B page 1.",
+  "snapshot_file": "editorial_snapshot.json",
+  "snapshot_file_sha256": "923237378c13f29b33b281d6428ba052ed4a2d99f445f0762bdc49fca007378f",
+  "checks": {
+    "tracked_files_verified": 85,
+    "pages": 17,
+    "unchanged_archived_files": 78,
+    "scientific_change": "One descriptive comparison added. Saved metrics give C/Direct384 vector error ratio 9.7035 and readout excess 31.5198 percent, correctly rounded to 9.7 and 31.52. The text expressly does not identify causal directions or transfer."
+  },
+  "preservation": "All archived scientific evidence and numerical tables unchanged byte-for-byte. Old review retained in before_minor_edits.zip; replacement receipt applies only to new editorial snapshot. Other changes are build products, editorial metadata and changelog."
+}

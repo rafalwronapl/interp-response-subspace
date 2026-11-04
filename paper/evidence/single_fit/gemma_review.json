@@ -1,0 +1,34 @@
+{
+  "status": "FOCUSED_PRIMARY_RESULT_REVIEW_PASSED_FULL_NATIVE_CACHE_ACCEPTANCE_PENDING",
+  "result_sha256": "5091bbca30ff9eb99d758195fbf718789b72641fb94f623f63aea594274cd03e",
+  "source_manifest_sha256": "1609d100e049e8f2dc3af943812081c3e1ae4c058232baff41287e92ff97d860",
+  "closure_sha256": "60737c2580c53504cea4252e30a94f8a717025ffa3d950ea6714295a3867468f",
+  "documents": 5120,
+  "blocks": 256,
+  "components": [
+    0.09174922601035751,
+    89573.32659137095,
+    -0.07893883666213064,
+    0.503701442439354
+  ],
+  "family_status": [
+    "supported",
+    "not_supported",
+    "supported"
+  ],
+  "holm_p": [
+    0.003,
+    1.0,
+    0.003
+  ],
+  "all_three_supported": false,
+  "ci_construction": "Stored frozen1999-draw bootstrap-t, nominal99percent pointwise; not rerun by reviewer.",
+  "scope": "All result hashes/payloads/document coordinates/L arithmetic verified. Independent manual tensor/weights/contrasts agree exactly with frozen adapter; means/SE/safe2/IUT/Holm checked. Recorded p/CI kernel call source and fixedseed/draw metadata reviewed, no independent bootstrap regeneration. Full underlying capture/vector-target/cache audit pending; one frozen r0 conditional inference, no80percentpower/.04assurance claim.",
+  "interpretation": {
+    "A1": "Positive Uctrl-minus-U2 readout-loss contrast on equal T6/T7 mixture; no each-frame superiority claim.",
+    "A2": "Vector U2-minus-U5 positive, but readout U5-minus-U2 negative; required ranking reversal NOT supported. Opposite readout sign is not a newly predeclared alternative hypothesis.",
+    "A3": "Positive U0-minus-P readout-loss contrast onT5; new-fit oracle correction harms this readout.",
+    "joint": "Original three-hypothesis joint success not obtained."
+  },
+  "reviewer": "/root/astra_goals_and_concurrency_review"
+}

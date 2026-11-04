@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "reviewer_id": "/root/papers_new_review",
+  "independent": true,
+  "verdict": "approved",
+  "reviewed_utc": "2026-11-03T18:28:09.632826+00:00",
+  "snapshot_file": "editorial_snapshot.json",
+  "snapshot_file_sha256": "d29e8353ca517e670ab16d645f9e3bab42022b095acb9c1c9e7e9ef99fa292a2",
+  "pdf_sha256": "bb3fabf909c84eb42e6d92c1d43d496f4a0fcdb8e5f7f0a73ca039582949b039",
+  "topics_checked": [
+    "source and PDF hash binding",
+    "numerical tables against actual campaign summaries",
+    "actual completion receipts",
+    "prior evidence byte preservation",
+    "cross-manuscript cohort disclosure",
+    "claims and negative outcomes",
+    "PDF text/render and compilation"
+  ],
+  "findings": [
+    {
+      "id": "A13_READOUT_SCOPE",
+      "severity": "low",
+      "status": "resolved",
+      "evidence": "Introduction previously described all new L21 tests as one-readout despite have/has extension.",
+      "resolution": "Revised source explicitly limits one-readout statement to oracle and learned384 L21 tests; recompiled final 19-page PDF verified."
+    }
+  ],
+  "checks": {
+    "snapshot_files": 127,
+    "new_evidence_source_and_copy_hashes": 48,
+    "prior_evidence_files_byte_exact": 57,
+    "blank_pages": 0,
+    "undefined_or_overfull_log_entries": 0,
+    "visual_pages": [
+      1,
+      9,
+      10,
+      14
+    ],
+    "numerical_sources": [
+      "analysis/AB_budget_readout_20261103/run/summary.json",
+      "analysis/A_transfer_next_20261103/analysis_summary.json",
+      "analysis/AB_fast_followups_20261103/A_budget/REPORT.txt"
+    ],
+    "claims": "C32 conditional48.0316% win; Direct wins64..384;3newFIT/readout stability not supported; zero MLP-delta semantic correction explicit; historical oracle and learned384 results distinct."
+  },
+  "limitations": "Independent editorial and selected numerical-source audit, not a fresh raw activation recalculation, literature search or external peer review. Existing approved campaign audits relied upon for raw scientific measurement validity. All pages text-inspected; visual inspection focused on abstract, new tables and discussion before one wording-only final revision. No model calls, refit or bootstrap."
+}

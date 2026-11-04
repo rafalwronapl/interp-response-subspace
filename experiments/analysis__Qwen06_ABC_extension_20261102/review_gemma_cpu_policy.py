@@ -1,0 +1,10 @@
+"""Independent peer review of one-entry Gemma CPU allowlist amendment."""
+import copy,json
+from pathlib import Path
+from research_checks.gate import digest,verify_review
+ROOT=Path(__file__).resolve().parents[2]
+base=ROOT/'analysis/A_gemma270_extension_20261102/offline_policy_v1';pre=json.loads((base/'snapshot_v1.json').read_text());assert pre['snapshot_sha256']=='a0bbd2bab647c6e45bf2e4159df0c8b21bd6d7ec283666c1ada6fe28140ca790' and digest(pre['payload'])==pre['snapshot_sha256']
+old=json.loads((ROOT/'analysis/C3_noD_more_models_20261102/offline_policy_v1/migration_policy.json').read_text());new=json.loads((base/'migration_policy.json').read_text());expected=copy.deepcopy(old);entry='analysis.A_gemma270_extension_20261102.analyze';assert entry not in expected['cpu_entrypoints'];expected['cpu_entrypoints'].append(entry);assert expected==new
+contract=json.loads((base/'contract.json').read_text());assert contract['kind']=='maintenance' and contract['entrypoint'] is None and contract['schedule'] is None and contract['budget'] is None
+review=dict(schema_version=1,snapshot_sha256=pre['snapshot_sha256'],reviewer_id='/root/sol_qwen06_parallel',independent=True,verdict='approved',topics_checked=['design','implementation','data','cost','claims'],findings=[],limitations='Focused independent peer review: exact JSON comparison confirms sole addition of A270 scalar analyzer to CPU allowlist; unchanged runtime_v1/v2, inherited budgets and all earlier policies. Analyzer/source read confirms saved scalar-only block analysis, no model loading or native calls. This maintenance receipt authorizes only the stated policy amendment; actual capture/head/analysis stages require their own accepted snapshots. Historical resource observations are not current admission proof. No scientific results, raw corpus or model weights were recomputed.')
+path=base/'review_sol_qwen_peer_v1.json';path.write_text(json.dumps(review,indent=2)+'\n');verify_review(ROOT,path.with_name('snapshot_v1.json').relative_to(ROOT).as_posix(),path.relative_to(ROOT).as_posix());print('Independent CPU policy review APPROVED and canonicalverify PASS')

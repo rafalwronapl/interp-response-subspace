@@ -1,0 +1,85 @@
+Frozen prospective missing-cell comparison, 2026-11-04; user authorized execution.
+Question: does restricting residual correction to historical U improve is/are
+readout prediction relative to full-vector residual ridge with the SAME P prior?
+Not algorithm invention: linear C is ridge centered at historical W, exactly
+in real arithmetic with P=xWU.T; actual P is rounded FP32. With centered X/Y and
+unpenalized intercept, beta solves ||Yc-Xc beta||^2+n lambda||beta-W||^2.
+RBF C is residual kernel ridge with prior mean P plus fitted residual intercept;
+no implemented GP uncertainty or claimed new Bayesian method. See preserved
+external methodological report and A13_review_checks findings for qualifications.
+
+Methods, each NEWFIT cohort32 labels: C=P+F((D-P)U)U.T;
+same_U=F(DU)U.T; Direct=F(D); Direct_P=P+F(D-P). Historical P also measured.
+F is unchanged centered ridge estimator with unpenalized output mean. Every arm
+has SAME ordered8candidate grid: linear then RBF, lambda1,.01,.0001,.000001;
+RBF scale median positive training squared distances; 2fold whole-block CV
+inside each32label cohort (two lexical blocks16rows each). Select per method
+block-equal vector squared loss, earliest candidate exact ties. No readout labels
+select parameters. Different target dimensions mean corresponding prediction
+space loss; no claim that independent selections hold smoother identical.
+
+Six disjoint freshFIT cohorts and one common64block freshTEST; all76unordered
+noun pairs excluded against cumulative recorded exposure including previous3FIT
+and previousTEST. Deterministic seed4111041 before native measurements, first76
+unused shuffled candidates; never select cohorts by effect. FrameF1 historical
+E041 x neuron19, optional m neuron20 hold, MLP21 patch, branches B/C,doses.5/1,
+2subject x2attractor configurations:16conditions/block. Qwen0.6BBase exact
+local revision da87bfb608c14b7cf20ba1ce41287e8de496c0cd CPUFP32 eager4threads.
+No modeldownload/cloud/Ddrive. Historical selection of L21/F1/is-are is disclosed;
+fresh test is prospective conditional on that selected regime and historical priors.
+
+All methods use same192NEWvectorlabels total (32percohort), scales and features.
+C/Direct_P additionally use historical W,U; same_U uses U; Direct uses historical
+scales only. P/U/scales are E036 predictors, not free resources: history includes
+512vectorlabels,640network/CLT and512JVP operations (historical report accounting;
+not new calls); common availability does not equal equal information usage. No
+claim of total-resource superiority or standalone prediction without native prefix.
+Save FITrawfullvectors, selectedmodels and all25x1024 TESTfullvector forecasts
+before ANY TEST intervention target or forecast readout. Natural TEST baselines
+and target-free prefixes may precede freeze; assert prefix never supplies y/Y/logits.
+
+Physical budget4794forward,0backward,1plannedmodelload: FIT48natural+192prefix+
+192target=432; TEST256natural+1024prefix+1024target+2048suffix=4352;
+qualification2cases x(3full+2suffix)=10. Logical30444 forward arm equivalents:
+FIT432+TEST(256+1024x29)+qualification60.25forecast arms+native+natural=27targets,
+chunks16/11. Actual worker enforces frozen operation IDs, totalphysical and
+logical counts; no unreviewed retries. One load, CPU4threads, same existing
+adapter; expected2-5GBRAM model/runtime plus savedrecords disk severalGB,
+not benchmarked new run. No promised speedup: model suffix scientific comparison.
+
+Qualification before TEST: two newFIT cells, native, natural sham, fixed nonzero
+vector+.01linspace(.5,1.5), full-vs-suffix error<=1e-4 bothreadouts, is/are
+sensitivity>1e-8. Both physical batch shapes16/11 verified. Threshold fail stops.
+Existing exact Adapter_v4 prefix/suffix logic reused. Earlier positions must
+match exactly. Native truth and natural controls use the same suffix path as
+forecasts, avoiding historical full/suffix reference mismatch; numerical limits
+remain checked, not asserted universal. All forecasts retain FP32patch semantics.
+
+Primary: C32 minus Direct_P32 is/are MSE, equal blocks then mean6FIT; negative
+favors C. Report each FITdifference,SD,range and6point descriptive signs.
+1999pairedTESTblock bootstrap seed4111042 nominal95 interval conditional on all
+six fixed FIT, explicitly excludes FITsamplinguncertainty. SixFIT is small;
+no population stability/power claim. Secondary descriptive C-same_U, Direct_P-
+Direct (prior use), C-Direct and same_U-Direct; allmethods vsP andzero, vector
+L2, branch/dose/S/A, native signs. No multiplicity-adjusted secondary claim.
+No result needs be positive; null/mixed result answers this conditional comparison.
+Structural scope: original full native intervention and exact dynamical suffix;
+not a reduced circuit. No target checkpoint unreachable under described hooks.
+Runtime caches request-bound to allmanifest/model/code/document/readout/settings;
+crash after immutable freeze/firstrow preserves existing bytes. Missing cache
+after durable attempt stops before loading for independent recovery. Completed
+replay must zero calls; seals reject corruption. Machine gate and actual separate
+pre-run approval required before pretrained load, completion review afterwards.
+
+Zero arm means zero MLP21 delta at the intervened upstream residual. It is not
+the original prompt natural margin. native_minus_zero_MLP_delta metrics use this
+controlled baseline. Save original natural prompt margin separately from its
+already captured full logits for descriptive context coverage, no extra call.
+
+Closest checked primary source: Kuzborskij and Orabona(2013), Stability and
+Hypothesis Transfer Learning, ICML/PMLR28(3):942-950.
+https://proceedings.mlr.press/v28/kuzborskij13.html (checked2026-11-04).
+It analyzes regularized least squares with biased regularization using source
+hypotheses. Our question is a controlled model-intervention/readout comparison
+of full versus U-restricted inherited-prior predictions under fresh FIT/TEST.
+We make no claim of inventing biased regularization or hypothesis transfer.

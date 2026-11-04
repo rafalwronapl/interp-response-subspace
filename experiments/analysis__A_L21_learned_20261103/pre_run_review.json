@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "snapshot_sha256": "6c01e283fafcdbfc8e07bf44aee75d4ac957d8ba1392ecd61cfb45e510ef074d",
+  "reviewer_id": "/root/astra_learned_plan_review",
+  "independent": true,
+  "verdict": "approved",
+  "topics_checked": [
+    "design",
+    "implementation",
+    "data",
+    "cost",
+    "claims"
+  ],
+  "findings": [
+    {
+      "id": "RESTART-IMMUTABLE-ELAPSED",
+      "severity": "high",
+      "status": "resolved",
+      "evidence": "Earlier worker included fresh elapsed time in immutable SUMMARY, preventing recovery after publication before completed. Updated stage1 removes nondeterministic elapsed; e2e injects failure after durable SUMMARY and checks identical bytes on recovery.",
+      "resolution": "Inspected actual changed source and independently executed synthetic end-to-end test: crash/recovery passed, completed replay performs0fits, corrupt completed artifact rejected. Updated exact worker hash is bound in e2e receipt and snapshot."
+    },
+    {
+      "id": "FOLD-AND-LABEL-CONTROL",
+      "severity": "low",
+      "status": "resolved",
+      "evidence": "Verified snapshot digest and all1757 bound file hashes. Source inventory contains96natural FIT records,384condition pairs and24lexicalblocks,128conditions in each FIT0/1/2. Cache requests carry model/code/readout/document/intervention identity. Prefix uses x20/x21 input and never y/output; native target enters training labels only.",
+      "resolution": "Approve FIT-only nested block CV and all384-label freeze. Old fixed P/U/scales are disclosed priors; exposed TEST targets are absent from the fitting/scoring inventory. Outer group split and inner sorted block folds keep all forms/branches/doses together."
+    },
+    {
+      "id": "REGRESSION-AND-CONTROLS",
+      "severity": "low",
+      "status": "resolved",
+      "evidence": "Reviewed models.py, stage1.py, prepare.py, common.py and fixtures. Train-only centering/RBF distance scale; fixed lambda/kernel search and exact tie order; independent direct-vector loss tuning and same-U linear control; retained fold and branch/dose losses. Independently reran synthetic regression fixtures.",
+      "resolution": "Prior-centered ridge identity passes on rank-deficient design; full-rank zero-penalty identity passes and naive rank-deficient direct identity is explicitly rejected. Linear/RBF residual predictor remains ordinary regression, not a novel expressive principle."
+    },
+    {
+      "id": "PURE-OFFLINE-SCOPE",
+      "severity": "low",
+      "status": "accepted",
+      "evidence": "Worker imports NumPy/threadpool and local persistence helpers only; empty native operation schedule with0F/0B. Source/model identities arrive via immutable existing FIT captures. E2E mocks regressors and data for wiring/restart; separate real numerical fixtures test regression math.",
+      "resolution": "Approve canonical stage1 launch only. It yields coefficient/vector feasibility and frozen predictions, not downstream readout utility. Actual native stage2 requires a distinct source/schedule/qualification review. Existing64TEST results remain exposed and cannot confirm this predictor."
+    }
+  ],
+  "limitations": "Pre-run review of the exact zero-native stage1 snapshot, not approval of future native stage2 or completed scientific results. No actual FIT fitting/CV performed by reviewer. Independently ran cheap synthetic fixtures and mocked384-condition full-worker recovery; no model calls or resampling. High restart finding resolved before approval. All old experiments/cache unchanged."
+}

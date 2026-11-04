@@ -1,0 +1,11 @@
+{
+  "ok": true,
+  "documents": 352,
+  "test_blocks": 64,
+  "fit_blocks": 24,
+  "unique_pairs": 88,
+  "historical_pair_overlap": 0,
+  "historical_prompt_overlap": 0,
+  "history_files": 774,
+  "trained_calls": 0
+}

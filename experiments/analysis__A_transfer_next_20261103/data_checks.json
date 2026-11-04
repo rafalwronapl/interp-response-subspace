@@ -1,0 +1,19 @@
+{
+  "ok": true,
+  "new_fit_blocks": 6,
+  "new_fit_cohorts": 3,
+  "labels_per_cohort": 32,
+  "new_fit_prompts": 24,
+  "old_test_blocks": 64,
+  "old_test_prompts": 256,
+  "adopted_records": 2304,
+  "adopted_files": 4608,
+  "heads": {
+    " is": 374,
+    " are": 525,
+    " has": 702,
+    " have": 614
+  },
+  "pretrained_calls": 0,
+  "scope": "Fresh FIT recorded unordered pairs; OLD TEST posthoc; new grammatical readout only"
+}

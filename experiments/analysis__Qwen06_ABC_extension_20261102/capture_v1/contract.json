@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "id": "Qwen06_ABC_capture_v1",
+  "kind": "experiment",
+  "primary_agent": "/root/sol_qwen06_parallel",
+  "purpose": "Prospective native capture for fixed A/C protocols, three new fixed-fit groups and256fresh blocks, last L27 not historicalE041L21.",
+  "tracked_files": [
+    "a_short_qwen_20261101/__init__.py",
+    "a_short_qwen_20261101/native.py",
+    "ab_confirmatory_20261101/__init__.py",
+    "ab_confirmatory_20261101/baselines_b.py",
+    "ab_confirmatory_20261101/fitting.py",
+    "ab_confirmatory_20261101/native.py",
+    "ab_confirmatory_20261101/runtime.py",
+    "analysis/AB_confirmatory_execution_20261101/close_short_pilot_imports_v1.py",
+    "analysis/A_crossed_diagnostic_20261102/diagnostic.py",
+    "analysis/C2_fresh_fit_holdout_20261102/worker.py",
+    "analysis/Qwen06_ABC_extension_20261102/PROTOCOL.txt",
+    "analysis/Qwen06_ABC_extension_20261102/capture.py",
+    "analysis/Qwen06_ABC_extension_20261102/prepare.py",
+    "research_checks/__init__.py",
+    "research_checks/gate.py",
+    "research_checks/persistence.py",
+    "research_checks/reachability.py"
+  ],
+  "tracked_trees": [],
+  "input_manifests": [
+    "analysis/Qwen06_ABC_extension_20261102/capture_v1/input_manifest.json"
+  ],
+  "gates": [
+    {
+      "id": "hooks",
+      "category": "hooks",
+      "evidence": "analysis/Qwen06_ABC_extension_20261102/capture_v1/evidence.json",
+      "pointer": "/prepared",
+      "op": "eq",
+      "expected": true,
+      "reason": "Qualified native adapter, charged four controls before scale; exact tokenizer/identity/data/exposure/restart evidence inspected independently."
+    },
+    {
+      "id": "data",
+      "category": "data",
+      "evidence": "analysis/Qwen06_ABC_extension_20261102/capture_v1/evidence.json",
+      "pointer": "/prepared",
+      "op": "eq",
+      "expected": true,
+      "reason": "Qualified native adapter, charged four controls before scale; exact tokenizer/identity/data/exposure/restart evidence inspected independently."
+    },
+    {
+      "id": "pilot",
+      "category": "pilot",
+      "evidence": "analysis/Qwen06_ABC_extension_20261102/capture_v1/evidence.json",
+      "pointer": "/prepared",
+      "op": "eq",
+      "expected": true,
+      "reason": "Qualified native adapter, charged four controls before scale; exact tokenizer/identity/data/exposure/restart evidence inspected independently."
+    },
+    {
+      "id": "accounting",
+      "category": "accounting",
+      "evidence": "analysis/Qwen06_ABC_extension_20261102/capture_v1/evidence.json",
+      "pointer": "/prepared",
+      "op": "eq",
+      "expected": true,
+      "reason": "Qualified native adapter, charged four controls before scale; exact tokenizer/identity/data/exposure/restart evidence inspected independently."
+    },
+    {
+      "id": "restart",
+      "category": "restart",
+      "evidence": "analysis/Qwen06_ABC_extension_20261102/capture_v1/evidence.json",
+      "pointer": "/prepared",
+      "op": "eq",
+      "expected": true,
+      "reason": "Qualified native adapter, charged four controls before scale; exact tokenizer/identity/data/exposure/restart evidence inspected independently."
+    }
+  ],
+  "circuits": [],
+  "structural_scope": "Full native capture finalL27 rawMLP; is-minus-are; actual technical controls precede scale.",
+  "entrypoint": {
+    "module": "analysis.Qwen06_ABC_extension_20261102.capture",
+    "args": [
+      "analysis/Qwen06_ABC_extension_20261102/capture_v1/config.json"
+    ]
+  },
+  "schedule": "analysis/Qwen06_ABC_extension_20261102/capture_v1/operations.json",
+  "budget": {
+    "forward": 2844,
+    "backward": 0
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "id": "Qwen06_ABC_evaluation_v1",
+  "kind": "experiment",
+  "primary_agent": "/root/sol_qwen06_parallel",
+  "purpose": "FixedA/C50armheadonlyevaluation,compactexactFP64vectorhashes,nodeletionofarms;forecastsealedbeforeoracleDthenfiniteoutcomes;descriptivefixedfitblockintervals.",
+  "tracked_files": [
+    "a_short_qwen_20261101/__init__.py",
+    "a_short_qwen_20261101/native.py",
+    "ab_confirmatory_20261101/__init__.py",
+    "ab_confirmatory_20261101/baselines_b.py",
+    "ab_confirmatory_20261101/fitting.py",
+    "ab_confirmatory_20261101/native.py",
+    "ab_confirmatory_20261101/runtime.py",
+    "ab_confirmatory_20261101/statistics.py",
+    "analysis/AB_confirmatory_execution_20261101/close_short_pilot_imports_v1.py",
+    "analysis/A_crossed_diagnostic_20261102/diagnostic.py",
+    "analysis/A_gemma270_extension_20261102/analyze.py",
+    "analysis/C2_fresh_fit_holdout_20261102/worker.py",
+    "analysis/Qwen06_ABC_extension_20261102/PROTOCOL.txt",
+    "analysis/Qwen06_ABC_extension_20261102/accepted.py",
+    "analysis/Qwen06_ABC_extension_20261102/bundle_runtime.py",
+    "analysis/Qwen06_ABC_extension_20261102/evaluate.py",
+    "analysis/Qwen06_ABC_extension_20261102/evaluation_worker.py",
+    "analysis/Qwen06_ABC_extension_20261102/prepare_evaluation.py",
+    "analysis/Qwen06_ABC_extension_20261102/score.py",
+    "research_checks/__init__.py",
+    "research_checks/gate.py",
+    "research_checks/persistence.py",
+    "research_checks/reachability.py"
+  ],
+  "tracked_trees": [],
+  "input_manifests": [
+    "analysis/Qwen06_ABC_extension_20261102/evaluation_v1/input_manifest.json"
+  ],
+  "gates": [
+    {
+      "id": "hooks",
+      "category": "hooks",
+      "evidence": "analysis/Qwen06_ABC_extension_20261102/evaluation_v1/evidence.json",
+      "pointer": "/accepted_capture",
+      "op": "eq",
+      "expected": true,
+      "reason": "Acceptedactualcapture,allconsumedcacheinputsbound,exactnoDfeatureboundaryandvectorhashregeneration reviewed before measurement."
+    },
+    {
+      "id": "data",
+      "category": "data",
+      "evidence": "analysis/Qwen06_ABC_extension_20261102/evaluation_v1/evidence.json",
+      "pointer": "/accepted_capture",
+      "op": "eq",
+      "expected": true,
+      "reason": "Acceptedactualcapture,allconsumedcacheinputsbound,exactnoDfeatureboundaryandvectorhashregeneration reviewed before measurement."
+    },
+    {
+      "id": "pilot",
+      "category": "pilot",
+      "evidence": "analysis/Qwen06_ABC_extension_20261102/evaluation_v1/evidence.json",
+      "pointer": "/accepted_capture",
+      "op": "eq",
+      "expected": true,
+      "reason": "Acceptedactualcapture,allconsumedcacheinputsbound,exactnoDfeatureboundaryandvectorhashregeneration reviewed before measurement."
+    },
+    {
+      "id": "accounting",
+      "category": "accounting",
+      "evidence": "analysis/Qwen06_ABC_extension_20261102/evaluation_v1/evidence.json",
+      "pointer": "/accepted_capture",
+      "op": "eq",
+      "expected": true,
+      "reason": "Acceptedactualcapture,allconsumedcacheinputsbound,exactnoDfeatureboundaryandvectorhashregeneration reviewed before measurement."
+    },
+    {
+      "id": "restart",
+      "category": "restart",
+      "evidence": "analysis/Qwen06_ABC_extension_20261102/evaluation_v1/evidence.json",
+      "pointer": "/accepted_capture",
+      "op": "eq",
+      "expected": true,
+      "reason": "Acceptedactualcapture,allconsumedcacheinputsbound,exactnoDfeatureboundaryandvectorhashregeneration reviewed before measurement."
+    }
+  ],
+  "circuits": [],
+  "structural_scope": "QualifiednativeQBasefinalL27R/x/y,actualfinalnormand2headrows;noLLMreload.",
+  "entrypoint": {
+    "module": "analysis.Qwen06_ABC_extension_20261102.evaluation_worker",
+    "args": [
+      "--config",
+      "analysis/Qwen06_ABC_extension_20261102/evaluation_v1/config.json"
+    ]
+  },
+  "schedule": "analysis/Qwen06_ABC_extension_20261102/evaluation_v1/operations.json",
+  "budget": {
+    "forward": 102400,
+    "backward": 0
+  }
+}

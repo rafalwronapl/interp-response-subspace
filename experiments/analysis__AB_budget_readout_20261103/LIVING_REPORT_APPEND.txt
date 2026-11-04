@@ -1,0 +1,47 @@
+Aktualizacja 2026-11-03 — zakończony świeży A-TEST krzywej budżetu odczytu.
+
+A: 64 nowe pary leksykalne, 256 zdań, 1024 warunki; Qwen3-0.6B-Base,
+MLP21, dosłowny operator upstream E041 i natywny suffix L22–27, odczyt are-minus-is.
+Wszystkie 16 prognoz C/same-U/Direct dla budżetów 32/64/128/256/384 i P
+zamrożono przed pierwszym interweniowanym celem TEST. Jedna ustalona sekwencja
+FIT0/seed17, wybrana leksykograficznie dla kosztu; nie jest to replikacja między FIT.
+Modele wybrano wcześniej na błędach wektora/współczynników wewnątrz każdego
+budżetu; nie strojono ich na odczytach nowego TEST.
+
+Budżet etykiet wektorowych | C MSE odczytu | same-U | Direct
+32  | 0,000875571 | 0,001435104 | 0,001684814
+64  | 0,001275866 | 0,000927738 | 0,000790169
+128 | 0,000767452 | 0,000696753 | 0,000481287
+256 | 0,000489643 | 0,000496114 | 0,000440074
+384 | 0,000342340 | 0,000321220 | 0,000308196
+P: 0,015209579; zero-change: 0,870107090.
+
+Ustalony przed TEST wynik główny C32−Direct32: delta MSE −0,0008092424,
+95% bootstrap bloków [−0,0012152982; −0,0004463334]. C32 ma o 48,03% niższe
+MSE odczytu niż Direct32 w tej próbie. To konkretna korzyść przy dopasowaniu
+na dwóch blokach FIT i dodatkowym historycznym priorze, warunkowa względem wybranych
+dopasowań. Nie jest to przewaga przy równym całkowitym zasobie informacji.
+Direct ma niższe średnie MSE niż C przy 64/128/256/384; C64 jest gorsze niż C32.
+Krzywa C nie jest monotoniczna; żadnego punktu ani negatywnego porównania nie usunięto.
+Wcześniejsza rozwojowa przewaga Direct dla błędu wektora pozostaje prawdziwa:
+nowy TEST mierzy odczyt, nie zastępuje tamtych wyników wektorowych.
+
+Ograniczenia: 32 etykiety to dwa bloki, nie 32 niezależne obserwacje. Zamrożony
+E036 P/U/scale jest dodatkową wcześniejszą informacją; nie pozyskiwano nowego FIT.
+384 używa pełnego historycznego FIT, również FIT0. Tylko jeden model/odczyt/rodzina
+zdań; pojedyncze słowa mogą powracać. Pary i dokładne zdania są rozłączne z 812
+zinwentaryzowanymi źródłami ekspozycji, nie jest to dowód nowości względem pretrainingu.
+Przedziały: 64 bloki, 1999 sparowanych bootstrapów, seed3111033; warunkowe,
+pozostałe porównania opisowe, bez gwarancji rodzinnej/populacyjnej i bez transferu.
+
+Rzeczywisty koszt: 18 726 logicznych F, 3336 fizycznych wywołań, 0B, jedno
+ładowanie, brak aliasów; 1659,328s od próby załadowania do niezmiennego zamknięcia.
+Canonical exit0; oba rzeczywiste FIT batch16/full parity PASS, max4,7684e-6 <1e-4.
+Walidator offline: 7706 plików wynikowych, 1024 rekordy i wszystkie związania
+celów TEST z hashem globalnie zamrożonych prognoz poprawne; bez nowej inferencji.
+
+Raport i surowe dowody: C:/Users/rafal/interpretability-lab/analysis/AB_budget_readout_20261103/REPORT.txt,
+run/summary.json, run/completed.json, run/TEST_forecasts.json, ledger i raw cache.
+Snapshot końcowy: 67b3ded9852cef03e6d8fe6808698d27e4d8c722e3bfa19e38710f2530116b49.
+Stan niezależnej recenzji sprawdzić w review/completion_review.json przed wpisaniem
+statusu APPROVED; sam ten przygotowany tekst nie jest zgodą recenzenta.

@@ -1,0 +1,6 @@
+This preparation was NEVER launched or independently approved.
+It used HF Qwen/Qwen3-0.6B c1899de..., a different model from original E041.
+Do not use its config, assets or identity as original-Base evidence.
+Correct actual stage: ../capture_base_v2, lab/model Qwen3-0.6B-Base
+da87bfb608c14b7cf20ba1ce41287e8de496c0cd, approved pre_run_snapshot_v3.
+All observed Qwen06 scientific calls in this namespace use the correctedBase.

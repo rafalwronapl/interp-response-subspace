@@ -1,0 +1,741 @@
+{
+  "schema_version": 1,
+  "review_phase": "completion",
+  "experiment": "A_PRIOR_MATCHED_6FIT32_FRESHTEST64_20261104",
+  "verdict": "approved_with_changes",
+  "verdict_scope": "Zatwierdzone: zgodność wykonania z PROTOCOL.txt/freeze/pre_run_review, kolejność zamrożenia, kompletność, brak przecieku TEST->FIT oraz poprawność liczbowa run/summary.json (przeliczone niezależnie, zgodność bitowa). Zmiany wymagane wyłącznie w pakiecie zakończenia (raport/snapshot completion/interpretacja) — żadne surowe dane ani summary.json nie wymagają poprawy.",
+  "reviewer": {
+    "id": "claude-fable-5-1 / niezależny subagent completion review (świeży kontekst)",
+    "independent": true,
+    "not_author_of": "/root/a_prior_experiment",
+    "method": "Tylko odczyt plików; bez ładowania modelu i bez wywołań forward; skrypty audytu w scratchpadzie poza laboratorium (python -B, bez zapisu .pyc)."
+  },
+  "created_utc": "2026-11-04T10:48:43.480989+00:00",
+  "reviewed_pre_run_snapshot_sha256": "724d814cbda9fe4bc659a84974a6ffd374127c4179970fef63ab5e210f24e7f1",
+  "completion_snapshot_sha256": null,
+  "checked_files": [
+    {
+      "path": "operations/research_launch_0803170c625440a4be1ca4daec9f3430.json",
+      "sha256": "8cb683807dcfefc87f30bdb5867c21ae212cd4e1f0852abdfd1d3fc27f0709fd"
+    },
+    {
+      "path": "analysis/A_prior_matched_20261104/PROTOCOL.txt",
+      "sha256": "c39cf64db507ee93850f6194c3ac4183f6294e1f32513eb00f2976112dbaa163"
+    },
+    {
+      "path": "analysis/A_prior_matched_20261104/config.json",
+      "sha256": "68d69dde49f64bc2f1c0fd3ae3709ea3339069533c5b2ae166b46c6601cb4311"
+    },
+    {
+      "path": "analysis/A_prior_matched_20261104/freeze.json",
+      "sha256": "b56e07c0468ae8cddd0ca7276d449965de4e121e7beccece0988bbe1f3eda8ac"
+    },
+    {
+      "path": "analysis/A_prior_matched_20261104/contract.json",
+      "sha256": "5089be55d1e29eff9a4e8b301f018dee290910649b30ec657580f800eb8ae9b3"
+    },
+    {
+      "path": "analysis/A_prior_matched_20261104/pre_run_snapshot.json",
+      "sha256": "4d4cdef37b1293ab30ae5af5f32691d8b676a8468ab7a720a05df7a39540b081"
+    },
+    {
+      "path": "analysis/A_prior_matched_20261104/review/pre_run_review.json",
+      "sha256": "edbc3fa489a539342b4359e7ff46863d6bf522bf942c95d7d6afa4dfc4cd7813"
+    },
+    {
+      "path": "analysis/A_prior_matched_20261104/launch_receipt.json",
+      "sha256": "cdffab697b12fc528f283b96001781c898ee1ab61f02bdcd61598dc3180cff98"
+    },
+    {
+      "path": "analysis/A_prior_matched_20261104/launch.err",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "analysis/A_prior_matched_20261104/launch.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "analysis/A_prior_matched_20261104/launch_pid.txt",
+      "sha256": "529fb4ff1fe7122450b17380b69087b1a6d956ecc8e9ea32803194ed7ccfee41"
+    },
+    {
+      "path": "analysis/A_prior_matched_20261104/worker.py",
+      "sha256": "0ad4814ee335e08a6e28d6db42fdf37562ab68ac2940face028a15e576305161"
+    },
+    {
+      "path": "analysis/A_prior_matched_20261104/models.py",
+      "sha256": "e5f02b6d64268fc37c15f29383780e24618d4636e91236251bc2079ea5082165"
+    },
+    {
+      "path": "analysis/A_prior_matched_20261104/adapter.py",
+      "sha256": "f1db1bf07afc5f553f73a03dc91fbee2fa138f5095b7b22f9e12992ac08654f0"
+    },
+    {
+      "path": "analysis/A_prior_matched_20261104/data.py",
+      "sha256": "4fd126c20b99cbec9263cb0e270a2c6874836a5a575ccbec96d7ef3aeaaf345f"
+    },
+    {
+      "path": "analysis/A_prior_matched_20261104/prepare.py",
+      "sha256": "c20d9e4588e407bbf304a76ebcb6d3262653ef8dc02329b681181f9ea3d457e6"
+    },
+    {
+      "path": "analysis/A_prior_matched_20261104/complete.py",
+      "sha256": "cd44063109285fec00b1c22e74198035a912ad3fad6eeb8d1fb9d7d3a211eee5"
+    },
+    {
+      "path": "analysis/A_prior_matched_20261104/fixture.py",
+      "sha256": "3f7f72dfa152f0c6efca2cb52a8ff7dfb428d5b403122ce0a6d7b7eab9dd5353"
+    },
+    {
+      "path": "analysis/A_prior_matched_20261104/fixture.json",
+      "sha256": "64bad131875ff0370716fbede621f64c5687f2324baadeda52bd539deebdcf90"
+    },
+    {
+      "path": "analysis/A_prior_matched_20261104/data_checks.json",
+      "sha256": "d14e18649b45fd33a9c7813e6efa54e960b02723218c0e72b279aa59373e1a1c"
+    },
+    {
+      "path": "analysis/A_prior_matched_20261104/corpus.json",
+      "sha256": "cbd3720e6297dab1a5a1dfcd97d833ed0a5b3977004303122cdd4374ab9374a5"
+    },
+    {
+      "path": "analysis/A_prior_matched_20261104/operations.json",
+      "sha256": "98aa095fbfcf334903f331323d99f072d02f8f44d1cb5fb59eb9df1fff316d76"
+    },
+    {
+      "path": "analysis/A_prior_matched_20261104/input_manifest.json",
+      "sha256": "335173d44a878ee9d1fd2ab12585fd5dec0f36a95f1f6359903394a54eb99d2d"
+    },
+    {
+      "path": "analysis/A_prior_matched_20261104/freshness_inputs.json",
+      "sha256": "569d00ee1430707a5edb5573a84079e673f6ed797f93423d6fd6a6492dd2c984"
+    },
+    {
+      "path": "analysis/A_prior_matched_20261104/run/ledger.jsonl",
+      "sha256": "c9e3f1d5f5e391c695fe29672cc8ff242115c3f985be13becfddd45e9b81c734"
+    },
+    {
+      "path": "analysis/A_prior_matched_20261104/run/schedule.json",
+      "sha256": "080e1b42f3cb7b5e8c4049aa46db744a7634425c7138a1486a044923ef386c35"
+    },
+    {
+      "path": "analysis/A_prior_matched_20261104/run/identity.json",
+      "sha256": "102fff7c180f5a6bfdbac6e181c77656fd97ce0b36c1cf5145dc256080b1f47c"
+    },
+    {
+      "path": "analysis/A_prior_matched_20261104/run/FIT_vectors.json",
+      "sha256": "233df77aa2e3de23ebe25cb5385c521519e5da5315913718eb4193a0210adf29"
+    },
+    {
+      "path": "analysis/A_prior_matched_20261104/run/MODELS.json",
+      "sha256": "af64e68199bbd07b3de73464f9324cb772a206343202a1525fa6a69cca219b17"
+    },
+    {
+      "path": "analysis/A_prior_matched_20261104/run/TEST_forecasts.json",
+      "sha256": "e8a406150a44a0d5bc6de665fcc1ea1aa0a8bd7bef6dbc395b2d837515e92619"
+    },
+    {
+      "path": "analysis/A_prior_matched_20261104/run/summary.json",
+      "sha256": "57882ec5acc2fe4364f6cc683ecb11a0a43fbd3c3409a86013a29158252a4907"
+    },
+    {
+      "path": "analysis/A_prior_matched_20261104/run/completed.json",
+      "sha256": "4c3b28fa629715a5a4bda8c728e53aa66cdbc9f027bd7382c05fb67ddcabc8a5"
+    },
+    {
+      "path": "analysis/A_prior_matched_20261104/run/STATUS.json",
+      "sha256": "5e97642542e0f4e922b20947f50dd0f424443784908087a43b06fb3a395c4293"
+    },
+    {
+      "path": "analysis/A_prior_matched_20261104/run/qualification/0.json",
+      "sha256": "3182a7b390984427b4c7ae34eb2d92d82485477450e2c503933d100a36c342e1"
+    },
+    {
+      "path": "analysis/A_prior_matched_20261104/run/qualification/1.json",
+      "sha256": "4fadeb354b639f626c2d812ad647017f5664e748314e4328c40e41444b48265a"
+    },
+    {
+      "path": "analysis/A_prior_matched_20261104/run/loads/8b19c79cddac41be8d0ae2cce1fe0269.json",
+      "sha256": "f9ff429fe152626bab5c3c1e0546779560350b10b212e6993b3ed4b5c410ed4d"
+    },
+    {
+      "path": "AGENTS.md",
+      "sha256": "73c663060a0641b0f51ae70c2348ff018cc627eb4c2cbca2e04b8473f01e0826"
+    },
+    {
+      "path": "plans/RESEARCH_REVIEW_POLICY.md",
+      "sha256": "3861d3281b7a836573e1c519b46cf4f78ac52058e90304a02e25026222678ff3"
+    },
+    {
+      "path": "runs/E036/development/predictors.npz",
+      "sha256": "56b5c99fb9f5001429b118b287a96efa422ec8ade19c8e3c4ea4e2ebc7c5c7b1"
+    },
+    {
+      "path": "analysis/AB_budget_readout_20261103/worker.py",
+      "sha256": "9ddf95836acee6efea04d51894203b3cf7ed1aa2cfc895f1162995071b402d30"
+    },
+    {
+      "path": "analysis/A_L21_learned_20261103/models.py",
+      "sha256": "d96304b5db563fd7e94d2acadb48dd5eeb449e67ab3a0dca2837b69d45c369d7"
+    },
+    {
+      "path": "analysis/A_L21_learned_20261103/common.py",
+      "sha256": "c600501f46751f2c4e426dd9813beafffe3eab017b6e1f6b3145d2e6d1554d24"
+    },
+    {
+      "path": "analysis/Qwen06_ABC_extension_20261102/bundle_runtime.py",
+      "sha256": "1108b6d1eb352c5d37dde336283560f7fe99bd36968a9bd83e74a7a66829bb36"
+    },
+    {
+      "path": "analysis/AB_five_experiments_20261103/A_L21/adapter_v4.py",
+      "sha256": "b2b0551818832b9cdcf3ebd3f6d1959a5d21e9458f07bfbb052f95a727bd5859"
+    },
+    {
+      "path": "analysis/AB_five_experiments_20261103/A_L21/prepare_data.py",
+      "sha256": "65a45164d9a16d114be1f0ecd5bf0435dd8a910b03d697047d2a54de2b21fd35"
+    },
+    {
+      "path": "ab_confirmatory_20261101/runtime.py",
+      "sha256": "f32b0862683b46e69812f325cb2d61fa2c3f3de786d928089eaf3d46fadb642b"
+    },
+    {
+      "path": "ab_confirmatory_20261101/native_tail_b.py",
+      "sha256": "e587cc4e63ad8527ec22f936bb2b7a1f458177dfbe4270fd51bb00b096d9beef"
+    },
+    {
+      "path": "research_checks/gate.py",
+      "sha256": "e2487ec274c6d2e39daddc1542d4cce790e0d154637c5acefcbeb86f0dcac523"
+    },
+    {
+      "path": "research_checks/persistence.py",
+      "sha256": "95b730c714692c8b269ea177bdcb852dd59e92203648a8abcf705d87be715fde"
+    },
+    {
+      "path": "analysis/A_prior_matched_20261104/run/rows/",
+      "files": 1024,
+      "sha256": "646ca4e2b1e783a2ad5616204cfbc185e33e8e997daf9698ed18fe45514edbbe",
+      "note": "sha256 of newline-joined sorted 'name:sha256' lines of every file in directory"
+    },
+    {
+      "path": "analysis/A_prior_matched_20261104/run/bundles/",
+      "files": 4794,
+      "sha256": "81ac07d812f54b74fae12ee618279ba420e72a0a22ba5b6e078b95de89133804",
+      "note": "sha256 of newline-joined sorted 'name:sha256' lines of every file in directory"
+    },
+    {
+      "path": "analysis/A_prior_matched_20261104/run/cache/",
+      "files": 4794,
+      "sha256": "0bc6509990e9f66a12f5d67ccfbc3c7017b1dd074eefe45840ee73d7631a8379",
+      "note": "sha256 of newline-joined sorted 'name:sha256' lines of every file in directory"
+    }
+  ],
+  "checks": [
+    {
+      "id": "canonical_verify_pre_run",
+      "passed": true,
+      "evidence": "python -m research_checks verify --snapshot pre_run_snapshot.json --review review/pre_run_review.json -> ok=true, snapshot 724d814c...; wszystkie 2656 plików input_manifest (kod, dane, wagi modelu, korpus, operations.json) niezmienione od snapshotu; launch_receipt wiąże ten sam snapshot."
+    },
+    {
+      "id": "fixture_binds_executed_code",
+      "passed": true,
+      "evidence": "fixture.json worker_sha256/models_sha256 == sha256 worker.py (0ad4814e...) i models.py (e5f02b6d...)."
+    },
+    {
+      "id": "identity",
+      "passed": true,
+      "evidence": "run/identity.json code == digest(input_manifest.files); completed.identity == identity; model Qwen3-0.6B-Base rev da87bfb6..., FP32 CPU eager 4 wątki, weights_sha256 cd2a5120...; 1 receipt ładowania (loads/8b19c79c..., 06:17:05Z)."
+    },
+    {
+      "id": "ledger_integrity",
+      "passed": true,
+      "evidence": "9588 rekordów, 0 złych sha256; 4794 attempt + 4794 computed ściśle sparowane (ten sam request i operacje); 0 operacji backward."
+    },
+    {
+      "id": "budget_physical_logical",
+      "passed": true,
+      "evidence": "Fizyczne: FIT natural48/prefix192/target192=432; TEST natural256/prefix1024/target1024/suffix2048=4352; kwalifikacja10; razem 4794 == physical_maximum. Logiczne 30444 unikalnych == operations.json == run/schedule.json (TEST suffix 1024x27=27648, kwalifikacja 60)."
+    },
+    {
+      "id": "freeze_order",
+      "passed": true,
+      "evidence": "Monotoniczna oś czasu: freeze.json 06:12:01Z < pre_run_snapshot 06:13:26Z < launch 06:15:27Z < identity 06:17:05Z < pierwszy wpis ledger 06:17:08Z < ostatni FIT target 06:20:18.49Z < FIT_vectors 06:20:18.71Z < MODELS 06:20:19.93Z < ostatnia kwalifikacja 06:20:25.47Z < pierwszy TEST natural 06:20:25.56Z < ostatni TEST prefix 06:32:42.48Z < TEST_forecasts 06:32:55.86Z < pierwszy TEST target 06:33:14.34Z < pierwszy TEST suffix 06:33:15.16Z < ostatni suffix 07:11:58.63Z < summary 07:11:59.86Z < completed 07:15:28.36Z. 0 prób TEST target/suffix przed zamrożeniem; 0 prób FIT/kwalifikacji po zamrożeniu."
+    },
+    {
+      "id": "freeze_hash_binding",
+      "passed": true,
+      "evidence": "Wszystkie 1024 żądania TEST_target i 2048 TEST_suffix w cache zawierają forecasts_sha256 == sha256(run/TEST_forecasts.json)=e8a40615...; TEST_forecasts.models_sha256 == sha256(MODELS.json); MODELS.raw_FIT_sha256 == sha256(FIT_vectors.json), prior sha zgodny."
+    },
+    {
+      "id": "no_TEST_to_FIT_leakage",
+      "passed": true,
+      "evidence": "FIT_vectors (192 = 6x32) odtworzone bitowo (maxabs 0) z cache FIT natural/prefix/target (bloki 0-11, role FIT_*); MODELS ponownie wytrenowane z samego FIT_vectors.json dają identyczne wybory (24/24), straty CV i alpha (maxabs 0). TEST prefiksy: 1024/1024 rola target_free_TEST_prefix, brak kluczy y/Y/logits, brak forecasts_sha256; prognozy TEST przeliczone z zamrożonych MODELS i cech prefiksowych = TEST_forecasts bitowo (25 ramion, maxabs 0), także z modeli wytrenowanych przeze mnie od nowa."
+    },
+    {
+      "id": "forecast_to_measurement_link",
+      "passed": true,
+      "evidence": "2048/2048 partii sufiksu: targets == float32(natural y + zamrożona prognoza) dla 25 ramion oraz native=t.y, natural=s.y, dokładnie bitowo; skład partii 16/11 == kolejność BATCH; 1024/1024 rows.margins == wynik sufiksu (readout are-minus-is) bitowo; vector_L2 przeliczone, różnica 0; prefiks x19-x21 == stan targetu 1024/1024."
+    },
+    {
+      "id": "completeness",
+      "passed": true,
+      "evidence": "1024 warunki = 64 bloki x 16 (2 S x 2 A x gałęzie B/C x dawki 0.5/1); 6 kohort FIT po 2 rozłączne bloki/32 etykiety; 25 ramion (P + 6x4) + native + zero w każdym wierszu; completed.json: 10622 plików, 0 niezgodnych sha, 0 dodatkowych; STATUS completed."
+    },
+    {
+      "id": "corpus_freshness",
+      "passed": true,
+      "evidence": "Replikacja data.py: 815 plików historii (0 niezgodnych hashy), 273 historyczne pary; pierwsze 76 nieużytych par z tasowania seed 4111041 == corpus.pairs; żadna para korpusu w historii; 0 wspólnych par i promptów FIT/TEST; źródła poprzednich FIT/TEST (AB_budget_readout, A_transfer_next, A_L21_learned stage2, AB_five_experiments) w inwentarzu."
+    },
+    {
+      "id": "qualification",
+      "passed": true,
+      "evidence": "2/2 passed: full-vs-suffix maxabs 5.72e-6 i 2.86e-6 (<=1e-4); czułość is/are 4.46e-4 i 2.02e-4 (>1e-8); partie 16/11; efekt natywny 0.121 i 0.244 logita. Przed pierwszym TEST natural."
+    },
+    {
+      "id": "launch_logs_process",
+      "passed": true,
+      "evidence": "launch.err i launch.log puste (0 B, brak błędów); proces 21092 nie działa; blokada operations/research_worker.lock zwolniona (brak pliku); jedna próba ładowania modelu; brak ponowień. Receipt kanonicznego launchera operations/research_launch_0803170c625440a4be1ca4daec9f3430.json: returncode 0, snapshot_sha256 724d814c..., review_sha256 edbc3fa4... (== sha256 review/pre_run_review.json), completed_utc 2026-11-04T07:15:34Z."
+    },
+    {
+      "id": "summary_recompute",
+      "passed": true,
+      "evidence": "Niezależne przeliczenie z run/rows: MSE wszystkich 26 ramion, 5 kontrastów (średnia, przedziały, per-FIT, SD, zakres, znaki), podgrupy branch/dose/S/A, native_minus_zero MSE i znaki, vector_L2 — wszystkie różnice względem summary.json = 0.0. Kolejność 'equal blocks potem średnia 6 FIT' i odwrotna dają to samo (liniowość, 16 warunków/blok)."
+    }
+  ],
+  "recomputed_values": {
+    "counts": {
+      "conditions": 1024,
+      "blocks": 64,
+      "rows_per_block": [
+        16
+      ],
+      "fit_cohorts": 6,
+      "fit_labels": 192,
+      "physical_forward": 4794,
+      "logical_forward": 30444,
+      "backward": 0,
+      "model_loads": 1,
+      "physical_by_role": {
+        "FIT_natural": 48,
+        "FIT_prefix": 192,
+        "FIT_target": 192,
+        "qual": 10,
+        "TEST_natural": 256,
+        "TEST_prefix": 1024,
+        "TEST_target": 1024,
+        "TEST_suffix": 2048
+      }
+    },
+    "arm_MSE_block_equal": {
+      "P": 0.013777085618031926,
+      "C_0": 0.001568577864138554,
+      "same_U_0": 0.0013647727293921719,
+      "Direct_0": 0.0017426765233405916,
+      "Direct_P_0": 0.0013385146484425903,
+      "C_1": 0.002387600406192014,
+      "same_U_1": 0.0013368187695830258,
+      "Direct_1": 0.0010334972946655085,
+      "Direct_P_1": 0.0011676052671623083,
+      "C_2": 0.0008472793127252132,
+      "same_U_2": 0.0010339627220856684,
+      "Direct_2": 0.0015039500966471664,
+      "Direct_P_2": 0.0008067221420509085,
+      "C_3": 0.0012319000334706232,
+      "same_U_3": 0.001337452908611425,
+      "Direct_3": 0.0014037899854457692,
+      "Direct_P_3": 0.0013894801988003636,
+      "C_4": 0.0010704402752734765,
+      "same_U_4": 0.0012784105766883158,
+      "Direct_4": 0.0013111498847724334,
+      "Direct_P_4": 0.0010725226305972058,
+      "C_5": 0.0013160926853155175,
+      "same_U_5": 0.0012781800979224656,
+      "Direct_5": 0.0010469841607534391,
+      "Direct_P_5": 0.0010567798436689202,
+      "zero": 0.022119441515839
+    },
+    "method_mean_over_6FIT_MSE": {
+      "C": 0.001403648429519233,
+      "same_U": 0.0012715996340471787,
+      "Direct": 0.001340341324270818,
+      "Direct_P": 0.0011386041217870495
+    },
+    "primary_C32_minus_DirectP32": {
+      "mean_delta_MSE": 0.0002650443077321836,
+      "sign": "dodatni => przemawia PRZECIW C (Direct_P lepszy)",
+      "relative_to_DirectP_mean": 0.23278003536136352,
+      "bootstrap": {
+        "draws": 1999,
+        "seed": 4111042,
+        "unit": "TEST lexical block (64)",
+        "conditional_on": "6 stałych FIT",
+        "nominal95": [
+          0.0001480236605080787,
+          0.0003812461015717898
+        ],
+        "fraction_boot_ge0": 1.0
+      },
+      "per_FIT": [
+        0.00023006321569596366,
+        0.001219995139029706,
+        4.0557170674304643e-05,
+        -0.0001575801653297404,
+        -2.082355323729246e-06,
+        0.0002593128416465973
+      ],
+      "FIT_SD": 0.0004926561053615523,
+      "FIT_range": [
+        -0.0001575801653297404,
+        0.001219995139029706
+      ],
+      "FIT_negative": 2,
+      "blocks_positive_of_64": 48,
+      "matches_summary_json": true
+    },
+    "secondary_contrasts_descriptive": {
+      "C-same_U": {
+        "mean_delta_MSE": 0.00013204879547205434,
+        "nominal95_unadjusted": [
+          -0.00010137753858436106,
+          0.00038217929718904466
+        ],
+        "per_FIT": [
+          0.00020380513474638207,
+          0.0010507816366089884,
+          -0.00018668340936045524,
+          -0.00010555287514080192,
+          -0.0002079703014148393,
+          3.791258739305192e-05
+        ],
+        "FIT_negative": 3
+      },
+      "Direct_P-Direct": {
+        "mean_delta_MSE": -0.00020173720248376864,
+        "nominal95_unadjusted": [
+          -0.0004120297192534706,
+          1.587206724011166e-05
+        ],
+        "per_FIT": [
+          -0.00040416187489800137,
+          0.00013410797249679973,
+          -0.0006972279545962579,
+          -1.4309786645405609e-05,
+          -0.00023862725417522768,
+          9.795682915481052e-06
+        ],
+        "FIT_negative": 4
+      },
+      "C-Direct": {
+        "mean_delta_MSE": 6.330710524841503e-05,
+        "nominal95_unadjusted": [
+          -0.0002289124470083485,
+          0.000354694322222208
+        ],
+        "per_FIT": [
+          -0.0001740986592020377,
+          0.0013541031115265056,
+          -0.0006566707839219532,
+          -0.000171889951975146,
+          -0.00024070960949895692,
+          0.00026910852456207834
+        ],
+        "FIT_negative": 4
+      },
+      "same_U-Direct": {
+        "mean_delta_MSE": -6.874169022363928e-05,
+        "nominal95_unadjusted": [
+          -0.00018588215560363757,
+          3.8696012811671256e-05
+        ],
+        "per_FIT": [
+          -0.0003779037939484198,
+          0.00030332147491751726,
+          -0.00046998737456149797,
+          -6.633707683434409e-05,
+          -3.2739308084117624e-05,
+          0.00023119593716902642
+        ],
+        "FIT_negative": 4
+      }
+    },
+    "reviewer_sensitivity_posthoc_descriptive": {
+      "note": "Nieprzedrejestrowane, wyłącznie opisowe; nie zastępuje wyniku głównego.",
+      "leave_one_FIT_out": {
+        "drop_FIT0": {
+          "mean": 0.00027204052613942763,
+          "ci": [
+            0.0001653545173889537,
+            0.0003805347854472707
+          ]
+        },
+        "drop_FIT1": {
+          "mean": 7.405414147267919e-05,
+          "ci": [
+            -2.6042569556468106e-05,
+            0.00016994462866504626
+          ]
+        },
+        "drop_FIT2": {
+          "mean": 0.00030994173514375944,
+          "ci": [
+            0.0001833217379086971,
+            0.00043287385361124626
+          ]
+        },
+        "drop_FIT3": {
+          "mean": 0.00034956920234456844,
+          "ci": [
+            0.00022217133561235338,
+            0.00047809438115375074
+          ]
+        },
+        "drop_FIT4": {
+          "mean": 0.0003184696403433662,
+          "ci": [
+            0.00019910818919463227,
+            0.00043823481043945737
+          ]
+        },
+        "drop_FIT5": {
+          "mean": 0.0002661906009493009,
+          "ci": [
+            0.00014161100827255526,
+            0.0003901055107582607
+          ]
+        }
+      },
+      "FIT_level_t_interval_df5": [
+        -0.0002519665676433672,
+        0.0007820551831077345
+      ],
+      "primary_by_branch_dose_condition_mean": {
+        "B_0.5": 0.00013060041287893398,
+        "B_1.0": 0.00045419229198688055,
+        "C_0.5": 0.00010750071174392417,
+        "C_1.0": 0.0003678838143189959
+      },
+      "selected_parameters_per_FIT": [
+        {
+          "C": {
+            "kernel": "linear",
+            "lam": 0.0001
+          },
+          "Direct": {
+            "kernel": "linear",
+            "lam": 1e-06
+          },
+          "Direct_P": {
+            "kernel": "linear",
+            "lam": 1e-06
+          },
+          "same_U": {
+            "kernel": "linear",
+            "lam": 0.0001
+          }
+        },
+        {
+          "C": {
+            "kernel": "linear",
+            "lam": 0.01
+          },
+          "Direct": {
+            "kernel": "linear",
+            "lam": 0.0001
+          },
+          "Direct_P": {
+            "kernel": "linear",
+            "lam": 0.0001
+          },
+          "same_U": {
+            "kernel": "linear",
+            "lam": 0.0001
+          }
+        },
+        {
+          "C": {
+            "kernel": "rbf",
+            "lam": 0.0001
+          },
+          "Direct": {
+            "kernel": "linear",
+            "lam": 1e-06
+          },
+          "Direct_P": {
+            "kernel": "rbf",
+            "lam": 1e-06
+          },
+          "same_U": {
+            "kernel": "linear",
+            "lam": 0.0001
+          }
+        },
+        {
+          "C": {
+            "kernel": "linear",
+            "lam": 0.0001
+          },
+          "Direct": {
+            "kernel": "linear",
+            "lam": 1e-06
+          },
+          "Direct_P": {
+            "kernel": "linear",
+            "lam": 1e-06
+          },
+          "same_U": {
+            "kernel": "linear",
+            "lam": 0.0001
+          }
+        },
+        {
+          "C": {
+            "kernel": "linear",
+            "lam": 1e-06
+          },
+          "Direct": {
+            "kernel": "rbf",
+            "lam": 0.0001
+          },
+          "Direct_P": {
+            "kernel": "linear",
+            "lam": 1e-06
+          },
+          "same_U": {
+            "kernel": "rbf",
+            "lam": 0.0001
+          }
+        },
+        {
+          "C": {
+            "kernel": "rbf",
+            "lam": 1e-06
+          },
+          "Direct": {
+            "kernel": "rbf",
+            "lam": 1e-06
+          },
+          "Direct_P": {
+            "kernel": "linear",
+            "lam": 0.0001
+          },
+          "same_U": {
+            "kernel": "rbf",
+            "lam": 1e-06
+          }
+        }
+      ]
+    },
+    "native_minus_zero_MLP_delta": {
+      "MSE": 0.022119441515839,
+      "sign_counts": {
+        "-1": 502,
+        "0": 0,
+        "1": 522
+      }
+    },
+    "mean_vector_L2": {
+      "C": 3.096011959519627,
+      "same_U": 3.0873756678031463,
+      "Direct": 0.9042425931758626,
+      "Direct_P": 0.8853735976045759,
+      "P": 4.1498765321722875,
+      "zero": 6.2638549165276345
+    },
+    "subgroups_match_summary": true,
+    "qualification": [
+      {
+        "batch_shapes": [
+          16,
+          11
+        ],
+        "fixed_sensitivity": [
+          0.000446319580078125,
+          0.0007677078247070312
+        ],
+        "maxabs": 5.7220458984375e-06,
+        "native_effect": [
+          0.12133979797363281,
+          0.1054849624633789
+        ],
+        "passed": true
+      },
+      {
+        "batch_shapes": [
+          16,
+          11
+        ],
+        "fixed_sensitivity": [
+          0.000202178955078125,
+          0.00063323974609375
+        ],
+        "maxabs": 2.86102294921875e-06,
+        "native_effect": [
+          0.2437591552734375,
+          0.21774959564208984
+        ],
+        "passed": true
+      }
+    ],
+    "cost": {
+      "measured_compute_seconds": 2618.512556103524,
+      "wall_clock_utc": [
+        "2026-11-04T06:17:05Z",
+        "2026-11-04T07:15:28Z"
+      ],
+      "disk_approx": "cache 943 MB + TEST_forecasts 280 MB + MODELS 22 MB + reszta ~20 MB",
+      "paid_api_calls": 0,
+      "peak_RAM": "nie zarejestrowano"
+    }
+  },
+  "findings": [
+    {
+      "id": "APC-COMPLETION-PACKAGE",
+      "severity": "medium",
+      "status": "open",
+      "evidence": "complete.py nie został uruchomiony: brak REPORT.txt, analysis_summary.json, completion_manifest.json, completion_contract.json i snapshotu research_checks --phase completion. Ta recenzja wiąże surowe wyniki przez sha256 w checked_files (w tym zbiorcze hashe rows/bundles/cache), nie przez snapshot completion, i nie oceniała tekstu raportu.",
+      "resolution": "Uruchomić offline complete.py, utworzyć snapshot completion i sprawdzić, że hashe run/* są równe checked_files tej recenzji; tekst raportu poprawić wg APC-INTERPRETATION i APC-SECONDARY-CI przed przekazaniem wniosków; zaktualizować raport Dorobek_programu_badawczego (AGENTS.md). Format tego pliku jest zgodny z poleceniem użytkownika, a nie z polami verify_review; jeżeli potrzebny jest kanoniczny receipt, musi powiązać snapshot completion."
+    },
+    {
+      "id": "APC-INTERPRETATION",
+      "severity": "medium",
+      "status": "open",
+      "evidence": "Wynik główny C32-Direct_P32 = +2.6504e-04 (o 23.3% więcej niż średnie MSE Direct_P), przedział warunkowy [1.4802e-04, 3.8125e-04] — kierunek przeciw C. Wartości per FIT: 2.30e-04, 1.22e-03, 4.06e-05, -1.58e-04, -2.08e-06, 2.59e-04 (4 dodatnie, 2 ujemne, z czego jeden ~0); SD FIT 4.93e-04. FIT1 (+1.22e-03) dominuje: bez FIT1 średnia 7.41e-05, przedział [-2.60e-05, 1.70e-04] obejmuje 0; opisowy przedział t na poziomie FIT (df=5) [-2.52e-04, 7.82e-04].",
+      "resolution": "Raport musi wprost podać: (a) znak dodatni = restrykcja do historycznego U NIE poprawiła, a średnio pogorszyła MSE is/are względem pełnowektorowej reszty z tym samym P; (b) wniosek jest warunkowy na 6 stałych FIT, 64 blokach TEST i wybranym historycznie reżimie L21/F1/is-are; (c) kierunek między FIT nie jest stabilny i wynik zależy istotnie od FIT1 — bez twierdzenia populacyjnego ani że C jest gorszy ogólnie; (d) nie spłaszczać do 'U nic nie daje': same_U vs Direct i C vs Direct to przedziały obejmujące 0; (e) to inne pytanie niż naprawialność/oracle E041 (B5/F1) — wynik ogranicza twierdzenie o użyteczności restrykcji U przy 32 etykietach, nie podważa wyniku naprawy oracle."
+    },
+    {
+      "id": "APC-SECONDARY-CI",
+      "severity": "low",
+      "status": "accepted",
+      "evidence": "summary.json: bootstrap.primary_only=true, ale conditional_block_nominal95 jest policzony dla wszystkich 5 kontrastów (te same losowania). Np. Direct_P-Direct = -2.017e-04 [-4.12e-04, 1.59e-05].",
+      "resolution": "Nie zmieniać niezmiennego summary.json; w raporcie oznaczyć przedziały wtórne jako nominalne, opisowe, bez korekty wielokrotności (zgodnie z PROTOCOL)."
+    },
+    {
+      "id": "APC-VECTOR-VS-READOUT",
+      "severity": "low",
+      "status": "accepted",
+      "evidence": "Średni L2 wektora: C 3.096, same_U 3.087, Direct 0.904, Direct_P 0.885, P 4.150, zero 6.264; MSE odczytu ramion uczonych 1.14e-3..1.40e-3 wobec P 1.378e-2 i zero 2.212e-2.",
+      "resolution": "Opisać rozbieżność błędu wektora i odczytu jako obserwację opisową dla tego jednego odczytu is/are; nie spłaszczać do ogólnego faktu (reguła AGENTS.md)."
+    },
+    {
+      "id": "APC-CV-SELECTION",
+      "severity": "low",
+      "status": "accepted",
+      "evidence": "Wybór hiperparametrów zmienia się między kohortami (2-fold CV na 2 blokach). W FIT1 C wybrał linear lambda=0.01 (silniejsze ściąganie ku W), Direct_P linear lambda=1e-4; MSE C_1=2.388e-3 przy pozostałych C 0.85e-3..1.57e-3.",
+      "resolution": "Zgodne z protokołem (różnice wyboru są częścią porównania). Ewentualne wyjaśnienie FIT1 wyborem lambda to hipoteza, nie ustalony mechanizm; nie testować jej na tym TEST."
+    },
+    {
+      "id": "APC-FRESHNESS-NOUNS",
+      "severity": "low",
+      "status": "accepted",
+      "evidence": "FIT i TEST są rozłączne na poziomie nieuporządkowanych par (0/76) i promptów (0), ale 14 pojedynczych rzeczowników FIT występuje też w parach TEST; świeżość ograniczona do 815 inwentaryzowanych źródeł.",
+      "resolution": "Ujawnione w pre-run review; w raporcie zachować: jednostka niezależności = para leksykalna, nie rzeczownik; brak kontroli ekspozycji w pretreningu."
+    },
+    {
+      "id": "APC-ACCOUNTING-RAM",
+      "severity": "low",
+      "status": "accepted",
+      "evidence": "Szczytowy RAM nie został zarejestrowany (protokół: 2-5 GB, bez benchmarku). Czas pomiarów 2618.5 s, ściana ~58 min (w tym ~3.5 min hashowania wyjść przed completed.json); dysk ~1.25 GB; 0 płatnych wywołań.",
+      "resolution": "Bez wpływu na wyniki; w raporcie podać rzeczywisty koszt czasu/dysku i brak pomiaru RAM."
+    }
+  ],
+  "limitations": "Recenzja tylko odczytem: nie ładowano modelu, nie powtarzano forward, więc wartości marginesów z cache przyjęto jako pomiar (sprawdzono ich spójność, hashe, powiązanie z zamrożonymi prognozami i kwalifikację full/suffix, nie ich fizyczną ponowną reprodukcję). Bootstrap przeliczono tą samą procedurą (seed 4111042, 1999 losowań po 64 blokach), więc jest to replikacja, nie alternatywna metoda wnioskowania. Analizy LOO-FIT i t na poziomie FIT są post hoc i opisowe. Nie oceniano tekstu REPORT.txt (nie istnieje) ani nowości względem literatury. Świeżość danych zweryfikowana tylko względem inwentarza 815 plików."
+}

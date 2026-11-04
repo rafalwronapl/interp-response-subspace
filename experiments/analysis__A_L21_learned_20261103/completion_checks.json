@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "outer_groups": 3,
+  "blocks": 24,
+  "conditions": 384,
+  "native_forward": 0,
+  "native_backward": 0,
+  "stage2_launched": false
+}

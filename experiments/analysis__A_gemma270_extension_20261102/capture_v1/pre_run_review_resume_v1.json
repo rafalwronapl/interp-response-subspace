@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "snapshot_sha256": "c6d59249300d09c75008e298be87535e3365f6932bd5bbaa0b903d1f18b9c831",
+  "reviewer_id": "/root/c3_capture_review_resume",
+  "independent": true,
+  "verdict": "approved",
+  "topics_checked": [
+    "design",
+    "implementation",
+    "data",
+    "cost",
+    "claims"
+  ],
+  "findings": [],
+  "limitations": "Capture-only2048F/0B/one-load approval for exact reused Gemma270 L17 native adapter/checkpoint/readout, common256 fresh lexical blocks T2/T5. Reused independent C3 qualification and fixed3 P/U0 identities bound before outcomes. Current source/protocol/analyzer and restart fixture reviewed; no refitting or head evaluation approved here. C-only output and >=1GiB guard retained. Prior controls reused only for exact same identity. Reviewer performed no model/head/statistical calls. Parallel runtime admission requires its separate approved snapshot."
+}

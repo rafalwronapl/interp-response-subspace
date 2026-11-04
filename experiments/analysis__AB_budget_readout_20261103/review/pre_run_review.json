@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "snapshot_sha256": "4f5beed5d111a8dd60bfbc737616a95b86d6173947f687c8efd53eb4ab6f84df",
+  "reviewer_id": "/root/fast_followup_review",
+  "independent": true,
+  "verdict": "approved",
+  "topics_checked": [
+    "design",
+    "implementation",
+    "data",
+    "cost",
+    "claims"
+  ],
+  "findings": [
+    {
+      "id": "MATERIALIZER_REPLAY_COUNTER",
+      "severity": "medium",
+      "status": "resolved",
+      "evidence": "Initial model_checks depended on per-invocation newfit count6 then0, preventing identical replay.",
+      "resolution": "Changed to stable durable distinct-system count and explicit identity guard; model_replay_checks binds zero newsolves and identity failure beforefit. Final code and six frozen system artifacts inspected."
+    }
+  ],
+  "limitations": "Approves this single fresh64recorded-pair TEST, fixed FIT0seed17 lower-budget sequence and original384models, primaryC32minusDirect32,16suffixarms plus natural zero-change alias. No TEST tuning, model/layer/readout transfer or global cost dominance. Independently verified2643snapshot hashes, reran actual worker synthetic fixture in reviewer-owned paths: globalforecast freeze before targets,16batch cap,aliases/accounting,partialcrashes,byte-preservedreplay,uncertainattempt beforeload and completedidentity/corruption rejection. Independently checked full384model objects identical, lower-budget savedparams,6materializations/15models,64pairs256prompts donoralignment/disjoint previousTEST and primary paired-block bootstrap calculation. Broader freshness limited to812inventoried historicalfiles and recorded exposure, promptfamily/nouns recur. Accepted unchanged Adapter_v4 and hash-bound historical qualification; new runtime38logicalFITparity calls must pass1e-4 beforeTEST. Cap18726logicalforward/0backward,3336physicalcalls beforealiases,oneQwenload per uninterrupted run. Forecasts require nativeprefixes and extra historicalP/U resources. No native calls executed by reviewer."
+}

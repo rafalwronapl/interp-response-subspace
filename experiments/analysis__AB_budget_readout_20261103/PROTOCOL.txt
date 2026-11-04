@@ -1,0 +1,75 @@
+A learning-budget fresh native-readout TEST; frozen 2026-11-03 before new targets.
+Root-approved fixed-sequence design: FIT0 outer split, seed17, budgets32/64/128/256
+use exactly frozen A_budget choices;384 uses historical full384 frozen models.
+This lexicographic sequence was selected to bound compute, not by performance.
+384 additionally uses FIT0 labels; it is a full-pool point, not the identical
+training population as the nested lower-budget sequence. No fit-population claim.
+
+Question: how do fixed C/same-U/Direct predictors at increasing native-vector
+training budgets perform on one fresh common native are-minus-is TEST readout?
+Known learning curves/ridge techniques are not novel. Nearest prior comparison
+is A12 / existing learnedL21 stage2 and archived literature discussed there;
+this adds a budget curve with a shared new heldout cohort, not a novelty claim.
+No oracle, new readout, layer or architectural generalization claim.
+
+Three methods times five budgets plus frozen P =16 suffix arms. Zero-change
+aliases the natural margin (not a zero patch in the intervened residual).
+same-U=predictedDU coefficients times U.T; C=P+predicted(D-P)U coefficients times U.T;
+Direct predicts full D. P is historical E036 xW@U.T, float32 convention preserved.
+P/U/normalization are additional historical prior resources; nominal new-label
+budget is not equal total training information. No new FIT native acquisitions.
+Existing lower-budget artifacts lack alpha: only six distinct joint systems
+are necessarily materialized with exact saved choices, checked against saved
+heldout vector losses. No tuning/search repeated.384 packed models reused exactly.
+
+TEST:64 fresh unordered noun pairs,256 prompts,1024 intervention conditions.
+Exclude all inventoried historical unordered pairs/prompts including previous
+learnedL21 stage2; individual nouns/family can recur. Freeze corpus/tokenization
+and exposure input hashes before new model evaluation. This means recorded
+pair/prompt freshness, not pretraining novelty or independent construction family.
+Exact historical E041 upstream operator: Qwen3-0.6B-Base, layer19 neuron1317,
+layer20 mediator1423, B/C branches, doses.5/1; prediction target native MLP21.
+Patch target at final token and propagate exact dynamic L22-27 native suffix.
+Model revision/weights/dtype/eager CPU settings inherited from approved stage2.
+
+All fitted model weights frozen before any TEST evaluation. All16 predicted
+vectors across every TEST condition frozen after target-free native prefixes
+and BEFORE first intervened TEST native target. Natural captures supply input
+donors; prefixes must contain no y,Y/logits. Targets bind forecast-file hash.
+Reuse qualified immutable Adapter_v4; two fixed lexicographic cached FIT0
+contexts compare full propagation and current batched suffix for P,C_32,Direct_128.
+Maximum full-vs-suffix absolute margin discrepancy1e-4; fail before TEST otherwise.
+These qualification contexts are historical FIT, not new TEST.16-arm cap explicit.
+
+Primary: C32 minus Direct32 paired block readout squared error, chosen by root
+before newTEST to directly test usefulness at the smallest declared label budget.
+No winning budget selected after TEST. Single prespecified contrast: paired lexical
+block bootstrap95% interval,1999 draws,seed3111033,64 block units. Pointwise
+per-budget contrasts, C-P and same-U comparisons are descriptive, nominal intervals
+without familywise claims; retain every budget/outcome even if C loses throughout.
+Report readout MSE, vector/coefficient squared L2 separately, dose/branch/S/A,
+native signal, costs and signs. Prefix features require native computation;
+this is not a stand-alone model from text. Forecasts are non-oracle.
+
+Maximum18,726 logical forward,0 backward:38FIT parity+256natural+1024prefix+
+1024native-target+16,384suffix predictions. Physical3,336 calls if noaliases:
+2310full/prefix,1026batchedsuffix;16arms stay within unchanged Adapter cap.
+Two-context qualification uses6full+2suffix batches (38logical): each16-item
+suffix batch repeats the3 full-reference vectors, all16outputs checked.0 new downloads,
+cloud or off-C-drive storage. Prior6arm stage2 took~21min; forecast25-45min for
+16arms, conditional existing local CPU. Log actual physical/logical counts.
+
+Every cached request binds document/operator/readout/model/code identities.
+All completed raw caches,forecasts,rows and receipts immutable on restart;
+completed seal rejects changed identity/files before load. Uncertain recorded
+attempt without cache fails before model load and requires independent recovery.
+Synthetic full-worker tests inject crashes after forecast publication and row,
+verify zero duplicate nativecalls, unchanged hashes, exact aliases,16arm accounting,
+reject corruption/incompatible completed identity. Canonical pre-run independent
+review required before pretrained calls. Final independent review before claims.
+
+Limits: single selected FIT sequence, historical FIT exposure and fixed prior;
+only64 lexical pairs within one prompt family/model/layer/readout; shared models
+and budgets are not independent replications.384 training composition differs.
+No threshold guarantees improvement, C advantage or transfer. Preserve negative
+outcomes and all historical data. Root updates stable user living report.

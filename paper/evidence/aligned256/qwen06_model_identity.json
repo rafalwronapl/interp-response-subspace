@@ -1,0 +1,21 @@
+{
+  "folder": "C:\\Users\\rafal\\interpretability-lab\\model",
+  "repo": "Qwen/Qwen3-0.6B-Base",
+  "revision": "da87bfb608c14b7cf20ba1ce41287e8de496c0cd",
+  "files": {
+    "C:\\Users\\rafal\\interpretability-lab\\model\\config.json": "504a6b58c4271583724e66584b6b7698aea18450209df6b2f7582df0e89cee59",
+    "C:\\Users\\rafal\\interpretability-lab\\model\\generation_config.json": "8c970692323e3ea0e9b8b0a4dca79388d31226e41f83c9fd6014804280ebf6e8",
+    "C:\\Users\\rafal\\interpretability-lab\\model\\merges.txt": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5",
+    "C:\\Users\\rafal\\interpretability-lab\\model\\model.safetensors": "cd2a512003e2f9f3cd3c32a9c3573f820bb28c940f73c57b1ddaa983d9223eba",
+    "C:\\Users\\rafal\\interpretability-lab\\model\\tokenizer.json": "c0382117ea329cdf097041132f6d735924b697924d6f6fc3945713e96ce87539",
+    "C:\\Users\\rafal\\interpretability-lab\\model\\tokenizer_config.json": "3c04ed3ca964ea2f6b2b5faf0dc4d31aec1cb1e8b4bcf63f402d295046b422b5",
+    "C:\\Users\\rafal\\interpretability-lab\\model\\vocab.json": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+  },
+  "layer": 27,
+  "hidden": 1024,
+  "load_dtype": "float32",
+  "stored_dtype": "bfloat16",
+  "architecture": "qwen3",
+  "not_E041_L21": true,
+  "source": "analysis/E041_execution/identity.json"
+}

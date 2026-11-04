@@ -1,0 +1,149 @@
+TRWAŁY REJESTR UWAG — A13/B14, 4 listopada2026
+Cel: zachować dotychczasowe i napływające uwagi przed następną rewizją.
+To rejestr recenzji, nie zatwierdzenie nowego eksperymentu ani wykonanych napraw.
+Pełne raporty zewnętrzne zachowane w analysis/uwagi_zewnetrzne_20261104/.
+Źródła tymczasowe i hashe kopii w source_manifest.json tego katalogu.
+
+STATUS ŹRÓDEŁ
+1 Uwagi użytkownika do liczb, tabel i kodu — otrzymane.
+2 Raport metodologiczny review_method.md — otrzymany i zachowany.
+3 Raport folderu review_lab.md — otrzymany i zachowany; możliwe uzupełnienie.
+4 Audyt Fable liczb względem plików — OCZEKUJE, nie zakładać wyniku.
+Zewnętrzne raporty nie zastępują wewnętrznej recenzji snapshotów. Oznaczenie
+„zatwierdzone” wcześniejszych etapów nie rozstrzyga automatycznie nowych uwag.
+
+A — SPRAWDZONE WE WŁASNYM AUDYCIE
+[POTWIERDZONE] MSE P różni się między tabelami6/7:
+0.015209578646066646 vs0.015209417582009443, delta−1.6106405720250905e−7.
+Wszystkie1024prognozyP oraz jego odczyty są identyczne. Zmieniła się referencja
+natywna:851/1024różnic, max1.9073486328125e−5logita. Różne drogi numeryczne
+pełnego wykonania vs sufiks12/four-head; nie izolowano osobno batchingu,
+mnożenia headu i precyzji odejmowania. Wyjaśnić w tekście, nie zmieniać raw.
+Dowód: analysis/A13_review_checks_20261104/findings.txt.
+[POTWIERDZONE] Przy tym samym smootherze ridge projekcjaDirect naU odpowiada
+same-U; dla384 parametry i dane te same, różnica projectedalpha~1.68e−11.
+To warunkowa tożsamość dla tych samych hiperparametrów, nie ogólna równośćC.
+[REDAKCJA] Tab1 dodać budżety i trzyFIT32. DodatekE sprawdzić/uzupełnić,
+aby opis wersji obejmował te badania. Abstrakt i intro „establish harm”
+zawęzić doT5; LlamaT2 przynosi korzyść−0.40679.
+
+A — RAPORT METODOLOGICZNY, DO DOKŁADNEGO ROZLICZENIA Z KODEM
+[ZGŁOSZONE] Wspólny kernelridge: analysis/A_L21_learned_20261103/models.py.
+C uczy(D−P)U, same-U uczyDU, Direct uczyD.
+[DO FORMALIZACJI] LinioweC jest regression z priorem wokół historycznegoW;
+RBF ma interpretację kernelridge/GPposterior mean z meanfunctionxW,
+przy właściwej obsłudze centrowania/interceptu, nλ i FP32P. Nie przedstawiać
+ogólnegoGPprobabilistycznego modelu/niepewności jako wdrożonych bez sprawdzenia.
+Nie mierzyć dwa razy tej samej algebraicznej metody pod różnymi nazwami.
+[ZGŁOSZONE] W korzystnym32label wszystkie metody linear λ1e−4; różnicaC/same-U
+to prior, C/Direct dodatkowo ograniczenieU. Zweryfikować dokładne wybrane
+parametry i oddzielić algebraiczne pochodzenie różnicy od twierdzenia, że
+ustalono wyłącznie jedną ogólną przyczynę sukcesu przy32etykietach.
+[ZGŁOSZONE] Same-U miało4kandydaty liniowe, noweA_transfer_next8linear/RBF.
+Ujawnić zmianę siatki między etapami; nie wymazywać historycznego protokołu.
+[PROPOZYCJA] Brakujący komparator: pełnowymiarowy residualridge
+P+f(D−P), czyli Direct z prioremP poza ograniczeniemU. Najpierw algebra
+i budżet zasobów, potem ewentualny osobny plan pomiaru.
+[OPINIA] MajorrevisionA: ostrzejsza jedna teza, nazwane wprost ridge z priorem,
+właściwa literatura i selekcja reżimuL21 w abstrakcie. To ocena recenzenta,
+nie potwierdzony błąd unieważniający wynik.
+
+B — SPRAWDZONE WE WŁASNYM AUDYCIE
+[POTWIERDZONE] Identyczne wyniki nie są kopiowaniem tabel: rzeczywisteFP32
+cele i współczynniki przełączeń są identyczne w zgłoszonych kontekstach.
+1878kwalifikujących celów zrekonstruowanych byte-identical,885aliasów sprawdzonych.
+Źródło: analysis/B14_review_checks_20261104/findings.txt.
+Liczby kontekstów z1/2/3/4unikalnymi kontrolnymi kierunkami:
+stare so5/31/24/4; stare when18/31/11/4;
+świeże so11/32/16/5; when16/26/16/6;
+transfer9/25/9/2; object7/3/2/0.
+Nie twierdzić więc, że pięć kontroli zawsze jest jedną: zwykle1–4różne.
+Top32 jest odrębne w każdym kwalifikującym przypadku.
+Średnia5zamrożonychgrup waży powtórzone kierunki krotnością/5. Zachować
+pierwotny estimand, opisać tę wagę i zależność; inferencja dotyczy bloków,
+nie pięciu niezależnych replikacji. Grupy dzielą28–31cech.
+[REDAKCJA] DodatekG odsyła doSection7; definicjeR/P są wD.2.
+[REDAKCJA] Poprawić graniceN/O i kolejność nagłówkaO wobec tabel13–15.
+Uzupełnić mapę zakresu wK o normcontrol stare/świeże oraz pokrycie.
+
+B — RAPORT METODOLOGICZNY, DO DALSZEGO SPRAWDZENIA/PROJEKTU
+[POPRAWNA TOŻSAMOŚĆ] Przyrost straty=(e+Δm)^2−e^2=Δm^2+2eΔm,
+gdziee to błądTC_FULL. Analiza gradientowa powinna raportowaćΔm i przyrostMSE,
+a nie interpretować samej wrażliwości jako automatycznego pogorszenia dokładności.
+[ZGŁOSZONE] Kierunektop32 prawie współliniowy z przewidywaną deltąTC.
+Zmierzć ten związek w cache; zaprojektować kontrolę kierunku samej deltyTC,
+z zachowaniem normy i jasnego punktu odniesienia. Jeszcze niewykonane.
+[ZGŁOSZONE] Gradientu wTC_FULL brak; szacunek128–384backwardów, do policzenia
+po inwentaryzacji punktów/readoutów. Nie nazywać tego analizą0modelcalls.
+[LITERATURA] arXiv2610.15850 to bezpośredni precedens dla nowej propozycji
+gradientowego wybierania/wyjaśniania efektów cech; odróżnić go od dokładnego
+estimandu istniejącegoB. Trzy źródła zCO_WARTO istnieją i opisano trafnie.
+[OPINIA] MajorrevisionB: endpointcancellation(Tab8) lepiej wyeksponować,
+dużo historii przenieść do suplementu. Nie podnosić samego ujemnego
+cross-term do udowodnionego mechanizmu; wcześniej istnieją różnice centrowania
+i nieaddytywność readoutu. Dokładny zakres redakcji ustalić poFable.
+
+AUDYT FOLDERU — ZGŁOSZENIA ZEWNĘTRZNE, NIE NOWY PEŁNY AUDYT ROOT
+[ZGŁOSZONE] Ostatnie biegi kompletne/approved, bezNaN; testworkflowv3 2/2.
+Wspólnykorpus2560dokumentów rozłączny międzyFIT/PILOT/TEST. To zakres
+tego korpusu, nie blanketdowód braku jakiegokolwiek przecieku w całym labie.
+[ZGŁOSZONE] W chwili audytu działał tylko neuron_labserve8765, żadnychworkerów.
+To stan historyczny z raportu; przyszły liveproces trzeba sprawdzić osobno.
+[ŚREDNIE] WindowsSTATUS.tmp->STATUS.json PermissionError wB_replication
+iA_estimation_v7/TEST_v1. Naprawy/retry istnieją w niektórych późniejszych
+workerach; sprawdzić pokrycie wszystkich przyszłych entrypointów, nie edytować
+zamrożonej historii. OsieroconySTATUS.tmp501/5120 zachować jako evidence.
+[ŚREDNIE] Downloads/Dorobek_programu_badawczego_2026-10-22.md ma aktualizacje
+na końcu, ale stary nagłówek2listopada. Uaktualnić widoczny stan i datę.
+[ŚREDNIE] Stara kopia raportu w korzeniu labu z28października: oznaczyć jako
+archiwalną/wskazać kanonicznąDownloads, nie bezrefleksyjnie nadpisać historii.
+[DROBNE] B_fit_serialization_recovery_v1 bez własnejcompletionreview:
+ustalić pokrycie przez późniejszą review zamiast dopisywać wsteczną fikcyjnązgodę.
+[DROBNE] future_menu_review_20261104/review.json BOM: naprawa parsera/wersjonowana
+zgodna kopia po weryfikacji, nie cicha mutacja hash-boundreceipt.
+[DROBNE] prepare_short_fixed_v3 mutujeconfig/contract po buildzie: sprawdzić
+rzeczywistą kolejność snapshotu i zagrożenie hashom, dodać ochronę w nowejwersji.
+[PORZĄDEK] concurrency_runtimev1–v4,ab_confirmatoryv2–v9, stareWZNOWIENIE/CODEX
+iE023…E029_ACTIVE mylące. Najpierw inwentarz/proweniencja, potem archiwizacja
+lub indeks; żadnego kasowania historycznychdowodów i martwychPID jako live.
+
+KOLEJNOŚĆ ROBÓT PO ZEBRANIU RECENZJI
+1 Zachować i dopiąćFable oraz uzupełnienie audytu folderu.
+2 Zamknąć algebraiczny opisC/same-U/Direct i historyczny budżetprioru.
+3 Wprowadzić potwierdzone erraty/tabele/definicje do kolejnej rewizji.
+4 Zaprojektować brakujący komparatorA oraz kontrolędeltyTC/gradientB.
+5 Dopiero osobne recenzowane plany nowychpomiarów; nie liczyć ponownie gotowychdanych.
+6 Uporządkować widoczny statusraportu/entrypointyWindows/metadata na osobnymtorze.
+
+UWAGA O STATUSIE
+Zapisanie uwagi nie oznacza jej wdrożenia. Poprzednie wyniki zachowują
+oryginalne progi, cache i negatywne wyniki. Nowe uwagi mogą zawężać interpretację
+i wymagać redakcji; nie zastępować ich samą deklaracją „wcześniej approved”.
+
+UZUPEŁNIENIE FABLE — WYNIK CZĘŚCIOWY PRZEKAZANY PRZEZ UŻYTKOWNIKA
+4listopada2026; ostatnia wskazana aktualizacja pliku6:40 (czas według użytkownika).
+Audyt nadal pracuje; końcowa sekcja problemów NIE jest jeszcze dostępna.
+Zweryfikowano35pozycjiA i23pozycjeB. Pozycja oznacza grupę liczb lub tabelę,
+nie pojedynczą liczbę ani procent całego audytu. Wszystkie sprawdzone pozycje
+zgodne z plikami wyników, brak zgłoszonej istotnej niezgodności liczbowej.
+Dla tabel16–17B skryptowo sprawdzono176wartości — wszystkie zgodne.
+DodatekSB: różnica ostatniej cyfry .000152280 zamiast .000152279,
+zgłoszona jako nieistotne zaokrąglenie; zachować do końcowej weryfikacji źródła.
+Tab2/11/13: Fable przypisuje rozsypane kolumny ekstrakcji tekstuPDF;
+źródłaTeX poprawne według jego przeglądu. Samo poprawneTeX nie jest dowodem
+poprawnego renderuPDF; wcześniejsze przeglądy wizualne pozostają osobnym dowodem.
+Ten wpis zachowuje relację użytkownika, nie stanowi nowego niezależnego
+przeliczenia root ani końcowego zatwierdzenia pełnego audytuFable.
+
+INTERPRETACJA NA TYM ETAPIE
+Zgodność arytmetyki wzmacnia wiarygodność raportowanych rezultatów, ale nie
+rozstrzyga doboru metod, zasobów historycznych, generalizacji czy wyjaśnienia.
+PriorW wC32: raport metodologiczny wskazuje jego algebraiczną rolę;
+zachować warunki tożsamości/samehiperparametry/ograniczenieU i dodatkowy
+historyczny koszt, zamiast przypisywać nowość samej residualridge.
+Pięć kontroliB nie zawsze jest jednym kierunkiem: własny audyt wykazał
+1–4unikalne kierunki na kontekst; top32 pozostaje odrębne. Wyjaśnić
+powielone wagi w zamrożonej średniej5grup; nie tworzyć fikcyjnych5replikacji.
+RóżnicaP, mapaTab1, T5w„establishharm” i odsyłaczG pozostają pozycjami
+do jawnej redakcji/wyjaśnienia, nie są naprawione przez ten wpis.
+OCZEKUJEMY: końcowy raportFable, lista problemów i ewentualne dalsze wyniki.

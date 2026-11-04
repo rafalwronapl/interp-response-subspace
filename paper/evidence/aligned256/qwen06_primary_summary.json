@@ -1,0 +1,387 @@
+{
+  "model": "Qwen3-0.6B-Base",
+  "layer": 27,
+  "frames": {
+    "T5": {
+      "A": {
+        "blocks": 256,
+        "contrasts": {
+          "inside_minus_P": {
+            "ci": [
+              0.013197211775560776,
+              0.07680531674126956
+            ],
+            "draws": 1999,
+            "estimate": 0.04490469517364944,
+            "n": 256,
+            "se": 0.016255435056355023,
+            "seed": 2026110270,
+            "status": "defined"
+          },
+          "inside_minus_outside": {
+            "ci": [
+              0.3976711711122626,
+              0.4598145061500647
+            ],
+            "draws": 1999,
+            "estimate": 0.4273735106962606,
+            "n": 256,
+            "se": 0.015517541003074774,
+            "seed": 2026110271,
+            "status": "defined"
+          }
+        },
+        "dependent_records": 3072,
+        "losses": {
+          "P": 0.4908269022643784,
+          "inside": 0.5357315974380279,
+          "outside": 0.10835808674176721
+        },
+        "per_fit": {
+          "r1": {
+            "losses": {
+              "P": 0.41071870367383845,
+              "inside": 0.4878140939539781,
+              "outside": 0.12151526394749457
+            },
+            "vector_energies": {
+              "P": 1897.3016733238399,
+              "inside": 1147.7204866841648,
+              "outside": 749.5811866396757
+            }
+          },
+          "r2": {
+            "losses": {
+              "P": 0.7449812473111104,
+              "inside": 0.7562175874237242,
+              "outside": 0.07638983843658309
+            },
+            "vector_energies": {
+              "P": 1875.0774071741594,
+              "inside": 1295.2150921451246,
+              "outside": 579.8623150290354
+            }
+          },
+          "r3": {
+            "losses": {
+              "P": 0.3167807558081863,
+              "inside": 0.3631631109363811,
+              "outside": 0.12716915784122396
+            },
+            "vector_energies": {
+              "P": 1585.9508230678646,
+              "inside": 1136.724834869231,
+              "outside": 449.22598819863276
+            }
+          }
+        }
+      },
+      "C": {
+        "blocks": 256,
+        "dependent_records": 3072,
+        "means": {
+          "P": 0.4908269022643783,
+          "apply_fraction": 0.6035156249999999,
+          "delta_inside_P": 0.044904695173649416,
+          "delta_inside_outside": 0.42737351069626056,
+          "direct": 0.3794642497762468,
+          "energy_inside": 592.8898299557816,
+          "energy_outside": 1193.220137899507,
+          "full": 0.4442320878005712,
+          "gated": 0.5211070656536939,
+          "harm": 0.632486979166667,
+          "help": 0.3675130208333336,
+          "inside": 0.5357315974380278,
+          "noD_actual_tie": 0.0,
+          "noD_correct": 0.6474609375000002,
+          "noD_correct_nonzero": 0.6474609375000002,
+          "noD_nonzero": 1.0,
+          "oracle_actual_tie": 0.0,
+          "oracle_correct": 0.9947916666666665,
+          "oracle_correct_nonzero": 0.9947916666666665,
+          "oracle_nonzero": 1.0,
+          "outside": 0.10835808674176713,
+          "projected": 0.5669207429890679
+        },
+        "per_pair": {
+          "r1_r1": {
+            "P": 0.41071870367383845,
+            "apply_fraction": 0.7333984375,
+            "delta_inside_P": 0.07709539028013968,
+            "delta_inside_outside": 0.36629883000648356,
+            "direct": 0.44964609441596615,
+            "energy_inside": 749.5811866396757,
+            "energy_outside": 1147.7204866841648,
+            "full": 0.5600691688115127,
+            "gated": 0.5741500558009092,
+            "harm": 0.837890625,
+            "help": 0.162109375,
+            "inside": 0.4878140939539781,
+            "noD_actual_tie": 0.0,
+            "noD_correct": 0.3935546875,
+            "noD_correct_nonzero": 0.3935546875,
+            "noD_nonzero": 1.0,
+            "oracle_actual_tie": 0.0,
+            "oracle_correct": 0.99609375,
+            "oracle_correct_nonzero": 0.99609375,
+            "oracle_nonzero": 1.0,
+            "outside": 0.12151526394749457,
+            "projected": 0.6173624423730839
+          },
+          "r2_r2": {
+            "P": 0.7449812473111104,
+            "apply_fraction": 0.431640625,
+            "delta_inside_P": 0.011236340112613874,
+            "delta_inside_outside": 0.6798277489871412,
+            "direct": 0.46552278583762785,
+            "energy_inside": 579.8623150290354,
+            "energy_outside": 1295.2150921451246,
+            "full": 0.49061746866854694,
+            "gated": 0.6897821443655205,
+            "harm": 0.5869140625,
+            "help": 0.4130859375,
+            "inside": 0.7562175874237242,
+            "noD_actual_tie": 0.0,
+            "noD_correct": 0.9521484375,
+            "noD_correct_nonzero": 0.9521484375,
+            "noD_nonzero": 1.0,
+            "oracle_actual_tie": 0.0,
+            "oracle_correct": 0.9951171875,
+            "oracle_correct_nonzero": 0.9951171875,
+            "oracle_nonzero": 1.0,
+            "outside": 0.07638983843658309,
+            "projected": 0.7805445583233492
+          },
+          "r3_r3": {
+            "P": 0.3167807558081863,
+            "apply_fraction": 0.6455078125,
+            "delta_inside_P": 0.046382355128194774,
+            "delta_inside_outside": 0.23599395309515714,
+            "direct": 0.22322386907514602,
+            "energy_inside": 449.22598819863276,
+            "energy_outside": 1136.724834869231,
+            "full": 0.28200962592165446,
+            "gated": 0.2993889967946526,
+            "harm": 0.47265625,
+            "help": 0.52734375,
+            "inside": 0.3631631109363811,
+            "noD_actual_tie": 0.0,
+            "noD_correct": 0.5966796875,
+            "noD_correct_nonzero": 0.5966796875,
+            "noD_nonzero": 1.0,
+            "oracle_actual_tie": 0.0,
+            "oracle_correct": 0.9931640625,
+            "oracle_correct_nonzero": 0.9931640625,
+            "oracle_nonzero": 1.0,
+            "outside": 0.12716915784122396,
+            "projected": 0.3028552282707695
+          }
+        },
+        "sign_metrics": {
+          "always_harm_accuracy": 0.632486979166667,
+          "always_help_accuracy": 0.3675130208333336,
+          "conditional_accuracy_noD": 0.6474609375000002,
+          "conditional_accuracy_oracle": 0.9947916666666665,
+          "coverage_noD": 1.0,
+          "coverage_oracle": 1.0,
+          "exact_ties_compatible_accuracy_noD": 0.6474609375000002,
+          "exact_ties_compatible_accuracy_oracle": 0.9947916666666665,
+          "zero_score_policy": "Abstain; gate skips. Exact-ties-compatible accuracy retained for comparison with earlierC3, separately from nonzero conditional accuracy."
+        }
+      }
+    },
+    "T2": {
+      "A": {
+        "blocks": 256,
+        "contrasts": {
+          "inside_minus_P": {
+            "ci": [
+              -0.17742600104380246,
+              -0.10700736491593707
+            ],
+            "draws": 1999,
+            "estimate": -0.1398410848542809,
+            "n": 256,
+            "se": 0.018038593269344226,
+            "seed": 2026110272,
+            "status": "defined"
+          },
+          "inside_minus_outside": {
+            "ci": [
+              0.4336975475213602,
+              0.5001164008040266
+            ],
+            "draws": 1999,
+            "estimate": 0.46588439254992087,
+            "n": 256,
+            "se": 0.016575227829080025,
+            "seed": 2026110273,
+            "status": "defined"
+          }
+        },
+        "dependent_records": 3072,
+        "losses": {
+          "P": 0.6721808197232184,
+          "inside": 0.5323397348689376,
+          "outside": 0.06645534231901677
+        },
+        "per_fit": {
+          "r1": {
+            "losses": {
+              "P": 0.7082758169282313,
+              "inside": 0.5444876338737243,
+              "outside": 0.06503708109145645
+            },
+            "vector_energies": {
+              "P": 1530.603488760558,
+              "inside": 1035.4171273792113,
+              "outside": 495.18636138134747
+            }
+          },
+          "r2": {
+            "losses": {
+              "P": 0.6889819722343145,
+              "inside": 0.5742763857558293,
+              "outside": 0.0573733460601602
+            },
+            "vector_energies": {
+              "P": 1437.2446314778904,
+              "inside": 1057.8416078844034,
+              "outside": 379.40302359348743
+            }
+          },
+          "r3": {
+            "losses": {
+              "P": 0.6192846700071097,
+              "inside": 0.47825518497725916,
+              "outside": 0.07695559980543365
+            },
+            "vector_energies": {
+              "P": 1689.2607883523767,
+              "inside": 1072.4654103409334,
+              "outside": 616.7953780114417
+            }
+          }
+        }
+      },
+      "C": {
+        "blocks": 256,
+        "dependent_records": 3072,
+        "means": {
+          "P": 0.6721808197232181,
+          "apply_fraction": 0.7083333333333331,
+          "delta_inside_P": -0.1398410848542809,
+          "delta_inside_outside": 0.46588439254992065,
+          "direct": 0.5055630053424723,
+          "energy_inside": 497.12825432875877,
+          "energy_outside": 1055.2413818681832,
+          "full": 0.5351582868415024,
+          "gated": 0.5947751590808967,
+          "harm": 0.40625000000000033,
+          "help": 0.59375,
+          "inside": 0.5323397348689372,
+          "noD_actual_tie": 0.0,
+          "noD_correct": 0.6861979166666669,
+          "noD_correct_nonzero": 0.6861979166666669,
+          "noD_nonzero": 1.0,
+          "oracle_actual_tie": 0.0,
+          "oracle_correct": 0.9983723958333333,
+          "oracle_correct_nonzero": 0.9983723958333333,
+          "oracle_nonzero": 1.0,
+          "outside": 0.06645534231901674,
+          "projected": 0.6080984010786156
+        },
+        "per_pair": {
+          "r1_r1": {
+            "P": 0.7082758169282313,
+            "apply_fraction": 0.744140625,
+            "delta_inside_P": -0.16378818305450693,
+            "delta_inside_outside": 0.4794505527822679,
+            "direct": 0.675564277744126,
+            "energy_inside": 495.18636138134747,
+            "energy_outside": 1035.4171273792113,
+            "full": 0.775870507334468,
+            "gated": 0.7642643471516246,
+            "harm": 0.5712890625,
+            "help": 0.4287109375,
+            "inside": 0.5444876338737243,
+            "noD_actual_tie": 0.0,
+            "noD_correct": 0.4482421875,
+            "noD_correct_nonzero": 0.4482421875,
+            "noD_nonzero": 1.0,
+            "oracle_actual_tie": 0.0,
+            "oracle_correct": 0.99609375,
+            "oracle_correct_nonzero": 0.99609375,
+            "oracle_nonzero": 1.0,
+            "outside": 0.06503708109145645,
+            "projected": 0.7685879460831524
+          },
+          "r2_r2": {
+            "P": 0.6889819722343145,
+            "apply_fraction": 0.646484375,
+            "delta_inside_P": -0.11470558647848517,
+            "delta_inside_outside": 0.5169030396956691,
+            "direct": 0.4285649239161886,
+            "energy_inside": 379.40302359348743,
+            "energy_outside": 1057.8416078844034,
+            "full": 0.39301648480193396,
+            "gated": 0.561237821326146,
+            "harm": 0.4091796875,
+            "help": 0.5908203125,
+            "inside": 0.5742763857558293,
+            "noD_actual_tie": 0.0,
+            "noD_correct": 0.9365234375,
+            "noD_correct_nonzero": 0.9365234375,
+            "noD_nonzero": 1.0,
+            "oracle_actual_tie": 0.0,
+            "oracle_correct": 1.0,
+            "oracle_correct_nonzero": 1.0,
+            "oracle_nonzero": 1.0,
+            "outside": 0.0573733460601602,
+            "projected": 0.6110920341257833
+          },
+          "r3_r3": {
+            "P": 0.6192846700071097,
+            "apply_fraction": 0.734375,
+            "delta_inside_P": -0.14102948502985058,
+            "delta_inside_outside": 0.4012995851718255,
+            "direct": 0.41255981436710165,
+            "energy_inside": 616.7953780114417,
+            "energy_outside": 1072.4654103409334,
+            "full": 0.43658786838810393,
+            "gated": 0.45882330876492006,
+            "harm": 0.23828125,
+            "help": 0.76171875,
+            "inside": 0.47825518497725916,
+            "noD_actual_tie": 0.0,
+            "noD_correct": 0.673828125,
+            "noD_correct_nonzero": 0.673828125,
+            "noD_nonzero": 1.0,
+            "oracle_actual_tie": 0.0,
+            "oracle_correct": 0.9990234375,
+            "oracle_correct_nonzero": 0.9990234375,
+            "oracle_nonzero": 1.0,
+            "outside": 0.07695559980543365,
+            "projected": 0.44461522302691137
+          }
+        },
+        "sign_metrics": {
+          "always_harm_accuracy": 0.40625000000000033,
+          "always_help_accuracy": 0.59375,
+          "conditional_accuracy_noD": 0.6861979166666669,
+          "conditional_accuracy_oracle": 0.9983723958333333,
+          "coverage_noD": 1.0,
+          "coverage_oracle": 1.0,
+          "exact_ties_compatible_accuracy_noD": 0.6861979166666669,
+          "exact_ties_compatible_accuracy_oracle": 0.9983723958333333,
+          "zero_score_policy": "Abstain; gate skips. Exact-ties-compatible accuracy retained for comparison with earlierC3, separately from nonzero conditional accuracy."
+        }
+      }
+    }
+  },
+  "source_sha256": {
+    "summary": "ed14050a2f77e06647bb5df2552ebcc469bc2bcb28f0d5da7c5dd958fa8a4777",
+    "head_result": "97e0ef5d4f002f42e482c00dad534edc08985bf351d7294cdeb84f1cc85fe5db"
+  },
+  "scope": "FixedFIT256sharedblocks. Common A frozen1999draw bootstrap-t95 descriptive intervals only; C metrics descriptive means, no duplicate resampling, no qualifiedFWER/populationcoverage. HistoricalE041L21differentoperator."
+}

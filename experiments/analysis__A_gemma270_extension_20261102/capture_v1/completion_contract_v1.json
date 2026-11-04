@@ -1,0 +1,98 @@
+{
+  "schema_version": 1,
+  "id": "A_G270_EXTENSION_CAPTURE_V1_COMPLETION",
+  "kind": "experiment",
+  "primary_agent": "/root/sol_parallel_acceptance",
+  "purpose": "Fresh256lexicalblocks,T2T5;primarythreefixedFIT-averageinside-P onT5;outside descriptive. Captureonly, C-only storage, no refit.",
+  "tracked_files": [
+    "a_short_qwen_20261101/__init__.py",
+    "a_short_qwen_20261101/native.py",
+    "ab_confirmatory_20261101/__init__.py",
+    "ab_confirmatory_20261101/baselines_b.py",
+    "ab_confirmatory_20261101/fitting.py",
+    "ab_confirmatory_20261101/native.py",
+    "ab_confirmatory_20261101/runtime.py",
+    "ab_confirmatory_20261101/statistics.py",
+    "analysis/AB_confirmatory_execution_20261101/close_short_pilot_imports_v1.py",
+    "analysis/A_crossed_diagnostic_20261102/diagnostic.py",
+    "analysis/A_gemma270_extension_20261102/PROTOCOL.md",
+    "analysis/A_gemma270_extension_20261102/analyze.py",
+    "analysis/A_gemma270_extension_20261102/analyzer_fixture_root_v1.json",
+    "analysis/A_gemma270_extension_20261102/capture.py",
+    "analysis/A_gemma270_extension_20261102/prepare_corpus.py",
+    "analysis/A_gemma270_extension_20261102/restart_fixture.py",
+    "analysis/A_gemma270_extension_20261102/restart_fixture_v1.json",
+    "analysis/C2_fresh_fit_holdout_20261102/worker.py",
+    "research_checks/__init__.py",
+    "research_checks/gate.py",
+    "research_checks/persistence.py",
+    "research_checks/reachability.py"
+  ],
+  "tracked_trees": [],
+  "input_manifests": [
+    "analysis/A_gemma270_extension_20261102/capture_v1/input_manifest.json",
+    "analysis/A_gemma270_extension_20261102/capture_v1/completion_outputs_manifest_v1.json"
+  ],
+  "gates": [
+    {
+      "id": "hooks",
+      "category": "hooks",
+      "evidence": "analysis/A_gemma270_extension_20261102/capture_v1/evidence.json",
+      "pointer": "/fresh_corpus",
+      "op": "eq",
+      "expected": true,
+      "reason": "Actual global exposure/lexicalaudit; exactpreviouslyqualified Native/weights/tokensreadout; frozen analysis, no new data-dependent choices."
+    },
+    {
+      "id": "data",
+      "category": "data",
+      "evidence": "analysis/A_gemma270_extension_20261102/capture_v1/evidence.json",
+      "pointer": "/fresh_corpus",
+      "op": "eq",
+      "expected": true,
+      "reason": "Actual global exposure/lexicalaudit; exactpreviouslyqualified Native/weights/tokensreadout; frozen analysis, no new data-dependent choices."
+    },
+    {
+      "id": "pilot",
+      "category": "pilot",
+      "evidence": "analysis/A_gemma270_extension_20261102/capture_v1/evidence.json",
+      "pointer": "/fresh_corpus",
+      "op": "eq",
+      "expected": true,
+      "reason": "Actual global exposure/lexicalaudit; exactpreviouslyqualified Native/weights/tokensreadout; frozen analysis, no new data-dependent choices."
+    },
+    {
+      "id": "accounting",
+      "category": "accounting",
+      "evidence": "analysis/A_gemma270_extension_20261102/capture_v1/evidence.json",
+      "pointer": "/fresh_corpus",
+      "op": "eq",
+      "expected": true,
+      "reason": "Actual global exposure/lexicalaudit; exactpreviouslyqualified Native/weights/tokensreadout; frozen analysis, no new data-dependent choices."
+    },
+    {
+      "id": "restart",
+      "category": "restart",
+      "evidence": "analysis/A_gemma270_extension_20261102/capture_v1/evidence.json",
+      "pointer": "/fresh_corpus",
+      "op": "eq",
+      "expected": true,
+      "reason": "Actual global exposure/lexicalaudit; exactpreviouslyqualified Native/weights/tokensreadout; frozen analysis, no new data-dependent choices."
+    }
+  ],
+  "circuits": [],
+  "structural_scope": "Full-model normalizedlastMLP capture; exact reusedGemmaL17nativeadapter and C3parity/controlproof. New data and fixedmaps; no transfer to oldB-L15TCoperator claim.",
+  "entrypoint": {
+    "module": "analysis.A_gemma270_extension_20261102.capture",
+    "args": [
+      "run",
+      "--config",
+      "analysis/A_gemma270_extension_20261102/capture_v1/config.json"
+    ]
+  },
+  "schedule": "analysis/A_gemma270_extension_20261102/capture_v1/operations.json",
+  "budget": {
+    "forward": 2048,
+    "backward": 0
+  }
+}

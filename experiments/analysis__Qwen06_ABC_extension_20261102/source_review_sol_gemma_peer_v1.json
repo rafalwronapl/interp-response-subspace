@@ -1,0 +1,25 @@
+{
+  "status": "source_review_pass_before_actual_packet",
+  "reviewer_id": "/root/sol_parallel_acceptance",
+  "independent": true,
+  "source_hashes": {
+    "evaluate.py": "4cd365f312f0656cc4dc8bb8c22605667c91ee682724d5957a6283205d784671",
+    "score.py": "0289cd3807645cb1b559d23fcc9b6eaa90eeef2d63289610e19d761ea5805668",
+    "evaluation_worker.py": "f7f9611ed4120db064e6945861deefb2ae3229b993857b75217f48bdf9db4bea",
+    "prepare_evaluation.py": "31dbea8fbfa9373f011ffa47fd571d9185c26a4954bf4c33c28da3e7ab23e81b",
+    "evaluation_fixtures.py": "affbd5aba85a7c7d6df6ffc96f8332c2d8594f8f5aa6662e49273979f0f59391",
+    "evaluation_fixture_v1.json": "33a195a672ec52595023231035fed958d140b9bf4fa306984614a3182ac37c86",
+    "scoring_fixtures.py": "c2974f98c54db076e8a3d69e7a82176e846ce2c787c2788384bb4fe42a1db6b5",
+    "scoring_fixture_v1.json": "f8db5307cd1b49af49c64c002c4904861a6f642031ce62cd6e40064817ced4c9",
+    "ANALYSIS_ALIGNMENT_BEFORE_HEAD.txt": "d9962e3eaea9e49dec5882bf9f85ea611d3b9fd56054ec4988518bff75cdaba8"
+  },
+  "checked": [
+    "Disjoint MAP/U128 native-vector-only training; residualmodel FIT_U and fixedrank8/lambda.01; pooled256labels baseline",
+    "Pure noDfeature boundary and immutableforecast before donorY/oraclereference and allfiniteheadoutcomes; deterministiccompacthashregen",
+    "Exact50arms andlogical102400F, coupledRuntime callbacks preserve onecache/50chargedoperations, baseline technicalparity checks correctzero-update arm",
+    "Actualsource fixes: strictduplicate/finite/docframecondition/fullarm/forecastgrid+SHA checks; zeroabstentioncoverage andconditionalaccuracy alongside explicitexacttie-compatibleaccuracy",
+    "AlignedAtranslation preservesmatched3/256blocks and namedresidualenergies; frozenroot1999bootstrap-t95 once, Cmetricsdescriptivemeans noduplicatebootstrap",
+    "6144uniquegradientpoints versus18432analytic evaluations from3passes disclosed;0pretrainedB"
+  ],
+  "limitations": "Focused independent source/fixture-proof inspection only. No fixture rerun, model/head calls or outcomes inspected. This does NOT approve nonexistent actual head pre-run snapshot or B measurement/scoring protocol. Historical E041L21 remains distinct from present original-Base lastL27; actual capture completion/current consumed bytes and reviewed runtime admission still required."
+}

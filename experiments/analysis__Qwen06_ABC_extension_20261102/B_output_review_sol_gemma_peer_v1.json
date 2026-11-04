@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "reviewer_id": "/root/sol_parallel_acceptance",
+  "independent": true,
+  "cells": 126,
+  "records": 12288,
+  "block_cells": 32256,
+  "bundles": 2180,
+  "logical_attempts": 96924,
+  "logical_computed": 96924,
+  "adopted_unit_heads": 4096,
+  "maximum_scalar_error": 0.0,
+  "FIT_frozen_before_new_TEST": true,
+  "source_sha256": {
+    "analysis\\A_gemma270_extension_20261102\\review_qwen06_B.py": "56af132fc0ccda7b40dca85809cc4fd5368b4e303e9f3c6cc69c892691f8ed0c",
+    "analysis\\Qwen06_ABC_extension_20261102\\B_v1\\run\\result.json": "1983c32a299e4cf21ab04a5dd9202d19e99d0cb8ba74d0c8c7d886d7cc7fdba2",
+    "analysis\\Qwen06_ABC_extension_20261102\\B_v1\\summary.json": "5cf04d666d7253bfae1fb8adedf9e46e158e85985f63782bcbf129a85b96205c",
+    "analysis\\Qwen06_ABC_extension_20261102\\B_v1\\block_summary.json": "80aff3cbe3d6c9ad0ba4984dbada9f1bb019868e2b5374aa37dd24e5481eb32c"
+  },
+  "limitations": "All saved cells/blockmeans and every cache/bundle/request/ledger logicaloperation checked; no model/head/JVP/refit/SVD/CI replay. Unitc1native/RIDGE are inherited/exposedA/C; algebraicadoption checked. DeclaredlocalMLPinput27\u2192CLTcomponent27/readout only; not fullCLTgraph/globalartifactquality or independentfreshBconfirmation."
+}

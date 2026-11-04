@@ -1,0 +1,131 @@
+{
+  "schema_version": 1,
+  "id": "A_L21_fresh64_and_ranks_20261103",
+  "kind": "experiment",
+  "primary_agent": "/root/a_l21_five_campaign",
+  "purpose": "Frozen historical B5/F1 replication on64newblocks plus separate3FIT rank/control study",
+  "tracked_files": [
+    "ab_confirmatory_20261101/__init__.py",
+    "ab_confirmatory_20261101/native.py",
+    "ab_confirmatory_20261101/native_tail_b.py",
+    "ab_confirmatory_20261101/runtime.py",
+    "analysis/AB_five_experiments_20261103/A_L21/adapter_v3.py",
+    "analysis/AB_five_experiments_20261103/A_L21/adapter_v4.py",
+    "analysis/AB_five_experiments_20261103/A_L21/main_fixtures.py",
+    "analysis/AB_five_experiments_20261103/A_L21/math.py",
+    "analysis/AB_five_experiments_20261103/A_L21/pipeline_fixture_v4.py",
+    "analysis/AB_five_experiments_20261103/A_L21/prepare_data.py",
+    "analysis/AB_five_experiments_20261103/A_L21/prepare_main_v4.py",
+    "analysis/AB_five_experiments_20261103/A_L21/status_fixture.py",
+    "analysis/AB_five_experiments_20261103/A_L21/worker.py",
+    "analysis/AB_five_experiments_20261103/A_L21/worker_safe.py",
+    "analysis/AB_five_experiments_20261103/A_L21/worker_v4.py",
+    "analysis/Qwen06_ABC_extension_20261102/bundle_runtime.py",
+    "e012/__init__.py",
+    "e012/common.py",
+    "e014/__init__.py",
+    "e014/memory.py",
+    "e017/__init__.py",
+    "e017/common.py",
+    "e031/__init__.py",
+    "e031/loading.py",
+    "e036/__init__.py",
+    "e036/common.py",
+    "e036/subject.py",
+    "e039/__init__.py",
+    "e039/subject.py",
+    "research_checks/__init__.py",
+    "research_checks/gate.py",
+    "research_checks/persistence.py",
+    "research_checks/reachability.py"
+  ],
+  "tracked_trees": [],
+  "input_manifests": [
+    "analysis/AB_five_experiments_20261103/A_L21/main_inputs.json"
+  ],
+  "gates": [
+    {
+      "id": "hooks",
+      "category": "hooks",
+      "evidence": "analysis/AB_five_experiments_20261103/A_L21/main_fixtures.json",
+      "pointer": "/hooks",
+      "op": "eq",
+      "expected": true,
+      "reason": "Synthetic full-design fixtures; separately qualified native adapter"
+    },
+    {
+      "id": "data",
+      "category": "data",
+      "evidence": "analysis/AB_five_experiments_20261103/A_L21/main_fixtures.json",
+      "pointer": "/data",
+      "op": "eq",
+      "expected": true,
+      "reason": "Synthetic full-design fixtures; separately qualified native adapter"
+    },
+    {
+      "id": "pilot",
+      "category": "pilot",
+      "evidence": "analysis/AB_five_experiments_20261103/A_L21/main_fixtures.json",
+      "pointer": "/pilot",
+      "op": "eq",
+      "expected": true,
+      "reason": "Synthetic full-design fixtures; separately qualified native adapter"
+    },
+    {
+      "id": "accounting",
+      "category": "accounting",
+      "evidence": "analysis/AB_five_experiments_20261103/A_L21/main_fixtures.json",
+      "pointer": "/accounting",
+      "op": "eq",
+      "expected": true,
+      "reason": "Synthetic full-design fixtures; separately qualified native adapter"
+    },
+    {
+      "id": "restart",
+      "category": "restart",
+      "evidence": "analysis/AB_five_experiments_20261103/A_L21/main_fixtures.json",
+      "pointer": "/restart",
+      "op": "eq",
+      "expected": true,
+      "reason": "Synthetic full-design fixtures; separately qualified native adapter"
+    },
+    {
+      "id": "trained_qualification",
+      "category": "pilot",
+      "evidence": "analysis/AB_five_experiments_20261103/A_L21/pilot_run_v4/completed.json",
+      "pointer": "/payload/ready",
+      "op": "eq",
+      "expected": true,
+      "reason": "35-logical-evaluation batched full/suffix parity and sensitivity"
+    },
+    {
+      "id": "advisory_status",
+      "category": "restart",
+      "evidence": "analysis/AB_five_experiments_20261103/A_L21/status_fixture.json",
+      "pointer": "/ok",
+      "op": "eq",
+      "expected": true,
+      "reason": "Windows telemetry lock cannot interrupt measurements; immutable errors still propagate"
+    },
+    {
+      "id": "whole_worker_fixture",
+      "category": "restart",
+      "evidence": "analysis/AB_five_experiments_20261103/A_L21/pipeline_fixture_v4.json",
+      "pointer": "/ok",
+      "op": "eq",
+      "expected": true,
+      "reason": "Actual worker synthetic end-to-end, forecast ordering, replay zero calls, corruption fail-closed"
+    }
+  ],
+  "circuits": [],
+  "structural_scope": "Actual L19neuron intervention/L20restore, targetL21, dynamicL22-27; no reduced circuit.",
+  "entrypoint": {
+    "module": "analysis.AB_five_experiments_20261103.A_L21.worker_safe",
+    "args": []
+  },
+  "schedule": "analysis/AB_five_experiments_20261103/A_L21/main_schedule.json",
+  "budget": {
+    "forward": 66656,
+    "backward": 0
+  }
+}

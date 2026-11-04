@@ -1,0 +1,21 @@
+{
+  "model": {
+    "id": "Qwen/Qwen3-0.6B-Base",
+    "revision": "da87bfb608c14b7cf20ba1ce41287e8de496c0cd",
+    "weights_sha256": "cd2a512003e2f9f3cd3c32a9c3573f820bb28c940f73c57b1ddaa983d9223eba",
+    "dtype": "float32",
+    "device": "cpu",
+    "threads": 4,
+    "attention": "eager",
+    "use_cache": false
+  },
+  "checkpoint": "model",
+  "prior": "runs/E036/development/predictors.npz",
+  "models": "analysis/A_L21_learned_20261103/stage1_run/MODELS.json",
+  "dimension": 1024,
+  "test_blocks": 64,
+  "maximum_forward": 8460,
+  "output": "analysis/A_L21_learned_20261103/stage2/run",
+  "training_new_labels": 384,
+  "prior_training_extra": true
+}

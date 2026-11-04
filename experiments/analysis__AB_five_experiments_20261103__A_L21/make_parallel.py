@@ -1,0 +1,13 @@
+from pathlib import Path
+p=Path(__file__).parent;q=p/'parallel';q.mkdir(exist_ok=True)
+src=p.parent/'parallel_resume'
+s=(src/'launch.py').read_text().replace('ROOT=HERE.parents[2]','ROOT=HERE.parents[3]').replace('parallel_resume.launch','A_L21.parallel.launch').replace('snapshot_v3.json','snapshot.json').replace('review_v3.json','review.json').replace('gemma270_model.lock','qwen06_model.lock').replace('one_exact_gemma270','one_exact_qwen06').replace('reserved270Mlane','reservedQwen06lane')
+s=s.replace(" p=ROOT/'operations/research_worker.lock'\n check_state", " old=ROOT/policy['prior_stage_exit']\n if not old.exists() or read(old)['returncode']!=0:raise ValueError('Prior270 stage has not exited successfully')\n if policy['prior_stage_child'] in process_table():raise ValueError('Prior270 child still alive')\n p=ROOT/'operations/research_worker.lock'\n check_state")
+start=s.index(' if code==0:\n')
+end=s.index(' return code\n',start)
+s=s[:start]+s[end:]
+s=s.replace("create(HERE/'exit.json',dict(returncode=p.poll(),child=p.pid,token=token))","create(HERE/'exit.json',dict(returncode=p.poll(),child=p.pid,token=token))\n    create(HERE.parent/'main_launch_exit.json',dict(returncode=p.poll(),completed=(HERE.parent/'main_run/completed.json').exists()))")
+(q/'launch.py').write_text(s)
+s=(src/'tests.py').read_text().replace('parallel_resume.launch','A_L21.parallel.launch');(q/'tests.py').write_text(s)
+s=(src/'prepare.py').read_text().replace("snap=BASE+'/B_mechanism/pre_run_snapshot_v4.json'","snap=BASE+'/A_L21/main_snapshot.json'").replace("BASE+'/B_mechanism/pre_run_review_v4.json'","BASE+'/A_L21/main_review.json'").replace("+'.B_mechanism.worker_v3'","+'.A_L21.worker_safe'").replace('forward=14284,backward=4','forward=66656,backward=0').replace("BASE+'/B_mechanism/run_v3'","BASE+'/A_L21/main_run'").replace('required_available_bytes=2800000000,reserved_model_bytes=1800000000','required_available_bytes=4300000000,reserved_model_bytes=3300000000').replace("retired_queues=[],scope=", "retired_queues=[],prior_stage_exit=BASE+'/parallel_resume/exit.json',prior_stage_child=11596,scope=").replace('Exact reviewed mechanism resume beside exact B1B recovery. No active autoqueues; A agent holds MAIN until actual270exit even if B exits first. No generic parallel admission.','Exact approved A MAIN beside exact B1B recovery only after270exit. No active queues, no generic admission.').replace("'AGENTS.md',BASE+'/B_mechanism/complete_v3.py'","'AGENTS.md'").replace('AB5_REVIEWED_PARALLEL_RESUME','AB5_A_QWEN_PARALLEL').replace("primary_agent='/root/b_second_artifact_five'","primary_agent='/root/a_l21_five_campaign'").replace('Narrow revised270mechanism lane','Narrow approved Qwen06 lane')
+(q/'prepare.py').write_text(s)

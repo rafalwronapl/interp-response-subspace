@@ -1,0 +1,115 @@
+{
+  "schema_version": 1,
+  "id": "A_NEW_READOUT_3FIT32_20261103",
+  "kind": "experiment",
+  "primary_agent": "/root",
+  "purpose": "New grammatical has/have readout and3freshFIT32 stability on old64blockTEST;posthoc",
+  "tracked_files": [
+    "ab_confirmatory_20261101/__init__.py",
+    "ab_confirmatory_20261101/native.py",
+    "ab_confirmatory_20261101/native_tail_b.py",
+    "ab_confirmatory_20261101/runtime.py",
+    "analysis/AB_budget_readout_20261103/models.py",
+    "analysis/AB_budget_readout_20261103/worker.py",
+    "analysis/AB_fast_followups_20261103/A_budget/worker.py",
+    "analysis/AB_five_experiments_20261103/A_L21/adapter_v4.py",
+    "analysis/AB_five_experiments_20261103/A_L21/prepare_data.py",
+    "analysis/A_L21_learned_20261103/common.py",
+    "analysis/A_L21_learned_20261103/models.py",
+    "analysis/A_transfer_next_20261103/adapter.py",
+    "analysis/A_transfer_next_20261103/data.py",
+    "analysis/A_transfer_next_20261103/fixture.py",
+    "analysis/A_transfer_next_20261103/models.py",
+    "analysis/A_transfer_next_20261103/prepare.py",
+    "analysis/A_transfer_next_20261103/worker.py",
+    "analysis/Qwen06_ABC_extension_20261102/bundle_runtime.py",
+    "e012/__init__.py",
+    "e012/common.py",
+    "e014/__init__.py",
+    "e014/memory.py",
+    "e017/__init__.py",
+    "e017/common.py",
+    "e031/__init__.py",
+    "e031/loading.py",
+    "e036/__init__.py",
+    "e036/common.py",
+    "e036/subject.py",
+    "e039/__init__.py",
+    "e039/subject.py",
+    "research_checks/__init__.py",
+    "research_checks/gate.py",
+    "research_checks/persistence.py",
+    "research_checks/reachability.py"
+  ],
+  "tracked_trees": [],
+  "input_manifests": [
+    "analysis/A_transfer_next_20261103/input_manifest.json"
+  ],
+  "gates": [
+    {
+      "id": "hooks",
+      "category": "hooks",
+      "evidence": "analysis/A_transfer_next_20261103/fixture.json",
+      "pointer": "/hooks",
+      "op": "eq",
+      "expected": true,
+      "reason": "Actualworker synthetic model path,globalfreeze,crashresume,seals,12batch accounting"
+    },
+    {
+      "id": "data",
+      "category": "data",
+      "evidence": "analysis/A_transfer_next_20261103/fixture.json",
+      "pointer": "/data",
+      "op": "eq",
+      "expected": true,
+      "reason": "Actualworker synthetic model path,globalfreeze,crashresume,seals,12batch accounting"
+    },
+    {
+      "id": "pilot",
+      "category": "pilot",
+      "evidence": "analysis/A_transfer_next_20261103/fixture.json",
+      "pointer": "/pilot",
+      "op": "eq",
+      "expected": true,
+      "reason": "Actualworker synthetic model path,globalfreeze,crashresume,seals,12batch accounting"
+    },
+    {
+      "id": "accounting",
+      "category": "accounting",
+      "evidence": "analysis/A_transfer_next_20261103/fixture.json",
+      "pointer": "/accounting",
+      "op": "eq",
+      "expected": true,
+      "reason": "Actualworker synthetic model path,globalfreeze,crashresume,seals,12batch accounting"
+    },
+    {
+      "id": "restart",
+      "category": "restart",
+      "evidence": "analysis/A_transfer_next_20261103/fixture.json",
+      "pointer": "/restart",
+      "op": "eq",
+      "expected": true,
+      "reason": "Actualworker synthetic model path,globalfreeze,crashresume,seals,12batch accounting"
+    },
+    {
+      "id": "tokenization_adoption",
+      "category": "data",
+      "evidence": "analysis/A_transfer_next_20261103/data_checks.json",
+      "pointer": "/ok",
+      "op": "eq",
+      "expected": true,
+      "reason": "Allactualprompts single-token is/are/has/have;2304oldrecords;6newFITblocks"
+    }
+  ],
+  "circuits": [],
+  "structural_scope": "Qualified exact historical native prefix/MLP21 patch/L22-27suffix;newfourhead projection;newFIT full/suffix parity and fixednonzerohead sensitivity before oldTEST measurements",
+  "entrypoint": {
+    "module": "analysis.A_transfer_next_20261103.worker",
+    "args": []
+  },
+  "schedule": "analysis/A_transfer_next_20261103/operations.json",
+  "budget": {
+    "forward": 12516,
+    "backward": 0
+  }
+}

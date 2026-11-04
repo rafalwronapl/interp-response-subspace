@@ -1,0 +1,54 @@
+Bounded B extension on original Qwen3-0.6B-Base, proposed before new B outcomes.
+2026-11-02. Samecheckpoint asE041 but LASTL27, not historicalL21operator.
+Public CLT component source27->target27, from BlueLightAI clt-qwen3-0.6b-base-20k
+revision5301dca1909eccac1ecedd3d58da60097056db8f. Input encoding EXACT historical
+E033: p=Wenc*x+b; f=p*(p>threshold), delta=Wdec27^T(f(x_c)-f(x)). Decoderbias
+cancels in this difference. Upstream sources20..26 are fixed by the local
+input intervention at27, hence their CLT contributions cancel. No skip term
+invented; must inspect tensorheaders for actual artifact before freezing.
+
+Same newly captured2048T2/T5contexts,256sharedblocks and their own donor pairs.
+Only FULL normalized-MLP-input direction: x_c=x+c*(x_d-x), c=.05,.1,.25,.5,1,2
+matching original B's six doses. No invented projected operator. Native target
+is MLP(x_c)-MLP(x), applied to fixed recipientR/y then exact finalnorm/head.
+Readout is is-minus-are, differentfromGemmaBshe-he and earlierlayer15suffix.
+New study is conceptual cross-artifact extension, not identical replication.
+
+Methods: publicCLTdelta through exactnativefinalnorm/head; frozenrecipientCLT
+mask response through samehead; main nativeTAYLOR is nativeMLP directional
+JVP atrecipient x, scaled byc inFP32 then propagated through the SAME exact
+nonlinear native norm/head, matching original GemmaB worker_b_evaluate.py
+lines140-164. Separate COMPOSED_LINEAR reports the scalar first-order
+derivative of composedMLP+readout, so readout nonlinearity is not an unfair
+advantage given only to CLT. Sevenmethods total. Per-dose FIT_MAPr1 ridge and
+mean response conditional on recorded side/q, zeroeffect. FIT_MAPr1128docs fixed beforehand, same ridge
+globalRMS/intercept/lambda.01 asA/C. Atc1 reuse acceptedA/C P_r1fit and native/
+P_r1head outcomes where bit-identical inputrecipe; no retraining/recomputation.
+Otherdose ridge fitted ONLY FITnativebranchlabels atthatdose, frozen before
+any B TEST results. No threshold/selection based on B outcomes.
+
+NativeTaylor JVP uses analytic SwiGLU derivative with checkpoint gate/up/
+down matrices27; readoutgradient analytic finalRMSNorm atcapturednativebaseline.
+Native intermediate-dose branches can use same extractedFP32MLPweights, no
+fullLLMreload. Must independently qualify extractedbranch atx/xd against
+accepted captures and analyticJVP on technical FIT controls before fullTEST;
+qualifications charged, no re-use of a lastnorm-only derivative asfullMLP JVP.
+
+Report allsixdoses, bothframes andmixture, absoluteRMS and normalizedRMS
+relative to nativeeffectRMS, blockdistributions and signs; no accuracypercent
+or universalmodelunderstanding claim. ExactrelativeRMS undefined iftrueRMS0,
+reportexplicitly ratherthan epsilon. Sameblockdependence acrossdoses/methods.
+No inferentialFWERclaim imported fromGemmaB. No guarantee TC winsanydose.
+
+Execution order: capture -> acceptedA/C headmeasurements/analysis -> B stage.
+Need actual implementation, artifactslicensing/identity/headerchecks, exact
+schedule/budget, fixtures and independentpreRunreview. Actual declaredbudget:
+96924logicalF=10896nativebranches+69644nativeheads+12288CLTendpoint-deltas+
+2048CLTbaseencodings+2048frozen-directionpredictions,0B/0fullLLMloads;
+2052analyticcomposed/nativeJVPpointsseparate. Frozenrecipientmaskdirection is
+computed ONCE percontext fromWenc*dx then scaled byc, matching originalB;
+all six nonlinear CLT endpoints and all126method/dose/frame/mixturecells stay.
+4096native/RIDGEunitdoseheads andunitridgefit are adopted from acceptedA/C.
+This baseline/algebra/accounting alignment is BEFORE any B outcomes, not
+a response to observed B method rankings. This text alone does
+notlaunch orapproveB. CoreA/Ccapture remainsunchanged andrunning.

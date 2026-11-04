@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "snapshot_sha256": "b9d40b2e5ae368dbbbca81f8f42c5634ea0f6c37266d94f7a30a5b512b360b75",
+  "reviewer_id": "/root/c3_capture_review_resume",
+  "independent": true,
+  "verdict": "approved",
+  "topics_checked": [
+    "design",
+    "implementation",
+    "data",
+    "cost",
+    "claims"
+  ],
+  "findings": [],
+  "limitations": "All1152 no-D scalar comparison rows, allnine pair means and384primary matched observations independently reconstructed; oracle and full-gate primary summaries checked separately. Actual result/report hashes and matching0-model scoring exit0 bound. Learned correction utility, sign-gate utility and oracle forecast accuracy remain distinct; all unfavorable outcomes retained. Three disjoint FIT groups share32blocks, not384independent observations. Timing remains model-specific: Llama/Gemma270 prospective, cached Qwen/Gemma1B extension retrospective on previously exposed C2 data, Gemma1B U0 distinct from earlier U2/U5. No measurements, refit, bootstrap, repeated raw audit or population guarantee."
+}

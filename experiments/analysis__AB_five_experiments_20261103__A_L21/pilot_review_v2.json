@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "snapshot_sha256": "0729d9ccf7141f9744045618e8bda04d6724c480f5ab12ee2b3e694644fe7ec2",
+  "reviewer_id": "/root/five_campaign_review",
+  "independent": true,
+  "verdict": "approved",
+  "topics_checked": [
+    "design",
+    "implementation",
+    "data",
+    "cost",
+    "claims"
+  ],
+  "findings": [
+    {
+      "id": "PILOT-SCOPE",
+      "severity": "low",
+      "status": "accepted",
+      "evidence": "pilot.py uses one historical E041 document, fixed +.25 L19 perturbation with L20 restoration and three suffix targets; nine scheduled forwards, zero backwards. Random 28-layer Qwen fixture records full/suffix max discrepancy 3.725290298461914e-09 and target-free prefix parity.",
+      "resolution": "Approval covers technical qualification only. It does not approve main data acquisition, statistical claims, rank selection, or any new scientific outcome. Actual pretrained parity and nonzero sensitivity must pass before separate main review."
+    },
+    {
+      "id": "PILOT-COMPLETION-BOUNDARY",
+      "severity": "low",
+      "status": "accepted",
+      "evidence": "Runtime reserves every operation before computation and rejects consumed uncertain requests. Pilot records model load attempts separately. Its completed fast return does not itself certify the complete output archive.",
+      "resolution": "Before adopting this pilot for MAIN, inspect and bind actual immutable cache, receipts, ledger and completion values to an independent completion review. No automatic resume after a failed model session is authorized by this review."
+    },
+    {
+      "id": "PILOT-ENV-REBIND",
+      "severity": "low",
+      "status": "accepted",
+      "evidence": "All45 file hashes identical. Named package version sets unchanged; blank metadata entry removed. No executable or scientific source changes.",
+      "resolution": "Fresh review covers same nine-call technical qualification. Canonical environment verification remains mandatory and may reject transient package inventory differences."
+    }
+  ],
+  "limitations": "Source and full snapshot hash audit with inspection of existing random-weight fixture results, not independent pretrained reproduction. Installed-library identity should be explicitly frozen in MAIN. The qualification is one historical input and fixed targets; it is not a scientific replication of E041."
+}

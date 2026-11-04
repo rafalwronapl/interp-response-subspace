@@ -1,0 +1,27 @@
+A new grammatical readout and three independent FIT32 cohorts, 2026-11-03
+
+Completed96 new vector labels across3 disjoint2-block FIT cohorts. Each32-label fit has only2 independent lexical blocks; every CV fold trains on1block. Historical E036 P/U/scales remain extra prior information.
+TEST reuses the completed64-block F1 cohort posthoc, selected after the favorable original C32 result. This is a new have-minus-has grammatical next-token readout on the same contexts/model/operator, not new-context/model transfer or independent confirmation.
+All9 learned forecasts and P were frozen globally before new TEST readout calls. Both readouts use the same12-vector native suffix batches. Vector-label selection used no readout targets. All outcomes retained.
+
+has_have
+MSE by arm: {"C_0": 0.0015107954528836842, "C_1": 0.002368868692170345, "C_2": 0.0009164762870002008, "Direct_0": 0.0011417592697204881, "Direct_1": 0.0012599482065995815, "Direct_2": 0.001290200671376418, "P": 0.009422654702142097, "same_U_0": 0.0009199017850454183, "same_U_1": 0.0022135446761657462, "same_U_2": 0.0019341334982714287, "zero": 0.02236520360595673}
+Mean across3 fits C32-Direct32 deltaMSE=0.0003680774281192474; block bootstrap nominal95=[0.00013427178631123896, 0.0006536992312130785]
+PerFIT: {"0": {"delta_MSE": 0.0003690361831631961, "nominal95": [-4.222239902689218e-05, 0.0008127462633713999]}, "1": {"delta_MSE": 0.0011089204855707635, "nominal95": [0.0007450343190759767, 0.001562828048011644]}, "2": {"delta_MSE": -0.00037372438437621724, "nominal95": [-0.0007067178182624811, -5.934408482755061e-05]}}
+Finite MLP-delta readout effect at fixed intervened upstream, MSE=0.02236520360595673; signs={'-1': 512, '0': 0, '1': 512}
+Zero MLP-delta baseline margin range=[-4.555122375488281, 4.314225196838379]; signs={'-1': 518, '0': 0, '1': 506}
+
+is_are
+MSE by arm: {"C_0": 0.0018733261831336279, "C_1": 0.0012320118215285447, "C_2": 0.0011753000094687494, "Direct_0": 0.0011272348008786182, "Direct_1": 0.001247499915154826, "Direct_2": 0.0013872397146661442, "P": 0.015209417582009443, "same_U_0": 0.0015866135791746672, "same_U_1": 0.0013237326841073482, "same_U_2": 0.000935493800855447, "zero": 0.02387891381763474}
+Mean across3 fits C32-Direct32 deltaMSE=0.00017288786114377788; block bootstrap nominal95=[-0.00012720369947774774, 0.00048474641727517626]
+PerFIT: {"0": {"delta_MSE": 0.0007460913822550097, "nominal95": [0.000291295344027942, 0.0012236695784206384]}, "1": {"delta_MSE": -1.548809362628134e-05, "nominal95": [-0.0003040742572743227, 0.0003587786366054945]}, "2": {"delta_MSE": -0.0002119397051973948, "nominal95": [-0.0007623477742417339, 0.00035744268382371637]}}
+Finite MLP-delta readout effect at fixed intervened upstream, MSE=0.02387891381763474; signs={'-1': 512, '0': 0, '1': 512}
+Zero MLP-delta baseline margin range=[-5.662754058837891, 4.092060089111328]; signs={'-1': 520, '0': 0, '1': 504}
+
+Primary is has_have mean C32-Direct32. Negative delta favors C; positive favors Direct. is_are and auxiliary comparisons are descriptive. Bootstrap1999 draws seed3111038 resamples64 blocks conditional on these3 fits; it does not estimate training-population uncertainty.
+Post-run semantic correction: frozen worker field names natural_margin_range, natural_margin_sign_counts and native_effect are misleading. The arm zero patches natural MLP21 y into the INTERVENED upstream residual; it is zero predicted MLP-delta, NOT original natural prompt/readout or zero whole intervention. Its effect statistics hold the upstream intervention fixed. The old raw summary is preserved; this report uses the corrected meaning. Original has/have natural-prompt margins were not measured. This does not alter learned/native readout errors or primary C-Direct comparisons.
+No claim of equal-total-information superiority, interpretability of the learned predictor, worldwide novelty, or general model understanding. Native target-free prefixes remain necessary at prediction time.
+Accounting: {"attempts": 12516, "backwards": 0, "complete": true, "conditions": 1024, "identity": {"code": "934765d78a9ef5e1c4b00caf5d74433758973197d079dc116f77165f87fd220a", "model": {"attention": "eager", "device": "cpu", "dtype": "float32", "id": "Qwen/Qwen3-0.6B-Base", "revision": "da87bfb608c14b7cf20ba1ce41287e8de496c0cd", "threads": 4, "use_cache": false, "weights_sha256": "cd2a512003e2f9f3cd3c32a9c3573f820bb28c940f73c57b1ddaa983d9223eba"}}, "physical_forward_calls": 1248}
+FIT selection: [{"C": 3, "Direct": 7, "same_U": 7}, {"C": 3, "Direct": 3, "same_U": 2}, {"C": 7, "Direct": 3, "same_U": 3}]
+Evidence: run/summary.json, run/MODELS.json, run/TEST_forecasts.json,1024immutable rows, raw cache/bundles/ledger, run/completed.json, qualification/.
+Pre-run independent approval: review/pre_run_review.json. Completion review is required separately; this report does not substitute for approval.

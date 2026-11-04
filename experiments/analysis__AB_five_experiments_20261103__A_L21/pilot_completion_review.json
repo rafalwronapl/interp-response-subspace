@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "independent": true,
+  "reviewer_id": "/root/five_campaign_review",
+  "verdict": "approved",
+  "passed": true,
+  "pilot_snapshot_sha256": "eba2f83bc72f59f98085b6e267b1def246f9e9ac31e5b060d2e59a4374150246",
+  "audit_sha256": "1df02d6a7eb298568c09cd2feb6a9271efab786950b2e9da452f59e19a32fb6e",
+  "limitations": "Technical one-document batching qualification only, not scientific evidence; MAIN separately reviewed."
+}

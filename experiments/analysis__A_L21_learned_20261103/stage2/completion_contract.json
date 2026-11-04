@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "id": "A_L21_LEARNED_FRESH64_COMPLETION",
+  "kind": "maintenance",
+  "primary_agent": "/root/a_l21_five_campaign",
+  "purpose": "Actual prospective learned correction/readout completion; preserve all baselines and outcomes",
+  "tracked_files": [
+    "analysis/A_L21_learned_20261103/stage2/complete.py"
+  ],
+  "tracked_trees": [],
+  "input_manifests": [
+    "analysis/A_L21_learned_20261103/stage2/completion_manifest.json"
+  ],
+  "gates": [
+    {
+      "id": "hooks",
+      "category": "hooks",
+      "evidence": "analysis/A_L21_learned_20261103/stage2/completion_checks.json",
+      "pointer": "/passed",
+      "op": "eq",
+      "expected": true,
+      "reason": "Immutableoutputs/rowmeans/ledger/qualification andforecast provenance verified offline"
+    },
+    {
+      "id": "data",
+      "category": "data",
+      "evidence": "analysis/A_L21_learned_20261103/stage2/completion_checks.json",
+      "pointer": "/passed",
+      "op": "eq",
+      "expected": true,
+      "reason": "Immutableoutputs/rowmeans/ledger/qualification andforecast provenance verified offline"
+    },
+    {
+      "id": "pilot",
+      "category": "pilot",
+      "evidence": "analysis/A_L21_learned_20261103/stage2/completion_checks.json",
+      "pointer": "/passed",
+      "op": "eq",
+      "expected": true,
+      "reason": "Immutableoutputs/rowmeans/ledger/qualification andforecast provenance verified offline"
+    },
+    {
+      "id": "accounting",
+      "category": "accounting",
+      "evidence": "analysis/A_L21_learned_20261103/stage2/completion_checks.json",
+      "pointer": "/passed",
+      "op": "eq",
+      "expected": true,
+      "reason": "Immutableoutputs/rowmeans/ledger/qualification andforecast provenance verified offline"
+    },
+    {
+      "id": "restart",
+      "category": "restart",
+      "evidence": "analysis/A_L21_learned_20261103/stage2/completion_checks.json",
+      "pointer": "/passed",
+      "op": "eq",
+      "expected": true,
+      "reason": "Immutableoutputs/rowmeans/ledger/qualification andforecast provenance verified offline"
+    }
+  ],
+  "circuits": [],
+  "structural_scope": "No new measurements; exact nativeL21 intervention/readout stage complete",
+  "entrypoint": null,
+  "schedule": null,
+  "budget": null
+}

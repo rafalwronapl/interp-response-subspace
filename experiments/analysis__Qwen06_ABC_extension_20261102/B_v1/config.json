@@ -1,0 +1,17 @@
+{
+  "capture_config": "analysis/Qwen06_ABC_extension_20261102/capture_base_v2/config.json",
+  "corpus": "analysis/Qwen06_ABC_extension_20261102/capture_base_v2/corpus.json",
+  "aligned_evaluation_result": "analysis/Qwen06_ABC_extension_20261102/evaluation_v2/run/result.json",
+  "unit_dose_fit": "analysis/Qwen06_ABC_extension_20261102/evaluation_v2/run/fits/P_r1.json",
+  "output": "analysis/Qwen06_ABC_extension_20261102/B_v1/run",
+  "schedule": "analysis/Qwen06_ABC_extension_20261102/B_v1/operations.json",
+  "doses": [
+    0.05,
+    0.1,
+    0.25,
+    0.5,
+    1.0,
+    2.0
+  ],
+  "scope": "Last27publicCLTcomponent,onefullinputoperator,conceptualBextension"
+}

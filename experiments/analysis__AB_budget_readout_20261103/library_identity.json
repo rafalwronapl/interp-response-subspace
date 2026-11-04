@@ -1,0 +1,12 @@
+{
+  "versions": {
+    "torch": "2.11.0+cpu",
+    "transformers": "5.5.4",
+    "numpy": "2.4.4",
+    "safetensors": "0.7.0"
+  },
+  "sources": {
+    "C:\\Users\\rafal\\miniconda3\\Lib\\site-packages\\transformers\\models\\qwen3\\modeling_qwen3.py": "fbdcfeeb1b54135ca67ba7df924da92f4b264e1252b517eea2de989289ebaeab",
+    "C:\\Users\\rafal\\miniconda3\\Lib\\site-packages\\transformers\\masking_utils.py": "7fd2bf34f3abc87953a500c0d53e3e633e5efba10aebcc4dc11422e5769092dd"
+  }
+}

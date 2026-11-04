@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "snapshot_sha256": "41b5538f7df1b2f0c0f356b1d073367d25596cc832aef7d3e5a7f6abae122a63",
+  "reviewer_id": "/root/sol_qwen06_parallel",
+  "independent": true,
+  "verdict": "approved",
+  "topics_checked": [
+    "design",
+    "implementation",
+    "data",
+    "cost",
+    "claims"
+  ],
+  "findings": [],
+  "limitations": "Independent focused final review: all20480savedscalarrows/6144energies/frame-block-perFIT pointmeans andSE/sourcehashes validated; saved1999draw nominal95CI metadata/source/kernel checked without resampling. Bounded16431of20480rawheadcache/receipt/request proofs checked once and theiractualbytehashes joined toofficialcompletion; remaining4049rawcache payloads not individually inspected. ALL20480attempt/computedledger IDs/requestkeys verified, actualsuccessfulruntime and immutableessentialfiles/report/summary bindings checked. Native/head/sourcequalification and3FIT provenance reused;0native/head/bootstrapreplays. Finding is conditional oraclebenefit onbothframes, outsidepooledbetterbutnotallfits; outside632directions versusinside8 andnonmatchednorms precludeper-dimensionefficiency/universalpreference. No inference over refits, qualifiedpopulationcoverage/FWER or identicalhistoricalE041replication claim. Focusedproof: analysis/A_gemma270_extension_20261102/evaluation_peer_checks_qwen_v1.json."
+}

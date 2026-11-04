@@ -1,0 +1,28 @@
+{
+  "passed": true,
+  "physical_calls": 1248,
+  "logical_calls": 12516,
+  "backward": 0,
+  "conditions": 1024,
+  "new_fit_labels": 96,
+  "all_fresh_fit_CV_choices_reproduced": true,
+  "all_forecasts_and_suffix_targets_recomputed": true,
+  "old_native_isare_maxparity": 1.9073486328125e-05,
+  "results": {
+    "is_are": {
+      "delta": 0.00017288786114377788,
+      "nominal95": [
+        -0.00012720369947774774,
+        0.00048474641727517626
+      ]
+    },
+    "has_have": {
+      "delta": 0.0003680774281192474,
+      "nominal95": [
+        0.00013427178631123896,
+        0.0006536992312130785
+      ]
+    }
+  },
+  "pretrained_calls": 0
+}

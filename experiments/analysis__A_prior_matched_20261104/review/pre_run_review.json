@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "snapshot_sha256": "724d814cbda9fe4bc659a84974a6ffd374127c4179970fef63ab5e210f24e7f1",
+  "reviewer_id": "/root/prior_and_paper_review",
+  "independent": true,
+  "verdict": "approved",
+  "topics_checked": [
+    "design",
+    "implementation",
+    "data",
+    "cost",
+    "claims"
+  ],
+  "findings": [
+    {
+      "id": "APRIOR-MISSING-CELL",
+      "severity": "low",
+      "status": "resolved",
+      "evidence": "models.py implements full-vector Direct_P=P+F(D-P), C=P+F((D-P)U)U.T, same_U=F(DU)U.T and Direct=F(D). All methods independently select from the identical ordered eight linear/RBF candidates using the same two whole-block folds, block-equal vector loss and first exact-tie candidate. Readout labels never enter selection.",
+      "resolution": "Comparison supplies the missing full-vector prior cell, rather than relabeling the algebraically identical same-U-with-prior method. Linear prior algebra and FP32 qualification stated; no algorithm novelty or total-resource superiority claimed."
+    },
+    {
+      "id": "APRIOR-DATA-FREEZE",
+      "severity": "low",
+      "status": "resolved",
+      "evidence": "data.py inventories cumulative exposure, including previous three FITs/old TEST. Corpus has 76 distinct unordered pairs: six two-block FIT cohorts (48 documents,192 labels) and 64 common TEST blocks (256 documents,1024 conditions). Token heads and continuation alignment validated on actual prompts. Worker globally seals all 25 full-vector TEST forecast arrays after target-free prefixes and before first TEST intervention target.",
+      "resolution": "Freshness is explicitly limited to 815 inventoried historical sources; repeated individual nouns/template and historical selection of favorable L21/F1/is-are regime disclosed. Input manifest binds 2,656 code/data/model/provenance files, including checkpoint weights and tokenizer. Mutable registry replaced with immutable documentary copy."
+    },
+    {
+      "id": "APRIOR-HOOKS-ACCOUNTING",
+      "severity": "low",
+      "status": "resolved",
+      "evidence": "Actual new Adapter 16/11 suffix chunks and full-hook four-head orientation independently exercised on toy model PASS. Actual-worker synthetic fixture covers 25 global forecasts before TEST targets, freeze/first-row crashes, exact 578 synthetic physical calls, replay zero calls, preserved bytes, corrupt seal rejection and uncertain reservation rejection before load. Independent corpus/schedule check gives 30,444 distinct logical forward IDs, 4,794 physical forwards, 0 backward. Current fixture hashes match worker/models.",
+      "resolution": "NumPy integer summary serialization corrected and actual new adapter batches tested. Native qualification on two new FIT conditions checks same-value/native and natural-output references plus fixed nonzero ramp, full/suffix error<=1e-4 and is/are sensitivity>1e-8, with both 16/11 physical shapes; failure stops before TEST. Native gates remain prospective until actually measured."
+    },
+    {
+      "id": "APRIOR-BASELINE-SEMANTICS",
+      "severity": "low",
+      "status": "resolved",
+      "evidence": "Worker/protocol distinguish zero MLP21 delta at intervened upstream residual from original natural prompt. Summary metrics renamed native_minus_zero_MLP_delta; rows also retain captured original natural_prompt_margin without extra calls.",
+      "resolution": "No false whole-intervention natural-effect claim. Both native truth and prediction errors use common suffix reference, with separately bounded full/suffix numerical difference."
+    },
+    {
+      "id": "APRIOR-INFERENCE-AND-RESOURCES",
+      "severity": "low",
+      "status": "accepted",
+      "evidence": "Primary is six-FIT mean C32 minus Direct+P32 is/are MSE. Fixed 1,999 paired TEST-block resamples condition on the six FITs. Per-fit differences, SD/range/signs, all arms and branch/dose/S/A groups retained. Protocol discloses inherited P/U/scales and historical resources, native-prefix requirement and two-block CV noise.",
+      "resolution": "Approve this conditional comparison, with six FITs supplying descriptive variability rather than powered training-population stability. No positive-result gate, adaptive cohort selection, extra FIT after outcomes or public algorithm-innovation claim. Secondary contrasts are descriptive."
+    }
+  ],
+  "limitations": "Pre-run approval only for this exact snapshot and frozen 4,794 physical/30,444 logical forward schedule, 0 backward and one planned local pretrained load. No pretrained model call or actual native result reviewed here. Inspected actual worker, model fitting, adapter, corpus builder, preparation, fixture and offline completion code; independently ran the actual-worker synthetic path during preparation and the final new adapter 16/11 test, checked final fixture source hashes and canonical contract check PASS. Technical native qualification must actually pass before TEST; completion/raw-output audit and canonical verify remain required. Exact whole-circuit reachability schema is inapplicable because the worker executes original full native interventions plus exact dynamic native L22?27 suffix, rather than a reduced circuit. Freshness is inventory limited, model/pretraining exposure uncontrolled, CV has only two FIT blocks, and block confidence intervals omit FIT sampling uncertainty. Negative or mixed effects are valid scientific outcomes."
+}

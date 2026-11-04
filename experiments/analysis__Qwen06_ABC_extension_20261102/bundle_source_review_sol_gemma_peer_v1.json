@@ -1,0 +1,19 @@
+{
+  "status": "source_review_pass_before_actual_packet",
+  "reviewer_id": "/root/sol_parallel_acceptance",
+  "independent": true,
+  "source_hashes": {
+    "bundle_runtime.py": "1108b6d1eb352c5d37dde336283560f7fe99bd36968a9bd83e74a7a66829bb36",
+    "bundle_fixtures.py": "0b05a6ee1f9c4bd634125368a05d76e3479aaccc115f6dcbbc664cad48ad10df",
+    "bundle_fixture_v1.json": "da0039632158b09f2fa0873be32577b35d259b0d68547cd6a8198e61a5d9d439"
+  },
+  "checks": [
+    "Base Runtime immutableidentity/schedule and ledgerhash validation reused; globalRuntimeunchanged",
+    "Eachbatch exactscheduledforwardIDset, duplicate/unknown/overlap fails; strictbase5requestkeys withlogicalIDs insideintervention",
+    "Durableattempt reservesalllogicalIDs beforecallback, computed aftercallback, cached publication beforeimmutablebundle receipt",
+    "Validcache/missingbundle receipt replay makeszero callbacks/ledgerwrites; cachewithoutmatchingattempt rejected",
+    "Failure conservativelyconsumesentirebatch, anyoverlap cannot invoke callback onresume withoutreviewedretry",
+    "Actualsix focusedfault/resumefixtures source+savedreceipt inspected; no rerun or modelcalls"
+  ],
+  "limitations": "No actual head packet approval. Capture sources and previous Gemma/globalRuntime unchanged. Author must bind this module/fixture to actual canonical head snapshot, count logical forwards by expansion of batch IDs (not event count), and independently validate closure/result grid. Normal actual head callback must execute all scheduled arms exactly once; partially failed batches are conservatively charged and cannot auto-retry."
+}

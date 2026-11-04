@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "actual_worker_synthetic_rerun": true,
+  "batch16": true,
+  "global_forecast_freeze_and_restart": true,
+  "model384_objects_byte_equivalent": true,
+  "six_materializations_fifteen_models": true,
+  "frozen_lower_budget_params": true,
+  "corpus64pairs256prompts": true,
+  "previous_TEST_disjoint": true,
+  "donor_alignment": true,
+  "logical_forward_cap": 18726,
+  "physical_forward_cap": 3336,
+  "backward": 0,
+  "primary_C32_Direct32_and_paired_block_calculation": true,
+  "native_calls": 0
+}

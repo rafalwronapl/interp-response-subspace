@@ -1,0 +1,15 @@
+{
+  "prepared": true,
+  "forward": 96924,
+  "backward": 0,
+  "full_model_loads": 0,
+  "new_native_branch": 10896,
+  "new_native_heads": 69644,
+  "CLT_endpoint_delta_predictions": 12288,
+  "CLT_base_encodings": 2048,
+  "FROZEN_direction_predictions": 2048,
+  "analytic_JVP": 2052,
+  "adopted_native_and_ridge_unit_heads": 4096,
+  "heldout_B_outcomes_used_for_fit": false,
+  "one_full_input_operator": true
+}

@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "snapshot_sha256": "a0bbd2bab647c6e45bf2e4159df0c8b21bd6d7ec283666c1ada6fe28140ca790",
+  "reviewer_id": "/root/sol_qwen06_parallel",
+  "independent": true,
+  "verdict": "approved",
+  "topics_checked": [
+    "design",
+    "implementation",
+    "data",
+    "cost",
+    "claims"
+  ],
+  "findings": [],
+  "limitations": "Focused independent peer review: exact JSON comparison confirms sole addition of A270 scalar analyzer to CPU allowlist; unchanged runtime_v1/v2, inherited budgets and all earlier policies. Analyzer/source read confirms saved scalar-only block analysis, no model loading or native calls. This maintenance receipt authorizes only the stated policy amendment; actual capture/head/analysis stages require their own accepted snapshots. Historical resource observations are not current admission proof. No scientific results, raw corpus or model weights were recomputed."
+}

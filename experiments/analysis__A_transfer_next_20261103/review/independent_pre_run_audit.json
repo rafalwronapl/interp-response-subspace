@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "new_fit_cohorts": 3,
+  "new_fit_blocks": 6,
+  "new_fit_labels": 96,
+  "old_test_blocks": 64,
+  "adopted_records": 2304,
+  "contextual_token_checks": 1120,
+  "exposure_files": 813,
+  "logical_forward": 12516,
+  "physical_forward": 1248,
+  "scope": "Old TEST posthoc; three whole-block2fold FITs; no pretrained calls; historical completed raw cache independently canonical verified before this review"
+}

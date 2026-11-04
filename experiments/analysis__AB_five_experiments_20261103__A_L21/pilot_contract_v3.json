@@ -1,0 +1,96 @@
+{
+  "schema_version": 1,
+  "id": "A_L21_20261103_pilot_v3",
+  "kind": "experiment",
+  "primary_agent": "/root/a_l21_five_campaign",
+  "purpose": "Technical exact-tail qualification for literal E041 L21 replication; no outcome selection",
+  "tracked_files": [
+    "ab_confirmatory_20261101/__init__.py",
+    "ab_confirmatory_20261101/native.py",
+    "ab_confirmatory_20261101/native_tail_b.py",
+    "ab_confirmatory_20261101/runtime.py",
+    "analysis/AB_five_experiments_20261103/A_L21/adapter_v3.py",
+    "analysis/AB_five_experiments_20261103/A_L21/fixtures_v3.py",
+    "analysis/AB_five_experiments_20261103/A_L21/math.py",
+    "analysis/AB_five_experiments_20261103/A_L21/pilot_v3.py",
+    "e012/__init__.py",
+    "e012/common.py",
+    "e014/__init__.py",
+    "e014/memory.py",
+    "e017/__init__.py",
+    "e017/common.py",
+    "e031/__init__.py",
+    "e031/loading.py",
+    "e036/__init__.py",
+    "e036/common.py",
+    "e036/subject.py",
+    "e039/__init__.py",
+    "e039/subject.py",
+    "research_checks/__init__.py",
+    "research_checks/gate.py",
+    "research_checks/persistence.py",
+    "research_checks/reachability.py"
+  ],
+  "tracked_trees": [],
+  "input_manifests": [
+    "analysis/AB_five_experiments_20261103/A_L21/pilot_inputs_v3.json"
+  ],
+  "gates": [
+    {
+      "id": "hooks",
+      "category": "hooks",
+      "evidence": "analysis/AB_five_experiments_20261103/A_L21/fixtures_v3.json",
+      "pointer": "/hooks",
+      "op": "eq",
+      "expected": true,
+      "reason": "Random-weight fixture plus nine charged pretrained qualification calls"
+    },
+    {
+      "id": "data",
+      "category": "data",
+      "evidence": "analysis/AB_five_experiments_20261103/A_L21/fixtures_v3.json",
+      "pointer": "/data",
+      "op": "eq",
+      "expected": true,
+      "reason": "Random-weight fixture plus nine charged pretrained qualification calls"
+    },
+    {
+      "id": "pilot",
+      "category": "pilot",
+      "evidence": "analysis/AB_five_experiments_20261103/A_L21/fixtures_v3.json",
+      "pointer": "/pilot",
+      "op": "eq",
+      "expected": true,
+      "reason": "Random-weight fixture plus nine charged pretrained qualification calls"
+    },
+    {
+      "id": "accounting",
+      "category": "accounting",
+      "evidence": "analysis/AB_five_experiments_20261103/A_L21/fixtures_v3.json",
+      "pointer": "/accounting",
+      "op": "eq",
+      "expected": true,
+      "reason": "Random-weight fixture plus nine charged pretrained qualification calls"
+    },
+    {
+      "id": "restart",
+      "category": "restart",
+      "evidence": "analysis/AB_five_experiments_20261103/A_L21/fixtures_v3.json",
+      "pointer": "/restart",
+      "op": "eq",
+      "expected": true,
+      "reason": "Random-weight fixture plus nine charged pretrained qualification calls"
+    }
+  ],
+  "circuits": [],
+  "structural_scope": "Native neuron19 and20 interventions, target L21, exact dynamic L22-27 suffix. Parity/sham/sensitivity before scale.",
+  "entrypoint": {
+    "module": "analysis.AB_five_experiments_20261103.A_L21.pilot_v3",
+    "args": []
+  },
+  "schedule": "analysis/AB_five_experiments_20261103/A_L21/pilot_schedule.json",
+  "budget": {
+    "forward": 9,
+    "backward": 0
+  }
+}

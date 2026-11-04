@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "files": 7706,
+  "rows": 1024,
+  "blocks": 64,
+  "arms": 17,
+  "logical_forward": 18726,
+  "aliases": 0,
+  "physical_forward": 3336,
+  "backward": 0,
+  "qualification_max": 4.76837158203125e-06,
+  "forecast_binding_all_targets": true,
+  "no_new_fit_or_bootstrap": true
+}

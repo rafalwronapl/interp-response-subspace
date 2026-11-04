@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "snapshot_sha256": "67b3ded9852cef03e6d8fe6808698d27e4d8c722e3bfa19e38710f2530116b49",
+  "reviewer_id": "/root/fast_followup_review",
+  "independent": true,
+  "verdict": "approved",
+  "topics_checked": [
+    "design",
+    "implementation",
+    "data",
+    "cost",
+    "claims"
+  ],
+  "findings": [],
+  "limitations": "Approved actual fixed-sequence fresh64-recorded-pair native-readout result. Independently verified10356snapshot filehashes,1024native truths,1024target-freeprefixes,all16384patchedsuffix targets/margins,17readout metrics and all vector/coefficient errors from actualrawcaches/forecasts/rows. Reproduced exact prespecified64block/1999draw seed3111033 primarybootstrap: C32minusDirect32 deltaMSE?0.0008092423812771088,95percent[?0.0012152982217236818,?0.0004463334236314065]. Verified globalforecastpublication before firstnativeTESTtarget and alltargetrequesthashbindings,16batchFITqualification,18726logical/3336physicalforward accounting,oneQwenload/0backward/0aliases and canonicalexit0. Report correctly retains Direct lower mean error at64/128/256/384 and C64 worse thanC32. Primary supports conditional readout utility of prior-assistedC32 on this cohort; extra historicalP/U information, only2lower-budgettrainingblocks, oneFIT0seed17sequence,onepromptfamily/model/layer/readout,384trainingcomposition change and nominaldescriptive otherintervals preclude equal-total-information superiority, average-over-training-draws or transfer claims. Freshness means812inventoried exposurefiles,notpretrainingnovelty. See independent_completion_audit.json/audit_completion.py. Reviewer performed0modelcalls; reproduced only frozen estimands/statistical stream."
+}

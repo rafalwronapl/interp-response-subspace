@@ -1,0 +1,6903 @@
+{
+  "documents": [
+    {
+      "id": "APF_00_0_0",
+      "block": 0,
+      "cohort": 0,
+      "split": "FIT_NEW",
+      "frame": 1,
+      "S": 0,
+      "A": 0,
+      "prompt": "The journalist that the waiter can see",
+      "ids": [
+        151643,
+        785,
+        22825,
+        429,
+        279,
+        67169,
+        646,
+        1490
+      ],
+      "donor": "APF_00_1_0"
+    },
+    {
+      "id": "APF_00_0_1",
+      "block": 0,
+      "cohort": 0,
+      "split": "FIT_NEW",
+      "frame": 1,
+      "S": 0,
+      "A": 1,
+      "prompt": "The journalist that the waiters can see",
+      "ids": [
+        151643,
+        785,
+        22825,
+        429,
+        279,
+        3783,
+        388,
+        646,
+        1490
+      ],
+      "donor": "APF_00_1_1"
+    },
+    {
+      "id": "APF_00_1_0",
+      "block": 0,
+      "cohort": 0,
+      "split": "FIT_NEW",
+      "frame": 1,
+      "S": 1,
+      "A": 0,
+      "prompt": "The journalists that the waiter can see",
+      "ids": [
+        151643,
+        785,
+        22532,
+        429,
+        279,
+        67169,
+        646,
+        1490
+      ],
+      "donor": "APF_00_0_0"
+    },
+    {
+      "id": "APF_00_1_1",
+      "block": 0,
+      "cohort": 0,
+      "split": "FIT_NEW",
+      "frame": 1,
+      "S": 1,
+      "A": 1,
+      "prompt": "The journalists that the waiters can see",
+      "ids": [
+        151643,
+        785,
+        22532,
+        429,
+        279,
+        3783,
+        388,
+        646,
+        1490
+      ],
+      "donor": "APF_00_0_1"
+    },
+    {
+      "id": "APF_01_0_0",
+      "block": 1,
+      "cohort": 0,
+      "split": "FIT_NEW",
+      "frame": 1,
+      "S": 0,
+      "A": 0,
+      "prompt": "The secretary that the surgeon can see",
+      "ids": [
+        151643,
+        785,
+        19067,
+        429,
+        279,
+        44998,
+        646,
+        1490
+      ],
+      "donor": "APF_01_1_0"
+    },
+    {
+      "id": "APF_01_0_1",
+      "block": 1,
+      "cohort": 0,
+      "split": "FIT_NEW",
+      "frame": 1,
+      "S": 0,
+      "A": 1,
+      "prompt": "The secretary that the surgeons can see",
+      "ids": [
+        151643,
+        785,
+        19067,
+        429,
+        279,
+        73172,
+        646,
+        1490
+      ],
+      "donor": "APF_01_1_1"
+    },
+    {
+      "id": "APF_01_1_0",
+      "block": 1,
+      "cohort": 0,
+      "split": "FIT_NEW",
+      "frame": 1,
+      "S": 1,
+      "A": 0,
+      "prompt": "The secretaries that the surgeon can see",
+      "ids": [
+        151643,
+        785,
+        6234,
+        5431,
+        429,
+        279,
+        44998,
+        646,
+        1490
+      ],
+      "donor": "APF_01_0_0"
+    },
+    {
+      "id": "APF_01_1_1",
+      "block": 1,
+      "cohort": 0,
+      "split": "FIT_NEW",
+      "frame": 1,
+      "S": 1,
+      "A": 1,
+      "prompt": "The secretaries that the surgeons can see",
+      "ids": [
+        151643,
+        785,
+        6234,
+        5431,
+        429,
+        279,
+        73172,
+        646,
+        1490
+      ],
+      "donor": "APF_01_0_1"
+    },
+    {
+      "id": "APF_02_0_0",
+      "block": 2,
+      "cohort": 1,
+      "split": "FIT_NEW",
+      "frame": 1,
+      "S": 0,
+      "A": 0,
+      "prompt": "The gardener that the singer can see",
+      "ids": [
+        151643,
+        785,
+        21881,
+        798,
+        429,
+        279,
+        22757,
+        646,
+        1490
+      ],
+      "donor": "APF_02_1_0"
+    },
+    {
+      "id": "APF_02_0_1",
+      "block": 2,
+      "cohort": 1,
+      "split": "FIT_NEW",
+      "frame": 1,
+      "S": 0,
+      "A": 1,
+      "prompt": "The gardener that the singers can see",
+      "ids": [
+        151643,
+        785,
+        21881,
+        798,
+        429,
+        279,
+        67041,
+        646,
+        1490
+      ],
+      "donor": "APF_02_1_1"
+    },
+    {
+      "id": "APF_02_1_0",
+      "block": 2,
+      "cohort": 1,
+      "split": "FIT_NEW",
+      "frame": 1,
+      "S": 1,
+      "A": 0,
+      "prompt": "The gardeners that the singer can see",
+      "ids": [
+        151643,
+        785,
+        13551,
+        388,
+        429,
+        279,
+        22757,
+        646,
+        1490
+      ],
+      "donor": "APF_02_0_0"
+    },
+    {
+      "id": "APF_02_1_1",
+      "block": 2,
+      "cohort": 1,
+      "split": "FIT_NEW",
+      "frame": 1,
+      "S": 1,
+      "A": 1,
+      "prompt": "The gardeners that the singers can see",
+      "ids": [
+        151643,
+        785,
+        13551,
+        388,
+        429,
+        279,
+        67041,
+        646,
+        1490
+      ],
+      "donor": "APF_02_0_1"
+    },
+    {
+      "id": "APF_03_0_0",
+      "block": 3,
+      "cohort": 1,
+      "split": "FIT_NEW",
+      "frame": 1,
+      "S": 0,
+      "A": 0,
+      "prompt": "The baker that the ranger can see",
+      "ids": [
+        151643,
+        785,
+        75828,
+        429,
+        279,
+        78059,
+        646,
+        1490
+      ],
+      "donor": "APF_03_1_0"
+    },
+    {
+      "id": "APF_03_0_1",
+      "block": 3,
+      "cohort": 1,
+      "split": "FIT_NEW",
+      "frame": 1,
+      "S": 0,
+      "A": 1,
+      "prompt": "The baker that the rangers can see",
+      "ids": [
+        151643,
+        785,
+        75828,
+        429,
+        279,
+        435,
+        14052,
+        646,
+        1490
+      ],
+      "donor": "APF_03_1_1"
+    },
+    {
+      "id": "APF_03_1_0",
+      "block": 3,
+      "cohort": 1,
+      "split": "FIT_NEW",
+      "frame": 1,
+      "S": 1,
+      "A": 0,
+      "prompt": "The bakers that the ranger can see",
+      "ids": [
+        151643,
+        785,
+        293,
+        8312,
+        429,
+        279,
+        78059,
+        646,
+        1490
+      ],
+      "donor": "APF_03_0_0"
+    },
+    {
+      "id": "APF_03_1_1",
+      "block": 3,
+      "cohort": 1,
+      "split": "FIT_NEW",
+      "frame": 1,
+      "S": 1,
+      "A": 1,
+      "prompt": "The bakers that the rangers can see",
+      "ids": [
+        151643,
+        785,
+        293,
+        8312,
+        429,
+        279,
+        435,
+        14052,
+        646,
+        1490
+      ],
+      "donor": "APF_03_0_1"
+    },
+    {
+      "id": "APF_04_0_0",
+      "block": 4,
+      "cohort": 2,
+      "split": "FIT_NEW",
+      "frame": 1,
+      "S": 0,
+      "A": 0,
+      "prompt": "The guard that the mason can see",
+      "ids": [
+        151643,
+        785,
+        7616,
+        429,
+        279,
+        296,
+        1497,
+        646,
+        1490
+      ],
+      "donor": "APF_04_1_0"
+    },
+    {
+      "id": "APF_04_0_1",
+      "block": 4,
+      "cohort": 2,
+      "split": "FIT_NEW",
+      "frame": 1,
+      "S": 0,
+      "A": 1,
+      "prompt": "The guard that the masons can see",
+      "ids": [
+        151643,
+        785,
+        7616,
+        429,
+        279,
+        296,
+        98849,
+        646,
+        1490
+      ],
+      "donor": "APF_04_1_1"
+    },
+    {
+      "id": "APF_04_1_0",
+      "block": 4,
+      "cohort": 2,
+      "split": "FIT_NEW",
+      "frame": 1,
+      "S": 1,
+      "A": 0,
+      "prompt": "The guards that the mason can see",
+      "ids": [
+        151643,
+        785,
+        26178,
+        429,
+        279,
+        296,
+        1497,
+        646,
+        1490
+      ],
+      "donor": "APF_04_0_0"
+    },
+    {
+      "id": "APF_04_1_1",
+      "block": 4,
+      "cohort": 2,
+      "split": "FIT_NEW",
+      "frame": 1,
+      "S": 1,
+      "A": 1,
+      "prompt": "The guards that the masons can see",
+      "ids": [
+        151643,
+        785,
+        26178,
+        429,
+        279,
+        296,
+        98849,
+        646,
+        1490
+      ],
+      "donor": "APF_04_0_1"
+    },
+    {
+      "id": "APF_05_0_0",
+      "block": 5,
+      "cohort": 2,
+      "split": "FIT_NEW",
+      "frame": 1,
+      "S": 0,
+      "A": 0,
+      "prompt": "The chemist that the inventor can see",
+      "ids": [
+        151643,
+        785,
+        8424,
+        380,
+        429,
+        279,
+        70901,
+        646,
+        1490
+      ],
+      "donor": "APF_05_1_0"
+    },
+    {
+      "id": "APF_05_0_1",
+      "block": 5,
+      "cohort": 2,
+      "split": "FIT_NEW",
+      "frame": 1,
+      "S": 0,
+      "A": 1,
+      "prompt": "The chemist that the inventors can see",
+      "ids": [
+        151643,
+        785,
+        8424,
+        380,
+        429,
+        279,
+        17023,
+        1087,
+        646,
+        1490
+      ],
+      "donor": "APF_05_1_1"
+    },
+    {
+      "id": "APF_05_1_0",
+      "block": 5,
+      "cohort": 2,
+      "split": "FIT_NEW",
+      "frame": 1,
+      "S": 1,
+      "A": 0,
+      "prompt": "The chemists that the inventor can see",
+      "ids": [
+        151643,
+        785,
+        8424,
+        1671,
+        429,
+        279,
+        70901,
+        646,
+        1490
+      ],
+      "donor": "APF_05_0_0"
+    },
+    {
+      "id": "APF_05_1_1",
+      "block": 5,
+      "cohort": 2,
+      "split": "FIT_NEW",
+      "frame": 1,
+      "S": 1,
+      "A": 1,
+      "prompt": "The chemists that the inventors can see",
+      "ids": [
+        151643,
+        785,
+        8424,
+        1671,
+        429,
+        279,
+        17023,
+        1087,
+        646,
+        1490
+      ],
+      "donor": "APF_05_0_1"
+    },
+    {
+      "id": "APF_06_0_0",
+      "block": 6,
+      "cohort": 3,
+      "split": "FIT_NEW",
+      "frame": 1,
+      "S": 0,
+      "A": 0,
+      "prompt": "The butcher that the electrician can see",
+      "ids": [
+        151643,
+        785,
+        75094,
+        429,
+        279,
+        9072,
+        1103,
+        646,
+        1490
+      ],
+      "donor": "APF_06_1_0"
+    },
+    {
+      "id": "APF_06_0_1",
+      "block": 6,
+      "cohort": 3,
+      "split": "FIT_NEW",
+      "frame": 1,
+      "S": 0,
+      "A": 1,
+      "prompt": "The butcher that the electricians can see",
+      "ids": [
+        151643,
+        785,
+        75094,
+        429,
+        279,
+        9072,
+        5380,
+        646,
+        1490
+      ],
+      "donor": "APF_06_1_1"
+    },
+    {
+      "id": "APF_06_1_0",
+      "block": 6,
+      "cohort": 3,
+      "split": "FIT_NEW",
+      "frame": 1,
+      "S": 1,
+      "A": 0,
+      "prompt": "The butchers that the electrician can see",
+      "ids": [
+        151643,
+        785,
+        714,
+        98623,
+        429,
+        279,
+        9072,
+        1103,
+        646,
+        1490
+      ],
+      "donor": "APF_06_0_0"
+    },
+    {
+      "id": "APF_06_1_1",
+      "block": 6,
+      "cohort": 3,
+      "split": "FIT_NEW",
+      "frame": 1,
+      "S": 1,
+      "A": 1,
+      "prompt": "The butchers that the electricians can see",
+      "ids": [
+        151643,
+        785,
+        714,
+        98623,
+        429,
+        279,
+        9072,
+        5380,
+        646,
+        1490
+      ],
+      "donor": "APF_06_0_1"
+    },
+    {
+      "id": "APF_07_0_0",
+      "block": 7,
+      "cohort": 3,
+      "split": "FIT_NEW",
+      "frame": 1,
+      "S": 0,
+      "A": 0,
+      "prompt": "The cleaner that the waiter can see",
+      "ids": [
+        151643,
+        785,
+        31881,
+        429,
+        279,
+        67169,
+        646,
+        1490
+      ],
+      "donor": "APF_07_1_0"
+    },
+    {
+      "id": "APF_07_0_1",
+      "block": 7,
+      "cohort": 3,
+      "split": "FIT_NEW",
+      "frame": 1,
+      "S": 0,
+      "A": 1,
+      "prompt": "The cleaner that the waiters can see",
+      "ids": [
+        151643,
+        785,
+        31881,
+        429,
+        279,
+        3783,
+        388,
+        646,
+        1490
+      ],
+      "donor": "APF_07_1_1"
+    },
+    {
+      "id": "APF_07_1_0",
+      "block": 7,
+      "cohort": 3,
+      "split": "FIT_NEW",
+      "frame": 1,
+      "S": 1,
+      "A": 0,
+      "prompt": "The cleaners that the waiter can see",
+      "ids": [
+        151643,
+        785,
+        74865,
+        429,
+        279,
+        67169,
+        646,
+        1490
+      ],
+      "donor": "APF_07_0_0"
+    },
+    {
+      "id": "APF_07_1_1",
+      "block": 7,
+      "cohort": 3,
+      "split": "FIT_NEW",
+      "frame": 1,
+      "S": 1,
+      "A": 1,
+      "prompt": "The cleaners that the waiters can see",
+      "ids": [
+        151643,
+        785,
+        74865,
+        429,
+        279,
+        3783,
+        388,
+        646,
+        1490
+      ],
+      "donor": "APF_07_0_1"
+    },
+    {
+      "id": "APF_08_0_0",
+      "block": 8,
+      "cohort": 4,
+      "split": "FIT_NEW",
+      "frame": 1,
+      "S": 0,
+      "A": 0,
+      "prompt": "The technician that the weaver can see",
+      "ids": [
+        151643,
+        785,
+        53511,
+        429,
+        279,
+        582,
+        7255,
+        646,
+        1490
+      ],
+      "donor": "APF_08_1_0"
+    },
+    {
+      "id": "APF_08_0_1",
+      "block": 8,
+      "cohort": 4,
+      "split": "FIT_NEW",
+      "frame": 1,
+      "S": 0,
+      "A": 1,
+      "prompt": "The technician that the weavers can see",
+      "ids": [
+        151643,
+        785,
+        53511,
+        429,
+        279,
+        582,
+        21565,
+        646,
+        1490
+      ],
+      "donor": "APF_08_1_1"
+    },
+    {
+      "id": "APF_08_1_0",
+      "block": 8,
+      "cohort": 4,
+      "split": "FIT_NEW",
+      "frame": 1,
+      "S": 1,
+      "A": 0,
+      "prompt": "The technicians that the weaver can see",
+      "ids": [
+        151643,
+        785,
+        52359,
+        429,
+        279,
+        582,
+        7255,
+        646,
+        1490
+      ],
+      "donor": "APF_08_0_0"
+    },
+    {
+      "id": "APF_08_1_1",
+      "block": 8,
+      "cohort": 4,
+      "split": "FIT_NEW",
+      "frame": 1,
+      "S": 1,
+      "A": 1,
+      "prompt": "The technicians that the weavers can see",
+      "ids": [
+        151643,
+        785,
+        52359,
+        429,
+        279,
+        582,
+        21565,
+        646,
+        1490
+      ],
+      "donor": "APF_08_0_1"
+    },
+    {
+      "id": "APF_09_0_0",
+      "block": 9,
+      "cohort": 4,
+      "split": "FIT_NEW",
+      "frame": 1,
+      "S": 0,
+      "A": 0,
+      "prompt": "The carpenter that the poet can see",
+      "ids": [
+        151643,
+        785,
+        38639,
+        1950,
+        429,
+        279,
+        39260,
+        646,
+        1490
+      ],
+      "donor": "APF_09_1_0"
+    },
+    {
+      "id": "APF_09_0_1",
+      "block": 9,
+      "cohort": 4,
+      "split": "FIT_NEW",
+      "frame": 1,
+      "S": 0,
+      "A": 1,
+      "prompt": "The carpenter that the poets can see",
+      "ids": [
+        151643,
+        785,
+        38639,
+        1950,
+        429,
+        279,
+        72972,
+        646,
+        1490
+      ],
+      "donor": "APF_09_1_1"
+    },
+    {
+      "id": "APF_09_1_0",
+      "block": 9,
+      "cohort": 4,
+      "split": "FIT_NEW",
+      "frame": 1,
+      "S": 1,
+      "A": 0,
+      "prompt": "The carpenters that the poet can see",
+      "ids": [
+        151643,
+        785,
+        38639,
+        306,
+        388,
+        429,
+        279,
+        39260,
+        646,
+        1490
+      ],
+      "donor": "APF_09_0_0"
+    },
+    {
+      "id": "APF_09_1_1",
+      "block": 9,
+      "cohort": 4,
+      "split": "FIT_NEW",
+      "frame": 1,
+      "S": 1,
+      "A": 1,
+      "prompt": "The carpenters that the poets can see",
+      "ids": [
+        151643,
+        785,
+        38639,
+        306,
+        388,
+        429,
+        279,
+        72972,
+        646,
+        1490
+      ],
+      "donor": "APF_09_0_1"
+    },
+    {
+      "id": "APF_10_0_0",
+      "block": 10,
+      "cohort": 5,
+      "split": "FIT_NEW",
+      "frame": 1,
+      "S": 0,
+      "A": 0,
+      "prompt": "The decorator that the electrician can see",
+      "ids": [
+        151643,
+        785,
+        50678,
+        429,
+        279,
+        9072,
+        1103,
+        646,
+        1490
+      ],
+      "donor": "APF_10_1_0"
+    },
+    {
+      "id": "APF_10_0_1",
+      "block": 10,
+      "cohort": 5,
+      "split": "FIT_NEW",
+      "frame": 1,
+      "S": 0,
+      "A": 1,
+      "prompt": "The decorator that the electricians can see",
+      "ids": [
+        151643,
+        785,
+        50678,
+        429,
+        279,
+        9072,
+        5380,
+        646,
+        1490
+      ],
+      "donor": "APF_10_1_1"
+    },
+    {
+      "id": "APF_10_1_0",
+      "block": 10,
+      "cohort": 5,
+      "split": "FIT_NEW",
+      "frame": 1,
+      "S": 1,
+      "A": 0,
+      "prompt": "The decorators that the electrician can see",
+      "ids": [
+        151643,
+        785,
+        62678,
+        429,
+        279,
+        9072,
+        1103,
+        646,
+        1490
+      ],
+      "donor": "APF_10_0_0"
+    },
+    {
+      "id": "APF_10_1_1",
+      "block": 10,
+      "cohort": 5,
+      "split": "FIT_NEW",
+      "frame": 1,
+      "S": 1,
+      "A": 1,
+      "prompt": "The decorators that the electricians can see",
+      "ids": [
+        151643,
+        785,
+        62678,
+        429,
+        279,
+        9072,
+        5380,
+        646,
+        1490
+      ],
+      "donor": "APF_10_0_1"
+    },
+    {
+      "id": "APF_11_0_0",
+      "block": 11,
+      "cohort": 5,
+      "split": "FIT_NEW",
+      "frame": 1,
+      "S": 0,
+      "A": 0,
+      "prompt": "The bartender that the singer can see",
+      "ids": [
+        151643,
+        785,
+        90405,
+        429,
+        279,
+        22757,
+        646,
+        1490
+      ],
+      "donor": "APF_11_1_0"
+    },
+    {
+      "id": "APF_11_0_1",
+      "block": 11,
+      "cohort": 5,
+      "split": "FIT_NEW",
+      "frame": 1,
+      "S": 0,
+      "A": 1,
+      "prompt": "The bartender that the singers can see",
+      "ids": [
+        151643,
+        785,
+        90405,
+        429,
+        279,
+        67041,
+        646,
+        1490
+      ],
+      "donor": "APF_11_1_1"
+    },
+    {
+      "id": "APF_11_1_0",
+      "block": 11,
+      "cohort": 5,
+      "split": "FIT_NEW",
+      "frame": 1,
+      "S": 1,
+      "A": 0,
+      "prompt": "The bartenders that the singer can see",
+      "ids": [
+        151643,
+        785,
+        61518,
+        14506,
+        429,
+        279,
+        22757,
+        646,
+        1490
+      ],
+      "donor": "APF_11_0_0"
+    },
+    {
+      "id": "APF_11_1_1",
+      "block": 11,
+      "cohort": 5,
+      "split": "FIT_NEW",
+      "frame": 1,
+      "S": 1,
+      "A": 1,
+      "prompt": "The bartenders that the singers can see",
+      "ids": [
+        151643,
+        785,
+        61518,
+        14506,
+        429,
+        279,
+        67041,
+        646,
+        1490
+      ],
+      "donor": "APF_11_0_1"
+    }
+  ],
+  "test_documents": [
+    {
+      "id": "APT_00_0_0",
+      "block": 0,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 0,
+      "A": 0,
+      "prompt": "The astronaut that the tailor can see",
+      "ids": [
+        151643,
+        785,
+        46633,
+        429,
+        279,
+        50956,
+        646,
+        1490
+      ],
+      "donor": "APT_00_1_0"
+    },
+    {
+      "id": "APT_00_0_1",
+      "block": 0,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 0,
+      "A": 1,
+      "prompt": "The astronaut that the tailors can see",
+      "ids": [
+        151643,
+        785,
+        46633,
+        429,
+        279,
+        9787,
+        1087,
+        646,
+        1490
+      ],
+      "donor": "APT_00_1_1"
+    },
+    {
+      "id": "APT_00_1_0",
+      "block": 0,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 1,
+      "A": 0,
+      "prompt": "The astronauts that the tailor can see",
+      "ids": [
+        151643,
+        785,
+        68422,
+        429,
+        279,
+        50956,
+        646,
+        1490
+      ],
+      "donor": "APT_00_0_0"
+    },
+    {
+      "id": "APT_00_1_1",
+      "block": 0,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 1,
+      "A": 1,
+      "prompt": "The astronauts that the tailors can see",
+      "ids": [
+        151643,
+        785,
+        68422,
+        429,
+        279,
+        9787,
+        1087,
+        646,
+        1490
+      ],
+      "donor": "APT_00_0_1"
+    },
+    {
+      "id": "APT_01_0_0",
+      "block": 1,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 0,
+      "A": 0,
+      "prompt": "The clerk that the violinist can see",
+      "ids": [
+        151643,
+        785,
+        44257,
+        429,
+        279,
+        62037,
+        380,
+        646,
+        1490
+      ],
+      "donor": "APT_01_1_0"
+    },
+    {
+      "id": "APT_01_0_1",
+      "block": 1,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 0,
+      "A": 1,
+      "prompt": "The clerk that the violinists can see",
+      "ids": [
+        151643,
+        785,
+        44257,
+        429,
+        279,
+        62037,
+        1671,
+        646,
+        1490
+      ],
+      "donor": "APT_01_1_1"
+    },
+    {
+      "id": "APT_01_1_0",
+      "block": 1,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 1,
+      "A": 0,
+      "prompt": "The clerks that the violinist can see",
+      "ids": [
+        151643,
+        785,
+        56360,
+        2787,
+        429,
+        279,
+        62037,
+        380,
+        646,
+        1490
+      ],
+      "donor": "APT_01_0_0"
+    },
+    {
+      "id": "APT_01_1_1",
+      "block": 1,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 1,
+      "A": 1,
+      "prompt": "The clerks that the violinists can see",
+      "ids": [
+        151643,
+        785,
+        56360,
+        2787,
+        429,
+        279,
+        62037,
+        1671,
+        646,
+        1490
+      ],
+      "donor": "APT_01_0_1"
+    },
+    {
+      "id": "APT_02_0_0",
+      "block": 2,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 0,
+      "A": 0,
+      "prompt": "The cashier that the officer can see",
+      "ids": [
+        151643,
+        785,
+        90355,
+        429,
+        279,
+        9452,
+        646,
+        1490
+      ],
+      "donor": "APT_02_1_0"
+    },
+    {
+      "id": "APT_02_0_1",
+      "block": 2,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 0,
+      "A": 1,
+      "prompt": "The cashier that the officers can see",
+      "ids": [
+        151643,
+        785,
+        90355,
+        429,
+        279,
+        9611,
+        646,
+        1490
+      ],
+      "donor": "APT_02_1_1"
+    },
+    {
+      "id": "APT_02_1_0",
+      "block": 2,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 1,
+      "A": 0,
+      "prompt": "The cashiers that the officer can see",
+      "ids": [
+        151643,
+        785,
+        8350,
+        4813,
+        429,
+        279,
+        9452,
+        646,
+        1490
+      ],
+      "donor": "APT_02_0_0"
+    },
+    {
+      "id": "APT_02_1_1",
+      "block": 2,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 1,
+      "A": 1,
+      "prompt": "The cashiers that the officers can see",
+      "ids": [
+        151643,
+        785,
+        8350,
+        4813,
+        429,
+        279,
+        9611,
+        646,
+        1490
+      ],
+      "donor": "APT_02_0_1"
+    },
+    {
+      "id": "APT_03_0_0",
+      "block": 3,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 0,
+      "A": 0,
+      "prompt": "The architect that the poet can see",
+      "ids": [
+        151643,
+        785,
+        11470,
+        429,
+        279,
+        39260,
+        646,
+        1490
+      ],
+      "donor": "APT_03_1_0"
+    },
+    {
+      "id": "APT_03_0_1",
+      "block": 3,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 0,
+      "A": 1,
+      "prompt": "The architect that the poets can see",
+      "ids": [
+        151643,
+        785,
+        11470,
+        429,
+        279,
+        72972,
+        646,
+        1490
+      ],
+      "donor": "APT_03_1_1"
+    },
+    {
+      "id": "APT_03_1_0",
+      "block": 3,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 1,
+      "A": 0,
+      "prompt": "The architects that the poet can see",
+      "ids": [
+        151643,
+        785,
+        54935,
+        429,
+        279,
+        39260,
+        646,
+        1490
+      ],
+      "donor": "APT_03_0_0"
+    },
+    {
+      "id": "APT_03_1_1",
+      "block": 3,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 1,
+      "A": 1,
+      "prompt": "The architects that the poets can see",
+      "ids": [
+        151643,
+        785,
+        54935,
+        429,
+        279,
+        72972,
+        646,
+        1490
+      ],
+      "donor": "APT_03_0_1"
+    },
+    {
+      "id": "APT_04_0_0",
+      "block": 4,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 0,
+      "A": 0,
+      "prompt": "The electrician that the porter can see",
+      "ids": [
+        151643,
+        785,
+        9072,
+        1103,
+        429,
+        279,
+        87186,
+        646,
+        1490
+      ],
+      "donor": "APT_04_1_0"
+    },
+    {
+      "id": "APT_04_0_1",
+      "block": 4,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 0,
+      "A": 1,
+      "prompt": "The electrician that the porters can see",
+      "ids": [
+        151643,
+        785,
+        9072,
+        1103,
+        429,
+        279,
+        2635,
+        388,
+        646,
+        1490
+      ],
+      "donor": "APT_04_1_1"
+    },
+    {
+      "id": "APT_04_1_0",
+      "block": 4,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 1,
+      "A": 0,
+      "prompt": "The electricians that the porter can see",
+      "ids": [
+        151643,
+        785,
+        9072,
+        5380,
+        429,
+        279,
+        87186,
+        646,
+        1490
+      ],
+      "donor": "APT_04_0_0"
+    },
+    {
+      "id": "APT_04_1_1",
+      "block": 4,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 1,
+      "A": 1,
+      "prompt": "The electricians that the porters can see",
+      "ids": [
+        151643,
+        785,
+        9072,
+        5380,
+        429,
+        279,
+        2635,
+        388,
+        646,
+        1490
+      ],
+      "donor": "APT_04_0_1"
+    },
+    {
+      "id": "APT_05_0_0",
+      "block": 5,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 0,
+      "A": 0,
+      "prompt": "The cleaner that the clerk can see",
+      "ids": [
+        151643,
+        785,
+        31881,
+        429,
+        279,
+        44257,
+        646,
+        1490
+      ],
+      "donor": "APT_05_1_0"
+    },
+    {
+      "id": "APT_05_0_1",
+      "block": 5,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 0,
+      "A": 1,
+      "prompt": "The cleaner that the clerks can see",
+      "ids": [
+        151643,
+        785,
+        31881,
+        429,
+        279,
+        56360,
+        2787,
+        646,
+        1490
+      ],
+      "donor": "APT_05_1_1"
+    },
+    {
+      "id": "APT_05_1_0",
+      "block": 5,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 1,
+      "A": 0,
+      "prompt": "The cleaners that the clerk can see",
+      "ids": [
+        151643,
+        785,
+        74865,
+        429,
+        279,
+        44257,
+        646,
+        1490
+      ],
+      "donor": "APT_05_0_0"
+    },
+    {
+      "id": "APT_05_1_1",
+      "block": 5,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 1,
+      "A": 1,
+      "prompt": "The cleaners that the clerks can see",
+      "ids": [
+        151643,
+        785,
+        74865,
+        429,
+        279,
+        56360,
+        2787,
+        646,
+        1490
+      ],
+      "donor": "APT_05_0_1"
+    },
+    {
+      "id": "APT_06_0_0",
+      "block": 6,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 0,
+      "A": 0,
+      "prompt": "The editor that the officer can see",
+      "ids": [
+        151643,
+        785,
+        6440,
+        429,
+        279,
+        9452,
+        646,
+        1490
+      ],
+      "donor": "APT_06_1_0"
+    },
+    {
+      "id": "APT_06_0_1",
+      "block": 6,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 0,
+      "A": 1,
+      "prompt": "The editor that the officers can see",
+      "ids": [
+        151643,
+        785,
+        6440,
+        429,
+        279,
+        9611,
+        646,
+        1490
+      ],
+      "donor": "APT_06_1_1"
+    },
+    {
+      "id": "APT_06_1_0",
+      "block": 6,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 1,
+      "A": 0,
+      "prompt": "The editors that the officer can see",
+      "ids": [
+        151643,
+        785,
+        28746,
+        429,
+        279,
+        9452,
+        646,
+        1490
+      ],
+      "donor": "APT_06_0_0"
+    },
+    {
+      "id": "APT_06_1_1",
+      "block": 6,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 1,
+      "A": 1,
+      "prompt": "The editors that the officers can see",
+      "ids": [
+        151643,
+        785,
+        28746,
+        429,
+        279,
+        9611,
+        646,
+        1490
+      ],
+      "donor": "APT_06_0_1"
+    },
+    {
+      "id": "APT_07_0_0",
+      "block": 7,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 0,
+      "A": 0,
+      "prompt": "The fisherman that the magician can see",
+      "ids": [
+        151643,
+        785,
+        7640,
+        4753,
+        429,
+        279,
+        89341,
+        646,
+        1490
+      ],
+      "donor": "APT_07_1_0"
+    },
+    {
+      "id": "APT_07_0_1",
+      "block": 7,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 0,
+      "A": 1,
+      "prompt": "The fisherman that the magicians can see",
+      "ids": [
+        151643,
+        785,
+        7640,
+        4753,
+        429,
+        279,
+        4878,
+        9621,
+        646,
+        1490
+      ],
+      "donor": "APT_07_1_1"
+    },
+    {
+      "id": "APT_07_1_0",
+      "block": 7,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 1,
+      "A": 0,
+      "prompt": "The fishermen that the magician can see",
+      "ids": [
+        151643,
+        785,
+        73193,
+        429,
+        279,
+        89341,
+        646,
+        1490
+      ],
+      "donor": "APT_07_0_0"
+    },
+    {
+      "id": "APT_07_1_1",
+      "block": 7,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 1,
+      "A": 1,
+      "prompt": "The fishermen that the magicians can see",
+      "ids": [
+        151643,
+        785,
+        73193,
+        429,
+        279,
+        4878,
+        9621,
+        646,
+        1490
+      ],
+      "donor": "APT_07_0_1"
+    },
+    {
+      "id": "APT_08_0_0",
+      "block": 8,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 0,
+      "A": 0,
+      "prompt": "The beekeeper that the composer can see",
+      "ids": [
+        151643,
+        785,
+        37228,
+        18861,
+        429,
+        279,
+        39450,
+        646,
+        1490
+      ],
+      "donor": "APT_08_1_0"
+    },
+    {
+      "id": "APT_08_0_1",
+      "block": 8,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 0,
+      "A": 1,
+      "prompt": "The beekeeper that the composers can see",
+      "ids": [
+        151643,
+        785,
+        37228,
+        18861,
+        429,
+        279,
+        94735,
+        646,
+        1490
+      ],
+      "donor": "APT_08_1_1"
+    },
+    {
+      "id": "APT_08_1_0",
+      "block": 8,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 1,
+      "A": 0,
+      "prompt": "The beekeepers that the composer can see",
+      "ids": [
+        151643,
+        785,
+        37228,
+        55538,
+        429,
+        279,
+        39450,
+        646,
+        1490
+      ],
+      "donor": "APT_08_0_0"
+    },
+    {
+      "id": "APT_08_1_1",
+      "block": 8,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 1,
+      "A": 1,
+      "prompt": "The beekeepers that the composers can see",
+      "ids": [
+        151643,
+        785,
+        37228,
+        55538,
+        429,
+        279,
+        94735,
+        646,
+        1490
+      ],
+      "donor": "APT_08_0_1"
+    },
+    {
+      "id": "APT_09_0_0",
+      "block": 9,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 0,
+      "A": 0,
+      "prompt": "The musician that the translator can see",
+      "ids": [
+        151643,
+        785,
+        38744,
+        429,
+        279,
+        45488,
+        646,
+        1490
+      ],
+      "donor": "APT_09_1_0"
+    },
+    {
+      "id": "APT_09_0_1",
+      "block": 9,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 0,
+      "A": 1,
+      "prompt": "The musician that the translators can see",
+      "ids": [
+        151643,
+        785,
+        38744,
+        429,
+        279,
+        72704,
+        646,
+        1490
+      ],
+      "donor": "APT_09_1_1"
+    },
+    {
+      "id": "APT_09_1_0",
+      "block": 9,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 1,
+      "A": 0,
+      "prompt": "The musicians that the translator can see",
+      "ids": [
+        151643,
+        785,
+        31529,
+        429,
+        279,
+        45488,
+        646,
+        1490
+      ],
+      "donor": "APT_09_0_0"
+    },
+    {
+      "id": "APT_09_1_1",
+      "block": 9,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 1,
+      "A": 1,
+      "prompt": "The musicians that the translators can see",
+      "ids": [
+        151643,
+        785,
+        31529,
+        429,
+        279,
+        72704,
+        646,
+        1490
+      ],
+      "donor": "APT_09_0_1"
+    },
+    {
+      "id": "APT_10_0_0",
+      "block": 10,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 0,
+      "A": 0,
+      "prompt": "The cook that the receptionist can see",
+      "ids": [
+        151643,
+        785,
+        4296,
+        429,
+        279,
+        23117,
+        380,
+        646,
+        1490
+      ],
+      "donor": "APT_10_1_0"
+    },
+    {
+      "id": "APT_10_0_1",
+      "block": 10,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 0,
+      "A": 1,
+      "prompt": "The cook that the receptionists can see",
+      "ids": [
+        151643,
+        785,
+        4296,
+        429,
+        279,
+        23117,
+        1671,
+        646,
+        1490
+      ],
+      "donor": "APT_10_1_1"
+    },
+    {
+      "id": "APT_10_1_0",
+      "block": 10,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 1,
+      "A": 0,
+      "prompt": "The cooks that the receptionist can see",
+      "ids": [
+        151643,
+        785,
+        72427,
+        429,
+        279,
+        23117,
+        380,
+        646,
+        1490
+      ],
+      "donor": "APT_10_0_0"
+    },
+    {
+      "id": "APT_10_1_1",
+      "block": 10,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 1,
+      "A": 1,
+      "prompt": "The cooks that the receptionists can see",
+      "ids": [
+        151643,
+        785,
+        72427,
+        429,
+        279,
+        23117,
+        1671,
+        646,
+        1490
+      ],
+      "donor": "APT_10_0_1"
+    },
+    {
+      "id": "APT_11_0_0",
+      "block": 11,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 0,
+      "A": 0,
+      "prompt": "The programmer that the weaver can see",
+      "ids": [
+        151643,
+        785,
+        47788,
+        429,
+        279,
+        582,
+        7255,
+        646,
+        1490
+      ],
+      "donor": "APT_11_1_0"
+    },
+    {
+      "id": "APT_11_0_1",
+      "block": 11,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 0,
+      "A": 1,
+      "prompt": "The programmer that the weavers can see",
+      "ids": [
+        151643,
+        785,
+        47788,
+        429,
+        279,
+        582,
+        21565,
+        646,
+        1490
+      ],
+      "donor": "APT_11_1_1"
+    },
+    {
+      "id": "APT_11_1_0",
+      "block": 11,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 1,
+      "A": 0,
+      "prompt": "The programmers that the weaver can see",
+      "ids": [
+        151643,
+        785,
+        54846,
+        429,
+        279,
+        582,
+        7255,
+        646,
+        1490
+      ],
+      "donor": "APT_11_0_0"
+    },
+    {
+      "id": "APT_11_1_1",
+      "block": 11,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 1,
+      "A": 1,
+      "prompt": "The programmers that the weavers can see",
+      "ids": [
+        151643,
+        785,
+        54846,
+        429,
+        279,
+        582,
+        21565,
+        646,
+        1490
+      ],
+      "donor": "APT_11_0_1"
+    },
+    {
+      "id": "APT_12_0_0",
+      "block": 12,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 0,
+      "A": 0,
+      "prompt": "The builder that the farmer can see",
+      "ids": [
+        151643,
+        785,
+        7363,
+        429,
+        279,
+        36400,
+        646,
+        1490
+      ],
+      "donor": "APT_12_1_0"
+    },
+    {
+      "id": "APT_12_0_1",
+      "block": 12,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 0,
+      "A": 1,
+      "prompt": "The builder that the farmers can see",
+      "ids": [
+        151643,
+        785,
+        7363,
+        429,
+        279,
+        20336,
+        646,
+        1490
+      ],
+      "donor": "APT_12_1_1"
+    },
+    {
+      "id": "APT_12_1_0",
+      "block": 12,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 1,
+      "A": 0,
+      "prompt": "The builders that the farmer can see",
+      "ids": [
+        151643,
+        785,
+        48086,
+        429,
+        279,
+        36400,
+        646,
+        1490
+      ],
+      "donor": "APT_12_0_0"
+    },
+    {
+      "id": "APT_12_1_1",
+      "block": 12,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 1,
+      "A": 1,
+      "prompt": "The builders that the farmers can see",
+      "ids": [
+        151643,
+        785,
+        48086,
+        429,
+        279,
+        20336,
+        646,
+        1490
+      ],
+      "donor": "APT_12_0_1"
+    },
+    {
+      "id": "APT_13_0_0",
+      "block": 13,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 0,
+      "A": 0,
+      "prompt": "The tutor that the welder can see",
+      "ids": [
+        151643,
+        785,
+        25302,
+        429,
+        279,
+        32766,
+        261,
+        646,
+        1490
+      ],
+      "donor": "APT_13_1_0"
+    },
+    {
+      "id": "APT_13_0_1",
+      "block": 13,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 0,
+      "A": 1,
+      "prompt": "The tutor that the welders can see",
+      "ids": [
+        151643,
+        785,
+        25302,
+        429,
+        279,
+        32766,
+        388,
+        646,
+        1490
+      ],
+      "donor": "APT_13_1_1"
+    },
+    {
+      "id": "APT_13_1_0",
+      "block": 13,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 1,
+      "A": 0,
+      "prompt": "The tutors that the welder can see",
+      "ids": [
+        151643,
+        785,
+        82932,
+        429,
+        279,
+        32766,
+        261,
+        646,
+        1490
+      ],
+      "donor": "APT_13_0_0"
+    },
+    {
+      "id": "APT_13_1_1",
+      "block": 13,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 1,
+      "A": 1,
+      "prompt": "The tutors that the welders can see",
+      "ids": [
+        151643,
+        785,
+        82932,
+        429,
+        279,
+        32766,
+        388,
+        646,
+        1490
+      ],
+      "donor": "APT_13_0_1"
+    },
+    {
+      "id": "APT_14_0_0",
+      "block": 14,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 0,
+      "A": 0,
+      "prompt": "The doctor that the surgeon can see",
+      "ids": [
+        151643,
+        785,
+        10668,
+        429,
+        279,
+        44998,
+        646,
+        1490
+      ],
+      "donor": "APT_14_1_0"
+    },
+    {
+      "id": "APT_14_0_1",
+      "block": 14,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 0,
+      "A": 1,
+      "prompt": "The doctor that the surgeons can see",
+      "ids": [
+        151643,
+        785,
+        10668,
+        429,
+        279,
+        73172,
+        646,
+        1490
+      ],
+      "donor": "APT_14_1_1"
+    },
+    {
+      "id": "APT_14_1_0",
+      "block": 14,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 1,
+      "A": 0,
+      "prompt": "The doctors that the surgeon can see",
+      "ids": [
+        151643,
+        785,
+        16026,
+        429,
+        279,
+        44998,
+        646,
+        1490
+      ],
+      "donor": "APT_14_0_0"
+    },
+    {
+      "id": "APT_14_1_1",
+      "block": 14,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 1,
+      "A": 1,
+      "prompt": "The doctors that the surgeons can see",
+      "ids": [
+        151643,
+        785,
+        16026,
+        429,
+        279,
+        73172,
+        646,
+        1490
+      ],
+      "donor": "APT_14_0_1"
+    },
+    {
+      "id": "APT_15_0_0",
+      "block": 15,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 0,
+      "A": 0,
+      "prompt": "The conductor that the cook can see",
+      "ids": [
+        151643,
+        785,
+        60756,
+        429,
+        279,
+        4296,
+        646,
+        1490
+      ],
+      "donor": "APT_15_1_0"
+    },
+    {
+      "id": "APT_15_0_1",
+      "block": 15,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 0,
+      "A": 1,
+      "prompt": "The conductor that the cooks can see",
+      "ids": [
+        151643,
+        785,
+        60756,
+        429,
+        279,
+        72427,
+        646,
+        1490
+      ],
+      "donor": "APT_15_1_1"
+    },
+    {
+      "id": "APT_15_1_0",
+      "block": 15,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 1,
+      "A": 0,
+      "prompt": "The conductors that the cook can see",
+      "ids": [
+        151643,
+        785,
+        6786,
+        1087,
+        429,
+        279,
+        4296,
+        646,
+        1490
+      ],
+      "donor": "APT_15_0_0"
+    },
+    {
+      "id": "APT_15_1_1",
+      "block": 15,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 1,
+      "A": 1,
+      "prompt": "The conductors that the cooks can see",
+      "ids": [
+        151643,
+        785,
+        6786,
+        1087,
+        429,
+        279,
+        72427,
+        646,
+        1490
+      ],
+      "donor": "APT_15_0_1"
+    },
+    {
+      "id": "APT_16_0_0",
+      "block": 16,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 0,
+      "A": 0,
+      "prompt": "The architect that the psychologist can see",
+      "ids": [
+        151643,
+        785,
+        11470,
+        429,
+        279,
+        53495,
+        646,
+        1490
+      ],
+      "donor": "APT_16_1_0"
+    },
+    {
+      "id": "APT_16_0_1",
+      "block": 16,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 0,
+      "A": 1,
+      "prompt": "The architect that the psychologists can see",
+      "ids": [
+        151643,
+        785,
+        11470,
+        429,
+        279,
+        73091,
+        646,
+        1490
+      ],
+      "donor": "APT_16_1_1"
+    },
+    {
+      "id": "APT_16_1_0",
+      "block": 16,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 1,
+      "A": 0,
+      "prompt": "The architects that the psychologist can see",
+      "ids": [
+        151643,
+        785,
+        54935,
+        429,
+        279,
+        53495,
+        646,
+        1490
+      ],
+      "donor": "APT_16_0_0"
+    },
+    {
+      "id": "APT_16_1_1",
+      "block": 16,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 1,
+      "A": 1,
+      "prompt": "The architects that the psychologists can see",
+      "ids": [
+        151643,
+        785,
+        54935,
+        429,
+        279,
+        73091,
+        646,
+        1490
+      ],
+      "donor": "APT_16_0_1"
+    },
+    {
+      "id": "APT_17_0_0",
+      "block": 17,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 0,
+      "A": 0,
+      "prompt": "The interpreter that the sculptor can see",
+      "ids": [
+        151643,
+        785,
+        39299,
+        429,
+        279,
+        26765,
+        269,
+        646,
+        1490
+      ],
+      "donor": "APT_17_1_0"
+    },
+    {
+      "id": "APT_17_0_1",
+      "block": 17,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 0,
+      "A": 1,
+      "prompt": "The interpreter that the sculptors can see",
+      "ids": [
+        151643,
+        785,
+        39299,
+        429,
+        279,
+        26765,
+        1087,
+        646,
+        1490
+      ],
+      "donor": "APT_17_1_1"
+    },
+    {
+      "id": "APT_17_1_0",
+      "block": 17,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 1,
+      "A": 0,
+      "prompt": "The interpreters that the sculptor can see",
+      "ids": [
+        151643,
+        785,
+        17929,
+        5045,
+        429,
+        279,
+        26765,
+        269,
+        646,
+        1490
+      ],
+      "donor": "APT_17_0_0"
+    },
+    {
+      "id": "APT_17_1_1",
+      "block": 17,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 1,
+      "A": 1,
+      "prompt": "The interpreters that the sculptors can see",
+      "ids": [
+        151643,
+        785,
+        17929,
+        5045,
+        429,
+        279,
+        26765,
+        1087,
+        646,
+        1490
+      ],
+      "donor": "APT_17_0_1"
+    },
+    {
+      "id": "APT_18_0_0",
+      "block": 18,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 0,
+      "A": 0,
+      "prompt": "The editor that the instructor can see",
+      "ids": [
+        151643,
+        785,
+        6440,
+        429,
+        279,
+        32215,
+        646,
+        1490
+      ],
+      "donor": "APT_18_1_0"
+    },
+    {
+      "id": "APT_18_0_1",
+      "block": 18,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 0,
+      "A": 1,
+      "prompt": "The editor that the instructors can see",
+      "ids": [
+        151643,
+        785,
+        6440,
+        429,
+        279,
+        53818,
+        646,
+        1490
+      ],
+      "donor": "APT_18_1_1"
+    },
+    {
+      "id": "APT_18_1_0",
+      "block": 18,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 1,
+      "A": 0,
+      "prompt": "The editors that the instructor can see",
+      "ids": [
+        151643,
+        785,
+        28746,
+        429,
+        279,
+        32215,
+        646,
+        1490
+      ],
+      "donor": "APT_18_0_0"
+    },
+    {
+      "id": "APT_18_1_1",
+      "block": 18,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 1,
+      "A": 1,
+      "prompt": "The editors that the instructors can see",
+      "ids": [
+        151643,
+        785,
+        28746,
+        429,
+        279,
+        53818,
+        646,
+        1490
+      ],
+      "donor": "APT_18_0_1"
+    },
+    {
+      "id": "APT_19_0_0",
+      "block": 19,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 0,
+      "A": 0,
+      "prompt": "The builder that the instructor can see",
+      "ids": [
+        151643,
+        785,
+        7363,
+        429,
+        279,
+        32215,
+        646,
+        1490
+      ],
+      "donor": "APT_19_1_0"
+    },
+    {
+      "id": "APT_19_0_1",
+      "block": 19,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 0,
+      "A": 1,
+      "prompt": "The builder that the instructors can see",
+      "ids": [
+        151643,
+        785,
+        7363,
+        429,
+        279,
+        53818,
+        646,
+        1490
+      ],
+      "donor": "APT_19_1_1"
+    },
+    {
+      "id": "APT_19_1_0",
+      "block": 19,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 1,
+      "A": 0,
+      "prompt": "The builders that the instructor can see",
+      "ids": [
+        151643,
+        785,
+        48086,
+        429,
+        279,
+        32215,
+        646,
+        1490
+      ],
+      "donor": "APT_19_0_0"
+    },
+    {
+      "id": "APT_19_1_1",
+      "block": 19,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 1,
+      "A": 1,
+      "prompt": "The builders that the instructors can see",
+      "ids": [
+        151643,
+        785,
+        48086,
+        429,
+        279,
+        53818,
+        646,
+        1490
+      ],
+      "donor": "APT_19_0_1"
+    },
+    {
+      "id": "APT_20_0_0",
+      "block": 20,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 0,
+      "A": 0,
+      "prompt": "The driver that the mason can see",
+      "ids": [
+        151643,
+        785,
+        5579,
+        429,
+        279,
+        296,
+        1497,
+        646,
+        1490
+      ],
+      "donor": "APT_20_1_0"
+    },
+    {
+      "id": "APT_20_0_1",
+      "block": 20,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 0,
+      "A": 1,
+      "prompt": "The driver that the masons can see",
+      "ids": [
+        151643,
+        785,
+        5579,
+        429,
+        279,
+        296,
+        98849,
+        646,
+        1490
+      ],
+      "donor": "APT_20_1_1"
+    },
+    {
+      "id": "APT_20_1_0",
+      "block": 20,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 1,
+      "A": 0,
+      "prompt": "The drivers that the mason can see",
+      "ids": [
+        151643,
+        785,
+        11788,
+        429,
+        279,
+        296,
+        1497,
+        646,
+        1490
+      ],
+      "donor": "APT_20_0_0"
+    },
+    {
+      "id": "APT_20_1_1",
+      "block": 20,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 1,
+      "A": 1,
+      "prompt": "The drivers that the masons can see",
+      "ids": [
+        151643,
+        785,
+        11788,
+        429,
+        279,
+        296,
+        98849,
+        646,
+        1490
+      ],
+      "donor": "APT_20_0_1"
+    },
+    {
+      "id": "APT_21_0_0",
+      "block": 21,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 0,
+      "A": 0,
+      "prompt": "The banker that the inspector can see",
+      "ids": [
+        151643,
+        785,
+        71659,
+        429,
+        279,
+        44725,
+        646,
+        1490
+      ],
+      "donor": "APT_21_1_0"
+    },
+    {
+      "id": "APT_21_0_1",
+      "block": 21,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 0,
+      "A": 1,
+      "prompt": "The banker that the inspectors can see",
+      "ids": [
+        151643,
+        785,
+        71659,
+        429,
+        279,
+        68830,
+        646,
+        1490
+      ],
+      "donor": "APT_21_1_1"
+    },
+    {
+      "id": "APT_21_1_0",
+      "block": 21,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 1,
+      "A": 0,
+      "prompt": "The bankers that the inspector can see",
+      "ids": [
+        151643,
+        785,
+        63143,
+        429,
+        279,
+        44725,
+        646,
+        1490
+      ],
+      "donor": "APT_21_0_0"
+    },
+    {
+      "id": "APT_21_1_1",
+      "block": 21,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 1,
+      "A": 1,
+      "prompt": "The bankers that the inspectors can see",
+      "ids": [
+        151643,
+        785,
+        63143,
+        429,
+        279,
+        68830,
+        646,
+        1490
+      ],
+      "donor": "APT_21_0_1"
+    },
+    {
+      "id": "APT_22_0_0",
+      "block": 22,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 0,
+      "A": 0,
+      "prompt": "The inspector that the interpreter can see",
+      "ids": [
+        151643,
+        785,
+        44725,
+        429,
+        279,
+        39299,
+        646,
+        1490
+      ],
+      "donor": "APT_22_1_0"
+    },
+    {
+      "id": "APT_22_0_1",
+      "block": 22,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 0,
+      "A": 1,
+      "prompt": "The inspector that the interpreters can see",
+      "ids": [
+        151643,
+        785,
+        44725,
+        429,
+        279,
+        17929,
+        5045,
+        646,
+        1490
+      ],
+      "donor": "APT_22_1_1"
+    },
+    {
+      "id": "APT_22_1_0",
+      "block": 22,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 1,
+      "A": 0,
+      "prompt": "The inspectors that the interpreter can see",
+      "ids": [
+        151643,
+        785,
+        68830,
+        429,
+        279,
+        39299,
+        646,
+        1490
+      ],
+      "donor": "APT_22_0_0"
+    },
+    {
+      "id": "APT_22_1_1",
+      "block": 22,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 1,
+      "A": 1,
+      "prompt": "The inspectors that the interpreters can see",
+      "ids": [
+        151643,
+        785,
+        68830,
+        429,
+        279,
+        17929,
+        5045,
+        646,
+        1490
+      ],
+      "donor": "APT_22_0_1"
+    },
+    {
+      "id": "APT_23_0_0",
+      "block": 23,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 0,
+      "A": 0,
+      "prompt": "The counselor that the firefighter can see",
+      "ids": [
+        151643,
+        785,
+        61375,
+        429,
+        279,
+        94165,
+        646,
+        1490
+      ],
+      "donor": "APT_23_1_0"
+    },
+    {
+      "id": "APT_23_0_1",
+      "block": 23,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 0,
+      "A": 1,
+      "prompt": "The counselor that the firefighters can see",
+      "ids": [
+        151643,
+        785,
+        61375,
+        429,
+        279,
+        52106,
+        646,
+        1490
+      ],
+      "donor": "APT_23_1_1"
+    },
+    {
+      "id": "APT_23_1_0",
+      "block": 23,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 1,
+      "A": 0,
+      "prompt": "The counselors that the firefighter can see",
+      "ids": [
+        151643,
+        785,
+        85247,
+        429,
+        279,
+        94165,
+        646,
+        1490
+      ],
+      "donor": "APT_23_0_0"
+    },
+    {
+      "id": "APT_23_1_1",
+      "block": 23,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 1,
+      "A": 1,
+      "prompt": "The counselors that the firefighters can see",
+      "ids": [
+        151643,
+        785,
+        85247,
+        429,
+        279,
+        52106,
+        646,
+        1490
+      ],
+      "donor": "APT_23_0_1"
+    },
+    {
+      "id": "APT_24_0_0",
+      "block": 24,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 0,
+      "A": 0,
+      "prompt": "The engineer that the manager can see",
+      "ids": [
+        151643,
+        785,
+        23576,
+        429,
+        279,
+        6645,
+        646,
+        1490
+      ],
+      "donor": "APT_24_1_0"
+    },
+    {
+      "id": "APT_24_0_1",
+      "block": 24,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 0,
+      "A": 1,
+      "prompt": "The engineer that the managers can see",
+      "ids": [
+        151643,
+        785,
+        23576,
+        429,
+        279,
+        19680,
+        646,
+        1490
+      ],
+      "donor": "APT_24_1_1"
+    },
+    {
+      "id": "APT_24_1_0",
+      "block": 24,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 1,
+      "A": 0,
+      "prompt": "The engineers that the manager can see",
+      "ids": [
+        151643,
+        785,
+        24198,
+        429,
+        279,
+        6645,
+        646,
+        1490
+      ],
+      "donor": "APT_24_0_0"
+    },
+    {
+      "id": "APT_24_1_1",
+      "block": 24,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 1,
+      "A": 1,
+      "prompt": "The engineers that the managers can see",
+      "ids": [
+        151643,
+        785,
+        24198,
+        429,
+        279,
+        19680,
+        646,
+        1490
+      ],
+      "donor": "APT_24_0_1"
+    },
+    {
+      "id": "APT_25_0_0",
+      "block": 25,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 0,
+      "A": 0,
+      "prompt": "The inventor that the lawyer can see",
+      "ids": [
+        151643,
+        785,
+        70901,
+        429,
+        279,
+        15417,
+        646,
+        1490
+      ],
+      "donor": "APT_25_1_0"
+    },
+    {
+      "id": "APT_25_0_1",
+      "block": 25,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 0,
+      "A": 1,
+      "prompt": "The inventor that the lawyers can see",
+      "ids": [
+        151643,
+        785,
+        70901,
+        429,
+        279,
+        21177,
+        646,
+        1490
+      ],
+      "donor": "APT_25_1_1"
+    },
+    {
+      "id": "APT_25_1_0",
+      "block": 25,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 1,
+      "A": 0,
+      "prompt": "The inventors that the lawyer can see",
+      "ids": [
+        151643,
+        785,
+        17023,
+        1087,
+        429,
+        279,
+        15417,
+        646,
+        1490
+      ],
+      "donor": "APT_25_0_0"
+    },
+    {
+      "id": "APT_25_1_1",
+      "block": 25,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 1,
+      "A": 1,
+      "prompt": "The inventors that the lawyers can see",
+      "ids": [
+        151643,
+        785,
+        17023,
+        1087,
+        429,
+        279,
+        21177,
+        646,
+        1490
+      ],
+      "donor": "APT_25_0_1"
+    },
+    {
+      "id": "APT_26_0_0",
+      "block": 26,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 0,
+      "A": 0,
+      "prompt": "The cashier that the researcher can see",
+      "ids": [
+        151643,
+        785,
+        90355,
+        429,
+        279,
+        31085,
+        646,
+        1490
+      ],
+      "donor": "APT_26_1_0"
+    },
+    {
+      "id": "APT_26_0_1",
+      "block": 26,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 0,
+      "A": 1,
+      "prompt": "The cashier that the researchers can see",
+      "ids": [
+        151643,
+        785,
+        90355,
+        429,
+        279,
+        11811,
+        646,
+        1490
+      ],
+      "donor": "APT_26_1_1"
+    },
+    {
+      "id": "APT_26_1_0",
+      "block": 26,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 1,
+      "A": 0,
+      "prompt": "The cashiers that the researcher can see",
+      "ids": [
+        151643,
+        785,
+        8350,
+        4813,
+        429,
+        279,
+        31085,
+        646,
+        1490
+      ],
+      "donor": "APT_26_0_0"
+    },
+    {
+      "id": "APT_26_1_1",
+      "block": 26,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 1,
+      "A": 1,
+      "prompt": "The cashiers that the researchers can see",
+      "ids": [
+        151643,
+        785,
+        8350,
+        4813,
+        429,
+        279,
+        11811,
+        646,
+        1490
+      ],
+      "donor": "APT_26_0_1"
+    },
+    {
+      "id": "APT_27_0_0",
+      "block": 27,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 0,
+      "A": 0,
+      "prompt": "The beekeeper that the cook can see",
+      "ids": [
+        151643,
+        785,
+        37228,
+        18861,
+        429,
+        279,
+        4296,
+        646,
+        1490
+      ],
+      "donor": "APT_27_1_0"
+    },
+    {
+      "id": "APT_27_0_1",
+      "block": 27,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 0,
+      "A": 1,
+      "prompt": "The beekeeper that the cooks can see",
+      "ids": [
+        151643,
+        785,
+        37228,
+        18861,
+        429,
+        279,
+        72427,
+        646,
+        1490
+      ],
+      "donor": "APT_27_1_1"
+    },
+    {
+      "id": "APT_27_1_0",
+      "block": 27,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 1,
+      "A": 0,
+      "prompt": "The beekeepers that the cook can see",
+      "ids": [
+        151643,
+        785,
+        37228,
+        55538,
+        429,
+        279,
+        4296,
+        646,
+        1490
+      ],
+      "donor": "APT_27_0_0"
+    },
+    {
+      "id": "APT_27_1_1",
+      "block": 27,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 1,
+      "A": 1,
+      "prompt": "The beekeepers that the cooks can see",
+      "ids": [
+        151643,
+        785,
+        37228,
+        55538,
+        429,
+        279,
+        72427,
+        646,
+        1490
+      ],
+      "donor": "APT_27_0_1"
+    },
+    {
+      "id": "APT_28_0_0",
+      "block": 28,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 0,
+      "A": 0,
+      "prompt": "The beekeeper that the violinist can see",
+      "ids": [
+        151643,
+        785,
+        37228,
+        18861,
+        429,
+        279,
+        62037,
+        380,
+        646,
+        1490
+      ],
+      "donor": "APT_28_1_0"
+    },
+    {
+      "id": "APT_28_0_1",
+      "block": 28,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 0,
+      "A": 1,
+      "prompt": "The beekeeper that the violinists can see",
+      "ids": [
+        151643,
+        785,
+        37228,
+        18861,
+        429,
+        279,
+        62037,
+        1671,
+        646,
+        1490
+      ],
+      "donor": "APT_28_1_1"
+    },
+    {
+      "id": "APT_28_1_0",
+      "block": 28,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 1,
+      "A": 0,
+      "prompt": "The beekeepers that the violinist can see",
+      "ids": [
+        151643,
+        785,
+        37228,
+        55538,
+        429,
+        279,
+        62037,
+        380,
+        646,
+        1490
+      ],
+      "donor": "APT_28_0_0"
+    },
+    {
+      "id": "APT_28_1_1",
+      "block": 28,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 1,
+      "A": 1,
+      "prompt": "The beekeepers that the violinists can see",
+      "ids": [
+        151643,
+        785,
+        37228,
+        55538,
+        429,
+        279,
+        62037,
+        1671,
+        646,
+        1490
+      ],
+      "donor": "APT_28_0_1"
+    },
+    {
+      "id": "APT_29_0_0",
+      "block": 29,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 0,
+      "A": 0,
+      "prompt": "The cashier that the plumber can see",
+      "ids": [
+        151643,
+        785,
+        90355,
+        429,
+        279,
+        88586,
+        646,
+        1490
+      ],
+      "donor": "APT_29_1_0"
+    },
+    {
+      "id": "APT_29_0_1",
+      "block": 29,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 0,
+      "A": 1,
+      "prompt": "The cashier that the plumbers can see",
+      "ids": [
+        151643,
+        785,
+        90355,
+        429,
+        279,
+        41172,
+        1902,
+        646,
+        1490
+      ],
+      "donor": "APT_29_1_1"
+    },
+    {
+      "id": "APT_29_1_0",
+      "block": 29,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 1,
+      "A": 0,
+      "prompt": "The cashiers that the plumber can see",
+      "ids": [
+        151643,
+        785,
+        8350,
+        4813,
+        429,
+        279,
+        88586,
+        646,
+        1490
+      ],
+      "donor": "APT_29_0_0"
+    },
+    {
+      "id": "APT_29_1_1",
+      "block": 29,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 1,
+      "A": 1,
+      "prompt": "The cashiers that the plumbers can see",
+      "ids": [
+        151643,
+        785,
+        8350,
+        4813,
+        429,
+        279,
+        41172,
+        1902,
+        646,
+        1490
+      ],
+      "donor": "APT_29_0_1"
+    },
+    {
+      "id": "APT_30_0_0",
+      "block": 30,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 0,
+      "A": 0,
+      "prompt": "The locksmith that the manager can see",
+      "ids": [
+        151643,
+        785,
+        97960,
+        429,
+        279,
+        6645,
+        646,
+        1490
+      ],
+      "donor": "APT_30_1_0"
+    },
+    {
+      "id": "APT_30_0_1",
+      "block": 30,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 0,
+      "A": 1,
+      "prompt": "The locksmith that the managers can see",
+      "ids": [
+        151643,
+        785,
+        97960,
+        429,
+        279,
+        19680,
+        646,
+        1490
+      ],
+      "donor": "APT_30_1_1"
+    },
+    {
+      "id": "APT_30_1_0",
+      "block": 30,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 1,
+      "A": 0,
+      "prompt": "The locksmiths that the manager can see",
+      "ids": [
+        151643,
+        785,
+        97960,
+        82,
+        429,
+        279,
+        6645,
+        646,
+        1490
+      ],
+      "donor": "APT_30_0_0"
+    },
+    {
+      "id": "APT_30_1_1",
+      "block": 30,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 1,
+      "A": 1,
+      "prompt": "The locksmiths that the managers can see",
+      "ids": [
+        151643,
+        785,
+        97960,
+        82,
+        429,
+        279,
+        19680,
+        646,
+        1490
+      ],
+      "donor": "APT_30_0_1"
+    },
+    {
+      "id": "APT_31_0_0",
+      "block": 31,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 0,
+      "A": 0,
+      "prompt": "The mechanic that the singer can see",
+      "ids": [
+        151643,
+        785,
+        44139,
+        429,
+        279,
+        22757,
+        646,
+        1490
+      ],
+      "donor": "APT_31_1_0"
+    },
+    {
+      "id": "APT_31_0_1",
+      "block": 31,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 0,
+      "A": 1,
+      "prompt": "The mechanic that the singers can see",
+      "ids": [
+        151643,
+        785,
+        44139,
+        429,
+        279,
+        67041,
+        646,
+        1490
+      ],
+      "donor": "APT_31_1_1"
+    },
+    {
+      "id": "APT_31_1_0",
+      "block": 31,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 1,
+      "A": 0,
+      "prompt": "The mechanics that the singer can see",
+      "ids": [
+        151643,
+        785,
+        29026,
+        429,
+        279,
+        22757,
+        646,
+        1490
+      ],
+      "donor": "APT_31_0_0"
+    },
+    {
+      "id": "APT_31_1_1",
+      "block": 31,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 1,
+      "A": 1,
+      "prompt": "The mechanics that the singers can see",
+      "ids": [
+        151643,
+        785,
+        29026,
+        429,
+        279,
+        67041,
+        646,
+        1490
+      ],
+      "donor": "APT_31_0_1"
+    },
+    {
+      "id": "APT_32_0_0",
+      "block": 32,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 0,
+      "A": 0,
+      "prompt": "The collector that the writer can see",
+      "ids": [
+        151643,
+        785,
+        31953,
+        429,
+        279,
+        6916,
+        646,
+        1490
+      ],
+      "donor": "APT_32_1_0"
+    },
+    {
+      "id": "APT_32_0_1",
+      "block": 32,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 0,
+      "A": 1,
+      "prompt": "The collector that the writers can see",
+      "ids": [
+        151643,
+        785,
+        31953,
+        429,
+        279,
+        16093,
+        646,
+        1490
+      ],
+      "donor": "APT_32_1_1"
+    },
+    {
+      "id": "APT_32_1_0",
+      "block": 32,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 1,
+      "A": 0,
+      "prompt": "The collectors that the writer can see",
+      "ids": [
+        151643,
+        785,
+        51448,
+        429,
+        279,
+        6916,
+        646,
+        1490
+      ],
+      "donor": "APT_32_0_0"
+    },
+    {
+      "id": "APT_32_1_1",
+      "block": 32,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 1,
+      "A": 1,
+      "prompt": "The collectors that the writers can see",
+      "ids": [
+        151643,
+        785,
+        51448,
+        429,
+        279,
+        16093,
+        646,
+        1490
+      ],
+      "donor": "APT_32_0_1"
+    },
+    {
+      "id": "APT_33_0_0",
+      "block": 33,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 0,
+      "A": 0,
+      "prompt": "The librarian that the programmer can see",
+      "ids": [
+        151643,
+        785,
+        94207,
+        429,
+        279,
+        47788,
+        646,
+        1490
+      ],
+      "donor": "APT_33_1_0"
+    },
+    {
+      "id": "APT_33_0_1",
+      "block": 33,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 0,
+      "A": 1,
+      "prompt": "The librarian that the programmers can see",
+      "ids": [
+        151643,
+        785,
+        94207,
+        429,
+        279,
+        54846,
+        646,
+        1490
+      ],
+      "donor": "APT_33_1_1"
+    },
+    {
+      "id": "APT_33_1_0",
+      "block": 33,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 1,
+      "A": 0,
+      "prompt": "The librarians that the programmer can see",
+      "ids": [
+        151643,
+        785,
+        60359,
+        29527,
+        429,
+        279,
+        47788,
+        646,
+        1490
+      ],
+      "donor": "APT_33_0_0"
+    },
+    {
+      "id": "APT_33_1_1",
+      "block": 33,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 1,
+      "A": 1,
+      "prompt": "The librarians that the programmers can see",
+      "ids": [
+        151643,
+        785,
+        60359,
+        29527,
+        429,
+        279,
+        54846,
+        646,
+        1490
+      ],
+      "donor": "APT_33_0_1"
+    },
+    {
+      "id": "APT_34_0_0",
+      "block": 34,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 0,
+      "A": 0,
+      "prompt": "The cleaner that the engineer can see",
+      "ids": [
+        151643,
+        785,
+        31881,
+        429,
+        279,
+        23576,
+        646,
+        1490
+      ],
+      "donor": "APT_34_1_0"
+    },
+    {
+      "id": "APT_34_0_1",
+      "block": 34,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 0,
+      "A": 1,
+      "prompt": "The cleaner that the engineers can see",
+      "ids": [
+        151643,
+        785,
+        31881,
+        429,
+        279,
+        24198,
+        646,
+        1490
+      ],
+      "donor": "APT_34_1_1"
+    },
+    {
+      "id": "APT_34_1_0",
+      "block": 34,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 1,
+      "A": 0,
+      "prompt": "The cleaners that the engineer can see",
+      "ids": [
+        151643,
+        785,
+        74865,
+        429,
+        279,
+        23576,
+        646,
+        1490
+      ],
+      "donor": "APT_34_0_0"
+    },
+    {
+      "id": "APT_34_1_1",
+      "block": 34,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 1,
+      "A": 1,
+      "prompt": "The cleaners that the engineers can see",
+      "ids": [
+        151643,
+        785,
+        74865,
+        429,
+        279,
+        24198,
+        646,
+        1490
+      ],
+      "donor": "APT_34_0_1"
+    },
+    {
+      "id": "APT_35_0_0",
+      "block": 35,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 0,
+      "A": 0,
+      "prompt": "The chef that the farmer can see",
+      "ids": [
+        151643,
+        785,
+        29706,
+        429,
+        279,
+        36400,
+        646,
+        1490
+      ],
+      "donor": "APT_35_1_0"
+    },
+    {
+      "id": "APT_35_0_1",
+      "block": 35,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 0,
+      "A": 1,
+      "prompt": "The chef that the farmers can see",
+      "ids": [
+        151643,
+        785,
+        29706,
+        429,
+        279,
+        20336,
+        646,
+        1490
+      ],
+      "donor": "APT_35_1_1"
+    },
+    {
+      "id": "APT_35_1_0",
+      "block": 35,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 1,
+      "A": 0,
+      "prompt": "The chefs that the farmer can see",
+      "ids": [
+        151643,
+        785,
+        59127,
+        429,
+        279,
+        36400,
+        646,
+        1490
+      ],
+      "donor": "APT_35_0_0"
+    },
+    {
+      "id": "APT_35_1_1",
+      "block": 35,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 1,
+      "A": 1,
+      "prompt": "The chefs that the farmers can see",
+      "ids": [
+        151643,
+        785,
+        59127,
+        429,
+        279,
+        20336,
+        646,
+        1490
+      ],
+      "donor": "APT_35_0_1"
+    },
+    {
+      "id": "APT_36_0_0",
+      "block": 36,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 0,
+      "A": 0,
+      "prompt": "The instructor that the soldier can see",
+      "ids": [
+        151643,
+        785,
+        32215,
+        429,
+        279,
+        26110,
+        646,
+        1490
+      ],
+      "donor": "APT_36_1_0"
+    },
+    {
+      "id": "APT_36_0_1",
+      "block": 36,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 0,
+      "A": 1,
+      "prompt": "The instructor that the soldiers can see",
+      "ids": [
+        151643,
+        785,
+        32215,
+        429,
+        279,
+        14856,
+        646,
+        1490
+      ],
+      "donor": "APT_36_1_1"
+    },
+    {
+      "id": "APT_36_1_0",
+      "block": 36,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 1,
+      "A": 0,
+      "prompt": "The instructors that the soldier can see",
+      "ids": [
+        151643,
+        785,
+        53818,
+        429,
+        279,
+        26110,
+        646,
+        1490
+      ],
+      "donor": "APT_36_0_0"
+    },
+    {
+      "id": "APT_36_1_1",
+      "block": 36,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 1,
+      "A": 1,
+      "prompt": "The instructors that the soldiers can see",
+      "ids": [
+        151643,
+        785,
+        53818,
+        429,
+        279,
+        14856,
+        646,
+        1490
+      ],
+      "donor": "APT_36_0_1"
+    },
+    {
+      "id": "APT_37_0_0",
+      "block": 37,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 0,
+      "A": 0,
+      "prompt": "The surgeon that the teacher can see",
+      "ids": [
+        151643,
+        785,
+        44998,
+        429,
+        279,
+        11079,
+        646,
+        1490
+      ],
+      "donor": "APT_37_1_0"
+    },
+    {
+      "id": "APT_37_0_1",
+      "block": 37,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 0,
+      "A": 1,
+      "prompt": "The surgeon that the teachers can see",
+      "ids": [
+        151643,
+        785,
+        44998,
+        429,
+        279,
+        13336,
+        646,
+        1490
+      ],
+      "donor": "APT_37_1_1"
+    },
+    {
+      "id": "APT_37_1_0",
+      "block": 37,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 1,
+      "A": 0,
+      "prompt": "The surgeons that the teacher can see",
+      "ids": [
+        151643,
+        785,
+        73172,
+        429,
+        279,
+        11079,
+        646,
+        1490
+      ],
+      "donor": "APT_37_0_0"
+    },
+    {
+      "id": "APT_37_1_1",
+      "block": 37,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 1,
+      "A": 1,
+      "prompt": "The surgeons that the teachers can see",
+      "ids": [
+        151643,
+        785,
+        73172,
+        429,
+        279,
+        13336,
+        646,
+        1490
+      ],
+      "donor": "APT_37_0_1"
+    },
+    {
+      "id": "APT_38_0_0",
+      "block": 38,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 0,
+      "A": 0,
+      "prompt": "The professor that the soldier can see",
+      "ids": [
+        151643,
+        785,
+        14227,
+        429,
+        279,
+        26110,
+        646,
+        1490
+      ],
+      "donor": "APT_38_1_0"
+    },
+    {
+      "id": "APT_38_0_1",
+      "block": 38,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 0,
+      "A": 1,
+      "prompt": "The professor that the soldiers can see",
+      "ids": [
+        151643,
+        785,
+        14227,
+        429,
+        279,
+        14856,
+        646,
+        1490
+      ],
+      "donor": "APT_38_1_1"
+    },
+    {
+      "id": "APT_38_1_0",
+      "block": 38,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 1,
+      "A": 0,
+      "prompt": "The professors that the soldier can see",
+      "ids": [
+        151643,
+        785,
+        44624,
+        429,
+        279,
+        26110,
+        646,
+        1490
+      ],
+      "donor": "APT_38_0_0"
+    },
+    {
+      "id": "APT_38_1_1",
+      "block": 38,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 1,
+      "A": 1,
+      "prompt": "The professors that the soldiers can see",
+      "ids": [
+        151643,
+        785,
+        44624,
+        429,
+        279,
+        14856,
+        646,
+        1490
+      ],
+      "donor": "APT_38_0_1"
+    },
+    {
+      "id": "APT_39_0_0",
+      "block": 39,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 0,
+      "A": 0,
+      "prompt": "The miner that the waiter can see",
+      "ids": [
+        151643,
+        785,
+        47163,
+        429,
+        279,
+        67169,
+        646,
+        1490
+      ],
+      "donor": "APT_39_1_0"
+    },
+    {
+      "id": "APT_39_0_1",
+      "block": 39,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 0,
+      "A": 1,
+      "prompt": "The miner that the waiters can see",
+      "ids": [
+        151643,
+        785,
+        47163,
+        429,
+        279,
+        3783,
+        388,
+        646,
+        1490
+      ],
+      "donor": "APT_39_1_1"
+    },
+    {
+      "id": "APT_39_1_0",
+      "block": 39,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 1,
+      "A": 0,
+      "prompt": "The miners that the waiter can see",
+      "ids": [
+        151643,
+        785,
+        42143,
+        429,
+        279,
+        67169,
+        646,
+        1490
+      ],
+      "donor": "APT_39_0_0"
+    },
+    {
+      "id": "APT_39_1_1",
+      "block": 39,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 1,
+      "A": 1,
+      "prompt": "The miners that the waiters can see",
+      "ids": [
+        151643,
+        785,
+        42143,
+        429,
+        279,
+        3783,
+        388,
+        646,
+        1490
+      ],
+      "donor": "APT_39_0_1"
+    },
+    {
+      "id": "APT_40_0_0",
+      "block": 40,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 0,
+      "A": 0,
+      "prompt": "The decorator that the soldier can see",
+      "ids": [
+        151643,
+        785,
+        50678,
+        429,
+        279,
+        26110,
+        646,
+        1490
+      ],
+      "donor": "APT_40_1_0"
+    },
+    {
+      "id": "APT_40_0_1",
+      "block": 40,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 0,
+      "A": 1,
+      "prompt": "The decorator that the soldiers can see",
+      "ids": [
+        151643,
+        785,
+        50678,
+        429,
+        279,
+        14856,
+        646,
+        1490
+      ],
+      "donor": "APT_40_1_1"
+    },
+    {
+      "id": "APT_40_1_0",
+      "block": 40,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 1,
+      "A": 0,
+      "prompt": "The decorators that the soldier can see",
+      "ids": [
+        151643,
+        785,
+        62678,
+        429,
+        279,
+        26110,
+        646,
+        1490
+      ],
+      "donor": "APT_40_0_0"
+    },
+    {
+      "id": "APT_40_1_1",
+      "block": 40,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 1,
+      "A": 1,
+      "prompt": "The decorators that the soldiers can see",
+      "ids": [
+        151643,
+        785,
+        62678,
+        429,
+        279,
+        14856,
+        646,
+        1490
+      ],
+      "donor": "APT_40_0_1"
+    },
+    {
+      "id": "APT_41_0_0",
+      "block": 41,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 0,
+      "A": 0,
+      "prompt": "The florist that the pianist can see",
+      "ids": [
+        151643,
+        785,
+        69140,
+        380,
+        429,
+        279,
+        59066,
+        380,
+        646,
+        1490
+      ],
+      "donor": "APT_41_1_0"
+    },
+    {
+      "id": "APT_41_0_1",
+      "block": 41,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 0,
+      "A": 1,
+      "prompt": "The florist that the pianists can see",
+      "ids": [
+        151643,
+        785,
+        69140,
+        380,
+        429,
+        279,
+        59066,
+        1671,
+        646,
+        1490
+      ],
+      "donor": "APT_41_1_1"
+    },
+    {
+      "id": "APT_41_1_0",
+      "block": 41,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 1,
+      "A": 0,
+      "prompt": "The florists that the pianist can see",
+      "ids": [
+        151643,
+        785,
+        69140,
+        1671,
+        429,
+        279,
+        59066,
+        380,
+        646,
+        1490
+      ],
+      "donor": "APT_41_0_0"
+    },
+    {
+      "id": "APT_41_1_1",
+      "block": 41,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 1,
+      "A": 1,
+      "prompt": "The florists that the pianists can see",
+      "ids": [
+        151643,
+        785,
+        69140,
+        1671,
+        429,
+        279,
+        59066,
+        1671,
+        646,
+        1490
+      ],
+      "donor": "APT_41_0_1"
+    },
+    {
+      "id": "APT_42_0_0",
+      "block": 42,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 0,
+      "A": 0,
+      "prompt": "The secretary that the veterinarian can see",
+      "ids": [
+        151643,
+        785,
+        19067,
+        429,
+        279,
+        81240,
+        646,
+        1490
+      ],
+      "donor": "APT_42_1_0"
+    },
+    {
+      "id": "APT_42_0_1",
+      "block": 42,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 0,
+      "A": 1,
+      "prompt": "The secretary that the veterinarians can see",
+      "ids": [
+        151643,
+        785,
+        19067,
+        429,
+        279,
+        60571,
+        29527,
+        646,
+        1490
+      ],
+      "donor": "APT_42_1_1"
+    },
+    {
+      "id": "APT_42_1_0",
+      "block": 42,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 1,
+      "A": 0,
+      "prompt": "The secretaries that the veterinarian can see",
+      "ids": [
+        151643,
+        785,
+        6234,
+        5431,
+        429,
+        279,
+        81240,
+        646,
+        1490
+      ],
+      "donor": "APT_42_0_0"
+    },
+    {
+      "id": "APT_42_1_1",
+      "block": 42,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 1,
+      "A": 1,
+      "prompt": "The secretaries that the veterinarians can see",
+      "ids": [
+        151643,
+        785,
+        6234,
+        5431,
+        429,
+        279,
+        60571,
+        29527,
+        646,
+        1490
+      ],
+      "donor": "APT_42_0_1"
+    },
+    {
+      "id": "APT_43_0_0",
+      "block": 43,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 0,
+      "A": 0,
+      "prompt": "The judge that the miner can see",
+      "ids": [
+        151643,
+        785,
+        11651,
+        429,
+        279,
+        47163,
+        646,
+        1490
+      ],
+      "donor": "APT_43_1_0"
+    },
+    {
+      "id": "APT_43_0_1",
+      "block": 43,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 0,
+      "A": 1,
+      "prompt": "The judge that the miners can see",
+      "ids": [
+        151643,
+        785,
+        11651,
+        429,
+        279,
+        42143,
+        646,
+        1490
+      ],
+      "donor": "APT_43_1_1"
+    },
+    {
+      "id": "APT_43_1_0",
+      "block": 43,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 1,
+      "A": 0,
+      "prompt": "The judges that the miner can see",
+      "ids": [
+        151643,
+        785,
+        24001,
+        429,
+        279,
+        47163,
+        646,
+        1490
+      ],
+      "donor": "APT_43_0_0"
+    },
+    {
+      "id": "APT_43_1_1",
+      "block": 43,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 1,
+      "A": 1,
+      "prompt": "The judges that the miners can see",
+      "ids": [
+        151643,
+        785,
+        24001,
+        429,
+        279,
+        42143,
+        646,
+        1490
+      ],
+      "donor": "APT_43_0_1"
+    },
+    {
+      "id": "APT_44_0_0",
+      "block": 44,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 0,
+      "A": 0,
+      "prompt": "The carpenter that the farmer can see",
+      "ids": [
+        151643,
+        785,
+        38639,
+        1950,
+        429,
+        279,
+        36400,
+        646,
+        1490
+      ],
+      "donor": "APT_44_1_0"
+    },
+    {
+      "id": "APT_44_0_1",
+      "block": 44,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 0,
+      "A": 1,
+      "prompt": "The carpenter that the farmers can see",
+      "ids": [
+        151643,
+        785,
+        38639,
+        1950,
+        429,
+        279,
+        20336,
+        646,
+        1490
+      ],
+      "donor": "APT_44_1_1"
+    },
+    {
+      "id": "APT_44_1_0",
+      "block": 44,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 1,
+      "A": 0,
+      "prompt": "The carpenters that the farmer can see",
+      "ids": [
+        151643,
+        785,
+        38639,
+        306,
+        388,
+        429,
+        279,
+        36400,
+        646,
+        1490
+      ],
+      "donor": "APT_44_0_0"
+    },
+    {
+      "id": "APT_44_1_1",
+      "block": 44,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 1,
+      "A": 1,
+      "prompt": "The carpenters that the farmers can see",
+      "ids": [
+        151643,
+        785,
+        38639,
+        306,
+        388,
+        429,
+        279,
+        20336,
+        646,
+        1490
+      ],
+      "donor": "APT_44_0_1"
+    },
+    {
+      "id": "APT_45_0_0",
+      "block": 45,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 0,
+      "A": 0,
+      "prompt": "The composer that the watchmaker can see",
+      "ids": [
+        151643,
+        785,
+        39450,
+        429,
+        279,
+        3736,
+        25766,
+        646,
+        1490
+      ],
+      "donor": "APT_45_1_0"
+    },
+    {
+      "id": "APT_45_0_1",
+      "block": 45,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 0,
+      "A": 1,
+      "prompt": "The composer that the watchmakers can see",
+      "ids": [
+        151643,
+        785,
+        39450,
+        429,
+        279,
+        3736,
+        19887,
+        646,
+        1490
+      ],
+      "donor": "APT_45_1_1"
+    },
+    {
+      "id": "APT_45_1_0",
+      "block": 45,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 1,
+      "A": 0,
+      "prompt": "The composers that the watchmaker can see",
+      "ids": [
+        151643,
+        785,
+        94735,
+        429,
+        279,
+        3736,
+        25766,
+        646,
+        1490
+      ],
+      "donor": "APT_45_0_0"
+    },
+    {
+      "id": "APT_45_1_1",
+      "block": 45,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 1,
+      "A": 1,
+      "prompt": "The composers that the watchmakers can see",
+      "ids": [
+        151643,
+        785,
+        94735,
+        429,
+        279,
+        3736,
+        19887,
+        646,
+        1490
+      ],
+      "donor": "APT_45_0_1"
+    },
+    {
+      "id": "APT_46_0_0",
+      "block": 46,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 0,
+      "A": 0,
+      "prompt": "The firefighter that the jeweler can see",
+      "ids": [
+        151643,
+        785,
+        94165,
+        429,
+        279,
+        16868,
+        7865,
+        646,
+        1490
+      ],
+      "donor": "APT_46_1_0"
+    },
+    {
+      "id": "APT_46_0_1",
+      "block": 46,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 0,
+      "A": 1,
+      "prompt": "The firefighter that the jewelers can see",
+      "ids": [
+        151643,
+        785,
+        94165,
+        429,
+        279,
+        65841,
+        388,
+        646,
+        1490
+      ],
+      "donor": "APT_46_1_1"
+    },
+    {
+      "id": "APT_46_1_0",
+      "block": 46,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 1,
+      "A": 0,
+      "prompt": "The firefighters that the jeweler can see",
+      "ids": [
+        151643,
+        785,
+        52106,
+        429,
+        279,
+        16868,
+        7865,
+        646,
+        1490
+      ],
+      "donor": "APT_46_0_0"
+    },
+    {
+      "id": "APT_46_1_1",
+      "block": 46,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 1,
+      "A": 1,
+      "prompt": "The firefighters that the jewelers can see",
+      "ids": [
+        151643,
+        785,
+        52106,
+        429,
+        279,
+        65841,
+        388,
+        646,
+        1490
+      ],
+      "donor": "APT_46_0_1"
+    },
+    {
+      "id": "APT_47_0_0",
+      "block": 47,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 0,
+      "A": 0,
+      "prompt": "The inspector that the jeweler can see",
+      "ids": [
+        151643,
+        785,
+        44725,
+        429,
+        279,
+        16868,
+        7865,
+        646,
+        1490
+      ],
+      "donor": "APT_47_1_0"
+    },
+    {
+      "id": "APT_47_0_1",
+      "block": 47,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 0,
+      "A": 1,
+      "prompt": "The inspector that the jewelers can see",
+      "ids": [
+        151643,
+        785,
+        44725,
+        429,
+        279,
+        65841,
+        388,
+        646,
+        1490
+      ],
+      "donor": "APT_47_1_1"
+    },
+    {
+      "id": "APT_47_1_0",
+      "block": 47,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 1,
+      "A": 0,
+      "prompt": "The inspectors that the jeweler can see",
+      "ids": [
+        151643,
+        785,
+        68830,
+        429,
+        279,
+        16868,
+        7865,
+        646,
+        1490
+      ],
+      "donor": "APT_47_0_0"
+    },
+    {
+      "id": "APT_47_1_1",
+      "block": 47,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 1,
+      "A": 1,
+      "prompt": "The inspectors that the jewelers can see",
+      "ids": [
+        151643,
+        785,
+        68830,
+        429,
+        279,
+        65841,
+        388,
+        646,
+        1490
+      ],
+      "donor": "APT_47_0_1"
+    },
+    {
+      "id": "APT_48_0_0",
+      "block": 48,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 0,
+      "A": 0,
+      "prompt": "The psychologist that the welder can see",
+      "ids": [
+        151643,
+        785,
+        53495,
+        429,
+        279,
+        32766,
+        261,
+        646,
+        1490
+      ],
+      "donor": "APT_48_1_0"
+    },
+    {
+      "id": "APT_48_0_1",
+      "block": 48,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 0,
+      "A": 1,
+      "prompt": "The psychologist that the welders can see",
+      "ids": [
+        151643,
+        785,
+        53495,
+        429,
+        279,
+        32766,
+        388,
+        646,
+        1490
+      ],
+      "donor": "APT_48_1_1"
+    },
+    {
+      "id": "APT_48_1_0",
+      "block": 48,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 1,
+      "A": 0,
+      "prompt": "The psychologists that the welder can see",
+      "ids": [
+        151643,
+        785,
+        73091,
+        429,
+        279,
+        32766,
+        261,
+        646,
+        1490
+      ],
+      "donor": "APT_48_0_0"
+    },
+    {
+      "id": "APT_48_1_1",
+      "block": 48,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 1,
+      "A": 1,
+      "prompt": "The psychologists that the welders can see",
+      "ids": [
+        151643,
+        785,
+        73091,
+        429,
+        279,
+        32766,
+        388,
+        646,
+        1490
+      ],
+      "donor": "APT_48_0_1"
+    },
+    {
+      "id": "APT_49_0_0",
+      "block": 49,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 0,
+      "A": 0,
+      "prompt": "The astronaut that the sculptor can see",
+      "ids": [
+        151643,
+        785,
+        46633,
+        429,
+        279,
+        26765,
+        269,
+        646,
+        1490
+      ],
+      "donor": "APT_49_1_0"
+    },
+    {
+      "id": "APT_49_0_1",
+      "block": 49,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 0,
+      "A": 1,
+      "prompt": "The astronaut that the sculptors can see",
+      "ids": [
+        151643,
+        785,
+        46633,
+        429,
+        279,
+        26765,
+        1087,
+        646,
+        1490
+      ],
+      "donor": "APT_49_1_1"
+    },
+    {
+      "id": "APT_49_1_0",
+      "block": 49,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 1,
+      "A": 0,
+      "prompt": "The astronauts that the sculptor can see",
+      "ids": [
+        151643,
+        785,
+        68422,
+        429,
+        279,
+        26765,
+        269,
+        646,
+        1490
+      ],
+      "donor": "APT_49_0_0"
+    },
+    {
+      "id": "APT_49_1_1",
+      "block": 49,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 1,
+      "A": 1,
+      "prompt": "The astronauts that the sculptors can see",
+      "ids": [
+        151643,
+        785,
+        68422,
+        429,
+        279,
+        26765,
+        1087,
+        646,
+        1490
+      ],
+      "donor": "APT_49_0_1"
+    },
+    {
+      "id": "APT_50_0_0",
+      "block": 50,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 0,
+      "A": 0,
+      "prompt": "The banker that the blacksmith can see",
+      "ids": [
+        151643,
+        785,
+        71659,
+        429,
+        279,
+        3691,
+        33017,
+        646,
+        1490
+      ],
+      "donor": "APT_50_1_0"
+    },
+    {
+      "id": "APT_50_0_1",
+      "block": 50,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 0,
+      "A": 1,
+      "prompt": "The banker that the blacksmiths can see",
+      "ids": [
+        151643,
+        785,
+        71659,
+        429,
+        279,
+        3691,
+        33017,
+        82,
+        646,
+        1490
+      ],
+      "donor": "APT_50_1_1"
+    },
+    {
+      "id": "APT_50_1_0",
+      "block": 50,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 1,
+      "A": 0,
+      "prompt": "The bankers that the blacksmith can see",
+      "ids": [
+        151643,
+        785,
+        63143,
+        429,
+        279,
+        3691,
+        33017,
+        646,
+        1490
+      ],
+      "donor": "APT_50_0_0"
+    },
+    {
+      "id": "APT_50_1_1",
+      "block": 50,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 1,
+      "A": 1,
+      "prompt": "The bankers that the blacksmiths can see",
+      "ids": [
+        151643,
+        785,
+        63143,
+        429,
+        279,
+        3691,
+        33017,
+        82,
+        646,
+        1490
+      ],
+      "donor": "APT_50_0_1"
+    },
+    {
+      "id": "APT_51_0_0",
+      "block": 51,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 0,
+      "A": 0,
+      "prompt": "The blacksmith that the painter can see",
+      "ids": [
+        151643,
+        785,
+        3691,
+        33017,
+        429,
+        279,
+        29481,
+        646,
+        1490
+      ],
+      "donor": "APT_51_1_0"
+    },
+    {
+      "id": "APT_51_0_1",
+      "block": 51,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 0,
+      "A": 1,
+      "prompt": "The blacksmith that the painters can see",
+      "ids": [
+        151643,
+        785,
+        3691,
+        33017,
+        429,
+        279,
+        96853,
+        646,
+        1490
+      ],
+      "donor": "APT_51_1_1"
+    },
+    {
+      "id": "APT_51_1_0",
+      "block": 51,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 1,
+      "A": 0,
+      "prompt": "The blacksmiths that the painter can see",
+      "ids": [
+        151643,
+        785,
+        3691,
+        33017,
+        82,
+        429,
+        279,
+        29481,
+        646,
+        1490
+      ],
+      "donor": "APT_51_0_0"
+    },
+    {
+      "id": "APT_51_1_1",
+      "block": 51,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 1,
+      "A": 1,
+      "prompt": "The blacksmiths that the painters can see",
+      "ids": [
+        151643,
+        785,
+        3691,
+        33017,
+        82,
+        429,
+        279,
+        96853,
+        646,
+        1490
+      ],
+      "donor": "APT_51_0_1"
+    },
+    {
+      "id": "APT_52_0_0",
+      "block": 52,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 0,
+      "A": 0,
+      "prompt": "The farmer that the secretary can see",
+      "ids": [
+        151643,
+        785,
+        36400,
+        429,
+        279,
+        19067,
+        646,
+        1490
+      ],
+      "donor": "APT_52_1_0"
+    },
+    {
+      "id": "APT_52_0_1",
+      "block": 52,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 0,
+      "A": 1,
+      "prompt": "The farmer that the secretaries can see",
+      "ids": [
+        151643,
+        785,
+        36400,
+        429,
+        279,
+        6234,
+        5431,
+        646,
+        1490
+      ],
+      "donor": "APT_52_1_1"
+    },
+    {
+      "id": "APT_52_1_0",
+      "block": 52,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 1,
+      "A": 0,
+      "prompt": "The farmers that the secretary can see",
+      "ids": [
+        151643,
+        785,
+        20336,
+        429,
+        279,
+        19067,
+        646,
+        1490
+      ],
+      "donor": "APT_52_0_0"
+    },
+    {
+      "id": "APT_52_1_1",
+      "block": 52,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 1,
+      "A": 1,
+      "prompt": "The farmers that the secretaries can see",
+      "ids": [
+        151643,
+        785,
+        20336,
+        429,
+        279,
+        6234,
+        5431,
+        646,
+        1490
+      ],
+      "donor": "APT_52_0_1"
+    },
+    {
+      "id": "APT_53_0_0",
+      "block": 53,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 0,
+      "A": 0,
+      "prompt": "The counselor that the journalist can see",
+      "ids": [
+        151643,
+        785,
+        61375,
+        429,
+        279,
+        22825,
+        646,
+        1490
+      ],
+      "donor": "APT_53_1_0"
+    },
+    {
+      "id": "APT_53_0_1",
+      "block": 53,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 0,
+      "A": 1,
+      "prompt": "The counselor that the journalists can see",
+      "ids": [
+        151643,
+        785,
+        61375,
+        429,
+        279,
+        22532,
+        646,
+        1490
+      ],
+      "donor": "APT_53_1_1"
+    },
+    {
+      "id": "APT_53_1_0",
+      "block": 53,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 1,
+      "A": 0,
+      "prompt": "The counselors that the journalist can see",
+      "ids": [
+        151643,
+        785,
+        85247,
+        429,
+        279,
+        22825,
+        646,
+        1490
+      ],
+      "donor": "APT_53_0_0"
+    },
+    {
+      "id": "APT_53_1_1",
+      "block": 53,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 1,
+      "A": 1,
+      "prompt": "The counselors that the journalists can see",
+      "ids": [
+        151643,
+        785,
+        85247,
+        429,
+        279,
+        22532,
+        646,
+        1490
+      ],
+      "donor": "APT_53_0_1"
+    },
+    {
+      "id": "APT_54_0_0",
+      "block": 54,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 0,
+      "A": 0,
+      "prompt": "The cook that the florist can see",
+      "ids": [
+        151643,
+        785,
+        4296,
+        429,
+        279,
+        69140,
+        380,
+        646,
+        1490
+      ],
+      "donor": "APT_54_1_0"
+    },
+    {
+      "id": "APT_54_0_1",
+      "block": 54,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 0,
+      "A": 1,
+      "prompt": "The cook that the florists can see",
+      "ids": [
+        151643,
+        785,
+        4296,
+        429,
+        279,
+        69140,
+        1671,
+        646,
+        1490
+      ],
+      "donor": "APT_54_1_1"
+    },
+    {
+      "id": "APT_54_1_0",
+      "block": 54,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 1,
+      "A": 0,
+      "prompt": "The cooks that the florist can see",
+      "ids": [
+        151643,
+        785,
+        72427,
+        429,
+        279,
+        69140,
+        380,
+        646,
+        1490
+      ],
+      "donor": "APT_54_0_0"
+    },
+    {
+      "id": "APT_54_1_1",
+      "block": 54,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 1,
+      "A": 1,
+      "prompt": "The cooks that the florists can see",
+      "ids": [
+        151643,
+        785,
+        72427,
+        429,
+        279,
+        69140,
+        1671,
+        646,
+        1490
+      ],
+      "donor": "APT_54_0_1"
+    },
+    {
+      "id": "APT_55_0_0",
+      "block": 55,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 0,
+      "A": 0,
+      "prompt": "The designer that the poet can see",
+      "ids": [
+        151643,
+        785,
+        14692,
+        429,
+        279,
+        39260,
+        646,
+        1490
+      ],
+      "donor": "APT_55_1_0"
+    },
+    {
+      "id": "APT_55_0_1",
+      "block": 55,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 0,
+      "A": 1,
+      "prompt": "The designer that the poets can see",
+      "ids": [
+        151643,
+        785,
+        14692,
+        429,
+        279,
+        72972,
+        646,
+        1490
+      ],
+      "donor": "APT_55_1_1"
+    },
+    {
+      "id": "APT_55_1_0",
+      "block": 55,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 1,
+      "A": 0,
+      "prompt": "The designers that the poet can see",
+      "ids": [
+        151643,
+        785,
+        25812,
+        429,
+        279,
+        39260,
+        646,
+        1490
+      ],
+      "donor": "APT_55_0_0"
+    },
+    {
+      "id": "APT_55_1_1",
+      "block": 55,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 1,
+      "A": 1,
+      "prompt": "The designers that the poets can see",
+      "ids": [
+        151643,
+        785,
+        25812,
+        429,
+        279,
+        72972,
+        646,
+        1490
+      ],
+      "donor": "APT_55_0_1"
+    },
+    {
+      "id": "APT_56_0_0",
+      "block": 56,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 0,
+      "A": 0,
+      "prompt": "The hunter that the surgeon can see",
+      "ids": [
+        151643,
+        785,
+        39727,
+        429,
+        279,
+        44998,
+        646,
+        1490
+      ],
+      "donor": "APT_56_1_0"
+    },
+    {
+      "id": "APT_56_0_1",
+      "block": 56,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 0,
+      "A": 1,
+      "prompt": "The hunter that the surgeons can see",
+      "ids": [
+        151643,
+        785,
+        39727,
+        429,
+        279,
+        73172,
+        646,
+        1490
+      ],
+      "donor": "APT_56_1_1"
+    },
+    {
+      "id": "APT_56_1_0",
+      "block": 56,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 1,
+      "A": 0,
+      "prompt": "The hunters that the surgeon can see",
+      "ids": [
+        151643,
+        785,
+        47973,
+        429,
+        279,
+        44998,
+        646,
+        1490
+      ],
+      "donor": "APT_56_0_0"
+    },
+    {
+      "id": "APT_56_1_1",
+      "block": 56,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 1,
+      "A": 1,
+      "prompt": "The hunters that the surgeons can see",
+      "ids": [
+        151643,
+        785,
+        47973,
+        429,
+        279,
+        73172,
+        646,
+        1490
+      ],
+      "donor": "APT_56_0_1"
+    },
+    {
+      "id": "APT_57_0_0",
+      "block": 57,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 0,
+      "A": 0,
+      "prompt": "The conductor that the researcher can see",
+      "ids": [
+        151643,
+        785,
+        60756,
+        429,
+        279,
+        31085,
+        646,
+        1490
+      ],
+      "donor": "APT_57_1_0"
+    },
+    {
+      "id": "APT_57_0_1",
+      "block": 57,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 0,
+      "A": 1,
+      "prompt": "The conductor that the researchers can see",
+      "ids": [
+        151643,
+        785,
+        60756,
+        429,
+        279,
+        11811,
+        646,
+        1490
+      ],
+      "donor": "APT_57_1_1"
+    },
+    {
+      "id": "APT_57_1_0",
+      "block": 57,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 1,
+      "A": 0,
+      "prompt": "The conductors that the researcher can see",
+      "ids": [
+        151643,
+        785,
+        6786,
+        1087,
+        429,
+        279,
+        31085,
+        646,
+        1490
+      ],
+      "donor": "APT_57_0_0"
+    },
+    {
+      "id": "APT_57_1_1",
+      "block": 57,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 1,
+      "A": 1,
+      "prompt": "The conductors that the researchers can see",
+      "ids": [
+        151643,
+        785,
+        6786,
+        1087,
+        429,
+        279,
+        11811,
+        646,
+        1490
+      ],
+      "donor": "APT_57_0_1"
+    },
+    {
+      "id": "APT_58_0_0",
+      "block": 58,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 0,
+      "A": 0,
+      "prompt": "The pharmacist that the undertaker can see",
+      "ids": [
+        151643,
+        785,
+        89294,
+        429,
+        279,
+        18649,
+        4407,
+        646,
+        1490
+      ],
+      "donor": "APT_58_1_0"
+    },
+    {
+      "id": "APT_58_0_1",
+      "block": 58,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 0,
+      "A": 1,
+      "prompt": "The pharmacist that the undertakers can see",
+      "ids": [
+        151643,
+        785,
+        89294,
+        429,
+        279,
+        18649,
+        8312,
+        646,
+        1490
+      ],
+      "donor": "APT_58_1_1"
+    },
+    {
+      "id": "APT_58_1_0",
+      "block": 58,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 1,
+      "A": 0,
+      "prompt": "The pharmacists that the undertaker can see",
+      "ids": [
+        151643,
+        785,
+        35349,
+        1671,
+        429,
+        279,
+        18649,
+        4407,
+        646,
+        1490
+      ],
+      "donor": "APT_58_0_0"
+    },
+    {
+      "id": "APT_58_1_1",
+      "block": 58,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 1,
+      "A": 1,
+      "prompt": "The pharmacists that the undertakers can see",
+      "ids": [
+        151643,
+        785,
+        35349,
+        1671,
+        429,
+        279,
+        18649,
+        8312,
+        646,
+        1490
+      ],
+      "donor": "APT_58_0_1"
+    },
+    {
+      "id": "APT_59_0_0",
+      "block": 59,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 0,
+      "A": 0,
+      "prompt": "The novelist that the watchmaker can see",
+      "ids": [
+        151643,
+        785,
+        80647,
+        429,
+        279,
+        3736,
+        25766,
+        646,
+        1490
+      ],
+      "donor": "APT_59_1_0"
+    },
+    {
+      "id": "APT_59_0_1",
+      "block": 59,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 0,
+      "A": 1,
+      "prompt": "The novelist that the watchmakers can see",
+      "ids": [
+        151643,
+        785,
+        80647,
+        429,
+        279,
+        3736,
+        19887,
+        646,
+        1490
+      ],
+      "donor": "APT_59_1_1"
+    },
+    {
+      "id": "APT_59_1_0",
+      "block": 59,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 1,
+      "A": 0,
+      "prompt": "The novelists that the watchmaker can see",
+      "ids": [
+        151643,
+        785,
+        11514,
+        1671,
+        429,
+        279,
+        3736,
+        25766,
+        646,
+        1490
+      ],
+      "donor": "APT_59_0_0"
+    },
+    {
+      "id": "APT_59_1_1",
+      "block": 59,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 1,
+      "A": 1,
+      "prompt": "The novelists that the watchmakers can see",
+      "ids": [
+        151643,
+        785,
+        11514,
+        1671,
+        429,
+        279,
+        3736,
+        19887,
+        646,
+        1490
+      ],
+      "donor": "APT_59_0_1"
+    },
+    {
+      "id": "APT_60_0_0",
+      "block": 60,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 0,
+      "A": 0,
+      "prompt": "The diver that the technician can see",
+      "ids": [
+        151643,
+        785,
+        36341,
+        429,
+        279,
+        53511,
+        646,
+        1490
+      ],
+      "donor": "APT_60_1_0"
+    },
+    {
+      "id": "APT_60_0_1",
+      "block": 60,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 0,
+      "A": 1,
+      "prompt": "The diver that the technicians can see",
+      "ids": [
+        151643,
+        785,
+        36341,
+        429,
+        279,
+        52359,
+        646,
+        1490
+      ],
+      "donor": "APT_60_1_1"
+    },
+    {
+      "id": "APT_60_1_0",
+      "block": 60,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 1,
+      "A": 0,
+      "prompt": "The divers that the technician can see",
+      "ids": [
+        151643,
+        785,
+        21113,
+        429,
+        279,
+        53511,
+        646,
+        1490
+      ],
+      "donor": "APT_60_0_0"
+    },
+    {
+      "id": "APT_60_1_1",
+      "block": 60,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 1,
+      "A": 1,
+      "prompt": "The divers that the technicians can see",
+      "ids": [
+        151643,
+        785,
+        21113,
+        429,
+        279,
+        52359,
+        646,
+        1490
+      ],
+      "donor": "APT_60_0_1"
+    },
+    {
+      "id": "APT_61_0_0",
+      "block": 61,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 0,
+      "A": 0,
+      "prompt": "The collector that the inventor can see",
+      "ids": [
+        151643,
+        785,
+        31953,
+        429,
+        279,
+        70901,
+        646,
+        1490
+      ],
+      "donor": "APT_61_1_0"
+    },
+    {
+      "id": "APT_61_0_1",
+      "block": 61,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 0,
+      "A": 1,
+      "prompt": "The collector that the inventors can see",
+      "ids": [
+        151643,
+        785,
+        31953,
+        429,
+        279,
+        17023,
+        1087,
+        646,
+        1490
+      ],
+      "donor": "APT_61_1_1"
+    },
+    {
+      "id": "APT_61_1_0",
+      "block": 61,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 1,
+      "A": 0,
+      "prompt": "The collectors that the inventor can see",
+      "ids": [
+        151643,
+        785,
+        51448,
+        429,
+        279,
+        70901,
+        646,
+        1490
+      ],
+      "donor": "APT_61_0_0"
+    },
+    {
+      "id": "APT_61_1_1",
+      "block": 61,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 1,
+      "A": 1,
+      "prompt": "The collectors that the inventors can see",
+      "ids": [
+        151643,
+        785,
+        51448,
+        429,
+        279,
+        17023,
+        1087,
+        646,
+        1490
+      ],
+      "donor": "APT_61_0_1"
+    },
+    {
+      "id": "APT_62_0_0",
+      "block": 62,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 0,
+      "A": 0,
+      "prompt": "The architect that the mason can see",
+      "ids": [
+        151643,
+        785,
+        11470,
+        429,
+        279,
+        296,
+        1497,
+        646,
+        1490
+      ],
+      "donor": "APT_62_1_0"
+    },
+    {
+      "id": "APT_62_0_1",
+      "block": 62,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 0,
+      "A": 1,
+      "prompt": "The architect that the masons can see",
+      "ids": [
+        151643,
+        785,
+        11470,
+        429,
+        279,
+        296,
+        98849,
+        646,
+        1490
+      ],
+      "donor": "APT_62_1_1"
+    },
+    {
+      "id": "APT_62_1_0",
+      "block": 62,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 1,
+      "A": 0,
+      "prompt": "The architects that the mason can see",
+      "ids": [
+        151643,
+        785,
+        54935,
+        429,
+        279,
+        296,
+        1497,
+        646,
+        1490
+      ],
+      "donor": "APT_62_0_0"
+    },
+    {
+      "id": "APT_62_1_1",
+      "block": 62,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 1,
+      "A": 1,
+      "prompt": "The architects that the masons can see",
+      "ids": [
+        151643,
+        785,
+        54935,
+        429,
+        279,
+        296,
+        98849,
+        646,
+        1490
+      ],
+      "donor": "APT_62_0_1"
+    },
+    {
+      "id": "APT_63_0_0",
+      "block": 63,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 0,
+      "A": 0,
+      "prompt": "The mechanic that the translator can see",
+      "ids": [
+        151643,
+        785,
+        44139,
+        429,
+        279,
+        45488,
+        646,
+        1490
+      ],
+      "donor": "APT_63_1_0"
+    },
+    {
+      "id": "APT_63_0_1",
+      "block": 63,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 0,
+      "A": 1,
+      "prompt": "The mechanic that the translators can see",
+      "ids": [
+        151643,
+        785,
+        44139,
+        429,
+        279,
+        72704,
+        646,
+        1490
+      ],
+      "donor": "APT_63_1_1"
+    },
+    {
+      "id": "APT_63_1_0",
+      "block": 63,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 1,
+      "A": 0,
+      "prompt": "The mechanics that the translator can see",
+      "ids": [
+        151643,
+        785,
+        29026,
+        429,
+        279,
+        45488,
+        646,
+        1490
+      ],
+      "donor": "APT_63_0_0"
+    },
+    {
+      "id": "APT_63_1_1",
+      "block": 63,
+      "cohort": null,
+      "split": "TEST_NEW",
+      "frame": 1,
+      "S": 1,
+      "A": 1,
+      "prompt": "The mechanics that the translators can see",
+      "ids": [
+        151643,
+        785,
+        29026,
+        429,
+        279,
+        72704,
+        646,
+        1490
+      ],
+      "donor": "APT_63_0_1"
+    }
+  ],
+  "pairs": [
+    [
+      "journalist",
+      "waiter"
+    ],
+    [
+      "secretary",
+      "surgeon"
+    ],
+    [
+      "gardener",
+      "singer"
+    ],
+    [
+      "baker",
+      "ranger"
+    ],
+    [
+      "guard",
+      "mason"
+    ],
+    [
+      "chemist",
+      "inventor"
+    ],
+    [
+      "butcher",
+      "electrician"
+    ],
+    [
+      "cleaner",
+      "waiter"
+    ],
+    [
+      "technician",
+      "weaver"
+    ],
+    [
+      "carpenter",
+      "poet"
+    ],
+    [
+      "decorator",
+      "electrician"
+    ],
+    [
+      "bartender",
+      "singer"
+    ],
+    [
+      "astronaut",
+      "tailor"
+    ],
+    [
+      "clerk",
+      "violinist"
+    ],
+    [
+      "cashier",
+      "officer"
+    ],
+    [
+      "architect",
+      "poet"
+    ],
+    [
+      "electrician",
+      "porter"
+    ],
+    [
+      "cleaner",
+      "clerk"
+    ],
+    [
+      "editor",
+      "officer"
+    ],
+    [
+      "fisherman",
+      "magician"
+    ],
+    [
+      "beekeeper",
+      "composer"
+    ],
+    [
+      "musician",
+      "translator"
+    ],
+    [
+      "cook",
+      "receptionist"
+    ],
+    [
+      "programmer",
+      "weaver"
+    ],
+    [
+      "builder",
+      "farmer"
+    ],
+    [
+      "tutor",
+      "welder"
+    ],
+    [
+      "doctor",
+      "surgeon"
+    ],
+    [
+      "conductor",
+      "cook"
+    ],
+    [
+      "architect",
+      "psychologist"
+    ],
+    [
+      "interpreter",
+      "sculptor"
+    ],
+    [
+      "editor",
+      "instructor"
+    ],
+    [
+      "builder",
+      "instructor"
+    ],
+    [
+      "driver",
+      "mason"
+    ],
+    [
+      "banker",
+      "inspector"
+    ],
+    [
+      "inspector",
+      "interpreter"
+    ],
+    [
+      "counselor",
+      "firefighter"
+    ],
+    [
+      "engineer",
+      "manager"
+    ],
+    [
+      "inventor",
+      "lawyer"
+    ],
+    [
+      "cashier",
+      "researcher"
+    ],
+    [
+      "beekeeper",
+      "cook"
+    ],
+    [
+      "beekeeper",
+      "violinist"
+    ],
+    [
+      "cashier",
+      "plumber"
+    ],
+    [
+      "locksmith",
+      "manager"
+    ],
+    [
+      "mechanic",
+      "singer"
+    ],
+    [
+      "collector",
+      "writer"
+    ],
+    [
+      "librarian",
+      "programmer"
+    ],
+    [
+      "cleaner",
+      "engineer"
+    ],
+    [
+      "chef",
+      "farmer"
+    ],
+    [
+      "instructor",
+      "soldier"
+    ],
+    [
+      "surgeon",
+      "teacher"
+    ],
+    [
+      "professor",
+      "soldier"
+    ],
+    [
+      "miner",
+      "waiter"
+    ],
+    [
+      "decorator",
+      "soldier"
+    ],
+    [
+      "florist",
+      "pianist"
+    ],
+    [
+      "secretary",
+      "veterinarian"
+    ],
+    [
+      "judge",
+      "miner"
+    ],
+    [
+      "carpenter",
+      "farmer"
+    ],
+    [
+      "composer",
+      "watchmaker"
+    ],
+    [
+      "firefighter",
+      "jeweler"
+    ],
+    [
+      "inspector",
+      "jeweler"
+    ],
+    [
+      "psychologist",
+      "welder"
+    ],
+    [
+      "astronaut",
+      "sculptor"
+    ],
+    [
+      "banker",
+      "blacksmith"
+    ],
+    [
+      "blacksmith",
+      "painter"
+    ],
+    [
+      "farmer",
+      "secretary"
+    ],
+    [
+      "counselor",
+      "journalist"
+    ],
+    [
+      "cook",
+      "florist"
+    ],
+    [
+      "designer",
+      "poet"
+    ],
+    [
+      "hunter",
+      "surgeon"
+    ],
+    [
+      "conductor",
+      "researcher"
+    ],
+    [
+      "pharmacist",
+      "undertaker"
+    ],
+    [
+      "novelist",
+      "watchmaker"
+    ],
+    [
+      "diver",
+      "technician"
+    ],
+    [
+      "collector",
+      "inventor"
+    ],
+    [
+      "architect",
+      "mason"
+    ],
+    [
+      "mechanic",
+      "translator"
+    ]
+  ],
+  "heads": {
+    " is": 374,
+    " are": 525,
+    " has": 702,
+    " have": 614
+  },
+  "seed": 4111041
+}

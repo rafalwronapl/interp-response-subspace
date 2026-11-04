@@ -1,0 +1,18 @@
+﻿{
+    "args":  [
+                 "-m",
+                 "concurrency_runtime_v2",
+                 "--snapshot",
+                 "analysis/Qwen06_ABC_extension_20261102/evaluation_v2/pre_run_snapshot_v1.json",
+                 "--review",
+                 "analysis/Qwen06_ABC_extension_20261102/evaluation_v2/pre_run_review_sol_gemma_peer_v1.json",
+                 "--policy",
+                 "analysis/C3_noD_more_models_20261102/offline_policy_v1/migration_policy.json",
+                 "--policy-snapshot",
+                 "analysis/C3_noD_more_models_20261102/offline_policy_v1/snapshot_v2.json",
+                 "--policy-review",
+                 "analysis/C3_noD_more_models_20261102/offline_policy_v1/review_astra_v2.json"
+             ],
+    "pid":  16816,
+    "started_utc":  "2026-11-02T15:55:05.2846849Z"
+}

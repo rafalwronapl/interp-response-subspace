@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "reviewer_id": "/root/sol_qwen06_parallel",
+  "independent": true,
+  "model_calls": 0,
+  "captures": 2048,
+  "attempts": 2048,
+  "computed": 2048,
+  "unique_cache": 2048,
+  "tests": [
+    "All immutable hashes and complete source-bound request identities/tokens/settings/results checked",
+    "All R/x/y finite640dim and readoutfinite",
+    "Exact2048ledger attempts/computed, no duplicateattempts or missingreceipts",
+    "Qualifiedcontrols/C3FIT/currentcheckpoint proof reused; no rawhead or native result replay"
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "id": "A_NEW_READOUT_3FIT32_COMPLETION_20261103",
+  "kind": "maintenance",
+  "primary_agent": "/root",
+  "purpose": "Review sealed new grammatical readout and3freshFIT32 on oldTEST,includingnegativeoutcomes",
+  "tracked_files": [
+    "analysis/A_transfer_next_20261103/complete.py",
+    "analysis/A_transfer_next_20261103/REPORT.txt"
+  ],
+  "tracked_trees": [],
+  "input_manifests": [
+    "analysis/A_transfer_next_20261103/completion_manifest.json"
+  ],
+  "gates": [
+    {
+      "id": "completed",
+      "category": "accounting",
+      "evidence": "analysis/A_transfer_next_20261103/run/completed.json",
+      "pointer": "/payload/complete",
+      "op": "eq",
+      "expected": true,
+      "reason": "Immutable output seal and fullphysical/logicalledger reconciliation"
+    }
+  ],
+  "circuits": [],
+  "structural_scope": "Exact established native boundary/suffix;technicalparityandfixedsensitivitybothheads passed;completiononly",
+  "entrypoint": null,
+  "schedule": null,
+  "budget": null
+}

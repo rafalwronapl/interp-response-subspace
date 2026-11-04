@@ -1,0 +1,110 @@
+{
+  "schema_version": 1,
+  "id": "A_L21_LEARNED_FRESH64_STAGE2_20261103",
+  "kind": "experiment",
+  "primary_agent": "/root/a_l21_five_campaign",
+  "purpose": "Prospective non-oracle learned correction versus historicalP/sameU/Direct384/mean andoracle reference; allforecasts frozen before TESTtarget,64freshblocks",
+  "tracked_files": [
+    "ab_confirmatory_20261101/__init__.py",
+    "ab_confirmatory_20261101/native.py",
+    "ab_confirmatory_20261101/native_tail_b.py",
+    "ab_confirmatory_20261101/runtime.py",
+    "analysis/AB_five_experiments_20261103/A_L21/adapter_v4.py",
+    "analysis/AB_five_experiments_20261103/A_L21/prepare_data.py",
+    "analysis/A_L21_learned_20261103/common.py",
+    "analysis/A_L21_learned_20261103/models.py",
+    "analysis/A_L21_learned_20261103/stage2/data.py",
+    "analysis/A_L21_learned_20261103/stage2/fixture.py",
+    "analysis/A_L21_learned_20261103/stage2/prepare.py",
+    "analysis/A_L21_learned_20261103/stage2/worker.py",
+    "analysis/Qwen06_ABC_extension_20261102/bundle_runtime.py",
+    "e012/__init__.py",
+    "e012/common.py",
+    "e014/__init__.py",
+    "e014/memory.py",
+    "e017/__init__.py",
+    "e017/common.py",
+    "e031/__init__.py",
+    "e031/loading.py",
+    "e036/__init__.py",
+    "e036/common.py",
+    "e036/subject.py",
+    "e039/__init__.py",
+    "e039/subject.py",
+    "research_checks/__init__.py",
+    "research_checks/gate.py",
+    "research_checks/persistence.py",
+    "research_checks/reachability.py"
+  ],
+  "tracked_trees": [],
+  "input_manifests": [
+    "analysis/A_L21_learned_20261103/stage2/input_manifest.json"
+  ],
+  "gates": [
+    {
+      "id": "hooks",
+      "category": "hooks",
+      "evidence": "analysis/A_L21_learned_20261103/stage2/fixture.json",
+      "pointer": "/hooks",
+      "op": "eq",
+      "expected": true,
+      "reason": "Actual worker synthetic end-to-end, frozenforecast ordering, exactaliases, completedreplay0calls, corruptionfailclosed"
+    },
+    {
+      "id": "data",
+      "category": "data",
+      "evidence": "analysis/A_L21_learned_20261103/stage2/fixture.json",
+      "pointer": "/data",
+      "op": "eq",
+      "expected": true,
+      "reason": "Actual worker synthetic end-to-end, frozenforecast ordering, exactaliases, completedreplay0calls, corruptionfailclosed"
+    },
+    {
+      "id": "pilot",
+      "category": "pilot",
+      "evidence": "analysis/A_L21_learned_20261103/stage2/fixture.json",
+      "pointer": "/pilot",
+      "op": "eq",
+      "expected": true,
+      "reason": "Actual worker synthetic end-to-end, frozenforecast ordering, exactaliases, completedreplay0calls, corruptionfailclosed"
+    },
+    {
+      "id": "accounting",
+      "category": "accounting",
+      "evidence": "analysis/A_L21_learned_20261103/stage2/fixture.json",
+      "pointer": "/accounting",
+      "op": "eq",
+      "expected": true,
+      "reason": "Actual worker synthetic end-to-end, frozenforecast ordering, exactaliases, completedreplay0calls, corruptionfailclosed"
+    },
+    {
+      "id": "restart",
+      "category": "restart",
+      "evidence": "analysis/A_L21_learned_20261103/stage2/fixture.json",
+      "pointer": "/restart",
+      "op": "eq",
+      "expected": true,
+      "reason": "Actual worker synthetic end-to-end, frozenforecast ordering, exactaliases, completedreplay0calls, corruptionfailclosed"
+    },
+    {
+      "id": "fresh_data",
+      "category": "data",
+      "evidence": "analysis/A_L21_learned_20261103/stage2/data_checks.json",
+      "pointer": "/ok",
+      "op": "eq",
+      "expected": true,
+      "reason": "64 fresh unordered pairs and prompts; all88priorcampaign FIT/TESTpairs excluded"
+    }
+  ],
+  "circuits": [],
+  "structural_scope": "Unchanged qualified nativeL19neuron1317/L20restore1423 intervention, targetL21 and full dynamicL22-27 suffix;12FIT full/suffixparitycalls beforeTEST",
+  "entrypoint": {
+    "module": "analysis.A_L21_learned_20261103.stage2.worker",
+    "args": []
+  },
+  "schedule": "analysis/A_L21_learned_20261103/stage2/operations.json",
+  "budget": {
+    "forward": 8460,
+    "backward": 0
+  }
+}

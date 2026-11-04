@@ -1,0 +1,116 @@
+{
+  "schema_version": 1,
+  "id": "A_PRIOR_MATCHED_6FIT32_FRESHTEST64_20261104",
+  "kind": "experiment",
+  "primary_agent": "/root/a_prior_experiment",
+  "purpose": "Prospective missing full-vector residualridge comparator; six freshFIT32, fresh64blockTEST, historicalregimeconditional",
+  "tracked_files": [
+    "ab_confirmatory_20261101/__init__.py",
+    "ab_confirmatory_20261101/native.py",
+    "ab_confirmatory_20261101/native_tail_b.py",
+    "ab_confirmatory_20261101/runtime.py",
+    "analysis/AB_budget_readout_20261103/models.py",
+    "analysis/AB_budget_readout_20261103/worker.py",
+    "analysis/AB_fast_followups_20261103/A_budget/worker.py",
+    "analysis/AB_five_experiments_20261103/A_L21/adapter_v4.py",
+    "analysis/AB_five_experiments_20261103/A_L21/prepare_data.py",
+    "analysis/A_L21_learned_20261103/common.py",
+    "analysis/A_L21_learned_20261103/models.py",
+    "analysis/A_prior_matched_20261104/adapter.py",
+    "analysis/A_prior_matched_20261104/complete.py",
+    "analysis/A_prior_matched_20261104/data.py",
+    "analysis/A_prior_matched_20261104/fixture.py",
+    "analysis/A_prior_matched_20261104/models.py",
+    "analysis/A_prior_matched_20261104/prepare.py",
+    "analysis/A_prior_matched_20261104/worker.py",
+    "analysis/Qwen06_ABC_extension_20261102/bundle_runtime.py",
+    "e012/__init__.py",
+    "e012/common.py",
+    "e014/__init__.py",
+    "e014/memory.py",
+    "e017/__init__.py",
+    "e017/common.py",
+    "e031/__init__.py",
+    "e031/loading.py",
+    "e036/__init__.py",
+    "e036/common.py",
+    "e036/subject.py",
+    "e039/__init__.py",
+    "e039/subject.py",
+    "research_checks/__init__.py",
+    "research_checks/gate.py",
+    "research_checks/persistence.py",
+    "research_checks/reachability.py"
+  ],
+  "tracked_trees": [],
+  "input_manifests": [
+    "analysis/A_prior_matched_20261104/input_manifest.json"
+  ],
+  "gates": [
+    {
+      "id": "hooks",
+      "category": "hooks",
+      "evidence": "analysis/A_prior_matched_20261104/fixture.json",
+      "pointer": "/hooks",
+      "op": "eq",
+      "expected": true,
+      "reason": "Actualworker synthetic globalforecastfreeze/crash/restart/seals/exactaccounting and nativeadaptertoy checks"
+    },
+    {
+      "id": "data",
+      "category": "data",
+      "evidence": "analysis/A_prior_matched_20261104/fixture.json",
+      "pointer": "/data",
+      "op": "eq",
+      "expected": true,
+      "reason": "Actualworker synthetic globalforecastfreeze/crash/restart/seals/exactaccounting and nativeadaptertoy checks"
+    },
+    {
+      "id": "pilot",
+      "category": "pilot",
+      "evidence": "analysis/A_prior_matched_20261104/fixture.json",
+      "pointer": "/pilot",
+      "op": "eq",
+      "expected": true,
+      "reason": "Actualworker synthetic globalforecastfreeze/crash/restart/seals/exactaccounting and nativeadaptertoy checks"
+    },
+    {
+      "id": "accounting",
+      "category": "accounting",
+      "evidence": "analysis/A_prior_matched_20261104/fixture.json",
+      "pointer": "/accounting",
+      "op": "eq",
+      "expected": true,
+      "reason": "Actualworker synthetic globalforecastfreeze/crash/restart/seals/exactaccounting and nativeadaptertoy checks"
+    },
+    {
+      "id": "restart",
+      "category": "restart",
+      "evidence": "analysis/A_prior_matched_20261104/fixture.json",
+      "pointer": "/restart",
+      "op": "eq",
+      "expected": true,
+      "reason": "Actualworker synthetic globalforecastfreeze/crash/restart/seals/exactaccounting and nativeadaptertoy checks"
+    },
+    {
+      "id": "tokenization_freshness",
+      "category": "data",
+      "evidence": "analysis/A_prior_matched_20261104/data_checks.json",
+      "pointer": "/ok",
+      "op": "eq",
+      "expected": true,
+      "reason": "Localactualtokenization,76newpairs excluded cumulativeexposure"
+    }
+  ],
+  "circuits": [],
+  "structural_scope": "Exact historical native prefix/MLP21patch and L22-27suffix, no reducedcircuit; actualFIT full/suffix parity16and11batch and fixed nonzero sensitivity beforeTEST",
+  "entrypoint": {
+    "module": "analysis.A_prior_matched_20261104.worker",
+    "args": []
+  },
+  "schedule": "analysis/A_prior_matched_20261104/operations.json",
+  "budget": {
+    "forward": 30444,
+    "backward": 0
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "reviewer_id": "/root/sol_parallel_acceptance",
+  "independent": true,
+  "batches": 2048,
+  "logical_attempts": 102400,
+  "logical_computed": 102400,
+  "cache_bundle_bytes_joined": 4096,
+  "all_cached_head_values_equal_saved_rows": true,
+  "noD_seal": "2026-11-02T15:57:29.153648+00:00",
+  "oracle_seal": "2026-11-02T15:57:53.799018+00:00",
+  "first_finite_head_attempt": "2026-11-02T15:57:54.564835+00:00",
+  "all24fit_receipt_hashes_sealed_before_heads": true,
+  "U0_orthonormality": true,
+  "source_sha256": "8d853a616567b8377c23e8ceec25233fbd3a21b2484ec269c31f68fe598fdf19",
+  "limitations": "All2048bundle/cache request identities and actualbytes/logicaloperation expansion/results/ledger chronology checked, no native/head calls or repeatedbootstrap. All24FIT receipt hashes joined, U0orthonormalitychecked; ridge fits not re-solved/SVD not rerun. Fullcapturedata/source/selector and scalar/perblock/pair/SE proofs reused separately. No claim that oracle and noD differ only by removingD: correctionvectors andscores both differ."
+}

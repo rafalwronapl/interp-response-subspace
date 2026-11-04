@@ -1,0 +1,530 @@
+An Intervention-Response Subspace Retains Nearly All
+Readout-Relevant Prediction Error: A Case Study in Qwen3-0.6B
+Rafał Wrona
+Independent researcher
+November 2026
+Abstract
+A rank-eight space fitted from native responses to an internal intervention, without readout
+labels, retains almost all of the readout-relevant part of a vector predictor’s error. On fresh
+Qwen3-0.6B layer-21 contexts the historical predictor lies in this space, so oracle repair inside it
+inserts the projection of the true response: is/are readout MSE falls by 99.25%, and its readout
+MSE is 0.47% of that of inserting no response (relative RMS error about 6.9%), although the
+space holds only 28% of the vector-error energy. Post hoc, the space contains 29% of the native
+readout-gradient energy, 37 times its random share, and the error outside it is nearly invisible
+to the locally linear readout; rank-eight principal subspaces of natural activations contain about
+4% and repair 7–8%. The intervention was selected earlier for its is/are effect. Response spaces
+of three unscreened layer-19 neurons, even at matched response strength, repair only 0.2–3.6%,
+like random spaces, so for the three tested alternatives the alignment does not transfer. Learning
+the correction helps, but restricting it to the space does not: prior-centered ridge reduces the
+historical predictor’s MSE by 97.21% with 384 labels, yet unrestricted ridge is better at 384
+labels and, centered on the same prior, at 32 labels on a fourth fresh cohort, conditional on six
+fits of which one drives much of the difference. Other layers, frames and checkpoints show both
+benefit and harm of oracle repair.
+1 Introduction
+A model of an internal intervention is useful when its predicted vector change produces the right
+downstream effect. This study asks whether a response space selected from native vector data
+identifies a correctable component of prediction error, and whether that component can be learned
+well enough to help on new contexts. We follow the same prediction through vector error, oracle
+repair, learned correction, direct baselines and transfer.
+The starting point is historical E041: on Qwen3-0.6B-Base, correcting error inside a rank-eight
+response space reduced the is/are readout MSE by 98.85%, compared with 14.44% outside. The
+original forecast favored outside repair and failed. The layer-21 regime is studied further because of
+this unexpected favorable outcome, so fresh cohorts test replication of a selected observation, not a
+randomlychosenlayer. Theintervenedlayer-19coordinatewasitselfidentifiedinearlierscreeningby
+its effect on the is/are readout. Four subsequent 64-block TEST cohorts separate replication of the
+oracle observation, learned correction, label-budget comparisons and a prior-matched comparison.
+A later three-fit/readout study probes the stability of the small-budget result on a reused cohort,
+and posthoc controls on the first cohort ask why the space works (Table 1).
+The central finding is that almost all of the readout-relevant prediction error lies in a low-rank
+space fitted to native intervention responses, while the larger error outside it is nearly invisible to the
+1
+readout. Post hoc, this space captures 29% of the readout-gradient energy against a random share
+of 0.8%, while principal subspaces of natural activations capture about 4% and repair only 7–8%
+of the readout error. Moving from oracle diagnosis to learned prediction changes the conclusion.
+A space chosen without direct readout labels supports almost complete oracle correction on fresh
+lexical pairs. A learned prior-centered correction substantially improves the historical predictor
+on another fresh cohort. Full-vector direct ridge has lower mean loss at the matched additional
+training budget. A correction advantage at 32 labels appears in one fixed training sequence; three
+later FIT32 draws give mixed rankings, and on a fourth fresh cohort six new fits show no average
+advantage of C over Direct and a disadvantage against full-vector ridge centered on the same prior.
+Separate layer/frame tests include both benefit and harm. Together these results establish a useful
+empirical structure whose predictive and comparative value depends on the fitting and evaluation
+regime.
+Study Data and reuse Inference and role
+L21 oracle/rank First 64-block TEST; historical B5/U; rank
+controls use three disjoint eight-block FIT
+groups
+Frozen operators and forecasts; nominal
+paired block intervals conditional on fixed
+fits.
+L21 learned384 Second 64-block TEST; reuses all 24 FIT
+blocks, 384 vector labels
+Prospective readout test; primary C-minus-P
+and secondary C-minus-Direct contrasts.
+L21 budget Third 64-block TEST; one fixed FIT0/seed17
+sequence at 32–256 labels, full pool at 384
+Prospective fixed-fit TEST; primary
+C32-minus-Direct32 contrast.
+Three FIT32/readout Six new FIT blocks, three disjoint two-block
+fits; reuses budget TEST posthoc; adds
+have/has
+Conditional nominal intervals; mixed per-fit
+rankings; readout transfer on the same
+contexts.
+Space controls First TEST, cached native states; readout
+gradients through L22–27
+Posthoc, not yet independently reviewed;
+alternative label-free rank-8 spaces and one
+random draw scored through the native
+suffix.
+Prior-matched Fourth 64-block TEST; six new disjoint
+32-label FIT cohorts
+Primary C32-minus-Direct_P32, nominal
+interval conditional on six fits.
+Aligned and earlier
+tests
+Qwen L27/Gemma-270M L17 share 256
+lexical blocks; earlier Gemma-1B/Llama
+cohorts are separate
+Three fixed fits/aligned model; nominal T5
+intervals. Earlier single-fit families retain
+their original corrections.
+Forecast/diagnosis Aligned Qwen; supporting 32-block scopes;
+historical/current Gemma fitted-object
+crosses
+Descriptive sign/utility summaries and
+posthoc matrix substitutions.
+Table 1: Scope of the evidence. The four L21 TEST cohorts are distinct; the three-FIT32 study
+reuses the third. Conditions, fits and shared cohorts retain their dependence. The supplement gives
+complete protocols, chronology and result tables for the earlier studies; Appendix A documents the
+posthoc space controls and the prior-matched study.
+2 Relation to existing work
+Engels et al. [4] decompose and partially repair sparse-autoencoder reconstruction error, measur-
+ing downstream cross-entropy. Here the target is a native intervention delta and the outcome is
+squared error in its predicted grammatical logit-margin effect. The empirical extension is the linked
+sequence of response-space fitting, fresh oracle replication, rank/norm controls, learned correction
+and resource-aware baseline comparison.
+Sharma et al. [15] analyze low-rank subspaces of behavioral interventions and their relation
+to decision directions; we instead ask which subspace of an intervention’s native response car-
+ries the readout-relevant error of a vector predictor. Subspace activation patching, self-repair and
+computational-graph methods provide established context [12, 14, 1, 5]. End-to-end dictionary
+2
+learning on downstream loss [2] and gradient-based attribution patching [16, 8] likewise separate
+reconstruction or vector error from downstream-relevant change. The intervention edits a subject-
+number coordinate; number units and causal agreement mechanisms were studied earlier [10, 6].
+Deshpande [3] studies preservation of refitted ridge readouts under sparse compression; our spaces
+instead derive from native vector responses and are tested by finite interventions through the native
+suffix. Guo et al. [7] establish gradient-based intervention attribution and feature selection, directly
+preceding the gradient forecasting used here. Luo et al. [11] show why intervention comparisons
+need strength, surface and basis matching. Our random-space and norm controls address specified
+parts of that comparison. Prior-centered ridge and kernel mean functions are standard regression
+constructions [13]; correcting a historical predictor in this way is hypothesis transfer learning with
+biased regularization [9], whose benefit with few target samples depends on how well the source hy-
+pothesis fits the target task; negative transfer is possible. Tanyel and Ayvaz [17] show that subspaces
+learned for a behavioral objective, such as distributed alignment search trained with cross-entropy,
+can exceed the effect of whole-state patching mainly because of the objective, and that to first order
+the effects of orthogonal parts add up to the whole. OurUwas fitted from vector responses with-
+out readout labels before that work appeared, and our in-space/out-of-space split of the linearized
+readout error uses the same first-order additivity; the intervention itself, however, was selected for
+its readout effect. The contribution rests on the measurements and their controlled comparisons.
+3 Prediction, correction and experimental design
+3.1 Native response and oracle diagnostic
+For interventionI, letD=y I −y 0 be the native target-branch output change. A target-free input
+representation predictsP. An orthonormalU∈R d×r holds the leading right singular vectors of the
+uncentered matrix of native FIT responsesD; the historical space hasr= 8, chosen among ranks
+1, 2, 4 and 8 by SELECT vector error without readout labels. LetgI(v)be the actual native-suffix
+logit margin after insertingy 0 +v, holding the intervention’s upstream residual fixed. With the
+same reference margin for target and prediction, squared error is
+L(v) = [gI(D)−g I(v)]2.
+The oracle diagnostics insert
+PU =P+U U ⊤(D−P), P out =D−U U ⊤(D−P).
+Both access true TESTD. Inside repair removes the vector-error projection ontoU, and outside
+removes its complement. Their downstream effects are measured through the suffix. Ife=gI(D)−
+gI(P)anda=g I(PU)−g I(P), the loss change isa2 −2ea. Positive change denotes worse prediction
+of the intervention effect.
+The L21 experiments use Qwen3-0.6B-Base and the literal E041 upstream intervention. At the
+final prompt position, layer-19 SwiGLU coordinate 1317 moves toward its donor value at dose .5 or
+1. Branch B leaves layer 20 free; branch C restores recipient coordinate 1423. Each lexical block
+has four subject/attractor-number forms and 16 branch/dose conditions. Donors reverse subject
+number in the F1 prompt, “The {subject} that the {attractor} can see”. The target is layer-21
+output; the exact native L22–27 suffix supplies the is/are readout. Native arithmetic is FP32,
+fitting/projection FP64, with separately qualified suffix batching. B5 uses a native ridge predictor.
+The frozen input isx= [∆x 20/s20,∆x 21/s21]/
+√
+2, and historicalP= FP32(xW U ⊤). These
+features require native upstream prefixes while avoiding the layer-21 output being predicted. TEST
+3
+forecasts are globally frozen before the new native targets. The three new rank-study predictors
+use eight FIT blocks each (128 labels), fixed ridge penalty10−4, six nested SVD ranks and fixed
+Gaussian-QR random spaces. A separate random arm rescales its correction to the FIT-space
+correction norm.
+3.2 C is ridge around a historical prior
+The learned correction fits coefficients of(D−P)Uand predictsC=P+f C(x)U ⊤. Same-Ufits
+DU; Direct fits fullD. The shared estimator centers inputs and targets, usesK+nλI, and adds
+the training target mean. Linear and RBF kernels use the gridλ∈ {1,10−2,10 −4,10 −6}; the RBF
+scale is the median positive training squared distance. Vector-only block CV selects models.
+In exact arithmetic withP=xW U ⊤, centered designA=X− ¯XandY=DU, the linear C
+fit is
+ΓC = arg min
+Γ
+{︁
+∥Yc −AΓ∥ 2
+F +nλ∥Γ−W∥ 2
+F
+}︁
+, ˆ︁YC(x) = ¯Y+ (x− ¯X)Γ C.
+This is ridge centered onW, with an unpenalized intercept; same-Ushrinks toward zero. The im-
+plementation’s FP32 P introduces a rounding qualification. RBF C is residual kernel ridge around
+mean functionxW+ Y−XW. The supplement gives the exact smoother identities and implemen-
+tation audit, including the conditions under which projected Direct equals same-U.
+C and Direct search eight linear/RBF candidates in the learned384 and original budget studies;
+same-Usearches the four linear candidates. In the later three-FIT32 study, every method searches
+all eight. At 384 labels, all methods choose linear/10−6, the grid’s lower boundary. The original
+32-label models all choose linear/10−4. Two-block CV at 32 labels trains on one block per fold.
+Historical information is a real resource. C inheritsW, Uand scales; same-UinheritsUand
+scales. E036’s prior-development pool had 512 target rows across 128 documents with fitting and
+selection roles. Its ledger records 640 network, 640 CLT, 512 JVP and 512 target operations, beyond
+the subsequent vector-label budget. The supplement retains the full cost and selection chronology.
+3.3 Sampling, inference and companion data
+The independent sampling unit is the lexical block. The L21 analyses average 16 conditions within
+each of 64 blocks; aligned studies average fits and conditions within each of 256 blocks. Reported
+nominal 95% intervals use the saved 1,999-draw paired block bootstrap and condition on fixed
+fitted objects. Original Gemma/Llama families retain their distinct saved correction rules. Each
+prospective stage through the three-FIT32 study has its own independent scientific completion
+receipt. The prior-matched study has an independent completion review (approved with changes; its
+completion package remains open). The space controls are a posthoc analysis, not yet independently
+reviewed, that fits principal subspaces and re-evaluates the native suffix and its gradient on cached
+states. Otherwise the manuscript uses saved analyses without refitting or resampling.
+The companion transcoder study shares Qwen L27 states and 4,096 unit-dose native/first-fit
+ridge margins. Its ridge uses 128 FIT_MAP labels; Direct256 here uses a different pooled training
+budget. The L21 cohorts and Gemma agreement tests have separate native acquisitions. Full reuse
+mappings and model identities are in the supplement.
+4
+4 L21 results: repairability, usefulness and comparison
+4.1 A vector-fitted space concentrates oracle benefit
+On the first fresh 64-block TEST, inside repair reduces historical B5 MSE by 99.25%, compared
+with 8.38% outside (Table 2). The inside-minus-B5 contrast is−.0144172, nominal 95% interval
+[−.0160698,−.0129072]. Reductions range from 99.07% to 99.30% across the four branch/dose
+marginal groups. Because the historical predictor lies in the span ofU(P=xW U⊤), inside repair
+here insertsU U ⊤D, the projection of the true response ontoU: its residual .00010961 does not
+depend onP, whereas the percentage reduction does. Relative to inserting no MLP-21 change
+(MSE .02323977), the ratio1−MSE/MSE zero is 37.5% for B5 and 99.53% for the projection (an
+MSE-based ratio, not a share of effect amplitude; the projection’s relative RMS error is about
+6.9%); on the second TEST the projection leaves 48% of the mean squared response norm outside
+U(Table 4). The historical rank-eight vector-fitted space therefore retains almost all of the readout-
+relevant part of fresh responses while discarding about half of their energy.
+Historical fit/repair Readout MSE Reduction from B5
+B5 prediction .01452685 —
+Oracle inside, rank 8 .00010961 99.245%
+Oracle outside .01330943 8.381%
+Full oracle1.31×10 −11 Numerical floor
+Zero MLP-21 change (reference) .02323977 60.0% higher
+Table 2: First L21 TEST: 64 fresh blocks, 1,024 conditions, frozen historical fit. Oracle arms use
+true TEST error. Inside and outside have unequal rank/norm budgets; the full-oracle residual is
+the FP32 patch/suffix floor. BecausePlies in the span ofU, inside repair equals insertingU U⊤D.
+The reference row inserts the natural MLP-21 output under the intervened residual.
+The separate three-fit rank study supplies controlled alternatives on the same TEST. Baseline
+MSE is .00075285. At rank eight, FIT-space repair gives .00008939, an 88.13% reduction, versus
+1.18% for fixed equal-rank random spaces and 5.30% for norm-rescaled random corrections. Each
+new predictor also lies in its own rank-eight FIT space, so rank-eight FIT-space repair again inserts
+the projection ofD; its absolute residual, .00008939, is close to the historical .00010961, and the
+lower percentage reflects the new predictors’ smaller errors. The saved FIT-space paired contrast is
+−.00066347, interval[−.00081751,−.00052898]. Figure 1 retains all six ranks: the reductions rise
+to 94.14% and 96.90% at ranks 16 and 32. These controls support response-derived structure while
+also showing scope for larger spaces.
+4.2 The out-of-space error is nearly invisible to the readout
+Two controls on the same first TEST ask why the historical space works. Both reuse the cached
+native states; the native readout gradient is computed by backpropagation through the exact L22–
+27 suffix at the predicted statey0 +P, and every repair is scored through that suffix. On average
+only 27.8% of the vector-error energy∥D−P∥2 lies inU(mean of per-condition shares; MSE values
+are block-equal, the linearized shares below are pooled over conditions). YetUcontains on average
+29.1% of the readout-gradient energy∥g∥2 (per-condition range 11.7–44.8%), against the random
+expectation8/1024 = 0.78%. The readout error is almost exactly linear here:g⊤(D−P)reproduces
+the finite errorgI(D)−g I(P)with pooledR 2 =.9997. Withb i =g ⊤
+i (Di −P i)and its in-Uterm
+ai =g ⊤
+i U U⊤(Di −Pi), the in-Uterm carries the additive share∑︁
+i aibi/ ∑︁
+i b2
+i = 95.5%of the pooled
+5
+1 2 4 8 16 32
+Correction-space rank
+0.03
+0.1
+0.3
+1
+Mean MSE / baseline MSE
+FIT-derived projection
+Random projection (same rank)
+Random correction (norm-rescaled)
+Unrepaired predictor
+Figure 1: Three fixed new fits on the first 64-block TEST; means normalized by their common
+baseline. Rank and random seeds were fixed before outcomes. FIT-derived and random projections
+share rank; the rescaled arm matches correction magnitude. Points summarize these fixed controls.
+second moment, and linearized inside repair removes1−∑︁
+i(bi −a i)2/ ∑︁
+i b2
+i = 99.26%, matching
+the finite 99.25%. The out-of-Uerror, about 72% of the vector-error energy, is therefore nearly
+invisible to the local readout. Rank-eight principal subspaces of the natural final-position MLP-21
+outputs of the 96 FIT prompts of the rank study, or the subject-number class-mean difference plus
+seven principal directions, capture 3.6–4.1% of the gradient and repair only 7.2–8.4% of the readout
+error (Table 3). These posthoc measurements associate the 99% repair with overlap between the
+response-fitted space and the readout-sensitive part of the error, not with the dominant variance
+of natural activations. They do not separate response variance from readout sensitivity:Uis itself
+the leading principal subspace of native responses, for an intervention selected earlier by its is/are
+effect. Moreover, unlikeU, the alternative spaces do not containP, so their inside repair is not
+a projection ofD; inserting the projectiony 0 +QQ ⊤DwithoutPgives the same ordering (MSE
+.00011 forUversus .021–.023 for every other-intervention space).
+The decisive control asks whether any intervention’s response space would do. Three layer-19
+SwiGLU neurons drawn with a fixed seed (2356, 2177, 897), never screened on any readout, were
+moved toward their donor values on the same 96 FIT prompts and doses, and their native layer-21
+responses were reduced by the same uncentered rank-8 SVD. Because these responses are weak
+(mean norm .013 versus about 2.6 for the historical intervention), a second variant moves each
+neuron by a calibrated shift that matches the historical response norm at each dose (mean norms
+2.57–2.62). Both variants, jointly or per neuron, repair 0.2–3.6% of the readout error and contain
+0.3–1.6% of the readout gradient, indistinguishable from 20 random spaces (mean repair 1.53%,
+range−0.36to 3.66%). A space built from readout gradients themselves repairs 99.94%, so the
+historical response space comes close to a label-informed ceiling without using readout labels. For
+the three alternative interventions tested, the alignment therefore does not appear; this does not
+establish specificity against all other interventions. OutsideU, the mean absolute cosine between
+gradient and error components is .028, close to the value expected for unrelated isotropic directions
+(about
+√︁
+2/(π·1016) =.025).
+6
+Rank-8 space Readout-MSE reduction Gradient share
+HistoricalU(native responses) 99.25% 29.1%
+PCA of natural outputs, uncentered 8.43% 3.6%
+PCA of natural outputs, centered 7.19% 3.7%
+Class difference + 7 PCA directions 7.33% 4.1%
+Random (one draw; 20 draws: mean 1.53%) 2.94% 0.75%
+Other interventions, donor shift (3 neurons) 0.93% 0.95%
+Other interventions, matched strength (3 neurons) 2.74% 0.30%
+Gradient ceiling (top-8 PCA of FIT gradients) 99.94% 96.3%
+Table 3: Oracle inside repair with alternative label-free spaces on the first L21 TEST (1,024 con-
+ditions, 64 blocks; equal-block MSE, base .014527). Gradient share is the mean fraction of native
+readout-gradient energy in the space; random expectation .78%. The random row is one seeded
+draw and repairs B5’s error; it is not comparable with the random arms of Figure 1, which repair
+the new predictors’ much smaller errors. TheUrow insertsU U⊤DbecausePlies in its span; other
+rows insertP+QQ ⊤(D−P). Posthoc, not yet independently reviewed: cached states with a fresh
+evaluation of the native suffix and its gradient.
+4.3 Learned correction is useful against P; Direct384 has lower mean loss
+On a second fresh 64-block TEST, C trained on the existing 384 FIT vector labels reduces P’s
+readout MSE by 97.21% (Table 4). Its primary C-minus-P contrast is−.0149633, nominal interval
+[−.01669,−.01329]. This is downstream improvement with forecasts frozen before true TEST error
+becomes available.
+Arm Readout MSE Vector squared error
+Historical P .01539272 4.08662
+Prior-centered C .00042944 2.89175
+Same-Udirect .00040599 2.88978
+Direct384 .00032652 .29801
+Mean correction .01605005 4.07251
+Oracle inside .00008828 2.84390
+Zero-change .76689144 5.93717
+Table 4: Second L21 TEST: 64 blocks and frozen fits using 384 reused vector labels. Vector error is
+mean squared L2. Oracle is diagnostic; zero-change predicts the original natural margin. Inference
+is conditional on fixed fits.
+ThesecondaryC-minus-Direct384contrastis+.000102919, nominalinterval[+.000036397,+.000174289].
+Direct384 has 23.97% lower mean loss than C; equivalently C has 31.52% higher loss. Same-Ualso
+has slightly lower point loss, while constant FIT-mean correction worsens P. C improves P across
+every reported branch/dose/subject/attractor marginal group. Direct384 has lower means in both
+branches and doses; one descriptive subject subgroup slightly favors C. Complete subgroup values
+remain in the supplement and evidence.
+4.4 A small-budget advantage depends on the fit
+A third fresh 64-block TEST compares one fixed FIT0/seed17 training sequence. Table 5 shows
+every budget. The 384-label models use the full pool, extending the lower-budget sequence with
+FIT0 blocks. At 32 labels, the primary C-minus-Direct contrast is−.000809242, nominal interval
+7
+[−.001215298,−.000446333]: a 48.03% MSE reduction. With the shared linear/10−4 smoother, C
+versus same-Udiffers through the historical prior; C versus Direct also changes the output span.
+Vector labels C Same-UDirect
+32 .000875571 .001435104 .001684814
+64 .001275866 .000927738 .000790169
+128 .000767452 .000696753 .000481287
+256 .000489643 .000496114 .000440074
+384 .000342340 .000321220 .000308196
+Table 5: Third L21 TEST: is/are MSE on 64 blocks, conditional on one fixed training sequence.
+P=.015209579. Direct has lower means at 64–384 labels; the 256/384 C-minus-Direct intervals
+include zero. The original learned384 study in Table 4 uses a different TEST cohort.
+Three subsequent two-block FIT cohorts acquire 32 labels each and reuse this third
+TEST posthoc. On have/has, mean MSE is .001598713 for C and .001230636 for Direct:
+C-minus-Direct+.000368077, nominal interval[+.000134272,+.000653699]. On is/are, the
+mean contrast is+.000172888, interval[−.000127204,+.000484746]. Per-fit is/are contrasts are
++.000746091,−.000015488,−.000211940; have/hascontrastsare+.000369036,+.001108920,−.000373724.
+The mixed signs leave the original C32 advantage as an observation for one fixed training sequence,
+not a stable ranking across new fits and readouts.
+A fourth fresh 64-block TEST then separates the prior from the correction procedure. Six
+new disjoint 32-label FIT cohorts train C, same-U, Direct and Direct_P, a full-vector direct ridge
+centered on the same historical priorP; forecasts were frozen before the native targets. Mean is/are
+MSE is .001139 for Direct_P, .001272 for same-U, .001340 for Direct and .001404 for C (P: .013777).
+The primary C-minus-Direct_P contrast is+.000265, nominal block interval[+.000148,+.000381]
+conditional on the six fits. It is less stable across fits: four of six favor Direct_P, but one of these
+and one of the two C-favoring fits differ by less than5×10−5; without the most extreme fit the
+mean is+.000074, interval[−.000026,+.000170]; and a descriptive fit-leveltinterval over the six
+fits,[−.000252,+.000782], includes zero. With the prior equalized, restricting the correction toU
+did not help on average on this cohort. Descriptive nominal secondary contrasts do not attribute the
+learned gain to the prior either. All four 32-label learners remove about 90% of P’s MSE. Adding
+the prior changes full-vector Direct by−.000202([−.000412,+.000016]) and theU-restricted fit
+by+.000132(C minus same-U,[−.000101,+.000382]). The original primary C32-minus-Direct32
+contrast, now repeated with six new fits on fresh contexts, is+.000063([−.000229,+.000355]; four
+of six fits favor C), so the earlier single-sequence advantage does not reappear on average. Learned
+correction is therefore useful against P, but at 32 labels neither the historical prior nor the restriction
+toUgives it a demonstrated advantage over unrestricted ridge.
+The supplementary implementation audit explains two numerical/semantic details of the three-
+FIT32 follow-up above, not of the fourth TEST below. Saved P vectors and is/are margins are
+identical to the budget study; its tiny P-MSE difference comes entirely from recomputing the native
+reference through another numerical path (maximum margin difference1.90735×10−5). The arm
+named zero inserts zero MLP21 delta while retaining the intervened residual, whereas earlier zero-
+change uses the original natural margin. All raw records are preserved.
+8
+5 Transfer and policy results bound the interpretation
+The aligned layer-27 Qwen and layer-17 Gemma-270M tests use three fixed matched predictor/space
+pairs per model and the same 256 lexical blocks. The same three Qwen fitted pairs help on T2 and
+harm on T5 (Table 6); Gemma benefits on both frames. Outside-space repair has lower pooled
+loss in these cells, with a substantially larger dimension/norm budget. Per-fit reversals and full
+inside/outside tables are retained in the supplement.
+Model Frame P MSE Inside-minus-P Nominal 95% interval
+Gemma-270M T5 .449097 -.116462 [-.144036,-.091732]
+T2 .209279 -.126023 [-.140182,-.113846]
+Qwen-0.6B T5 .490827 +.044905 [+.013197,+.076805]
+T2 .672181 -.139841 [-.177426,-.107007]
+Table 6: Aligned 256-block tests, conditional on three fits/model. T5 is primary; T2 is descriptive.
+Model, layer and fitting recipe differ from the L21 studies.
+Earlier separate single-fit 256-block tests establish T5 harm in Gemma-1B (+.50370, saved 99%
+interval[.43370, .57832], adjustedp=.003) and Llama-1B (+.77826,[.66913, .89066], adjusted
+p=.002). Llama’s secondary T2 effect is beneficial,−.40679([−.47176,−.35053]). Gemma’s
+predicted vector/readout ranking reversal fails: the space removing more vector error also has lower
+fresh T5 readout loss. Posthoc old/new matrix substitutions show that the mean ranking follows
+the subspace-pair version on both fixed cohorts. The supplement preserves the full crossed table
+and original family definitions.
+The separate L27 learned gate makes the distinction between sign forecasting and useful policy
+concrete. A local score(J c) 2 −2(J r)(J c)uses native readout gradientJ, residualr=D−P
+and correctionc=U U ⊤rto forecast finite loss-change signs. Replacingrby a learned residual
+gives a deployable-with-prefix/gradient-access gate. On Qwen T5/T2, oracle sign accuracies are
+99.479%/99.837%; learned accuracies are 64.746%/68.620%, versus constant-rule 63.249%/59.375%.
+Yet T5 gate loss .521107 exceeds P’s .490827, and Direct256 has lower mean loss on both frames.
+These accuracies are dependent-cell descriptive fractions.
+Supporting 32-block scopes reinforce that limit: learned sign accuracies on Gemma-1B/Llama-
+1B/Gemma-270M are 39.84%/65.62%/58.07%, below constant-rule 60.94%/72.40%/62.50%. Each
+learned gate loses to the better always/never policy. Complete loss tables, all matched crosses and
+timing qualifications are in the supplement.
+6 Limitations and interpretation
+The evidence concerns selected synthetic contexts, native branches and grammatical two-token
+margins. The intervened layer-19 coordinate was identified in earlier screening by its is/are effect, so
+a response space fitted without readout labels is still conditioned on a readout-selected intervention;
+response spaces of three unscreened interventions, including strength-matched versions, do not align
+with this readout. The MLP-21 response carries a small part of the intervention’s readout effect
+(root-mean-square about .15 logit, versus about .9 logit for the whole intervention), and the space
+controls use one random draw and natural-activation principal spaces from 96 prompts. Fresh
+lexical pairs test the historically selected L21 regime; they leave model/frame/layer generalization
+conditional. The have/has extension changes a readout on reused prompts. Differences between
+9
+L21, aligned and earlier tests also change operators and fitting recipes, so they cannot isolate layer
+as the cause of different repair signs.
+Oracle correction requires true TEST error. Learned C avoids that access, while still requiring
+native upstream features and historical fitting information. Equal additional label budgets leave
+those prior resources unequal. The prior-matched Direct_P comparison separates the prior from
+the output-span restriction, conditional on six fits; its fit-level interval includes zero and one fit
+drives much of the block-level difference. Kernel grids, fixed random draws and the three later
+FIT32 cohorts bound the conclusions to the tested choices.
+Intervals condition on fitted objects and sample lexical blocks. The newer nominal analyses,
+older adjusted families and posthoc diagnostics have separate inferential scopes. In particular, two
+negative per-fit C32 contrastscoexistwith a three-fit is/are intervalcrossing zero, and pointrankings
+at budget256/384 leave the corresponding contrasts uncertain. Scientific completion approvals verify
+the recorded execution and evidence; external replication remains open.
+The resulting thesis is specific. In the historically selected L21 regime, a rank-eight space fitted
+without readout labels to native responses of a readout-selected intervention retains almost all
+of the readout-relevant part of fresh responses while discarding about half of their vector energy,
+and it overlaps the native readout gradient far more than random or natural-activation principal
+spaces. This is a measured posthoc association, not an established mechanism, and three unscreened
+interventions of matched strength yield spaces with random-level repair. Other layers and models
+remain untested. At 32 labels, learned use of this structure gained no demonstrated advantage from
+the restriction to the space or from the historical prior over unrestricted ridge. Direct baselines, rank
+controls and transfer tests define where that usefulness holds. The supplementary report provides
+the complete historical record, forensic checks and operation receipts.
+Use of AI tools.AI assistants were used for code development, analysis support, literature search
+and editing of the text. All experimental designs, results and claims were checked by the author,
+who takes full responsibility for the content.
+Code and data availability .Code, frozen protocols, per-condition results and summary files
+are available atGITHUB-URL.
+10
+References
+[1] Emmanuel Ameisen, Jack Lindsey, Adam Pearce, Wes Gurnee, et al. Circuit tracing: Revealing com-
+putational graphs in language models.Transformer Circuits Thread, 2025.
+[2] Dan Braun, Jordan Taylor, Nicholas Goldowsky-Dill, and Lee Sharkey. Identifying functionally impor-
+tant features with end-to-end sparse dictionary learning.arXiv preprint arXiv:2405.12241, 2024.
+[3] Aniket Deshpande. Decoder-preserving sparse autoencoders: Which readouts survive sparse compres-
+sion?arXiv preprint arXiv:2607.17425, 2026. Version 3.
+[4] Joshua Engels, Logan Riggs, and Max Tegmark. Decomposing the dark matter of sparse autoencoders.
+arXiv preprint arXiv:2410.14670, 2025. Version 2.
+[5] Lucy Farnik, Tim Lawson, Conor Houghton, and Laurence Aitchison. Jacobian sparse autoencoders:
+Sparsify computations, not just activations. InInternational Conference on Machine Learning, pages
+16178–16236, 2025.
+[6] Matthew Finlayson, Aaron Mueller, Sebastian Gehrmann, Stuart Shieber, Tal Linzen, and Yonatan
+Belinkov. Causal analysis of syntactic agreement mechanisms in neural language models. InProceedings
+of the 59th Annual Meeting of the Association for Computational Linguistics (ACL-IJCNLP), 2021.
+[7] Yifeng Guo, Yanran Li, and Xiang Chen. What do sparse autoencoder feature discovery scores identify?
+from activations to interventions.arXiv preprint arXiv:2610.15850, 2026. Version 1.
+[8] János Kramár, Tom Lieberum, Rohin Shah, and Neel Nanda. AtP*: An efficient and scalable method
+for localizing LLM behaviour to components.arXiv preprint arXiv:2403.00745, 2024.
+[9] Ilja Kuzborskij and Francesco Orabona. Stability and hypothesis transfer learning. InProceedings of
+the 30th International Conference on Machine Learning, volume 28 ofPMLR, pages 942–950, 2013.
+[10] Yair Lakretz, German Kruszewski, Théo Desbordes, Dieuwke Hupkes, Stanislas Dehaene, and Marco
+Baroni. The emergence of number and syntax units in LSTM language models. InProceedings of
+the 2019 Conference of the North American Chapter of the Association for Computational Linguistics
+(NAACL-HLT), 2019.
+[11] Daming Luo, Christy Liang, and Junyu Xuan. When are sparse feature interventions actually localized?
+matched evaluation for sae-based safety control.arXiv preprint arXiv:2607.10226, 2026. Version 1;
+authors from versioned PDF and HTML.
+[12] Aleksandar Makelov, Georg Lange, and Neel Nanda. Is this the subspace you are looking for? an
+interpretability illusion for subspace activation patching.arXiv preprint arXiv:2311.17030v2, 2023.
+[13] Carl Edward Rasmussen and Christopher K. I. Williams.Gaussian Processes for Machine Learning.
+MIT Press, 2006. Chapter 2: regression and mean functions.
+[14] Cody Rushing and Neel Nanda. Explorations of self-repair in language models. InInternational Con-
+ference on Machine Learning, pages 42836–42855, 2024.
+[15] Angira Sharma, Christian Schroeder de Witt, Philip Torr, Anisoara Calinescu, and Jialin Yu. A low-
+rank subspace analysis of LLM interventions.arXiv preprint arXiv:2606.14388, 2026. Mechanistic
+Interpretability Workshop at ICML 2026.
+[16] Aaquib Syed, Can Rager, and Arthur Conmy. Attribution patching outperforms automated circuit
+discovery.arXiv preprint arXiv:2310.10348, 2023.
+[17] Toygar Tanyel and Serkan Ayvaz. Whose effect is it? how objectives inflate learned subspace interven-
+tions.arXiv preprint arXiv:2611.05033, 2026. Version 1, submitted November 3, 2026.
+11
+A Protocol summary
+Model and intervention.Qwen3-0.6B-Base, FP32 native arithmetic, FP64 fitting and projection. At the
+final position of “The {subject} that the {attractor} can see”, layer-19 SwiGLU coordinate 1317 is moved
+toward its donor value (dose .5 or 1); branch B leaves layer 20 free, branch C restores layer-20 coordinate
+1423. Donors reverse subject number. The target is the layer-21 MLP output changeD; readout is the
+is/are logit margin after the exact native layers 22–27, final norm and head, with the intervened upstream
+residual held fixed.
+Predictors and spaces.Historical B5: ridge from target-free layer-20/21 input changes to the rank-
+8 response spaceUobtained by SVD of native FIT responses (E036). Learned arms: C (coefficients of
+(D−P)U), same-U(DU), Direct (D), Direct_P (full-vector ridge centered onP); shared centered kernel-
+ridge estimator, linear/RBF kernels,λ∈ {1,10 −2,10 −4,10 −6}, vector-only block cross-validation.
+Cohorts.Four disjoint 64-block L21 TEST cohorts (each 256 prompts, 1,024 conditions): oracle/rank
+controls; learned384; label budget (reused post hoc for three FIT32 cohorts and a have/has readout); prior-
+matched (six new 32-label FIT cohorts). Lexical blocks are the resampling unit; intervals are 1,999-draw
+paired block bootstraps conditional on fixed fits. All forecasts were frozen before native TEST targets.
+Space controls.Post hoc on the first TEST. Cached native states supplyy0,Dand the suffix inputs;
+the readout gradient is computed by backpropagation through layers 22–27 aty0 +P. Alternative rank-8
+spaces: (i) uncentered and centered PCA of the natural final-position layer-21 outputs of the 96 FIT prompts;
+(ii) the subject-number class-mean difference plus seven PCA directions; (iii) 21 random Gaussian-QR spaces
+(one shown separately, 20 summarized); (iv) a gradient ceiling, the top-8 PCA of native readout gradients at
+the 384 cached FIT native endpoints; (v) other-intervention response spaces. For (v), new native forwards
+move layer-19 SwiGLU neurons 2356, 2177 and 897 (seeded draw, excluding 1317) on the 96 FIT prompts at
+doses .5 and 1, branch B: first toward their donor values, then by a calibrated shift toward the donor value
+whose size was set by bisection on eight FIT prompts so that the mean layer-21 response norm matches
+that of the historical intervention at each dose (1.717 and 3.429; shifts 3.70/7.32, 3.72/7.43 and 5.67/11.33).
+Each space is the uncentered rank-8 SVD of the stacked responses, jointly and per neuron. Every repair,
+with and withoutP, is scored through the exact suffix. These controls were run without a separate pre-run
+review; code and outputs:analysis/A_U_gradient_pca_20261104(run.py,ctrl2.py,ctrl3.py).
+B Prior-matched experiment: per-fit contrasts
+Contrast FIT0 FIT1 FIT2 FIT3 FIT4 FIT5
+C−Direct_P (×10−4) 2.30 12.20 0.41−1.58−0.02 2.59
+C−Direct (×10−4)−1.74 13.54−6.57−1.72−2.41 2.69
+Direct_P−Direct (×10−4)−4.04 1.34−6.97−0.14−2.39 0.10
+Table7: FourthL21TEST,is/arereadoutMSEdifferencesperFITcohort(64blockseach). Positive
+values favor the second arm.
+12

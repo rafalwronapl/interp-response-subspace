@@ -1,0 +1,100 @@
+{
+  "model": "gemma3-270m",
+  "corpus": "analysis/A_gemma270_extension_20261102/corpus.json",
+  "corpus_sha256": "0710f9ee1d623997fff228fed43952e1b9e44774f6f74cd5030330aca07d5676",
+  "tokens": "analysis/A_gemma270_extension_20261102/capture_v1/tokens.json",
+  "output": "analysis/A_gemma270_extension_20261102/capture_v1/run",
+  "schedule": "analysis/A_gemma270_extension_20261102/capture_v1/operations.json",
+  "model_identity": "analysis/C3_noD_more_models_20261102/gemma270_capture/model_identity.json",
+  "answer_ids": [
+    563,
+    659
+  ],
+  "assets": {
+    "model": "gemma270",
+    "answer_ids": [
+      563,
+      659
+    ],
+    "eps": 1e-06,
+    "softcap": null,
+    "architecture": "gemma3_text",
+    "sources": {
+      "model.norm.weight": {
+        "path": "C:\\Users\\rafal\\interpretability-lab\\models\\gemma-3-270m\\model.safetensors",
+        "header_sha256": "5a69150baac3c9135d54f7975018a66745338de8790ecf7d7b2cc029518a4c29",
+        "tensor_header": {
+          "dtype": "BF16",
+          "shape": [
+            640
+          ],
+          "data_offsets": [
+            536195072,
+            536196352
+          ]
+        },
+        "selected_rows": null,
+        "source_byte_hash_status": "Recorded accepted checkpoint identity reused; no new giant weight hash",
+        "current_bytes": 536223056,
+        "current_mtime_ns": 1793391150864040700
+      },
+      "model.embed_tokens.weight": {
+        "path": "C:\\Users\\rafal\\interpretability-lab\\models\\gemma-3-270m\\model.safetensors",
+        "header_sha256": "5a69150baac3c9135d54f7975018a66745338de8790ecf7d7b2cc029518a4c29",
+        "tensor_header": {
+          "dtype": "BF16",
+          "shape": [
+            262144,
+            640
+          ],
+          "data_offsets": [
+            0,
+            335544320
+          ]
+        },
+        "selected_rows": [
+          563,
+          659
+        ],
+        "source_byte_hash_status": "Recorded accepted checkpoint identity reused; no new giant weight hash",
+        "current_bytes": 536223056,
+        "current_mtime_ns": 1793391150864040700
+      }
+    },
+    "asset_sha256": "1048dfa8e79486a65286ea80ee7bdf7dac22deeaaeb439ba5412af54981bb6a0"
+  },
+  "asset_path": "analysis/C3_noD_more_models_20261102/gemma270_capture/gemma270_head_assets.npz",
+  "qualification_snapshot": "analysis/C3_noD_more_models_20261102/gemma270_capture/completion_snapshot_v1.json",
+  "qualification_review": "analysis/C3_noD_more_models_20261102/gemma270_capture/completion_review_resume_v1.json",
+  "qualified_controls": "analysis/C3_noD_more_models_20261102/gemma270_capture/run/controls.json",
+  "threads": 1,
+  "minimum_output_disk_free_bytes": 1073741824,
+  "estimated_output_reserve_bytes": 268435456,
+  "layer": 17,
+  "scope": "New256blocksT2T5,3fixedC3P/U0 pairs; no new FIT/technicalcontrol repeats",
+  "fit_snapshot": "analysis/C3_noD_more_models_20261102/gemma270_evaluation_v1/completion_snapshot_v1.json",
+  "fit_review": "analysis/C3_noD_more_models_20261102/gemma270_evaluation_v1/completion_review_resume_v1.json",
+  "fixed_pairs": [
+    {
+      "fit": "r1",
+      "P": "analysis/C3_noD_more_models_20261102/gemma270_evaluation_v1/run/fits/P_r1.json",
+      "U": "analysis/C3_noD_more_models_20261102/gemma270_evaluation_v1/run/fits/U_r1.json",
+      "P_sha256": "ee10f15938357e4327c1f7a8f24dd2a95c85e25fad6a3722c2129b45c8c0fb39",
+      "U_sha256": "06629435812bdd191d01c49505ddc4e6892cb06533dbd7a01320a474eff8636b"
+    },
+    {
+      "fit": "r2",
+      "P": "analysis/C3_noD_more_models_20261102/gemma270_evaluation_v1/run/fits/P_r2.json",
+      "U": "analysis/C3_noD_more_models_20261102/gemma270_evaluation_v1/run/fits/U_r2.json",
+      "P_sha256": "531d5e046a42d6a35c51ce235b04c1a7c40d584b145de97bbc6a739c94030553",
+      "U_sha256": "93b345dfd28d2bde32162ac84e40ad4f8e3a2d14597606328f0b965e9fd4c6ce"
+    },
+    {
+      "fit": "r3",
+      "P": "analysis/C3_noD_more_models_20261102/gemma270_evaluation_v1/run/fits/P_r3.json",
+      "U": "analysis/C3_noD_more_models_20261102/gemma270_evaluation_v1/run/fits/U_r3.json",
+      "P_sha256": "3167af56132dc18998e921288368e624b20e22f6695919e799b8306c11af5616",
+      "U_sha256": "96b2f736bfc88dcfa3bcea011f4bef4713307bcdaa52d762920a8f45deadc9b6"
+    }
+  ]
+}

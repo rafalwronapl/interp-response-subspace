@@ -1,0 +1,62 @@
+A-FIT developmental budget curve, 2026-11-03
+
+Completed offline analysis of existing384 vector labels,24 independent lexical blocks.
+Three leave-FIT-group-out splits:16 available training blocks,8 heldout blocks each.
+Seeds17/43/101 choose nested whole-block budgets. Seed results share heldout blocks;
+256 labels uses the same16 training blocks at every seed. No384 heldout point.
+Errors below are squared L2 in the local vector / rank8 U coefficients, NOT readout MSE.
+
+| New training budget | Blocks | C vector | same-U vector | Direct vector | P vector |
+|---:|---:|---:|---:|---:|---:|
+| 32 | 2 | 3.30049259 | 3.29787174 | 0.987112475 | 4.30269555 |
+| 64 | 4 | 3.26838257 | 3.24834663 | 0.742025869 | 4.30269555 |
+| 128 | 8 | 3.23332572 | 3.22842803 | 0.566217514 | 4.30269555 |
+| 256 | 16 | 3.20825427 | 3.21181039 | 0.414476817 | 4.30269555 |
+
+| Budget | C coefficient | same-U coefficient | Direct coefficient | P coefficient |
+|---:|---:|---:|---:|---:|
+| 32 | 0.1400857 | 0.137464843 | 0.13761606 | 1.14228866 |
+| 64 | 0.10797568 | 0.0879397371 | 0.0963623485 | 1.14228866 |
+| 128 | 0.0729188293 | 0.0680211375 | 0.0659728096 | 1.14228866 |
+| 256 | 0.0478473796 | 0.0514034969 | 0.0448341419 | 1.14228866 |
+
+Interpretation:
+For every budget report every method; no selected best-budget primary or p-value.
+Direct has the lowest mean vector error at all four budgets. C improves over P at all four.
+same-U has lower mean vector error than C at32/64/128; C is slightly lower at256.
+Thus this curve does not show a small-budget advantage of C over the matched baselines.
+C vector error decreases3.30049 to3.20825; its coefficient error decreases0.140086 to0.0478474.
+Direct vector error decreases0.987112 to0.414477. These are descriptive changes, not confidence bounds.
+C=P+predicted_residual_coefficients@U.T; same-U=predicted_D_coefficients@U.T exactly.
+Historical P=xW@U.T lies in U up to float32 rounding. Both methods therefore share essentially
+the same rank8-space floor from the orthogonal component of D (about3.160407 vector squared L2).
+The large vector errors near3.2 are mostly this shared unpredicted orthogonal component.
+Direct can fit all output directions. This is a representational constraint, not an empirical C failure.
+Relative rankings here concern these vector objectives and cannot establish downstream utility.
+The coefficient target for C is residual error (D-P)U; coefficient evaluation is DU vs predicted U projection.
+Hyperparameters were independently selected using labels strictly within each budget,
+including2fold at32labels/2blocks (one block per inner train/validation). Other budgets use4fold.
+No global historical stage1 hyperparameter selection or TEST target was used by this runner.
+
+Resource accounting:
+36 logical subset evaluations; 848 distinct durable joint fits.
+0 new pretrained imports/loads/evaluations,0 forward/backward,0 new native label acquisitions.
+Declared training budgets refer to reused labels per fitted predictor, not newly purchased measurements.
+All methods use the frozen E036 input normalization. C/P also use prior W; C/same-U share U.
+Historical E036 development pool:512 vector target rows/128 documents. Prior W/U used FIT and
+selection data (not all512 are asserted to be training rows). Historical completion records
+640 network,640 CLT,512 JVP,512 target operations; ledger233.05s, excluding unrecorded setup/training time.
+These prior resources are additional to the current384-label pool. No total-cost dominance claim.
+
+Limits: posthoc developmental FIT analysis on previously exposed lexical families and cached labels;
+only24 independent blocks,2 at smallest training budget; overlapping training sets and repeated
+seeds are dependent. No standard error from treating384 rows or9 repeats as independent.
+This does not measure readout MSE, transfer, causal mechanism or freshTEST performance.
+A future fresh64-block common TEST, including384 training point, remains unexecuted.
+
+Evidence: run/SUMMARY.json includes all36 splits/seeds/budgets, chosen parameters, inner scores,
+per-block and branch/dose vector/coefficient errors; run/completed.json hashes every fit and result.
+Provenance: input_manifest.json binds FIT raw caches/receipts, historical prior, models.py and source index.
+Model revision/dtype/weight hashes are preserved in SUMMARY.model_identities. No model was loaded.
+Pre-run independent approval: review/pre_run_review_v2.json, snapshot9bc2c1376e779755c685801d8840c925980c6e8985ad9b6bf8d6485a0332030f.
+Completion review is pending in this report version; see separate review/completion_review.json for actual status.

@@ -1,0 +1,11 @@
+{
+  "ok": true,
+  "files": 9789,
+  "rows": 1024,
+  "blocks": 64,
+  "attempts": 66284,
+  "aliases": 372,
+  "skips": 0,
+  "no_model_fit_bootstrap": true,
+  "scope": "All completionhashes/rowmean aggregates/ledger coverage; bootstrap not repeated; independent review separate"
+}

@@ -1,0 +1,17 @@
+{
+  "reviewer": "/root/astra_learned_plan_review",
+  "corpus_sha256": "3cc1a19575a7f00be77222a9acc4ab6c28e2581898c32a0b7eb2b0a3207bcc84",
+  "exposure_manifest_sha256": "ec9f037d0cc44f538bf3969dee36209b30f0832f2c339a4d0a6f40ff1aefc938",
+  "independently_recomputed": {
+    "history_files_read": 776,
+    "fresh_unordered_pairs": 64,
+    "documents": 256,
+    "pair_overlap": 0,
+    "prompt_overlap": 0,
+    "tokenization_and_answer_continuation": true,
+    "donor_block_number_alignment": true,
+    "four_forms_per_block": true
+  },
+  "native_calls": 0,
+  "limitation": "Freshness relative to recorded inventory, not pretraining. Individual vocabulary may recur."
+}

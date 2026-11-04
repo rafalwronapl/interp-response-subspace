@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "snapshot_file_sha256": "26b1bb40aed2a6debfec1fb6b22be584a199e90bedcf7f3cae988fb920dd1550",
+  "snapshot_file": "papers/A_v14_20261104/editorial_snapshot.json",
+  "reviewer_id": "/root/prior_and_paper_review",
+  "independent": true,
+  "verdict": "approved",
+  "topics_checked": [
+    "design",
+    "implementation",
+    "data",
+    "cost",
+    "claims",
+    "editorial",
+    "actual_pdf"
+  ],
+  "findings": [
+    {
+      "id": "A14-PRIOR-ALGEBRA",
+      "severity": "low",
+      "status": "resolved",
+      "evidence": "prior_ridge.tex checked against A_L21_learned/models.py and A_transfer_next/models.py. Centered targets/inputs, unpenalized intercept,n lambda,linear/RBF grid and FP32 rounding qualification agree. Linear C is ridge centered at historical W; RBF residual mean form is described without implemented GP uncertainty claim. Common-smoother Direct projection identity is conditional.",
+      "resolution": "Established regression formulation named directly, no new algorithm claim. Historical same-U four-candidate versus later eight-candidate grid change and separately selected smoothers disclosed. Full-vector Direct+P comparator remains pending, not a completed result."
+    },
+    {
+      "id": "A14-C32-AND-COHORTS",
+      "severity": "low",
+      "status": "resolved",
+      "evidence": "Abstract,introduction,budget_transfer and discussion identify C32 advantage as one fixed FIT sequence and later3 FIT mixed results; old TEST reuse posthoc and only conditional block intervals. Scope/provenance tables include3 distinct64-block TEST cohorts,24 reused FIT plus6 new FIT blocks. HistoricalP/U/scales and recorded development costs are additional resources.",
+      "resolution": "No stable training-population superiority or equal-total-resource claim. Learned384 original secondary interval stays positive; distinct budget256/384 zero-crossing intervals disclosed. Leading language now states mean/point loss rather than conflating those cohorts."
+    },
+    {
+      "id": "A14-NUMERICAL-REFERENCE-GATE",
+      "severity": "low",
+      "status": "resolved",
+      "evidence": "All 1,024 P vectors and readouts identical across budget/readout reuse; text explains851 native-reference changes,max1.90735e-5 and MSE .0152095786461 versus .0152094175820 without asserting an isolated numerical cause. C3 learned/constant accuracy 39.84/60.94,65.62/72.40,58.07/62.50 displayed. T5 harm versus Llama T2 benefit correctly distinguished.",
+      "resolution": "Raw history retained; zero MLP delta versus original-natural baseline semantics disclosed; learned gate loses to fixed-rule baseline in supporting3 scopes."
+    },
+    {
+      "id": "A14-EVIDENCE-PDF",
+      "severity": "low",
+      "status": "resolved",
+      "evidence": "All166 final snapshot files hash verified. Supplied actual Gemma acquisition approved receipt plus bound snapshot supersedes copied pending strings. CurrentPDF 20 pages, earlier all-page current layout contact review and finalPDF text checked; build [0,0,0,0] with no overfull/undefined warnings.",
+      "resolution": "Confirmed substantive errata and current-version provenance, including appendixE and scope maps. Earlier receipts distinguished from this fresh approval."
+    },
+    {
+      "id": "A14-REVIEW-LIMITS",
+      "severity": "low",
+      "status": "accepted",
+      "evidence": "RegimeL21/F1/isare was historically selected; U FIT has no direct readout labels; oracle knows true error. Ranknormcontrols concern new fits, not a random-space control of historicalE041. Newprior comparison not integrated.",
+      "resolution": "Accept bounded empirical contribution, repairability/usefulness/transfer distinctions and negative baselines. External suggestions for further geometry or larger training-population studies remain future work."
+    }
+  ],
+  "limitations": "Independent editorial/source review against final external methodology/Fable/lab reports and preserved approved evidence; no pretrained model calls, refitting, bootstrap or new raw tensor audit. Read current source and relevant estimator code, verified every final snapshot file hash. Visually reviewed all 20 pages in contact sheets before final neutral mean-loss wording adjustment; final 20-page PDF text/build checked after reseal. Dense tabular PDF extraction can reorder cells despite coherent visual tables/TeX. This is private-manuscript approval, not external peer review, global novelty certification or public release authorization; human authorship/license/disclosure fields remain pending."
+}

@@ -1,0 +1,16 @@
+"""Independent actual Gemma head pre-run review, reusing accepted raw checks."""
+import json
+from analysis.C2_fresh_fit_holdout_20261102.worker import ROOT,read,sha,receipt
+from research_checks.gate import digest
+base=ROOT/'analysis/A_gemma270_extension_20261102';stage=base/'evaluation_v1';s=read(stage/'pre_run_snapshot_v1.json');assert digest(s['payload'])==s['snapshot_sha256']=='d8f2fe67c25afde13539886e634f59f9c3d553823b3a9900d1a46e3bf2989897' and s['payload']['phase']=='pre_run';cfg=read(stage/'config.json');contract=read(stage/'contract.json');members=s['payload']['files'];cap=base/'capture_v1';accepted=read(cap/'completion_snapshot_v1.json');review=read(cap/'completion_review_sol_qwen_peer_v1.json');assert review['verdict']=='approved' and review['snapshot_sha256']==accepted['snapshot_sha256'];assert all(accepted['payload']['files'][n]==h for n,h in read(stage/'input_manifest.json')['files'].items() if n in accepted['payload']['files'])
+capout=ROOT/read(cap/'config.json')['output']
+assert all(p.relative_to(ROOT).as_posix() in members for sub in ['cache','completed'] for p in (capout/sub).glob('*.json'))
+ops=read(ROOT/cfg['schedule'])['operations'];docs=read(ROOT/cfg['corpus'])['documents'];assert len(ops)==20480 and len(docs)==2048 and contract['budget']==dict(forward=20480,backward=0);assert {o['id'] for o in ops}=={d['id']+'__'+arm for d in docs for arm in cfg['arms']} and len(cfg['arms'])==10
+fixture=read(base/'head_fixture_v5.json');assert fixture['status']=='PASS' and fixture['evaluate_sha256']==sha(base/'evaluate.py')==members[(base/'evaluate.py').relative_to(ROOT).as_posix()]
+for pair in cfg['fixed_pairs']:
+ for field in ['P','U']:assert members[pair[field]]==pair[field+'_sha256']==sha(ROOT/pair[field])
+assert contract['entrypoint']['module']=='analysis.A_gemma270_extension_20261102.evaluate'
+for n,h in members.items():
+ if n.endswith('.py') or n.endswith('/config.json'):assert sha(ROOT/n)==h
+out=dict(schema_version=1,snapshot_sha256=s['snapshot_sha256'],reviewer_id='/root/sol_qwen06_parallel',independent=True,verdict='approved',topics_checked=['design','implementation','data','cost','claims'],findings=[],limitations='Focused actual source/packet pre-run review after independently checking all2048 capture payloads/requests/accounting. Complete accepted capture membership, three fixed native-vector MAP/U fits and actual head asset bindings retained. Ten exactFP32 native-norm/head arms percontext, FP64repair computations and vector-energy formulas checked; native intervention arm is not a natural baseline. New source calls the prospectively frozen scalar analyzer only after immutable head results and reuses an existing valid analysis receipt onresume;1999samefixed block draws, no new model operations or fitted selection. Nominal95percent intervals descriptive, no qualifiedpopulation/FWER guarantee. No prior measured heads replayed, no pretrained model load or newFIT. Narrow runtimepolicy admission still requires separate accepted policy; this receipt does not authorize a different worker/snapshot.')
+(stage/'pre_run_review_sol_qwen_peer_v1.json').write_text(json.dumps(out,indent=2)+'\n');print('Gemmaactual20480headpacket preRunAPPROVED')

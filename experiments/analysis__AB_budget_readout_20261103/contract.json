@@ -1,0 +1,122 @@
+{
+  "schema_version": 1,
+  "id": "A_BUDGET_FRESH64_READOUT_20261103",
+  "kind": "experiment",
+  "primary_agent": "/root",
+  "purpose": "Fixedsequence budgetcurve on64newblocks;C32-Direct32 primary,allforecasts beforeTESTtarget,16armnative suffix",
+  "tracked_files": [
+    "ab_confirmatory_20261101/__init__.py",
+    "ab_confirmatory_20261101/native.py",
+    "ab_confirmatory_20261101/native_tail_b.py",
+    "ab_confirmatory_20261101/runtime.py",
+    "analysis/AB_budget_readout_20261103/check_models.py",
+    "analysis/AB_budget_readout_20261103/data.py",
+    "analysis/AB_budget_readout_20261103/fixture.py",
+    "analysis/AB_budget_readout_20261103/models.py",
+    "analysis/AB_budget_readout_20261103/prepare.py",
+    "analysis/AB_budget_readout_20261103/worker.py",
+    "analysis/AB_fast_followups_20261103/A_budget/worker.py",
+    "analysis/AB_five_experiments_20261103/A_L21/adapter_v4.py",
+    "analysis/AB_five_experiments_20261103/A_L21/prepare_data.py",
+    "analysis/A_L21_learned_20261103/common.py",
+    "analysis/A_L21_learned_20261103/models.py",
+    "analysis/Qwen06_ABC_extension_20261102/bundle_runtime.py",
+    "e012/__init__.py",
+    "e012/common.py",
+    "e014/__init__.py",
+    "e014/memory.py",
+    "e017/__init__.py",
+    "e017/common.py",
+    "e031/__init__.py",
+    "e031/loading.py",
+    "e036/__init__.py",
+    "e036/common.py",
+    "e036/subject.py",
+    "e039/__init__.py",
+    "e039/subject.py",
+    "research_checks/__init__.py",
+    "research_checks/gate.py",
+    "research_checks/persistence.py",
+    "research_checks/reachability.py"
+  ],
+  "tracked_trees": [],
+  "input_manifests": [
+    "analysis/AB_budget_readout_20261103/input_manifest.json"
+  ],
+  "gates": [
+    {
+      "id": "hooks",
+      "category": "hooks",
+      "evidence": "analysis/AB_budget_readout_20261103/fixture.json",
+      "pointer": "/hooks",
+      "op": "eq",
+      "expected": true,
+      "reason": "Actual16arm worker synthetic endtoend globalfreeze/restart/identity/alias/cost checks"
+    },
+    {
+      "id": "data",
+      "category": "data",
+      "evidence": "analysis/AB_budget_readout_20261103/fixture.json",
+      "pointer": "/data",
+      "op": "eq",
+      "expected": true,
+      "reason": "Actual16arm worker synthetic endtoend globalfreeze/restart/identity/alias/cost checks"
+    },
+    {
+      "id": "pilot",
+      "category": "pilot",
+      "evidence": "analysis/AB_budget_readout_20261103/fixture.json",
+      "pointer": "/pilot",
+      "op": "eq",
+      "expected": true,
+      "reason": "Actual16arm worker synthetic endtoend globalfreeze/restart/identity/alias/cost checks"
+    },
+    {
+      "id": "accounting",
+      "category": "accounting",
+      "evidence": "analysis/AB_budget_readout_20261103/fixture.json",
+      "pointer": "/accounting",
+      "op": "eq",
+      "expected": true,
+      "reason": "Actual16arm worker synthetic endtoend globalfreeze/restart/identity/alias/cost checks"
+    },
+    {
+      "id": "restart",
+      "category": "restart",
+      "evidence": "analysis/AB_budget_readout_20261103/fixture.json",
+      "pointer": "/restart",
+      "op": "eq",
+      "expected": true,
+      "reason": "Actual16arm worker synthetic endtoend globalfreeze/restart/identity/alias/cost checks"
+    },
+    {
+      "id": "fresh_data",
+      "category": "data",
+      "evidence": "analysis/AB_budget_readout_20261103/data_checks.json",
+      "pointer": "/ok",
+      "op": "eq",
+      "expected": true,
+      "reason": "64recordedfreshpairs/prompts including previouslearnedTEST exclusion"
+    },
+    {
+      "id": "frozen_models",
+      "category": "data",
+      "evidence": "analysis/AB_budget_readout_20261103/model_checks.json",
+      "pointer": "/payload/passed",
+      "op": "eq",
+      "expected": true,
+      "reason": "Frozen historicchoices,necessary6jointmaterializations,12reproduced savedlosses;384packedweights reused"
+    }
+  ],
+  "circuits": [],
+  "structural_scope": "Unchangedqualified Adapter_v4 nativeL19neuron1317/L20restore1423,MLP21patch and dynamicL22-27suffix.2FITcontexts:3fullrefs+16paddedtails each;38qualification logicalcalls beforeTEST",
+  "entrypoint": {
+    "module": "analysis.AB_budget_readout_20261103.worker",
+    "args": []
+  },
+  "schedule": "analysis/AB_budget_readout_20261103/operations.json",
+  "budget": {
+    "forward": 18726,
+    "backward": 0
+  }
+}

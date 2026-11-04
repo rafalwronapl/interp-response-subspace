@@ -1,0 +1,89 @@
+start Wed Nov  4 13:46:15 2026
+natural 352 test 1024 fit targets 384
+random neurons [2356, 2177, 897]
+target 1317 response norms {0.5: 1.7165330249831692, 1.0: 3.4290130770638805}
+neuron 2356 dose 0.5 shift 3.698383331298828 calib norm 1.716533842507696
+neuron 2356 dose 1.0 shift 7.320564270019531 calib norm 3.4290140059758896
+neuron 2356 responses 192 mean norm 2.6215465251562535
+neuron 2177 dose 0.5 shift 3.7203712463378906 calib norm 1.716534273620892
+neuron 2177 dose 1.0 shift 7.429267883300781 calib norm 3.4290132636024975
+neuron 2177 responses 192 mean norm 2.567256124196985
+neuron 897 dose 0.5 shift 5.6694793701171875 calib norm 1.71653418599931
+neuron 897 dose 1.0 shift 11.330169677734375 calib norm 3.429015159733308
+neuron 897 responses 192 mean norm 2.6160936018865053
+0 1024 1s
+64 1024 64s
+128 1024 123s
+192 1024 197s
+256 1024 262s
+320 1024 330s
+384 1024 394s
+448 1024 456s
+512 1024 526s
+576 1024 584s
+640 1024 644s
+704 1024 707s
+768 1024 767s
+832 1024 827s
+896 1024 886s
+960 1024 960s
+{
+ "conditions": 1024,
+ "blocks": 64,
+ "neurons": [
+  2356,
+  2177,
+  897
+ ],
+ "MSE_P": 0.014526691320693175,
+ "withP": {
+  "B5_U": {
+   "MSE": 0.00010960967504303198,
+   "reduction_pct": 99.2454601490231
+  },
+  "matched3_rank8": {
+   "MSE": 0.014127976968500988,
+   "reduction_pct": 2.744701758921664
+  },
+  "matched_n2356_rank8": {
+   "MSE": 0.014210948598053719,
+   "reduction_pct": 2.1735350168120005
+  },
+  "matched_n2177_rank8": {
+   "MSE": 0.014504068118604607,
+   "reduction_pct": 0.1557354086290874
+  },
+  "matched_n897_rank8": {
+   "MSE": 0.014298960240147984,
+   "reduction_pct": 1.567673433115424
+  }
+ },
+ "noP": {
+  "B5_U": {
+   "MSE": 0.00010960831358541867
+  },
+  "matched3_rank8": {
+   "MSE": 0.02303282230692716
+  },
+  "matched_n2356_rank8": {
+   "MSE": 0.022921029426757222
+  },
+  "matched_n2177_rank8": {
+   "MSE": 0.02303210257782151
+  },
+  "matched_n897_rank8": {
+   "MSE": 0.020593686734198258
+  }
+ },
+ "random20_withP_reduction_pct": [],
+ "grad_share": {
+  "B5_U": 0.2908506334609964,
+  "matched3_rank8": 0.0029538582631645736,
+  "matched_n2356_rank8": 0.007194612120451984,
+  "matched_n2177_rank8": 0.004136948459880618,
+  "matched_n897_rank8": 0.016420735999305523
+ },
+ "mean_abs_cos_gperp_eperp": 0.02769028978482641,
+ "reference_1_over_sqrt": 0.03137279025690793
+}
+done Wed Nov  4 14:32:39 2026

@@ -1,0 +1,41 @@
+{
+  "capture_config": "analysis/A_gemma270_extension_20261102/capture_v1/config.json",
+  "corpus": "analysis/A_gemma270_extension_20261102/corpus.json",
+  "fixed_pairs": [
+    {
+      "fit": "r1",
+      "P": "analysis/C3_noD_more_models_20261102/gemma270_evaluation_v1/run/fits/P_r1.json",
+      "U": "analysis/C3_noD_more_models_20261102/gemma270_evaluation_v1/run/fits/U_r1.json",
+      "P_sha256": "ee10f15938357e4327c1f7a8f24dd2a95c85e25fad6a3722c2129b45c8c0fb39",
+      "U_sha256": "06629435812bdd191d01c49505ddc4e6892cb06533dbd7a01320a474eff8636b"
+    },
+    {
+      "fit": "r2",
+      "P": "analysis/C3_noD_more_models_20261102/gemma270_evaluation_v1/run/fits/P_r2.json",
+      "U": "analysis/C3_noD_more_models_20261102/gemma270_evaluation_v1/run/fits/U_r2.json",
+      "P_sha256": "531d5e046a42d6a35c51ce235b04c1a7c40d584b145de97bbc6a739c94030553",
+      "U_sha256": "93b345dfd28d2bde32162ac84e40ad4f8e3a2d14597606328f0b965e9fd4c6ce"
+    },
+    {
+      "fit": "r3",
+      "P": "analysis/C3_noD_more_models_20261102/gemma270_evaluation_v1/run/fits/P_r3.json",
+      "U": "analysis/C3_noD_more_models_20261102/gemma270_evaluation_v1/run/fits/U_r3.json",
+      "P_sha256": "3167af56132dc18998e921288368e624b20e22f6695919e799b8306c11af5616",
+      "U_sha256": "96b2f736bfc88dcfa3bcea011f4bef4713307bcdaa52d762920a8f45deadc9b6"
+    }
+  ],
+  "arms": [
+    "native",
+    "P_r1",
+    "inside_r1",
+    "outside_r1",
+    "P_r2",
+    "inside_r2",
+    "outside_r2",
+    "P_r3",
+    "inside_r3",
+    "outside_r3"
+  ],
+  "output": "analysis/A_gemma270_extension_20261102/evaluation_v1/run",
+  "schedule": "analysis/A_gemma270_extension_20261102/evaluation_v1/operations.json"
+}

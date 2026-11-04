@@ -1,0 +1,14 @@
+{
+  "prepared": true,
+  "full_capture": 2816,
+  "full_controls": 24,
+  "suffix_controls": 4,
+  "forward": 2844,
+  "backward": 0,
+  "LLM_loads": 1,
+  "answer_ids": [
+    374,
+    525
+  ],
+  "scope": "Model-specific fresh Qwen06 responses; shared lexical blocks; no adaptation from TEST results"
+}

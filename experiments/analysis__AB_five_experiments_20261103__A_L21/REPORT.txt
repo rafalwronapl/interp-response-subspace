@@ -1,0 +1,52 @@
+A experiments2/4: completed fresh E041/L21 replication and separate rank controls
+2026-11-03; scientific outcome report, independent completion review separate.
+
+Scope: Qwen3-0.6B-Base original checkpoint FP32; native L19 neuron1317 intervention, branchB free L20 or branchC restores neuron1423, targetL21; doses0.5/1, F1 is/are readout. 64 fresh lexical-pair TEST blocks x4 forms x2branches x2doses=1024 conditions. Historical B5/U frozen unchanged; no CLT. Three distinct new FIT cohorts8blocks each for separate rankstudy; same64TESTblocks shared acrossfits, not192 independent blocks.
+All native-delta forecasts frozen globally before any TEST target. Subspaces from vector FIT labels, not TEST readout labels. Corrections remain ORACLE: true TEST delta/error required.
+
+EXPERIMENT2: exact historical fit, primary aggregation across all prespecified branches/doses.
+old_P: MSE=0.014526852197; nominal95 MSE interval=[0.013015023834357065, 0.016177825881505604]
+old_inside: MSE=0.000109613596539; nominal95 MSE interval=[9.350810227548578e-05, 0.0001274018621710393]
+old_outside: MSE=0.0133094286112; nominal95 MSE interval=[0.01176765959766204, 0.014979818045411885]
+old_oracle: MSE=1.31388233626e-11; nominal95 MSE interval=[1.1105649733167411e-11, 1.520832348944623e-11]
+old_inside: reduction=99.245442%; paired deltaMSE=-0.0144172386005; nominal95 delta interval=[-0.01606981741518334, -0.012907156673519982]
+old_outside: reduction=8.380505%; paired deltaMSE=-0.00121742358584; nominal95 delta interval=[-0.001511234431766839, -0.0009225220845625161]
+Historical exploratory inside reduction98.85% is qualitatively and approximately quantitatively reproduced here (99.2454%). Outside historical14.44% versus current8.3805%; do not claim identical outside effect. This is an independent fresh-pair test conditional on the historically selected checkpoint/operator/readout/fit, not an independent choice of model/task.
+Subgroups (descriptive):
+B_0.5: baseline=0.00606038993979, inside=5.20276136733e-05, outside=0.0055056356; reductions inside=99.1415%, outside=9.1538%
+B_1.0: baseline=0.0273028448303, inside=0.000189894626928, outside=0.0255368823972; reductions inside=99.3045%, outside=6.4681%
+C_0.5: baseline=0.0046504206028, inside=4.34127600393e-05, outside=0.00407668380814; reductions inside=99.0665%, outside=12.3373%
+C_1.0: baseline=0.0200937534151, inside=0.000153119385516, outside=0.0181185126393; reductions inside=99.2380%, outside=9.8301%
+
+EXPERIMENT4: separate new fits; equal-fit mean MSE, same64blocks.
+New-fit baseline mean MSE=0.000752851777951
+rank | FIT-derived projection MSE | random same-rank MSE | random norm-rescaled MSE | FIT-derived reduction%
+1 | 0.00051182711937 | 0.000753053941633 | 0.000749271170505 | 32.014889
+2 | 0.000225379653118 | 0.000753262002502 | 0.00075489322555 | 70.063210
+4 | 0.000118686137931 | 0.000749410168532 | 0.000738297956169 | 84.235126
+8 | 8.93862775575e-05 | 0.000743972157167 | 0.000712988593025 | 88.126975
+16 | 4.4085965644e-05 | 0.000736252238836 | 0.000678985410144 | 94.144137
+32 | 2.33090023641e-05 | 0.000710210147719 | 0.000601214029161 | 96.903906
+All rankstudy deltas and precomputed nominal paired intervals versus their own newFIT baseline:
+r1/learned: delta=-0.000241024658581; nominal95=[-0.0003039687884477319, -0.00018917365947091665]
+r1/random: delta=2.02163681647e-07; nominal95=[-1.051523018436029e-06, 1.5872893144308618e-06]
+r1/random_norm: delta=-3.5806074458e-06; nominal95=[-8.101917234467255e-06, 7.203584548124787e-07]
+r2/learned: delta=-0.000527472124833; nominal95=[-0.0006464293066647049, -0.00042172308733137893]
+r2/random: delta=4.10224550921e-07; nominal95=[-1.2048147898902075e-06, 2.0581695946505125e-06]
+r2/random_norm: delta=2.04144759852e-06; nominal95=[-7.2275074869695055e-06, 1.1758676920899564e-05]
+r4/learned: delta=-0.00063416564002; nominal95=[-0.0007804345872155357, -0.0005058912398570777]
+r4/random: delta=-3.44160941908e-06; nominal95=[-5.8475360705282725e-06, -1.1766704138308868e-06]
+r4/random_norm: delta=-1.45538217821e-05; nominal95=[-2.768069684013774e-05, -1.7242231491021462e-06]
+r8/learned: delta=-0.000663465500393; nominal95=[-0.0008175078419916531, -0.0005289832225042683]
+r8/random: delta=-8.87962078355e-06; nominal95=[-1.2099073777260828e-05, -5.666793906640895e-06]
+r8/random_norm: delta=-3.98631849257e-05; nominal95=[-5.542170513271512e-05, -2.511982949446138e-05]
+r16/learned: delta=-0.000708765812307; nominal95=[-0.0008733854160033694, -0.0005666003807149582]
+r16/random: delta=-1.65995391154e-05; nominal95=[-2.137818972814583e-05, -1.1749539614284524e-05]
+r16/random_norm: delta=-7.3866367807e-05; nominal95=[-9.640078281531277e-05, -5.079994938349172e-05]
+r32/learned: delta=-0.000729542775587; nominal95=[-0.0008967045671127198, -0.0005851487297419874]
+r32/random: delta=-4.26416302322e-05; nominal95=[-5.080875639554468e-05, -3.5223659125286724e-05]
+r32/random_norm: delta=-0.00015163774879; nominal95=[-0.0001838191474039519, -0.0001230682301952483]
+
+Interpretation: supports a task-relevant low-dimensional native-delta FIT structure for this exact L21/F1 setting. FIT-derived projection outperforms the chosen fixed random controls descriptively at every measured rank, including controls rescaled to the same correction norm. Rank8 is effective but not a uniquely optimal dimension: larger ranks further reduce MSE. The norm-rescaled random arm is a separate intervention, not exact orthogonal oracle projection. Comparisons are between the fixed chosen random draws and fitted subspaces, not all random subspaces.
+Limitations: oracle correction requires true test error; this does not establish learned correction utility or superiority to Direct256, does not generalize to other layers/readouts/models, and does not reverse prior L27 context-dependent/harmful findings. New-fit baselines differ from historicalfit and must not be merged into a single claimed replication. Nominal block bootstrap1999draws seed3110301, conditional onfixedfits, no familywise/multiplicity qualification or population-power claim. No new worldwide-priority claim. All prespecified ranks/controls and outcomes retained.
+Evidence: main_run/summary.json, rows/, ledger.jsonl, TEST_forecasts.json, fit_0/1/2.json, completed.json; main_review.json and parallel/review_v2.json for pre-run; completion_review.json will record independent outcome acceptance. No model calls/refits/resampling in this rendering.

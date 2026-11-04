@@ -1,0 +1,39 @@
+Qwen3-0.6B aligned A+C extension. Frozen before new target-model responses.
+Last native MLP L27/h1024, is-minus-are, final RMSNorm/head. Historical E041
+used L21 and different B5/F1 recipe: this is a conceptual extension, not its
+identical replay. All original evidence and failures remain preserved.
+
+Three disjoint FIT_MAP128/FIT_U128 sets r1-r3 from reserved master corpus,
+lambda.01/global-RMS/centered ridge/intercept, rank8 uncentered native response
+U0. No direct readout labels choose U. New256T2/T5 lexical blocks shared with
+Gemma270 extension,4conditions/frame,2048target-model documents.3matched fits
+primary;9crosspairs secondary, not independent sample size. Separate T5/T2.
+
+Predeclared core A: L(inside)-L(P), inside=P+UU^T(D-P), primaryT5 averaged3
+matched fits. Outside=D-UU^T(D-P), inside/outside difference descriptive;
+save vector error energies and absolute readout MSE. No desired sign gate.
+C core exact earlier C3recipe: residual map fit disjointU labels D-P, learned
+full/projected corrections, gate score (J*c_hat)^2-2(J*r_hat)(J*c_hat), apply<0;
+strong pooled MAP+U256 direct ridge, fullcorrection, alwaysprojected baselines.
+NoDfeatures only recipientR/x/y, donorx; seal all noD forecasts before accessing
+trueholdoutD, then oracleforecasts before finiteheads. All9pairs retained.
+NativeD/J oracleforecast distinct from noD; no causal attribution of gap toD
+alone because intervention vector changes. No thresholds/rank/lambda tuning.
+
+Capture2844heterogeneousF=2816natural+24fullcontrols+4suffix,0B1model load.
+Four frozen controls qualify shaminput/output, fullhead parity, branch donor
+identity, positive sensitivity, negative earlier-position outputpatch andsuffix.
+Existing Runtime immutable receipts/cache reused without changes; capture
+identity/document/tokens/model/source/settings bound. Resume preserves results.
+No pretrained stage without independent actualsnapshot review and launcher.
+Evaluation/head-only stage separately reviewed after acceptedcapture, no reload.
+Planned41C3arms plus9outside=50arms/context,102400finiteheads,6144analyticJ.
+Cheapheadoperations distinguished from wholemodelF. No guarantee of nominal
+population coverage; descriptive pairedblock intervals with frozen seed1999draws
+if separately reviewed. Existing historical32blocks not pooled as newTEST.
+
+Nearest earlier work already reviewed: Engels SAE partialerrorrepair,
+projection interventions and Taylor/AtP. Bounded empirical controlled sequence
+is target contribution, not invention of projection/Jacobian or worldpriority.
+B compatibility requires separate earlier-layerpublicCLT/native-suffix operator
+and budget; lastL27A/C cannot certify publicCLT fidelity. NoBmeasurement yet.

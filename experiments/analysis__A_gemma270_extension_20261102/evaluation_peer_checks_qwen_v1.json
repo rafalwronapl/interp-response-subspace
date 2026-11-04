@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "reviewer_id": "/root/sol_qwen06_parallel",
+  "independent": true,
+  "snapshot_sha256": "41b5538f7df1b2f0c0f356b1d073367d25596cc832aef7d3e5a7f6abae122a63",
+  "all_scalar_rows": 20480,
+  "all_energy_rows": 6144,
+  "ledger_attempts": 20480,
+  "ledger_computed": 20480,
+  "raw_cache_requests_checked": 16431,
+  "raw_scope": "Bounded immutable prefix; all aggregate scalars/block/perfit/SE validated separately; remaining4049rawcache payloads not individually inspected",
+  "native_or_head_replays": 0,
+  "bootstrap_replays": 0,
+  "report_sha256": "0aa44854dbc9d04dc463e31028ef656bd508121c20d9f09bea11bf0950be36f5",
+  "summary_sha256": "903dbfff1ad123c2aaf7c340ec1d4abdfdf297f3fc32f8e3b2073d8fa9b28d4b"
+}

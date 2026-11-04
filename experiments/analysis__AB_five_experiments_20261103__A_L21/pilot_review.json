@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "snapshot_sha256": "6c87aa7a33ab28e530bfe20cccb72f8bc5ee98454d1e195cba4662781ec74dc6",
+  "reviewer_id": "/root/five_campaign_review",
+  "independent": true,
+  "verdict": "approved",
+  "topics_checked": ["design", "implementation", "data", "cost", "claims"],
+  "findings": [
+    {
+      "id": "PILOT-SCOPE",
+      "severity": "low",
+      "status": "accepted",
+      "evidence": "pilot.py uses one historical E041 document, fixed +.25 L19 perturbation with L20 restoration and three suffix targets; nine scheduled forwards, zero backwards. Random 28-layer Qwen fixture records full/suffix max discrepancy 3.725290298461914e-09 and target-free prefix parity.",
+      "resolution": "Approval covers technical qualification only. It does not approve main data acquisition, statistical claims, rank selection, or any new scientific outcome. Actual pretrained parity and nonzero sensitivity must pass before separate main review."
+    },
+    {
+      "id": "PILOT-COMPLETION-BOUNDARY",
+      "severity": "low",
+      "status": "accepted",
+      "evidence": "Runtime reserves every operation before computation and rejects consumed uncertain requests. Pilot records model load attempts separately. Its completed fast return does not itself certify the complete output archive.",
+      "resolution": "Before adopting this pilot for MAIN, inspect and bind actual immutable cache, receipts, ledger and completion values to an independent completion review. No automatic resume after a failed model session is authorized by this review."
+    }
+  ],
+  "checks": {
+    "snapshot_members_verified": 45,
+    "forward_schedule": 9,
+    "backward_schedule": 0,
+    "model_identity": "Original Qwen3-0.6B-Base weights cd2a512003e2f9f3cd3c32a9c3573f820bb28c940f73c57b1ddaa983d9223eba",
+    "inspected": ["adapter.py", "pilot.py", "fixtures.py", "fixtures.json", "pilot_config.json", "pilot_contract.json", "pilot_schedule.json", "pilot_inputs.json", "e039/subject.py", "e036/learning.py", "e031/loading.py", "ab_confirmatory_20261101/runtime.py"],
+    "reviewer_model_calls": 0
+  },
+  "limitations": "Source and full snapshot hash audit with inspection of existing random-weight fixture results, not independent pretrained reproduction. Installed-library identity should be explicitly frozen in MAIN. The qualification is one historical input and fixed targets; it is not a scientific replication of E041."
+}

@@ -1,0 +1,144 @@
+{
+  "operations": [
+    {
+      "id": "natural",
+      "kind": "forward"
+    },
+    {
+      "id": "prefix",
+      "kind": "forward"
+    },
+    {
+      "id": "native",
+      "kind": "forward"
+    },
+    {
+      "id": "full_0",
+      "kind": "forward"
+    },
+    {
+      "id": "full_1",
+      "kind": "forward"
+    },
+    {
+      "id": "full_2",
+      "kind": "forward"
+    },
+    {
+      "id": "full_3",
+      "kind": "forward"
+    },
+    {
+      "id": "full_4",
+      "kind": "forward"
+    },
+    {
+      "id": "full_5",
+      "kind": "forward"
+    },
+    {
+      "id": "full_6",
+      "kind": "forward"
+    },
+    {
+      "id": "full_7",
+      "kind": "forward"
+    },
+    {
+      "id": "full_8",
+      "kind": "forward"
+    },
+    {
+      "id": "full_9",
+      "kind": "forward"
+    },
+    {
+      "id": "full_10",
+      "kind": "forward"
+    },
+    {
+      "id": "full_11",
+      "kind": "forward"
+    },
+    {
+      "id": "full_12",
+      "kind": "forward"
+    },
+    {
+      "id": "full_13",
+      "kind": "forward"
+    },
+    {
+      "id": "full_14",
+      "kind": "forward"
+    },
+    {
+      "id": "full_15",
+      "kind": "forward"
+    },
+    {
+      "id": "tail_0",
+      "kind": "forward"
+    },
+    {
+      "id": "tail_1",
+      "kind": "forward"
+    },
+    {
+      "id": "tail_2",
+      "kind": "forward"
+    },
+    {
+      "id": "tail_3",
+      "kind": "forward"
+    },
+    {
+      "id": "tail_4",
+      "kind": "forward"
+    },
+    {
+      "id": "tail_5",
+      "kind": "forward"
+    },
+    {
+      "id": "tail_6",
+      "kind": "forward"
+    },
+    {
+      "id": "tail_7",
+      "kind": "forward"
+    },
+    {
+      "id": "tail_8",
+      "kind": "forward"
+    },
+    {
+      "id": "tail_9",
+      "kind": "forward"
+    },
+    {
+      "id": "tail_10",
+      "kind": "forward"
+    },
+    {
+      "id": "tail_11",
+      "kind": "forward"
+    },
+    {
+      "id": "tail_12",
+      "kind": "forward"
+    },
+    {
+      "id": "tail_13",
+      "kind": "forward"
+    },
+    {
+      "id": "tail_14",
+      "kind": "forward"
+    },
+    {
+      "id": "tail_15",
+      "kind": "forward"
+    }
+  ]
+}

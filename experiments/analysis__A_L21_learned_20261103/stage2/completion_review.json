@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "snapshot_sha256": "a341d3bfbde6176ff19cf63bf4125a3534dba141fe9086675992848bf6f34015",
+  "reviewer_id": "/root/astra_learned_plan_review",
+  "independent": true,
+  "verdict": "approved",
+  "topics_checked": [
+    "design",
+    "implementation",
+    "data",
+    "cost",
+    "claims"
+  ],
+  "findings": [
+    {
+      "id": "RAW-COMPLETION-AND-FREEZE",
+      "severity": "low",
+      "status": "resolved",
+      "evidence": "Verified exact final snapshot and all7725 bound files, all7706 sealed run outputs,3336 ledger attempt bundles with8460 unique scheduled logical forwards. Independently reconstructed all1024 row native/suffix margins and all FP32 patched targets from cache and frozen forecasts. All256naturals/1024prefixes precede first TESTtarget; every target/suffix request binds the global forecast hash.",
+      "resolution": "Accept completed prospective64-block test without repeating native evaluations. Independent reconstruction performed14336 vector/coefficient squaredL2 checks,469 aggregate/block checks plus all subgroup means and paired point differences. Detailed audit is review/independent_completion_audit.json; audit source retained. No bootstrap rerun or refit."
+    },
+    {
+      "id": "PRIMARY-LEARNED-UTILITY",
+      "severity": "low",
+      "status": "accepted",
+      "evidence": "C MSE.000429440959 versus historicalP.015392716424 gives97.210102835 percent reduction; paired C-P -.014963275465 with saved nominal95[-.016692919327,-.013291478226]. Benefit retained across both branches/doses and reported S/A marginals. Predictions use frozen FIT models and target-free upstream input states, not true TESTD.",
+      "resolution": "Scoped learned readout improvement relative to historicalP is supported on fresh pairs at this L21/F1 operator. This is new learned utility evidence, distinct from prior oracle-only repairability and stage1 vector/coefficient CV. It is not general model understanding or zero-native-cost plain-text prediction."
+    },
+    {
+      "id": "NEGATIVE-SECONDARY-AND-BASELINES",
+      "severity": "low",
+      "status": "accepted",
+      "evidence": "Direct384 MSE.000326522033 is better than C by31.519749 percent relative to Direct384; C-Direct384+.000102918926 with saved nominal95[.000036397358,.000174288664]. sameU direct refit.000405985540 has lower point loss than C. mean8.016050053618 worsens historicalP. Subject-formS1 reverses descriptive C/direct ranking and remains reported.",
+      "resolution": "Retain all comparisons and do not claim residual correction beats strong direct prediction or is a new expressive method. Final models are linear lambda1e-6. Mean squaredL2 vector/coefficient errors are correctly labelled, not norms or percentages; oracle true-error arm remains diagnostic, not assumed upper bound."
+    },
+    {
+      "id": "QUALIFICATION-COST-AND-SCOPE",
+      "severity": "low",
+      "status": "resolved",
+      "evidence": "Two actual FIT qualification contexts passed12F with maximum full/suffix difference3.814697265625e-6<1e-4. Actual exit receipt0;8460logicalF,3336physicalcalls,0aliases,0B,1model load. Existing384FIT vectorlabels reused; historicalP/U add prior training information.",
+      "resolution": "Accept technical execution and complete accounting. Report64lexical units/16conditions each, nominal pointwise1999block intervals conditional on fixed fits, recorded-inventory freshness, one model/layer/readout, native prefix cost and distinct L27 history. No optional continuation or new success criterion introduced."
+    }
+  ],
+  "limitations": "Independent raw-output/provenance consistency audit and prior pre-run implementation review, not external native-model reproduction. No model calls, refits or bootstrap draws were repeated during completion review. Saved intervals checked for correct algorithm/scope and transcription, not newly resampled. Approval concerns this exact completed snapshot; no manuscript rewrite/publication or additional experiment is authorized by the receipt."
+}

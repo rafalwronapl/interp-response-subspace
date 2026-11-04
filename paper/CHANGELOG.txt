@@ -1,0 +1,8 @@
+A15, November 4, 2026. New title and thesis; space controls (gradient share, PCA/class-difference/random spaces); prior-matched Direct_P result; Kuzborskij&Orabona and Tanyel&Ayvaz citations; screening of L19N1317 by is/are effect disclosed; short appendix; author Rafal Wrona.
+
+A14, November 4, 2026. Current revision.
+Names C as prior-centered kernel ridge; gives the exact linear centering/intercept/penalty identity with FP32 qualification and established mean-function interpretation. Bounds the original C32 benefit to one fixed training sequence, reports mixed later fits, distinguishes point rankings from intervals, and retains historical-prior costs. Updates scope counts, fixed-rule sign baselines, native-reference numerical-path explanation and Gemma approved acquisition receipt. Shortens the abstract; preserves all historical scientific evidence. No new scientific calls, fitting or resampling. CHANGELOG_CURRENT.json gives the structured change list; review/ contains the fresh review of this exact editorial snapshot.
+
+Historical entry below (its pending wording describes the prior draft only):
+
+A13, November 3, 2026. Adds approved development vector budget curve, fresh native-readout budget TEST, and posthoc three-new-FIT/new-readout followup. Preserves all earlier results and byte-exact evidence. Corrects interpretation of new zero-MLP-delta arm without changing historical natural-margin zero-change arm. Prior reviews apply only to their original snapshots; A13 independent editorial review pending. No scientific calls, refits, resampling or new statistics.

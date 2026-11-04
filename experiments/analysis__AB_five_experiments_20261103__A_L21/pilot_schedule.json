@@ -1,0 +1,40 @@
+{
+  "operations": [
+    {
+      "id": "natural",
+      "kind": "forward"
+    },
+    {
+      "id": "prefix",
+      "kind": "forward"
+    },
+    {
+      "id": "native",
+      "kind": "forward"
+    },
+    {
+      "id": "full_native",
+      "kind": "forward"
+    },
+    {
+      "id": "tail_native",
+      "kind": "forward"
+    },
+    {
+      "id": "full_baseline",
+      "kind": "forward"
+    },
+    {
+      "id": "tail_baseline",
+      "kind": "forward"
+    },
+    {
+      "id": "full_changed",
+      "kind": "forward"
+    },
+    {
+      "id": "tail_changed",
+      "kind": "forward"
+    }
+  ]
+}

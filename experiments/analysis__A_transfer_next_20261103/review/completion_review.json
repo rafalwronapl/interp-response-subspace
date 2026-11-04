@@ -1,0 +1,16 @@
+{
+ "schema_version": 1,
+ "snapshot_sha256": "d3145a0e505604e2768a8d5fd8c63a96e31913870b241ef3d95223a4d5855129",
+ "reviewer_id": "/root/next_review",
+ "independent": true,
+ "verdict": "approved",
+ "topics_checked": ["design", "implementation", "data", "cost", "claims"],
+ "findings": [{
+  "id": "ZERO_BASELINE_SEMANTIC_LABEL",
+  "severity": "high",
+  "status": "resolved",
+  "evidence": "Frozen worker labels natural_margin_range/natural_margin_sign_counts/native_effect suggest original natural prompt readout, but zero arm replaces only final MLP21 output with natural y while retaining intervened upstream residual and suffix state.",
+  "resolution": "REPORT.txt explicitly corrects the meaning to zero MLP-delta baseline and finite MLP-delta readout effect conditional on intervened upstream. New bound analysis_summary.json renames exactly four fields, independently checked numerically identical; original raw summary/cache/worker retained. Whole-prompt has/have natural margins are explicitly unmeasured. No new calls; native target and primary C-versus-Direct errors/intervals unchanged."
+ }],
+ "limitations": "Approved actual1024condition old64blockTEST readout followup and96newvectorFITlabels across three disjoint2-block cohorts. Independently reproduced every candidate whole-block2fold CV score and selected index for all9learned models, every frozen P/learned TESTforecast, all12arm suffix requesttargets and cached measured margins, all readout MSEs, exact64block1999draw seed3111038 primarybootstrap for both heads. Primary have-minus-has C32-minus-Direct32 mean across3fits+.0003680774281192474,95percent[+.00013427178631123896,+.0006536992312130785]: Direct lower error conditional on these fits. PerFIT signs mixed; are-minus-is descriptive mean+.00017288786114377788,95percent[-.00012720369947774774,+.00048474641727517626]. Checked globalforecastseal precedesallnewTESTsuffixcalls;1248actualphysical/12516logicalforward0backward, oneQwenload. Old native are-minus-is paritymax1.9073486328125e-5. Actual2FITqualifications full/fourheadsuffix parity5.722e-6/7.629e-6 and nonzero fixedsensitivitybothheads passed. Independent actual worker.main blocked-loader completedreplay preserved3531runfilehashes byte-for-byte with0newcalls/loads. Canonical original launch exactb32 snapshot returncode0 receipt772eef... checked. OldTEST is posthoc selected regime, not freshconfirmation; each FIT CVfold trains on oneblock, three fits do not estimate trainingpopulation uncertainty. Historical E036 P/U resources prevent equal-total-information superiority claim. Samecontexts/model with grammatical has/have readout is not context/model transfer. No broadinterpretability/worldwidepriority claim. Reviewer0pretrainedcalls. Evidence: independent_completion_audit.json,independent_controls_audit.json,independent_replay_audit.json and reviewer-owned scripts."
+}

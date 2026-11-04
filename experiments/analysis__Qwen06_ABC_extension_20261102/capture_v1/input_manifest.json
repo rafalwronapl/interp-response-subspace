@@ -1,0 +1,13 @@
+{
+  "files": {
+    "analysis/AB_confirmatory_execution_20261101/corpus/corpus_v1.json": "b847047b321cd9c36e6b04aa96232ed926936b2b33d620505c8bc014c3c1c180",
+    "analysis/A_gemma270_extension_20261102/corpus.json": "0710f9ee1d623997fff228fed43952e1b9e44774f6f74cd5030330aca07d5676",
+    "analysis/Qwen06_ABC_extension_20261102/capture_v1/model_identity.json": "5774f48563081f114842f1e7f9ce989868af01ee409cfeb36d7bff5e4a6351f6",
+    "analysis/Qwen06_ABC_extension_20261102/capture_v1/corpus.json": "7311cb0c3b4d6cf6efe1a54481b587bdf4e1e9e409cc7ed88602a27cbb5b118a",
+    "analysis/Qwen06_ABC_extension_20261102/capture_v1/tokens.json": "3f61ac28e3ffbf405e47028fa880eb7757a50f4ca3b43b2bf045cae04101e72a",
+    "analysis/Qwen06_ABC_extension_20261102/capture_v1/qwen_head_assets.npz": "38a29e099706ca3e16c40d57a171b7cb3f4c8ae48077c3c83c51a6be78cee597",
+    "analysis/Qwen06_ABC_extension_20261102/capture_v1/config.json": "3278744847dde49eba9a855460c48fea662e1c7d1bb638816978f9b07f6db6f6",
+    "analysis/Qwen06_ABC_extension_20261102/capture_v1/operations.json": "68e9ba06c325d35b751c19df6ab86868a27f0318fadc6f513bb5952f5c88cca6",
+    "analysis/AB_confirmatory_execution_20261101/corpus/observed_words_v2.json": "e5c48d03d3bfea4f2b3ec8a8150344e418355b24ceaf44d41cba4fa8d0c520c3"
+  }
+}

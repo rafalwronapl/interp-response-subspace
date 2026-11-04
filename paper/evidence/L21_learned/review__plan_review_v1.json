@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "reviewer_id": "/root/astra_learned_plan_review",
+  "independent": true,
+  "verdict": "approved",
+  "document": "plans/A_L21_LEARNED_20261103/PLAN.txt",
+  "document_sha256": "68cbb634957e52322c52cab10409adcf77dbbc639a2fb852b934edb235235350",
+  "scope": "Scientific plan only; not an implementation pre-run approval or evidence of completed fitting/native measurement",
+  "topics_checked": [
+    "design",
+    "data",
+    "cost",
+    "claims"
+  ],
+  "findings": [
+    {
+      "id": "LINEAR-IDENTITY-SCOPE",
+      "severity": "medium",
+      "status": "accepted",
+      "evidence": "Historical P is linear in the same phi and fixed U. The plan correctly calls linear residual fitting a prior-centered same-U refit. Phi is high-dimensional, so ordinary minimum-norm direct OLS and residual OLS need not agree off the training row space.",
+      "resolution": "Implementation identity control must test exact prior-centered ridge equivalence for rank-deficient designs. Any zero-penalty direct-OLS equality must state full-column-rank or historical-coefficient row-space conditions. This is a specification of the planned identity control, not a claim of new scientific expressivity."
+    },
+    {
+      "id": "RBF-AND-BASELINES",
+      "severity": "low",
+      "status": "accepted",
+      "evidence": "Residual candidate includes linear/RBF kernels, same-U direct control is linear, and full-D direct predictor independently tunes both linear/RBF with identical allowed features and new labels.",
+      "resolution": "This is adequate for the stated primary C versus P and secondary strong-direct comparison. A nonlinear residual win over same-U LINEAR alone would not isolate a benefit of residualization; report kernel selected and direct full-D comparison. No claim of a novel regression method."
+    },
+    {
+      "id": "CV-EXPOSURE",
+      "severity": "low",
+      "status": "accepted",
+      "evidence": "Three outer FIT groups preserve lexical blocks; inner training-only centering/kernel scale and tuning; frozen old P/U are disclosed priors; exposed64TEST not read for scores or selection; prospective fresh pairs after freeze.",
+      "resolution": "Approve conditional feasibility design. Outer CV is limited24-block evidence, not readout utility or independent model/task confirmation. Final all-FIT CV selection is separate from outer evaluation."
+    },
+    {
+      "id": "BUDGET-AND-STAGES",
+      "severity": "low",
+      "status": "accepted",
+      "evidence": "Stage1 uses384 previously captured FIT labels with0 new model calls. Stage2 specifies8448 logical operations plus12 qualification forwards,0 backwards, with six suffix arms and explicit aliases. Native prefix cost and old P/U training history are disclosed.",
+      "resolution": "Direct384 denotes384 labels additional to historical predictor training, reused from the completed campaign; not384 new acquisitions in this study. Actual schedule, precision, reference/suffix parity, restart and closure must be independently approved before native launch. Plan does not authorize unseen code."
+    }
+  ],
+  "limitations": [
+    "Documentary/methodological review of actual plan, decision, current roadmap/review policy, historical program assessment, latest A/B reports and completion receipts, plus A_L21 math/worker source. No native computation, fitting, cross-validation or new literature census.",
+    "No arbitrary improvement gate is imposed; negative feasibility/readout outcomes remain valid and do not erase the replicated oracle result. Oracle is not a guaranteed readout upper bound.",
+    "Separate reviews remain required for actual implementation and completed results."
+  ]
+}

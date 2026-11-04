@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "snapshot_sha256": "fb067354a24afb192f29945b740b6cc29a9506a500290b584f00936dfef6e8bd",
+  "reviewer_id": "/root/five_campaign_review",
+  "independent": true,
+  "verdict": "approved",
+  "topics_checked": [
+    "design",
+    "implementation",
+    "data",
+    "cost",
+    "claims"
+  ],
+  "findings": [
+    {
+      "id": "RAW-A-COMPLETION",
+      "severity": "low",
+      "status": "resolved",
+      "evidence": "Actual exit0, one main model load. Independently hashed9789 sealed outputs and reconciled them with final9812-file snapshot; remaining23 files verified directly. Independently recomputed62 MSEs and their64 block means from1024 rows, checked ledger digests, disjoint66284 logical attempts plus372 exact aliases covering66656 slots,0skips. Normmatched correction norms verified; maximum postrounding paired norm difference5.18e-7.",
+      "resolution": "Approve completed experiments2/4 and retained raw results. Independent detailed audit saved in independent_completion_audit.json. No native computations, refits or bootstrap draws repeated for review."
+    },
+    {
+      "id": "STRICT-REPLICATION-SCOPE",
+      "severity": "low",
+      "status": "accepted",
+      "evidence": "Frozen historical B5/U at original Qwen L21/F1 gives baseline MSE0.014526852197, oracle inside0.000109613597 and outside0.013309428611 on64 fresh pairs. Inside reduction99.2454% and outside8.3805%; all four branch/dose strata show strong inside benefit.",
+      "resolution": "This supports fresh-pair replication of historical low-dimensional oracle repairability conditional on selected checkpoint/operator/readout/fit. Do not claim outside14.44% reproduced exactly, independent model/task selection, deployment utility or reversal of prior L27 findings."
+    },
+    {
+      "id": "SEPARATE-NEWFIT-RANK-STUDY",
+      "severity": "low",
+      "status": "accepted",
+      "evidence": "Three separate new FIT cohorts share64TEST blocks. Rank8 FIT-derived oracle reduction88.127% exceeds fixed same-rank random1.18% and separately norm-rescaled random5.30%; all ranks1/2/4/8/16/32 retained and larger ranks improve further.",
+      "resolution": "Report specific FIT-derived structure with fixed control comparisons. Norm-rescaled random corrections are not exact orthogonal projections;8 is effective but not uniquely optimal. These controls evaluate newly fitted subspaces, not a direct random comparison for historical oldU. Learned-subspace naming does not remove oracle TEST-error access."
+    }
+  ],
+  "limitations": "Raw-output consistency and provenance audit, not a fresh independent native-model reproduction. Nominal1999-draw block intervals conditional on fixed fits are not familywise-qualified; three fits are not independent TEST cohorts. Single model/layer/template/readout scope. No evidence here of correction without true TEST error or superiority over Direct256; all publication claims should preserve that distinction."
+}

@@ -1,0 +1,28 @@
+{
+  "files": {
+    "analysis/AB_confirmatory_execution_20261101/corpus/corpus_v1.json": "b847047b321cd9c36e6b04aa96232ed926936b2b33d620505c8bc014c3c1c180",
+    "analysis/A_gemma270_extension_20261102/corpus.json": "0710f9ee1d623997fff228fed43952e1b9e44774f6f74cd5030330aca07d5676",
+    "analysis/Qwen06_ABC_extension_20261102/capture_base_v2/model_identity.json": "e273df023ee7d2bf67817199a8f4da097f4d3110f0d9a16e8fe8c1309f3465e5",
+    "analysis/Qwen06_ABC_extension_20261102/capture_base_v2/corpus.json": "7311cb0c3b4d6cf6efe1a54481b587bdf4e1e9e409cc7ed88602a27cbb5b118a",
+    "analysis/Qwen06_ABC_extension_20261102/capture_base_v2/tokens.json": "3f61ac28e3ffbf405e47028fa880eb7757a50f4ca3b43b2bf045cae04101e72a",
+    "analysis/Qwen06_ABC_extension_20261102/capture_base_v2/qwen_head_assets.npz": "3b9b2e2674b44801ba76a8b9efd79ef1fa06f1b1a0400588700b51e1776d82d9",
+    "analysis/Qwen06_ABC_extension_20261102/capture_base_v2/config.json": "dd4a87f2d948c5ed5ab7e6ba2d798a6ea8f4dac34cd7ba0f061079757715ab25",
+    "analysis/Qwen06_ABC_extension_20261102/capture_base_v2/operations.json": "68e9ba06c325d35b751c19df6ab86868a27f0318fadc6f513bb5952f5c88cca6",
+    "analysis/AB_confirmatory_execution_20261101/corpus/observed_words_v2.json": "e5c48d03d3bfea4f2b3ec8a8150344e418355b24ceaf44d41cba4fa8d0c520c3",
+    "model/config.json": "504a6b58c4271583724e66584b6b7698aea18450209df6b2f7582df0e89cee59",
+    "model/generation_config.json": "8c970692323e3ea0e9b8b0a4dca79388d31226e41f83c9fd6014804280ebf6e8",
+    "model/merges.txt": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5",
+    "model/model.safetensors": "cd2a512003e2f9f3cd3c32a9c3573f820bb28c940f73c57b1ddaa983d9223eba",
+    "model/tokenizer.json": "c0382117ea329cdf097041132f6d735924b697924d6f6fc3945713e96ce87539",
+    "model/tokenizer_config.json": "3c04ed3ca964ea2f6b2b5faf0dc4d31aec1cb1e8b4bcf63f402d295046b422b5",
+    "model/vocab.json": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910",
+    "analysis/E041_execution/identity.json": "b04b5eedb324bf60f1e7290d054c44cff3a3e0c2fc03b6de138f84432461bf4d",
+    "analysis/Qwen06_ABC_extension_20261102/capture_base_v2/fixtures.json": "1d5838c23d474b60c64e1f160c20017ea615905e8a2f36cbe6fc23531fc92641",
+    "analysis/A_gemma270_extension_20261102/freshness_audit.json": "9bb801eb16694e5b508ba28bde8d310e194c2dd4825c316deacad3fd5eafebbb",
+    "analysis/A_gemma270_extension_20261102/prepare_corpus.py": "5bf381e676b0f154e5471d672daba542e51fa3478e6e1288255f393df4ec3208",
+    "analysis/C2_fresh_fit_holdout_20261102/gemma/exposure_consumed_v1.json": "ae72a3ccf90ea75f856c7882b7c62f2058d51ddef1c7a5f158f0a390a7803a27",
+    "analysis/C2_fresh_fit_holdout_20261102/qwen/exposure_consumed_v1.json": "7f9984a9e6dacf1de1bce6ba97e8e6de6fd0e7085c6baab3f38ccdb0be0bd7fa",
+    "analysis/C3_noD_more_models_20261102/llama_capture/exposure_consumed_v1.json": "18713bb6424cd166e2a5787b67e7fcc4d58924c2b38ad3761528ffa54d44168d",
+    "analysis/C3_noD_more_models_20261102/gemma270_capture/exposure_consumed_v1.json": "80eda3d317c0941183a091d72b41e9e8b9505cfc5543f6cf7e9c10820af45d62"
+  }
+}

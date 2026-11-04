@@ -1,0 +1,46 @@
+LEARNED L21: PROSPECTIVE FRESH-PAIR READOUT TEST ? 2026-11-03
+
+Scope: Qwen3-0.6B-Base, historical E041 L21/F1 upstream-neuron intervention; 64 fresh unordered lexical pairs, 256 documents, 1024 branch/dose conditions. All learned predictions globally frozen before TEST targets. No true TEST D is a learned input.
+
+MAIN FINDING
+Learned rank8 residual correction C reduces readout MSE versus historical P by 97.210102835%, but is worse than Direct384 by 31.519749418%. The same-U direct refit also has lower point MSE than C. A constant mean correction worsens P. This establishes scoped learned utility relative to P, not superiority over direct prediction, general model understanding, or a uniquely optimal rank8 space.
+
+ALL PRESPECIFIED ARMS (readout MSE; nominal pointwise95 interval; mean squared vector error; mean squared rank8 coefficient error)
+P: 0.0153927164236594; [0.013709871409732833, 0.017137195496564894]; 4.08661886535004; 1.24271437673362
+C: 0.000429440959119454; [0.0003353569922074584, 0.0005361052878311233]; 2.89175165901518; 0.0478471703987555
+same_U: 0.000405985539555509; [0.0003193014894927071, 0.0005041310109957564]; 2.8897783193758; 0.0458738310836152
+Direct384: 0.000326522032637833; [0.00024826015986936236, 0.00041288906760370556]; 0.298010761234993; 0.0458738310836204
+mean8: 0.01605005361845; [0.01436483518777667, 0.017856050021627202]; 4.07251038218695; 1.22860589357053
+oracle_inside: 8.82777387198885e-05; [7.435197775524926e-05, 0.00010316495440805262]; 2.84390448861642; 3.44408591981136e-31
+zero_change: 0.766891442950745; [0.7008179654351727, 0.8384766854031206]; 5.9371742239729; 3.09326973568072
+
+PAIRED CONTRASTS (negative favors first arm; nominal95)
+C-Direct384: 0.000102918926481621; [3.6397358370487966e-05, 0.00017428866446587144]
+C-P: -0.0149632754645399; [-0.016692919326774545, -0.013291478225504605]
+Direct384-P: -0.0150661943910215; [-0.016815466071068607, -0.013414171861946845]
+mean8-P: 0.000657337194790664; [0.0005324131436036606, 0.0007848892600927027]
+oracle_inside-P: -0.0153044386849395; [-0.01704539135599852, -0.013620045557824012]
+same_U-P: -0.0149867308841038; [-0.016715170469794094, -0.013327437960691978]
+zero_change-P: 0.751498726527085; [0.6863979400268232, 0.8222344425620102]
+
+ALL DESCRIPTIVE MARGINAL SUBGROUPS (not new independent replications)
+A=0 n=512 {"C": 0.0004928795293217547, "Direct384": 0.0003462916362479973, "P": 0.014467221195708646, "mean8": 0.015872260433066998, "oracle_inside": 0.00011257404614006816, "same_U": 0.00045180624647578327, "zero_change": 0.8206211371956851}
+A=1 n=512 {"C": 0.00036600238891715264, "Direct384": 0.00030675242902766797, "P": 0.01631821165161007, "mean8": 0.016227846803833046, "oracle_inside": 6.39814312997089e-05, "same_U": 0.0003601648326352347, "zero_change": 0.7131617487058044}
+S=0 n=512 {"C": 0.0005805410713062287, "Direct384": 0.0003634681512298954, "P": 0.01616559539089657, "mean8": 0.019626454599226406, "oracle_inside": 0.00012064926064603299, "same_U": 0.0005221997505291398, "zero_change": 1.0127547788982927}
+S=1 n=512 {"C": 0.0002783408469326787, "Direct384": 0.0002895759140457699, "P": 0.014619837456422147, "mean8": 0.012473652637673638, "oracle_inside": 5.590621679374408e-05, "same_U": 0.00028977132858187815, "zero_change": 0.5210281070031968}
+branch=B n=512 {"C": 0.0004719091958467203, "Direct384": 0.0003785994616745114, "P": 0.017684215510685775, "mean8": 0.01818882194804594, "oracle_inside": 9.54195254578849e-05, "same_U": 0.00044568955887669404, "zero_change": 0.8930474281778782}
+branch=C n=512 {"C": 0.00038697272239218705, "Direct384": 0.00027444460360115386, "P": 0.013101217336632942, "mean8": 0.013911285288854103, "oracle_inside": 8.113595198189216e-05, "same_U": 0.0003662815202343239, "zero_change": 0.6407354577236113}
+dose=0.5 n=512 {"C": 0.00016508633178169418, "Direct384": 0.00011134504809895418, "P": 0.005569580518454131, "mean8": 0.006155017843839872, "oracle_inside": 3.7299150120517766e-05, "same_U": 0.0001588320120475828, "zero_change": 0.27596446286044696}
+dose=1.0 n=512 {"C": 0.0006937955864572132, "Direct384": 0.0005416990171767111, "P": 0.025215852328864585, "mean8": 0.025945089393060172, "oracle_inside": 0.0001392563273192593, "same_U": 0.0006531390670634352, "zero_change": 1.2578184230410425}
+
+INTERPRETATION AND LIMITS
+The primary C-P improvement is preserved across both branches, both doses and all reported S/A marginal groups. The secondary C-Direct384 difference favors Direct384 in aggregate and both branches/doses. Subject-form S=1 reverses that descriptive ranking; no subgroup was used for tuning. same_U is a direct linear predictor restricted to the historical U span, not oracle. oracle_inside knows TEST D and is diagnostic; it is not assumed a readout upper bound.
+Models selected only by vector/coefficient FIT losses. Stage1 reused384 native vector labels on24 FIT blocks; no additional FIT native acquisition. Historical P/U/scale had earlier training: equal additional384-label budget is not equal total information. Individual nouns can recur;64 unordered pairs and all256 prompts are disjoint from the776 inventoried exposure files, not proof of corpus/pretraining novelty.
+Readout is are-minus-is at one prompt family and one layer of one model. Predictions require native upstream target-free prefixes; this is not a free-standing surrogate from text and not a no-native-computation algorithm. No TEST-driven tuning, selection, or optional continuation occurred.
+Intervals use64 lexical-pair units,16 conditions/block,1999 paired bootstrap draws with frozen seed3110362 and fixed prior/fits. They are nominal pointwise summaries, not newly calibrated familywise/population claims; no bootstrap rerun. vector_L2/coefficient_L2 fields store MEAN SQUARED L2 errors, not norms or relative percentages.
+The complete TEST contrasts, including C losing to Direct384 and mean8 worsening P, are retained. Existing L27 harm/learned-gate results concern a different layer/operator and remain valid; no contradiction or general repair-success claim follows.
+
+EXECUTION / EVIDENCE
+Scheduled8460 logicalF/0B:12 FIT parity controls +256 natural +1024 target-free prefixes +1024 TEST targets +6144 suffix predictions. Two adopted FIT contexts qualify three targets each against full propagation; max discrepancy3.814697265625e-06 <1e-4. Zero-change aliases the original natural margin, not a zero-delta patch in an intervened residual. TEST suffix predictions evaluated in1024 six-arm batches.
+run/summary.json is the immutable source of all numbers above; run/rows contains all1024 measured records; run/TEST_forecasts.json binds every TEST target request. Final actual accounting is in run/completed.json and completion_checks.json; actual process exit in launch_exit.json.
+Pre-run independent approval: pre_run_review.json, snapshot d28944628f71c570bcc07dd557dd7f874856339356dc2c916241e92fa8c69e34. Independent freshness audit and crash/resume fixtures passed before execution. Actual completion review is recorded separately in completion_review.json; this report does not substitute for it.

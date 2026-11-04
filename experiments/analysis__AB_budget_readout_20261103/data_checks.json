@@ -1,0 +1,11 @@
+{
+  "ok": true,
+  "documents": 256,
+  "blocks": 64,
+  "conditions": 1024,
+  "history_files": 812,
+  "prior_observed_pairs": 203,
+  "pair_overlap": 0,
+  "prompt_overlap": 0,
+  "pretrained_model_calls": 0
+}

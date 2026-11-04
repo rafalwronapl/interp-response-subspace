@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "id": "A_L21_fresh64_ranks_completion",
+  "kind": "maintenance",
+  "primary_agent": "/root/a_l21_five_campaign",
+  "purpose": "Completion of two authorized A experiments; original strictfit and separate newfits/ranks",
+  "tracked_files": [
+    "analysis/AB_five_experiments_20261103/A_L21/complete.py"
+  ],
+  "tracked_trees": [],
+  "input_manifests": [
+    "analysis/AB_five_experiments_20261103/A_L21/completion_inputs.json"
+  ],
+  "gates": [
+    {
+      "id": "hooks",
+      "category": "hooks",
+      "evidence": "analysis/AB_five_experiments_20261103/A_L21/completion_audit.json",
+      "pointer": "/ok",
+      "op": "eq",
+      "expected": true,
+      "reason": "Completed immutable record verification, no new native calls"
+    },
+    {
+      "id": "data",
+      "category": "data",
+      "evidence": "analysis/AB_five_experiments_20261103/A_L21/completion_audit.json",
+      "pointer": "/ok",
+      "op": "eq",
+      "expected": true,
+      "reason": "Completed immutable record verification, no new native calls"
+    },
+    {
+      "id": "pilot",
+      "category": "pilot",
+      "evidence": "analysis/AB_five_experiments_20261103/A_L21/completion_audit.json",
+      "pointer": "/ok",
+      "op": "eq",
+      "expected": true,
+      "reason": "Completed immutable record verification, no new native calls"
+    },
+    {
+      "id": "accounting",
+      "category": "accounting",
+      "evidence": "analysis/AB_five_experiments_20261103/A_L21/completion_audit.json",
+      "pointer": "/ok",
+      "op": "eq",
+      "expected": true,
+      "reason": "Completed immutable record verification, no new native calls"
+    },
+    {
+      "id": "restart",
+      "category": "restart",
+      "evidence": "analysis/AB_five_experiments_20261103/A_L21/completion_audit.json",
+      "pointer": "/ok",
+      "op": "eq",
+      "expected": true,
+      "reason": "Completed immutable record verification, no new native calls"
+    }
+  ],
+  "circuits": [],
+  "structural_scope": "Actual full nativeL19/L20 intervention and exactqualifiedL22-27 suffix",
+  "entrypoint": null,
+  "schedule": null,
+  "budget": null
+}

@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "id": "A_BUDGET_FRESH64_COMPLETION",
+  "kind": "maintenance",
+  "primary_agent": "/root",
+  "purpose": "Actual fixedsequence native-readout budget curve, all outcomes retained",
+  "tracked_files": [
+    "analysis/AB_budget_readout_20261103/complete.py",
+    "analysis/AB_budget_readout_20261103/REPORT.txt"
+  ],
+  "tracked_trees": [],
+  "input_manifests": [
+    "analysis/AB_budget_readout_20261103/completion_manifest.json"
+  ],
+  "gates": [
+    {
+      "id": "hooks",
+      "category": "hooks",
+      "evidence": "analysis/AB_budget_readout_20261103/completion_checks.json",
+      "pointer": "/passed",
+      "op": "eq",
+      "expected": true,
+      "reason": "Immutableoutputs/rowmeans/ledger/16batchqualification/forecastbindings verified offline"
+    },
+    {
+      "id": "data",
+      "category": "data",
+      "evidence": "analysis/AB_budget_readout_20261103/completion_checks.json",
+      "pointer": "/passed",
+      "op": "eq",
+      "expected": true,
+      "reason": "Immutableoutputs/rowmeans/ledger/16batchqualification/forecastbindings verified offline"
+    },
+    {
+      "id": "pilot",
+      "category": "pilot",
+      "evidence": "analysis/AB_budget_readout_20261103/completion_checks.json",
+      "pointer": "/passed",
+      "op": "eq",
+      "expected": true,
+      "reason": "Immutableoutputs/rowmeans/ledger/16batchqualification/forecastbindings verified offline"
+    },
+    {
+      "id": "accounting",
+      "category": "accounting",
+      "evidence": "analysis/AB_budget_readout_20261103/completion_checks.json",
+      "pointer": "/passed",
+      "op": "eq",
+      "expected": true,
+      "reason": "Immutableoutputs/rowmeans/ledger/16batchqualification/forecastbindings verified offline"
+    },
+    {
+      "id": "restart",
+      "category": "restart",
+      "evidence": "analysis/AB_budget_readout_20261103/completion_checks.json",
+      "pointer": "/passed",
+      "op": "eq",
+      "expected": true,
+      "reason": "Immutableoutputs/rowmeans/ledger/16batchqualification/forecastbindings verified offline"
+    }
+  ],
+  "circuits": [],
+  "structural_scope": "No new measurements; completed exactnativeL21 readout curve review",
+  "entrypoint": null,
+  "schedule": null,
+  "budget": null
+}

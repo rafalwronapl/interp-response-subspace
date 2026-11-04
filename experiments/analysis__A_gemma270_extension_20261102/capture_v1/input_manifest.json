@@ -1,0 +1,24 @@
+{
+  "files": {
+    "analysis/A_gemma270_extension_20261102/corpus.json": "0710f9ee1d623997fff228fed43952e1b9e44774f6f74cd5030330aca07d5676",
+    "analysis/A_gemma270_extension_20261102/freshness_audit_v2.json": "eb4fde67edd8764f0a619a4a127411837839a9113b1c5e2184f3c28da99e882e",
+    "analysis/A_gemma270_extension_20261102/capture_paths_index_v1.json": "6a02f84a5cff23501c3fe7db33dcb7af713cf7539675004142fe292a381a4c88",
+    "analysis/AB_confirmatory_execution_20261101/corpus/observed_words_v2.json": "e5c48d03d3bfea4f2b3ec8a8150344e418355b24ceaf44d41cba4fa8d0c520c3",
+    "analysis/C3_noD_more_models_20261102/gemma270_capture/model_identity.json": "1f2a15073e273a12cbeabd0c124e5448dfef9862b7b9229f28635f4f8fa0cf05",
+    "analysis/C3_noD_more_models_20261102/gemma270_capture/completion_snapshot_v1.json": "49695e87098ac32ff41015d428bc24da01520512fcdafcf60a3d6a44e06f41ce",
+    "analysis/C3_noD_more_models_20261102/gemma270_capture/completion_review_resume_v1.json": "6fc82e669a1db7f0c83139d9e899bf5b6ca41a1d798dadcc9ce0af36d5e9b241",
+    "analysis/C3_noD_more_models_20261102/gemma270_capture/run/controls.json": "56f22ba88654af4ad49d6b837a1cf7fd939dc7c64104a1f8bd631e6d68175d77",
+    "analysis/A_gemma270_extension_20261102/capture_v1/tokens.json": "4debea706ad5a6bfb3deb2a2e816566d102d7614410efcb5083d4f707307fc7f",
+    "analysis/A_gemma270_extension_20261102/capture_v1/config.json": "4622e796d306baf88cc5b5a8388f8b5097a4aa40e19c1debfc4572fc6a660d28",
+    "analysis/A_gemma270_extension_20261102/capture_v1/operations.json": "67c894c523319804c2eafc91e9f2addffee852fccab29e470d0068cfff22f0e1",
+    "analysis/C3_noD_more_models_20261102/gemma270_capture/gemma270_head_assets.npz": "1048dfa8e79486a65286ea80ee7bdf7dac22deeaaeb439ba5412af54981bb6a0",
+    "analysis/C3_noD_more_models_20261102/gemma270_evaluation_v1/completion_snapshot_v1.json": "cbfc4dd45ccb99e79debabb0cf8675532b9397d41cea407ff971f0877b7d8177",
+    "analysis/C3_noD_more_models_20261102/gemma270_evaluation_v1/completion_review_resume_v1.json": "fdaa82f601d3b0d222bb24238d9cb0deb0999dced98999c4890bf987f74709f6",
+    "analysis/C3_noD_more_models_20261102/gemma270_evaluation_v1/run/fits/P_r1.json": "ee10f15938357e4327c1f7a8f24dd2a95c85e25fad6a3722c2129b45c8c0fb39",
+    "analysis/C3_noD_more_models_20261102/gemma270_evaluation_v1/run/fits/U_r1.json": "06629435812bdd191d01c49505ddc4e6892cb06533dbd7a01320a474eff8636b",
+    "analysis/C3_noD_more_models_20261102/gemma270_evaluation_v1/run/fits/P_r2.json": "531d5e046a42d6a35c51ce235b04c1a7c40d584b145de97bbc6a739c94030553",
+    "analysis/C3_noD_more_models_20261102/gemma270_evaluation_v1/run/fits/U_r2.json": "93b345dfd28d2bde32162ac84e40ad4f8e3a2d14597606328f0b965e9fd4c6ce",
+    "analysis/C3_noD_more_models_20261102/gemma270_evaluation_v1/run/fits/P_r3.json": "3167af56132dc18998e921288368e624b20e22f6695919e799b8306c11af5616",
+    "analysis/C3_noD_more_models_20261102/gemma270_evaluation_v1/run/fits/U_r3.json": "96b2f736bfc88dcfa3bcea011f4bef4713307bcdaa52d762920a8f45deadc9b6"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "snapshot_sha256": "f895745d7df1223d01d44584bea65d9edf2d3eca4a1a25929103a4a3e846df8b",
+  "reviewer_id": "/root/sol_parallel_acceptance",
+  "independent": true,
+  "verdict": "approved",
+  "topics_checked": [
+    "design",
+    "implementation",
+    "data",
+    "cost",
+    "claims"
+  ],
+  "findings": [],
+  "limitations": "Actual source/artifact/data/cost review; no pretrained/head/fit calls or fixture rerun. Exact96924logicalF=47per2048holdout+640FITlabels+28chargedcontrols;0B/0fullLLMloads. Vector-nativeTaylorJVP timesc is propagated through exact nonlinearhead; separateCOMPOSED_LINEARdiagnostic. All7methods/6doses/T2T5mixture yield126descriptivecells; no qualifiedCI/FWER/populationclaim. PublicCLTsource27target27 matches e033MLP-prehook encoding, officialrevision5301dca and bytes; earlier source contributions/decoderbias cancel for local last27inputpatch. Serialvector endpoint andbaseline kernels avoid fake threshold crossings; frozen mask direction timesc retained. Nativebranch/head/JVP controls must allpass BEFOREFIT/TEST; FP64controlcenter matched. Per-dose ridge/side-q means use r1FIT_MAP128 only,unitP_r1fit adopted; no TESTfit/tuning. SharedA/Ccohort alreadyexposed: c1native/RIDGE4096heads previouslyobserved/adopted, only newCLT/Taylor/FROZEN/nonunitresponses unmeasured atfreeze, not independentfreshBconfirmation. Onefull-inputoperator/is-are/finalL27, conceptualextension notidenticalGemmaB or historicalE041L21. NativeMLPweights selected fromcurrentOriginalBase checkpoint, no fullmodelreload; model/CLTbytepins checked againstfresh snapshotmetadata without repeat giant hash. BundleRuntime preservesalllogicalIDs and failclosedconsumed batches. RatioRMS denominator is nativeeffectRMS, mixture unpooled; exactzero denominator undefined, noepsilon. Actual output/completion review required beforefinalclaims."
+}

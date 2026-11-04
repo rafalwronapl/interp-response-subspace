@@ -1,0 +1,5 @@
+{
+  "prior": "runs/E036/development/predictors.npz",
+  "threads": 2,
+  "scope": "stage1 only, FIT vector labels; no model calls"
+}

@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "id": "A_L21_LEARNED_STAGE1_COMPLETION_20261103",
+  "kind": "maintenance",
+  "primary_agent": "/root",
+  "purpose": "FIT-only feasibility and frozen384-label model evidence, no new fitting/inference.",
+  "tracked_files": [
+    "analysis/A_L21_learned_20261103/complete.py",
+    "analysis/A_L21_learned_20261103/REPORT_stage1.md",
+    "analysis/A_L21_learned_20261103/completion_checks.json"
+  ],
+  "tracked_trees": [],
+  "input_manifests": [
+    "analysis/A_L21_learned_20261103/completion_manifest.json"
+  ],
+  "gates": [
+    {
+      "id": "complete",
+      "category": "accounting",
+      "evidence": "analysis/A_L21_learned_20261103/completion_checks.json",
+      "pointer": "/passed",
+      "op": "eq",
+      "expected": true,
+      "reason": "Immutablecompletedstage1 outputs verified; actualresultscopeFITonly."
+    }
+  ],
+  "circuits": [],
+  "structural_scope": "Offline nestedvector/coefficientsanalysis only; no learnednative readout outcome.",
+  "entrypoint": null,
+  "schedule": null,
+  "budget": null
+}

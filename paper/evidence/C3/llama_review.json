@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "snapshot_sha256": "0d741406180a03bef82e1821fbeb2ee0ea3973a6c521499d719b3aceeb33d3be",
+  "reviewer_id": "/root/c3_capture_review_resume",
+  "independent": true,
+  "verdict": "approved",
+  "topics_checked": [
+    "design",
+    "implementation",
+    "data",
+    "cost",
+    "claims"
+  ],
+  "findings": [],
+  "limitations": "All1152 no-D scalar comparison rows, allnine pair means and384primary matched observations independently reconstructed; oracle and full-gate primary summaries checked separately. Actual result/report hashes and matching0-model scoring exit0 bound. Projected learned correction utility and sign-gate utility are distinct: no-D gate is worse than always projected on this model; oracle accuracy is not no-D accuracy. Three disjoint FIT groups share32blocks, not384independent observations. No measurements, refit, bootstrap, repeated raw audit or population guarantee."
+}

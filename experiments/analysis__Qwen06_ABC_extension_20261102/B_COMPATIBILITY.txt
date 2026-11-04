@@ -1,0 +1,24 @@
+Qwen0.6 B: actual local artifact inventory,2026-11-02, no model calls.
+
+Native must be lab/model, Qwen/Qwen3-0.6B-Base revda87bfb608c14b7cf20ba1ce41287e8de496c0cd,
+weightSHAcd2a512003e2f9f3cd3c32a9c3573f820bb28c940f73c57b1ddaa983d9223eba.
+Different HFcache Qwen/Qwen3-0.6B revc1899de... was found first; capture_v1
+is abandoned UNEXECUTED preparation and may not be used for originalE041model.
+Current approved-for-review packet is capture_base_v2, correctBaseidentity.
+
+Existing public artifact: bluelightai/clt-qwen3-0.6b-base-20k,
+revision5301dca1909eccac1ecedd3d58da60097056db8f. Actual cached W_enc20-27
+in clt_cache/e017 and W_dec20-27 in clt_cache/e033. E033qualified native/
+replacement CLT machinery and E041usedL21. Decoder has multiple targetlayers,
+unlike the singlelayerGemmaScopeTC of B. It is not a reason to rename CLT
+as identicalTC or count nativefinalL27A/C as B'spublicartifactreplication.
+
+Concrete B continuation needs a frozen specific intervention/readout/operator:
+e.g. hold all native suffix dynamics and compare predicted effects for doses
+.05 versus1 and fullcurve with actualCLT corrections, nativeTaylor, FITdirect,
+mean/zero. Existing E033/E039/E045 artifacts provide compatibility starting
+point. Must bind sparse thresholds/bias/decoder source-targets/skip handling,
+which layers are replaced and native propagation, plus honest exactcost.
+Do not substitute head-only finalnorm for earlierL21 downstream suffix.
+No B pre-runpacket or B modelprocess exists at this inventory checkpoint.
+Core A/C lastL27capture proceeds independently and preserves reusable data.

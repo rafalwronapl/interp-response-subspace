@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "id": "Qwen06_B_last27_component_v1",
+  "kind": "experiment",
+  "primary_agent": "/root/sol_qwen06_parallel",
+  "purpose": "CompleteboundedpublicCLTinput-dosefidelitycurve,7methods6dosesT2T5+mixture,exactnativeSwiGLU+headTaylor,FIT-onlyperdosebaselines,nooutcometuning.",
+  "tracked_files": [
+    "a_short_qwen_20261101/__init__.py",
+    "a_short_qwen_20261101/native.py",
+    "ab_confirmatory_20261101/__init__.py",
+    "ab_confirmatory_20261101/baselines_b.py",
+    "ab_confirmatory_20261101/fitting.py",
+    "ab_confirmatory_20261101/native.py",
+    "ab_confirmatory_20261101/runtime.py",
+    "analysis/AB_confirmatory_execution_20261101/close_short_pilot_imports_v1.py",
+    "analysis/A_crossed_diagnostic_20261102/diagnostic.py",
+    "analysis/C2_fresh_fit_holdout_20261102/worker.py",
+    "analysis/Qwen06_ABC_extension_20261102/B_PROTOCOL.txt",
+    "analysis/Qwen06_ABC_extension_20261102/accepted.py",
+    "analysis/Qwen06_ABC_extension_20261102/b_driver.py",
+    "analysis/Qwen06_ABC_extension_20261102/b_fixtures_v2.py",
+    "analysis/Qwen06_ABC_extension_20261102/b_math.py",
+    "analysis/Qwen06_ABC_extension_20261102/b_score.py",
+    "analysis/Qwen06_ABC_extension_20261102/b_worker.py",
+    "analysis/Qwen06_ABC_extension_20261102/bundle_runtime.py",
+    "analysis/Qwen06_ABC_extension_20261102/prepare_b.py",
+    "research_checks/__init__.py",
+    "research_checks/gate.py",
+    "research_checks/persistence.py",
+    "research_checks/reachability.py"
+  ],
+  "tracked_trees": [],
+  "input_manifests": [
+    "analysis/Qwen06_ABC_extension_20261102/B_v1/input_manifest.json"
+  ],
+  "gates": [
+    {
+      "id": "hooks",
+      "category": "hooks",
+      "evidence": "analysis/Qwen06_ABC_extension_20261102/B_v1/evidence.json",
+      "pointer": "/prepared",
+      "op": "eq",
+      "expected": true,
+      "reason": "FrozenqualifiedQBasecaptures,exactpublicCLTsource27target27headers/identity,chargedbranch/composedJVPtechnicalcontrols beforeTEST,allmethods/dosesretained."
+    },
+    {
+      "id": "data",
+      "category": "data",
+      "evidence": "analysis/Qwen06_ABC_extension_20261102/B_v1/evidence.json",
+      "pointer": "/prepared",
+      "op": "eq",
+      "expected": true,
+      "reason": "FrozenqualifiedQBasecaptures,exactpublicCLTsource27target27headers/identity,chargedbranch/composedJVPtechnicalcontrols beforeTEST,allmethods/dosesretained."
+    },
+    {
+      "id": "pilot",
+      "category": "pilot",
+      "evidence": "analysis/Qwen06_ABC_extension_20261102/B_v1/evidence.json",
+      "pointer": "/prepared",
+      "op": "eq",
+      "expected": true,
+      "reason": "FrozenqualifiedQBasecaptures,exactpublicCLTsource27target27headers/identity,chargedbranch/composedJVPtechnicalcontrols beforeTEST,allmethods/dosesretained."
+    },
+    {
+      "id": "accounting",
+      "category": "accounting",
+      "evidence": "analysis/Qwen06_ABC_extension_20261102/B_v1/evidence.json",
+      "pointer": "/prepared",
+      "op": "eq",
+      "expected": true,
+      "reason": "FrozenqualifiedQBasecaptures,exactpublicCLTsource27target27headers/identity,chargedbranch/composedJVPtechnicalcontrols beforeTEST,allmethods/dosesretained."
+    },
+    {
+      "id": "restart",
+      "category": "restart",
+      "evidence": "analysis/Qwen06_ABC_extension_20261102/B_v1/evidence.json",
+      "pointer": "/prepared",
+      "op": "eq",
+      "expected": true,
+      "reason": "FrozenqualifiedQBasecaptures,exactpublicCLTsource27target27headers/identity,chargedbranch/composedJVPtechnicalcontrols beforeTEST,allmethods/dosesretained."
+    }
+  ],
+  "circuits": [],
+  "structural_scope": "NativefinalL27SwiGLUweights plusactualfinalnorm/twoheadrows; no earlier-layerhead-only shortcut, no fullmodelreload.",
+  "entrypoint": {
+    "module": "analysis.Qwen06_ABC_extension_20261102.b_driver",
+    "args": [
+      "--config",
+      "analysis/Qwen06_ABC_extension_20261102/B_v1/config.json"
+    ]
+  },
+  "schedule": "analysis/Qwen06_ABC_extension_20261102/B_v1/operations.json",
+  "budget": {
+    "forward": 96924,
+    "backward": 0
+  }
+}

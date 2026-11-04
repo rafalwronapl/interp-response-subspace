@@ -1,0 +1,16 @@
+COMPLETED AND INDEPENDENTLY APPROVED 2026-11-03.
+Actual canonical launch returncode0: operations/research_launch_772eef1572c642ed8283a2ab4f3c3341.json.
+Completed1024oldTESTconditions;96newvectorFITlabels from3disjoint2-blockcohorts.
+Actual1248physical/12516logicalforward,0backward,oneQwenload.
+Completion snapshot d3145a0e505604e2768a8d5fd8c63a96e31913870b241ef3d95223a4d5855129.
+Independent approval review/completion_review.json and canonicalverificationPASS.
+Report REPORT.txt; corrected derived analysis_summary.json; frozenraw remains run/summary.json.
+Primary new has/have C32-Direct32 deltaMSE+.0003680774281192474,
+95%[+.00013427178631123896,+.0006536992312130785], favors Direct.
+Original is/are3FITmean+.00017288786114377788,
+95%[-.00012720369947774774,+.00048474641727517626], mixedFits.
+Interpretation: newreadout only on OLD64F1contexts/model, posthocselectedregime;
+no independentTEST/context/modeltransfer claim. Priortrainingresources additional.
+Resolved semanticfinding: zero is ZERO MLPdelta underINTERVENEDupstream,
+not wholepromptnaturalreadout. Wholeprompt has/have natural margins unmeasured.
+Root updates stable Downloads living report. No followup nativeexperiment authorized bythishandoff.

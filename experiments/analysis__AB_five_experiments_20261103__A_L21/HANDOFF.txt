@@ -1,0 +1,98 @@
+A-L21 campaign experiments 2/4, 2026-11-03
+
+ACTUAL COMPLETE: MAIN child16344 exited0, parallel/exit.json and
+main_run/completed.json present.1024conditions/64blocks,66284logicalF,
+372exacttarget aliases,0skips cover66656plannedslots. One mainmodel load.
+Strict historicalfit inside reduction99.2454%,outside8.3805% onfreshpairs.
+Separate3newFIT rank8 reduction88.127%,random1.1795%,normrescaled5.2950%;
+rank32 improves96.9039%,so rank8 not uniquely optimal. Repairs remain oracle.
+REPORT.txt contains all ranks/subgroups/limitations. completion_snapshot.json
+and completion_audit.json built without model/refit/resampling; independent
+completion_review.json APPROVED by five_campaign_review, snapshot
+fb067354a24afb192f29945b740b6cc29a9506a500290b584f00936dfef6e8bd.
+Living Downloads/Dorobek report updated with both results, limits and review.
+Preserve allcache, do NOT launch another MAIN or replay all model operations.
+Below retained execution history, not current status.
+
+CURRENT FINAL STATE: actual pilot_v4 completed35F, independently approved
+pilot_completion_review.json/audit. Maxfull/batcherror1.049041748046875e-5.
+MAIN PRE-RUN APPROVED main_review.json snapshotb50fe2ff...a487,886members.
+Entrypoint worker_safe.py wraps worker_v4.py only for bounded advisory STATUS
+replace retries; immutable publication errors still propagate. All scientific
+data/arms unchanged. No MAIN calls yet. Run launch_main.py canonically when
+B1B and B270 model processes finish; coordinate Bagent parallel_resume/exit.json.
+NO A AUTOQUEUE CURRENTLY: restored3472 stopped upon B1B returncode1.
+B1B statusfailure recovery separately reviewed; launcher20808 child14756,
+locktoken a5dbfa2be0a44a53b7d6fda26dcc6cd8;22129completedF preserved.
+Do not regenerate final MAIN snapshot or mutate frozen sources before launch.
+Older queue entries below are retained history, not live process assertions.
+
+LATEST: v4 independent suffix batches16 approved by independent reviewer.
+Queue identity update: B parallel admission temporarily retired idle10220,
+then restored identical queue_pilot_v4 as PID3472 after mechanism child exit.
+See B_mechanism/parallel_admission/A_restored.json and live queue_status_v4.
+pilot_snapshot_v4.json SHA eba2f83bc72f59f98085b6e267b1def246f9e9ac31e5b060d2e59a4374150246,
+pilot_review_v4.json. Active bounded queue_pilot_v4.py PID10220 replaces only
+idle v3 helper13612; B remains running uninterrupted. queue_status_v4.json.
+35logical qualification evaluations, outputs pilot_run_v4, launchlogs pilot_v4.
+After actual pilot completion ask independent reviewer for
+pilot_completion_review.json and pilot_completion_audit.json, then use
+prepare_main_v4 (no --draft), final main snapshot/review, launch_main.py.
+MAIN worker_v4.py/adapter_v4.py, same main_run/completed.json sentinel.
+All scientific arms/66656logicalmaximum unchanged; ~4k physical suffix batches.
+batch_fixture and pipeline_fixture_v4 PASS, no pretrained model calls in fixtures.
+Below retained previous v3 fallback/history; do not launch it additionally.
+
+Preparation code/data complete; no pretrained measurements performed by this
+author yet. Root owns global model queue. Do NOT bypass current B worker lock.
+Pilot v1 blocked before measurement solely environment-distribution metadata
+drift; v2 approved but not launched while B owns slot. Final v3 keeps all old
+source files and uses only final-token head rows374/525 for suffix readout.
+Random28layerQwen parity 1.1175870895385742e-08. Nine charged pretrained
+operations still required to establish <=1e-4 full/native parity and sensitivity.
+
+NEXT ON MODEL SLOT (after genuine pilot_review_v3.json approval):
+C:/Users/rafal/miniconda3/python.exe -m research_checks launch --snapshot analysis/AB_five_experiments_20261103/A_L21/pilot_snapshot_v3.json --review analysis/AB_five_experiments_20261103/A_L21/pilot_review_v3.json
+Snapshot9987ca75beafa31570e1c3cd205ccffee2a95fcab7bda17b01534e3c8787fa78.
+Use hidden Start-Process with UTF8console, logs and actual receipt/exit check.
+ALREADY QUEUED by queue_pilot.py hiddenPID13612; do NOT launch a duplicate.
+queue_status.json is live. Waits B_replication/run/completed.json and absent
+operations/research_worker.lock; monitors exactBlaunch token535e861... exit.
+Pilotv3 actualrun log pilot_v3_launch.log/.err, queue records actualreturncode.
+
+After pilot_run/completed.json and independent numerical completion receipt
+pilot_completion_review.json +pilot_completion_audit.json (five_campaign_review):
+C:/Users/rafal/miniconda3/python.exe -m analysis.AB_five_experiments_20261103.A_L21.prepare_main
+This binds actual pilotcache/ledger/completion, oldparameters, all freshdata
+sourcefiles, checkpoint, libraryversions and modeling/masking sourcehashes.
+Then canonical snapshot main_contract.json --phase pre_run --out main_snapshot.json,
+genuine independent main review main_review.json, canonical launch through
+launch_main.py (writes actual main_launch_exit.json; logs main_launch.log/err).
+Current main_contract/config
+are DRAFT (created with --draft) and intentionally blocked by absent pilot gate.
+Do not treat draft readiness as run authorization.
+
+MAIN scope:64freshF1TESTblocks/1024conditions,24newFITblocks (3x128labels),
+literalhistorical upstreamneuron intervention and oldB5 frozenfit preserved.
+Three fixednewfits plus ranks1,2,4,8,16,32 and fixedGaussian controls. Exact
+oracleprojection separate from norm-rescaledrandom. NoCLTcalls. SeePROTOCOL.txt.
+Max66656heterogeneousF=3168natural/prefix/native +63488suffixslots, zeroB.
+Identicalroundedtargets alias withoutcalls; actualcountcanbe lower. Eachcondition
+couples unique suffixoperations in one durablecache, no60krawmeasurementfiles.
+Existingcachedstates, fittedparameters and summary are reused onrestart;
+interrupteduncertainmodelattempt failsclosed pendingreview, never silentlyredo.
+Pilot9F separate, one loadattempt/stage; allattempts durablyrecorded.
+
+MAIN implementation: worker.py, adapter_v3.py, math.py. main_fixtures.json passes
+schedule66656,1024condition/64blocksummary,projection/norm, bundleexactresume.
+Direct oldmatrix prediction and oldprojection multiplicationorder retained.
+Readout precision equivalence is explicitly qualified, not asserted bitwise.
+Completedseal covers everyimmutableoutput; fullscheduledcoverage must equal
+attempts disjoint aliases disjoint undefinedskips. Root/reviewer checks final
+artifacts before reporting science; livingreport then updated byroot.
+
+Freshness: corpus352documents,88unorderedpairs,774textualinventoryfiles;
+zero historicalpair/prompt overlap against exact boundinventory. Individual
+nouns may recur, nopretraining novelty guarantee. Grammar irregulars fishermen
+and secretaries plus coaches handled before finaldata; allnewscience unexposed.
+Earlier artifacts untouched. Allnewfiles C drive. No downloads/cloud.

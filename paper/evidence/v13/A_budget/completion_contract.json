@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "id": "A_BUDGET_FIT_COMPLETION_20261103",
+  "kind": "maintenance",
+  "primary_agent": "/root",
+  "purpose": "Review completed developmental offline curve",
+  "tracked_files": [
+    "analysis/AB_fast_followups_20261103/A_budget/REPORT.txt",
+    "analysis/AB_fast_followups_20261103/A_budget/complete.py",
+    "analysis/AB_fast_followups_20261103/A_budget/worker.py",
+    "analysis/AB_fast_followups_20261103/A_budget/prepare.py",
+    "analysis/AB_fast_followups_20261103/A_budget/PROTOCOL.txt",
+    "analysis/AB_fast_followups_20261103/A_budget/completion_checks.json"
+  ],
+  "tracked_trees": [],
+  "input_manifests": [
+    "analysis/AB_fast_followups_20261103/A_budget/completion_manifest.json"
+  ],
+  "gates": [
+    {
+      "id": "hooks",
+      "category": "hooks",
+      "evidence": "analysis/AB_fast_followups_20261103/A_budget/completion_checks.json",
+      "pointer": "/passed",
+      "op": "eq",
+      "expected": true,
+      "reason": "Completed pure NumPy FIT-only artifacts validated against immutable results"
+    },
+    {
+      "id": "data",
+      "category": "data",
+      "evidence": "analysis/AB_fast_followups_20261103/A_budget/completion_checks.json",
+      "pointer": "/passed",
+      "op": "eq",
+      "expected": true,
+      "reason": "Completed pure NumPy FIT-only artifacts validated against immutable results"
+    },
+    {
+      "id": "pilot",
+      "category": "pilot",
+      "evidence": "analysis/AB_fast_followups_20261103/A_budget/completion_checks.json",
+      "pointer": "/passed",
+      "op": "eq",
+      "expected": true,
+      "reason": "Completed pure NumPy FIT-only artifacts validated against immutable results"
+    },
+    {
+      "id": "accounting",
+      "category": "accounting",
+      "evidence": "analysis/AB_fast_followups_20261103/A_budget/completion_checks.json",
+      "pointer": "/passed",
+      "op": "eq",
+      "expected": true,
+      "reason": "Completed pure NumPy FIT-only artifacts validated against immutable results"
+    },
+    {
+      "id": "restart",
+      "category": "restart",
+      "evidence": "analysis/AB_fast_followups_20261103/A_budget/completion_checks.json",
+      "pointer": "/passed",
+      "op": "eq",
+      "expected": true,
+      "reason": "Completed pure NumPy FIT-only artifacts validated against immutable results"
+    }
+  ],
+  "circuits": [],
+  "structural_scope": "No circuit or native computation; descriptive offline regression result review",
+  "entrypoint": null,
+  "schedule": null,
+  "budget": null
+}

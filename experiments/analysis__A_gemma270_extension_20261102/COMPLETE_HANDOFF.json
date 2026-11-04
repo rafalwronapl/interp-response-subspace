@@ -1,0 +1,39 @@
+{
+  "status": "complete_independently_approved",
+  "model": "Gemma3-270M",
+  "layer": 17,
+  "readout": "is-minus-are",
+  "corpus_sha256": "0710f9ee1d623997fff228fed43952e1b9e44774f6f74cd5030330aca07d5676",
+  "blocks": 256,
+  "documents": 2048,
+  "frames": [
+    "T2",
+    "T5"
+  ],
+  "fixed_fits": [
+    "r1",
+    "r2",
+    "r3"
+  ],
+  "new_FIT": 0,
+  "cost": {
+    "full_native_forward": 2048,
+    "final_norm_twohead_forward": 20480,
+    "heterogeneous_forward": 22528,
+    "backward": 0,
+    "full_LLM_loads": 1,
+    "qualification_reuse_new_calls": 0
+  },
+  "completion_snapshot_sha256": "41b5538f7df1b2f0c0f356b1d073367d25596cc832aef7d3e5a7f6abae122a63",
+  "completion_members": 47185,
+  "review": "evaluation_v1/completion_review_sol_qwen_peer_v1.json",
+  "report": "REPORT.md",
+  "summary": "PRIMARY_SUMMARY.json",
+  "raw_result": "evaluation_v1/run/result.json",
+  "analysis": "evaluation_v1/run/analysis_result.json",
+  "review_scope": "All20480saved marginrows and all derived frame/block/perfit means and standarderrors,6144energyrecords,allledger/requestkeys/runtime;16431rawpayloads independentlyjoined,remaining4049notindividuallyread;all47185members inofficialsnapshot.",
+  "outputs": "C only",
+  "rerun_policy": "No rerun needed; preserve all completed cache and frozen reports. Current run is complete. Any explicit replay uses a NEW output and reviewed packet.",
+  "numeric_analysis_replay_command": "python -X utf8 -m analysis.A_gemma270_extension_20261102.analyze --result analysis/A_gemma270_extension_20261102/evaluation_v1/run/result.json --corpus analysis/A_gemma270_extension_20261102/corpus.json --out analysis/A_gemma270_extension_20261102/REPLAY_ANALYSIS_NEW.json",
+  "replay_note": "Do NOT execute to finish this completed stage. Numeric replay requires no weights or model calls; JSON wrapper/source metadata differ from inline immutable analysis receipt. Scientific work still follows repository pre-run policy."
+}

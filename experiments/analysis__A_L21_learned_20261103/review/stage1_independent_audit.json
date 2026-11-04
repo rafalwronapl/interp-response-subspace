@@ -1,0 +1,42 @@
+{
+  "completed_files_checked": 6,
+  "numeric_checks": 200,
+  "n": 384,
+  "blocks": 24,
+  "bygroup": {
+    "FIT1": 128,
+    "FIT2": 128,
+    "FIT0": 128
+  },
+  "outer_vector_L2": {
+    "C": 3.2082542725337966,
+    "P": 4.302695554148403,
+    "direct": 0.4144768167742126,
+    "mean": 4.288823210929716,
+    "same_U": 3.211810389759021
+  },
+  "outer_coefficient_L2": {
+    "C": 0.04784737955980015,
+    "P": 1.1422886611744067,
+    "direct": 0.04483414188664342,
+    "mean": 1.1284163179557194,
+    "same_U": 0.051403496900419204
+  },
+  "final_selection": {
+    "C": {
+      "kernel": "linear",
+      "lam": 1e-06
+    },
+    "direct": {
+      "kernel": "linear",
+      "lam": 1e-06
+    },
+    "same_U": {
+      "kernel": "linear",
+      "lam": 1e-06
+    }
+  },
+  "native_calls": 0,
+  "refits": 0,
+  "bootstrap": 0
+}

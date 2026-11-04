@@ -1,0 +1,39 @@
+{
+  "status": "APPROVED_FOCUSED_NUMERICAL_RESULT_REVIEW",
+  "reviewer": "/root/astra_goals_and_concurrency_review",
+  "independent": true,
+  "result_payload_sha256": "aae9d6367ea4d68ed62baa6dcaa9b94789caa720020df586cf06d2924dc6ebab",
+  "files": {
+    "analysis\\A_short_replication_llama_20261101\\final_fixed256_v3\\result.json": "fa13f48946e8b9faea25619d1b3dc5c07e7c11b29c1de01ccdd1452d273f1db5",
+    "analysis\\A_short_replication_llama_20261101\\final_fixed256_v3\\data_manifest.json": "d4b298541933ce1ccc739f7d9ee565633d49fd63005b9d5e43df841651caf6bb",
+    "analysis\\A_short_replication_llama_20261101\\TEST_assembly_fixed256_v3\\arrays.npz": "e177f599525951d9f3b18c60fe2a0712b13841f3fd0caa7b4c3dd0b4f53ddbf3",
+    "operations/concurrency_runtime_v1/launch_64fd37cf6cdb41e79effec837b0d719d.json": "0255bb92c26af0f1f06d741c7e1815adf05ccabbbd1e3ccaba46f3c37a2bb2b4"
+  },
+  "checks": {
+    "primary": {
+      "estimate": 0.778262832615634,
+      "se": 0.043036461150482215,
+      "reported_ci": [
+        0.6691281553134963,
+        0.8906622613031743
+      ],
+      "seed": 2026110175,
+      "draws": 1999
+    },
+    "secondary": {
+      "estimate": -0.4067904297844134,
+      "se": 0.023815307689193734,
+      "reported_ci": [
+        -0.47175838392236064,
+        -0.3505273136452797
+      ],
+      "seed": 2026110176,
+      "draws": 1999
+    }
+  },
+  "primary_decision": "supported",
+  "primary_p_bonferroni": 0.002,
+  "interpretation": "T5 L(U0)-L(P) is positive: oracle U0 repair increases readout error versus P in this frozen Llama TEST. Prespecified positive direction supported under frozen two-model Bonferroni rule; Qwen negative remains in family. Negative T2 is descriptive only.",
+  "limitations": "Independent means/SE and exact saved input/source bindings verified. Bootstrap quantiles/p-values not regenerated; frozen kernel1999 seeds and saved output reused. Final runtime exit0 bound; official mechanical completion snapshot pending. No model/raw re-audit. One frozen FIT, no cross-FIT stability or power/precision assurance.",
+  "runtime_exit0_verified": true
+}

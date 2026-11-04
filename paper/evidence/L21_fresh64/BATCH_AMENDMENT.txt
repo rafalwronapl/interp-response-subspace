@@ -1,0 +1,11 @@
+Optional premeasurement execution optimization, 2026-11-03.
+The scientific operators, corpus, forecasts, and 66656 maximum logical
+evaluations remain unchanged. Independent suffix replacements are evaluated
+in batches of at most16, using broadcast captured position embeddings/masks
+and no KV cache. All L22-27 attention and MLP computations remain dynamic.
+Physical suffix calls are recorded separately from logical arms.
+35 logical technical pilot evaluations compare16 replacements against full
+native model calls on a historical document. Require absolute readout
+discrepancy <=1e-4 before main; this is a numerical gate, not effect selection.
+Random model and actual worker fake-adapter fixtures precede qualification.
+Approved v3 serial implementation remains preserved as unexecuted fallback.

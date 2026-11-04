@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "snapshot_sha256": "eba2f83bc72f59f98085b6e267b1def246f9e9ac31e5b060d2e59a4374150246",
+  "reviewer_id": "/root/five_campaign_review",
+  "independent": true,
+  "verdict": "approved",
+  "topics_checked": [
+    "design",
+    "implementation",
+    "data",
+    "cost",
+    "claims"
+  ],
+  "findings": [
+    {
+      "id": "BATCH-QUALIFICATION",
+      "severity": "low",
+      "status": "resolved",
+      "evidence": "Reviewed adapter_v4, pilot_v4, worker_v4, amendment and fixtures; independently verified all 52 bound files. Independent rows preserve actual native layers22-27 and final readout; random Qwen full/batch discrepancy 4.842877388000488e-08 and singleton/batch 4.470348358154297e-08. Actual worker synthetic pipeline passes 3984 mock forwards, 704 aliases, 288 skips, global forecast ordering, zero-call completed replay and corrupt-seal rejection.",
+      "resolution": "Approve only the 35-logical-forward, zero-backward technical pilot, including 16 independent suffix rows. Actual pretrained full/batch parity <=1e-4 and nonzero sensitivity must pass before MAIN."
+    },
+    {
+      "id": "PILOT-COMPLETION-BOUNDARY",
+      "severity": "low",
+      "status": "accepted",
+      "evidence": "Pilot uses one historical document and fixed target perturbations, distinct pilot_run_v4; main actual pretrained measurements have not been qualified by synthetic fixtures.",
+      "resolution": "Require independent inspection of actual pilot immutable outputs and ledger before binding completion to a separately reviewed MAIN snapshot. This receipt does not approve scientific main execution or certify new findings."
+    }
+  ],
+  "limitations": "Source and snapshot audit with existing random-model and actual-worker synthetic tests; no independent pretrained run. Qualification covers one historical input and fixed targets. Batching changes arithmetic execution, not experimental units or logical operation accounting. Historical unexecuted versions remain preserved."
+}

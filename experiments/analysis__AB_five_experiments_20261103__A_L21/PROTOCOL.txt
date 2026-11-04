@@ -1,0 +1,60 @@
+A-L21 experiments 2 and 4, authorized 2026-11-03; preparation before TEST outcomes.
+
+PRIMARY STRICT REPLICATION
+Qwen/Qwen3-0.6B-Base revision da87bfb608c14b7cf20ba1ce41287e8de496c0cd,
+original lab/model weights cd2a512003e2f9f3cd3c32a9c3573f820bb28c940f73c57b1ddaa983d9223eba.
+FP32 eager CPU, no KV cache; old E036 B5_W/B5_U/scale unchanged, rank8/lambda1e-4.
+F1 literal prompt 'The {subject} that the {attractor} can see', BOS151643,
+four subject/attractor number combinations per lexical block. Donor flips
+subject number retaining attractor. At final token set native L19 SwiGLU
+coordinate1317 to recipientX+c*(donorX-recipientX), c=.5/1. BranchB leaves
+L20 free, branchC restores native recipient L20 coordinate1423. Native D
+is L21 output difference under these upstream edits, not an input donor patch.
+Prediction concat(dx20/scale20,dx21/scale21)/sqrt2 @oldW@oldU.T, FP32 as E041.
+Are-minus-is logits525/374. Keep actual upstream intervention residual and
+dynamic native suffix layers22--27. Oracle repairs D-P inside/outside oldU.
+64 new unordered lexical pairs, four forms, two branches,two doses:1024
+conditions. Equal16 conditions/block, then64 equal blocks. This is fourfold
+historical16blocks, not a formal power guarantee or new family calibration.
+Primary report MSE(P),MSE(inside),MSE(outside),paired differences and percentage
+reduction relativeP; natural signal and subgroup branch/dose/number retained.
+1999 paired block bootstrap draws seed3110301, nominal95CI conditional on
+fixed fit and finite task/corpus design; no new calibrated family rejection.
+No success threshold or cancellation of valid negative outcomes.
+
+SEPARATE RANK/FIT STUDY
+Three disjoint new FIT groups,8 lexicalblocks each,128native labels/group,
+same F1 and intervention recipe. FIT-only global input RMS, nativeD SVD,
+lambda1e-4 fixed, rank8 predictor per group. No SELECT and no readoutlabels
+choose subspaces. For each fixed new predictor, repair in U ranks1/2/4/8/16/32
+from nativeD FIT SVD. Nested Gaussian QR randomspaces seeded3110340+group,
+same ranks. Report exact oracle projected correction for learned/random and
+separate random correction rescaled to learned-correction norm. Rescaling
+is not exact projection repair; nearzero randomprojection undefined and
+reported, never stabilized by hidden denominator. All three fits share64TEST
+blocks, so neither fits nor cells are independent sample replicates.
+Report each fit/rank and equalfit/block aggregate; no winner selection.
+
+EXECUTION AND CONTROLS
+Nine pretrained calls first qualify historical-doc full-vs-exact-tail at
+native,baseline,changed targets, prefix target-free invariants and sensitivity.
+Independent review and canonical research_checks launch before qualification.
+Main separately reviewed after qualification. No CLT evaluation needed for B5.
+Adapter_v3 evaluates full dynamic suffix, final norm and only final-position
+head rows374/525. It is the same linear readout mathematically; changed GEMM
+shape may change FP32 roundoff, so full-model/full-head parity <=1e-4 is a
+charged technical prerequisite. Earlier unexecuted full-head adapters preserved.
+All natural states and all target-free prefixes/predictions are durably frozen
+before TEST targets. FIT target labels precede new fit freeze; TEST targets
+never choose rank/lambda/seed/cohort. Full/native prefix cost separate suffix.
+Completed immutable cache/receipts reused without recalculation; uncertain
+attempt after crash fails closed until reviewed recovery. Model load attempts
+counted separately. Historical evidence remains untouched, C-drive only.
+
+Nearest reviewed work: Engels/Riggs/Tegmark2410.14670 (natural SAE residual
+vs here native intervention-delta error); Tang2605.18830 (concept subspaces,
+not this fixed E041 native-delta repair); manuscript A10 relation-to-work and
+analysis/AB_opinion_followup_20261102/ASSESSMENT.txt. No new mathematical
+projection claim, worldwide priority, general model understanding or learned
+utility claim from these oracle diagnostics. Matchedrank/norm control addresses
+the specific empirical concentration question, not all alternative subspaces.

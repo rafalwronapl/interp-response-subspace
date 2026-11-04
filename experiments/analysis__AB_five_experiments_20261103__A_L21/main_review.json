@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "snapshot_sha256": "b50fe2ffb566423ad0aed15af5bb2784c78872fa16f60600316653fe361ca487",
+  "reviewer_id": "/root/five_campaign_review",
+  "independent": true,
+  "verdict": "approved",
+  "topics_checked": [
+    "design",
+    "implementation",
+    "data",
+    "cost",
+    "claims"
+  ],
+  "findings": [
+    {
+      "id": "EXPERIMENTS-2-4",
+      "severity": "low",
+      "status": "accepted",
+      "evidence": "Reviewed actual worker, native adapter, corpus, projection mathematics and full pipeline fixture.64 fresh unordered lexical pairs at historical Qwen L21/F1, frozen original B5 rank8 kept separate from3 new FIT cohorts and ranks1,2,4,8,16,32; random projections and separately norm-matched interventions. Global forecasts precede TEST targets. All886 final snapshot files verified.",
+      "resolution": "Approve frozen experiments2/4 with maximum66656 logical forwards and zero backwards. Paired block summaries conditional on fixed fits; shared fits/ranks are not independent replications. Norm-matched controls must remain separately labelled from exact oracle projections."
+    },
+    {
+      "id": "QUALIFIED-BATCHING",
+      "severity": "low",
+      "status": "resolved",
+      "evidence": "Actual35F pretrained qualification independently audited from45 raw files:16 cached full-versus-batch comparisons max1.049041748046875e-05 below1e-4. Synthetic actual-worker test checks3984 mock forwards,704 aliases,288 skips, global ordering, zero-call replay and corrupted completion rejection.",
+      "resolution": "Batches of16 preserve independent suffix rows, actual dynamic L22-27 and exact readout. Per-condition full-oracle/native numerical check retained."
+    },
+    {
+      "id": "INTEGRITY-AND-TELEMETRY",
+      "severity": "low",
+      "status": "resolved",
+      "evidence": "Earlier completion coverage/seal, saved-fit digests and grammar issues corrected before data collection. Final wrapper tolerates only exact advisory STATUS rename PermissionError; fault fixture verifies immutable errors still propagate.",
+      "resolution": "Maintain immutable cache and complete attempted/alias/skip accounting. No repeated successful computations or selective rank reporting."
+    }
+  ],
+  "limitations": "Pre-run source/data/fixture review and actual one-input technical qualification, not approval of yet-unobserved scientific conclusions. Lexical pairs/prompts are fresh relative to bound inventories; individual words may recur. Oracle repairs use true TEST error and are diagnostics, not deployable corrections. Nominal intervals do not establish familywise or broad model-population claims."
+}

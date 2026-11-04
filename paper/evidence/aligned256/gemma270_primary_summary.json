@@ -1,0 +1,156 @@
+{
+  "frames": {
+    "T2": {
+      "blocks": 256,
+      "dependent_records": 3072,
+      "losses": {
+        "P": 0.20927916722335205,
+        "inside": 0.08325587753752708,
+        "outside": 0.055978790049587765
+      },
+      "contrasts": {
+        "inside_minus_P": {
+          "ci": [
+            -0.140182100419433,
+            -0.11384555781222463
+          ],
+          "draws": 1999,
+          "estimate": -0.12602328968582496,
+          "n": 256,
+          "se": 0.006747566383003697,
+          "seed": 2026110272,
+          "status": "defined"
+        },
+        "inside_minus_outside": {
+          "ci": [
+            0.019143126405648227,
+            0.03623523697096661
+          ],
+          "draws": 1999,
+          "estimate": 0.027277087487939333,
+          "n": 256,
+          "se": 0.004286074210969754,
+          "seed": 2026110273,
+          "status": "defined"
+        }
+      },
+      "per_fit": {
+        "r1": {
+          "losses": {
+            "P": 0.22034640256829974,
+            "inside": 0.09193479563562423,
+            "outside": 0.04919784747121447
+          },
+          "vector_energies": {
+            "P": 2664242.7397761615,
+            "inside": 2257666.889714629,
+            "outside": 406575.8500615328
+          }
+        },
+        "r2": {
+          "losses": {
+            "P": 0.21916596576237346,
+            "inside": 0.06823594824220969,
+            "outside": 0.08241629270683948
+          },
+          "vector_energies": {
+            "P": 2742143.014625825,
+            "inside": 2297254.7789334645,
+            "outside": 444888.2356923615
+          }
+        },
+        "r3": {
+          "losses": {
+            "P": 0.18832513333938294,
+            "inside": 0.08959688873474736,
+            "outside": 0.03632222997070933
+          },
+          "vector_energies": {
+            "P": 2717756.1537438277,
+            "inside": 2369750.81296888,
+            "outside": 348005.34077494737
+          }
+        }
+      }
+    },
+    "T5": {
+      "blocks": 256,
+      "dependent_records": 3072,
+      "losses": {
+        "P": 0.4490969025528422,
+        "inside": 0.3326351333658314,
+        "outside": 0.16425869207808635
+      },
+      "contrasts": {
+        "inside_minus_P": {
+          "ci": [
+            -0.14403551848414717,
+            -0.09173171271059781
+          ],
+          "draws": 1999,
+          "estimate": -0.11646176918701083,
+          "n": 256,
+          "se": 0.013001738548903822,
+          "seed": 2026110270,
+          "status": "defined"
+        },
+        "inside_minus_outside": {
+          "ci": [
+            0.13536037704168777,
+            0.2078074494140332
+          ],
+          "draws": 1999,
+          "estimate": 0.168376441287745,
+          "n": 256,
+          "se": 0.017932586440100325,
+          "seed": 2026110271,
+          "status": "defined"
+        }
+      },
+      "per_fit": {
+        "r1": {
+          "losses": {
+            "P": 0.3491936176625634,
+            "inside": 0.31487381470892295,
+            "outside": 0.061504112723152815
+          },
+          "vector_energies": {
+            "P": 3442457.1508082356,
+            "inside": 2832814.826075267,
+            "outside": 609642.3247329684
+          }
+        },
+        "r2": {
+          "losses": {
+            "P": 0.3562209167160324,
+            "inside": 0.18882141314646805,
+            "outside": 0.19682742964389188
+          },
+          "vector_energies": {
+            "P": 3363762.281585088,
+            "inside": 2844036.7620915617,
+            "outside": 519725.51949352666
+          }
+        },
+        "r3": {
+          "losses": {
+            "P": 0.6418761732799307,
+            "inside": 0.49421017224210306,
+            "outside": 0.2344445338672143
+          },
+          "vector_energies": {
+            "P": 3651909.5551499603,
+            "inside": 2934745.9326117556,
+            "outside": 717163.6225382052
+          }
+        }
+      }
+    }
+  },
+  "source_sha256": {
+    "analysis_result": "88b13d08c45395a0a8b4fa67e58c0806f3239550f0b603f239257100ae1fc4d7",
+    "head_result": "c735e05e55976df4c94bb9f9b34de645afaeaf93cdf6c8361bbbbee7ffce17db"
+  },
+  "scope": "T2 and inside-minus-outside are descriptive. Bootstrap-t95% intervals use1999 fixed draws; no family decision, coverage/power guarantee or inference over refitted predictors. Positive loss difference means worse intervention-effect prediction, not worse natural-answer quality. Vector energies are squared residual norms of the named arms.",
+  "outside_budget_scope": "Outside jest dopelnieniem U0:632 wymiary wobec8 wewnatrz U0 przy hidden640. Obie naprawy znaja true D, lecz nie sa dopasowane pod wzgledem liczby poprawianych kierunkow ani normy korekty. Nizsze MSE outside nie jest dowodem wiekszej efektywnosci na wymiar ani uniwersalnej przewagi dopelnienia."
+}

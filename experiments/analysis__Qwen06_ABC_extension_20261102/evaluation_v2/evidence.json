@@ -1,0 +1,13 @@
+{
+  "accepted_capture": true,
+  "forward": 102400,
+  "backward": 0,
+  "LLM_loads": 0,
+  "unique_gradient_points": 6144,
+  "analytic_gradient_evaluations": 18432,
+  "retained_fp64_vector_hashes": true,
+  "primary3matchedfits": true,
+  "all9crosses": true,
+  "points": 2048,
+  "arms": 50
+}

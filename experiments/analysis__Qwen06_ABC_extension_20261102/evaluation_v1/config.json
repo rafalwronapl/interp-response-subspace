@@ -1,0 +1,123 @@
+{
+  "model": "qwen06_base",
+  "capture_stage": "analysis/Qwen06_ABC_extension_20261102/capture_base_v2",
+  "corpus": "analysis/Qwen06_ABC_extension_20261102/capture_base_v2/corpus.json",
+  "assets": {
+    "model": "qwen",
+    "answer_ids": [
+      374,
+      525
+    ],
+    "eps": 1e-06,
+    "softcap": null,
+    "architecture": "qwen3",
+    "sources": {
+      "model.norm.weight": {
+        "path": "C:\\Users\\rafal\\interpretability-lab\\model\\model.safetensors",
+        "header_sha256": "12c6b968b0f3da5176393368dfd64e536dec5ab1c1fc864c556d344bdd2323cc",
+        "tensor_header": {
+          "dtype": "BF16",
+          "shape": [
+            1024
+          ],
+          "data_offsets": [
+            1192097792,
+            1192099840
+          ]
+        },
+        "selected_rows": null,
+        "source_byte_hash_status": "Recorded accepted checkpoint identity reused; no new giant weight hash",
+        "current_bytes": 1192135096,
+        "current_mtime_ns": 1792143515646548100
+      },
+      "model.embed_tokens.weight": {
+        "path": "C:\\Users\\rafal\\interpretability-lab\\model\\model.safetensors",
+        "header_sha256": "12c6b968b0f3da5176393368dfd64e536dec5ab1c1fc864c556d344bdd2323cc",
+        "tensor_header": {
+          "dtype": "BF16",
+          "shape": [
+            151936,
+            1024
+          ],
+          "data_offsets": [
+            0,
+            311164928
+          ]
+        },
+        "selected_rows": [
+          374,
+          525
+        ],
+        "source_byte_hash_status": "Recorded accepted checkpoint identity reused; no new giant weight hash",
+        "current_bytes": 1192135096,
+        "current_mtime_ns": 1792143515646548100
+      }
+    },
+    "asset_sha256": "3b9b2e2674b44801ba76a8b9efd79ef1fa06f1b1a0400588700b51e1776d82d9"
+  },
+  "asset_path": "analysis/Qwen06_ABC_extension_20261102/capture_base_v2/qwen_head_assets.npz",
+  "arms": [
+    "baseline",
+    "native",
+    "P_r1",
+    "P_r2",
+    "P_r3",
+    "direct_r1_r1",
+    "direct_r1_r2",
+    "direct_r1_r3",
+    "direct_r2_r1",
+    "direct_r2_r2",
+    "direct_r2_r3",
+    "direct_r3_r1",
+    "direct_r3_r2",
+    "direct_r3_r3",
+    "full_r1_r1",
+    "full_r1_r2",
+    "full_r1_r3",
+    "full_r2_r1",
+    "full_r2_r2",
+    "full_r2_r3",
+    "full_r3_r1",
+    "full_r3_r2",
+    "full_r3_r3",
+    "proj_r1_r1",
+    "proj_r1_r2",
+    "proj_r1_r3",
+    "proj_r2_r1",
+    "proj_r2_r2",
+    "proj_r2_r3",
+    "proj_r3_r1",
+    "proj_r3_r2",
+    "proj_r3_r3",
+    "oracle_r1_r1",
+    "oracle_r1_r2",
+    "oracle_r1_r3",
+    "oracle_r2_r1",
+    "oracle_r2_r2",
+    "oracle_r2_r3",
+    "oracle_r3_r1",
+    "oracle_r3_r2",
+    "oracle_r3_r3",
+    "outside_r1_r1",
+    "outside_r1_r2",
+    "outside_r1_r3",
+    "outside_r2_r1",
+    "outside_r2_r2",
+    "outside_r2_r3",
+    "outside_r3_r1",
+    "outside_r3_r2",
+    "outside_r3_r3"
+  ],
+  "output": "analysis/Qwen06_ABC_extension_20261102/evaluation_v1/run",
+  "physical_output": "C:\\Users\\rafal\\interpretability-lab\\analysis\\Qwen06_ABC_extension_20261102\\evaluation_v1\\run",
+  "schedule": "analysis/Qwen06_ABC_extension_20261102/evaluation_v1/operations.json",
+  "recipe": {
+    "MAP": 128,
+    "U": 128,
+    "rank": 8,
+    "lambda_value": 0.01,
+    "residual_n": 128,
+    "pooled_direct_n": 256
+  },
+  "primary": "T5 average3matchedpairs,256blocks;T2and9crossessecondary"
+}

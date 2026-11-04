@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "id": "A_G270_EXTENSION_CPU_POLICY_V1",
+  "kind": "maintenance",
+  "primary_agent": "/root/sol_parallel_acceptance",
+  "purpose": "Only add frozen A270 scalar analyzer entry; unchanged runtime_v2 and existingpolicies.",
+  "tracked_files": [
+    "a_short_qwen_20261101/__init__.py",
+    "a_short_qwen_20261101/native.py",
+    "ab_confirmatory_20261101/__init__.py",
+    "ab_confirmatory_20261101/baselines_b.py",
+    "ab_confirmatory_20261101/fitting.py",
+    "ab_confirmatory_20261101/native.py",
+    "ab_confirmatory_20261101/runtime.py",
+    "ab_confirmatory_20261101/statistics.py",
+    "analysis/AB_confirmatory_execution_20261101/close_short_pilot_imports_v1.py",
+    "analysis/A_crossed_diagnostic_20261102/diagnostic.py",
+    "analysis/A_gemma270_extension_20261102/PROTOCOL.md",
+    "analysis/A_gemma270_extension_20261102/analyze.py",
+    "analysis/A_gemma270_extension_20261102/analyzer_fixture_root_v1.json",
+    "analysis/A_gemma270_extension_20261102/offline_policy_v1/migration_policy.json",
+    "analysis/A_gemma270_extension_20261102/offline_policy_v1/scope.json",
+    "analysis/A_gemma270_extension_20261102/prepare_analysis.py",
+    "analysis/C2_fresh_fit_holdout_20261102/worker.py",
+    "analysis/C3_noD_more_models_20261102/offline_policy_v1/migration_policy.json",
+    "concurrency_runtime_v1.py",
+    "concurrency_runtime_v2.py",
+    "research_checks/__init__.py",
+    "research_checks/_worker.py",
+    "research_checks/gate.py",
+    "research_checks/persistence.py",
+    "research_checks/reachability.py"
+  ],
+  "tracked_trees": [],
+  "input_manifests": [],
+  "gates": [
+    {
+      "id": "hooks",
+      "category": "hooks",
+      "evidence": "analysis/A_gemma270_extension_20261102/offline_policy_v1/scope.json",
+      "pointer": "/new_model_calls",
+      "op": "eq",
+      "expected": 0,
+      "reason": "One-entry metadata addition; no numerical/model execution."
+    },
+    {
+      "id": "data",
+      "category": "data",
+      "evidence": "analysis/A_gemma270_extension_20261102/offline_policy_v1/scope.json",
+      "pointer": "/new_model_calls",
+      "op": "eq",
+      "expected": 0,
+      "reason": "One-entry metadata addition; no numerical/model execution."
+    },
+    {
+      "id": "pilot",
+      "category": "pilot",
+      "evidence": "analysis/A_gemma270_extension_20261102/offline_policy_v1/scope.json",
+      "pointer": "/new_model_calls",
+      "op": "eq",
+      "expected": 0,
+      "reason": "One-entry metadata addition; no numerical/model execution."
+    },
+    {
+      "id": "accounting",
+      "category": "accounting",
+      "evidence": "analysis/A_gemma270_extension_20261102/offline_policy_v1/scope.json",
+      "pointer": "/new_model_calls",
+      "op": "eq",
+      "expected": 0,
+      "reason": "One-entry metadata addition; no numerical/model execution."
+    },
+    {
+      "id": "restart",
+      "category": "restart",
+      "evidence": "analysis/A_gemma270_extension_20261102/offline_policy_v1/scope.json",
+      "pointer": "/new_model_calls",
+      "op": "eq",
+      "expected": 0,
+      "reason": "One-entry metadata addition; no numerical/model execution."
+    }
+  ],
+  "circuits": [],
+  "structural_scope": "New reviewed policy version; old policies and all current scientific sources unchanged.",
+  "entrypoint": null,
+  "schedule": null,
+  "budget": null
+}

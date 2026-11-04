@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "snapshot_sha256": "14635e5a069a268ec69b3313754f9a9000974ecb02593b2fef2d6e4d3cdbaa8b",
+  "reviewer_id": "/root/c3_capture_review_resume",
+  "independent": true,
+  "verdict": "approved",
+  "topics_checked": [
+    "design",
+    "implementation",
+    "data",
+    "cost",
+    "claims"
+  ],
+  "findings": [],
+  "limitations": "Maintenance-only exact-stage admission: existing reviewed Q06 capture048e and Gemma capturec6d592. Unchanged v2 stage/model locks and canonical worker reviews retained; exact Q lock/token/PID/creation/parent chain checked, other workers/CPU rejected. Seven synthetic admission cases inspected. Nested PowerShell UTF8 fix reviewed. No persistent original runtime edit, lock deletion, new scientific method or budget expansion approved. Actual execution still requires valid stage review, live lock/process checks and C disk guards; reviewer ran no model calls."
+}

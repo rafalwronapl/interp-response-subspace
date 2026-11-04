@@ -1,0 +1,15 @@
+\subsection{C is prior-centered kernel ridge}\label{sec:priorridge}
+All three predictors use the same linear-in-target ridge smoother, with different targets and decoding. In row notation let $X$ contain the normalized inputs, $Y=DU$, and $P\simeq XWU^\top$, with orthonormal $U$. Training centers $X$ and each target; prediction adds its training target mean. For $A=X-\bar X$, the smoother is
+\[
+ F(Y)(x)=\bar Y+k(x)(K+n\lambda I)^{-1}(Y-\bar Y).
+\]
+For the linear kernel $K=AA^\top$; for RBF, $K_{ij}=\exp(-\|a_i-a_j\|^2/s)$, where $s$ is the median positive training squared distance. No width search or further feature standardization is performed. The frozen penalty grid is $\{1,10^{-2},10^{-4},10^{-6}\}$. C and Direct search both kernels; same-$U$ searches only the four linear candidates in learned384 and the original budget study. The later three-FIT32 study searches all eight candidates for every method. Selection is separate by method and uses vector losses, not readout labels.
+
+Ignoring FP32 projection rounding, C predicts $(xW+F(Y-XW)(x))U^\top$, same-$U$ predicts $F(Y)(x)U^\top$, and Direct predicts $F(D)(x)$. For the linear kernel C is exactly ridge around the historical coefficient map:
+\[
+ \Gamma_C=\arg\min_\Gamma\{\|Y_c-A\Gamma\|_F^2+n\lambda\|\Gamma-W\|_F^2\},
+ \qquad \widehat Y_C(x)=\bar Y+(x-\bar X)\Gamma_C.
+\]
+This identity requires the same inputs, centering, unpenalized intercept and $n\lambda$ convention, and $P=XWU^\top$ in exact arithmetic. The implementation rounds P to FP32, so its exact target is $(D-P)U$ and the algebra has that numerical qualification. Same-$U$ instead shrinks toward zero. For RBF, C is a kernel-ridge residual predictor around mean function $xW+\overline{Y-XW}$; its formula has the familiar GP posterior-mean form conditional on that chosen mean and noise parameter \cite{rasmussen2006}. No GP uncertainty estimate or probabilistic calibration is implemented. Prior-centered regression and mean-function residual fitting are established methods, not a new algorithm here.
+
+With a common fixed smoother, $F(DU)=F(D)U$ exactly: same-$U$ is Direct projected back into $U$. C differs from it by $P-F(PU)U^\top$ (up to rounding). Positive ridge penalties need not reproduce the prior, and separately selected kernels or penalties invalidate a common-smoother identity. At 384 labels all three saved models choose linear/$10^{-6}$; saved same-$U$ and projected-Direct coefficient weights agree within $1.69\times10^{-11}$. This does not imply identical full-vector predictions. The prior's historical information is additional to the new-label budget. The full-vector residual comparator $P+F(D-P)$ would separate prior use from the output-span restriction, but is not a completed approved result in this manuscript.

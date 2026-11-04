@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "snapshot_sha256": "55ac77bc35b408761550ccf4042750341fb0df88157885331a6b15ebac027aa5",
+  "reviewer_id": "/root/sol_parallel_acceptance",
+  "independent": true,
+  "verdict": "approved",
+  "topics_checked": [
+    "design",
+    "implementation",
+    "data",
+    "cost",
+    "claims"
+  ],
+  "findings": [],
+  "limitations": "Independent saved-evidence review: all126method/dose/frame cells,32256blockcells,12288context-dose rows,all2180bundle/cache bytehashes and96924logicalattempt/computed IDs checked (B_output_review_sol_gemma_peer_v1.json). AllnewTESTresultvalues matchcachedbatches, FITfrozenbeforefirstnewTESTattempt, fourtechnicalcontrols passed; no model/head/JVP/FIT/SVD/statistical replay or duplicatewholecanonicalverify. Actualcode/inputidentity,currentREPORT/SUMMARY,allpreRunmembers,UTF8child1 andruntimeexit0 verified. All7methods/sixdoses/full-inputoperator retained. MainTaylor is nativevectorMLPJVP followedbyexactnonlinearhead; composedscalar isseparatediagnostic.4096unitnative/RIDGEheads andunitfitadoptedfromalreadyexposedA/C, not countedagain; this isshared-cohort descriptivefollowup, notfreshindependentBconfirmation. Nativebranch10896/head69644/CLTendpoint12288/base2048/frozendirection2048 total96924heterogeneousF,0B/0fullLLMloads;2052analyticJVP/gradientpoints separate. Officialpinnedconfig specifiesMLPinput/output; declaredsource27target27component withfixedupstreamterms/biascancellation isconsistent withE033 and currentofficialunfolded-loader/affineJumpReLU semantics, but does not qualifyfullreplacementnetwork/globalCLTquality. Nativeparity/JVPcontrols alone are notgeneralartifactfidelity proof. No Gemma-likepositiveCLTregime found here; CLTapproximatelyZERO-relativeerror acrossdosecurve must remainnegative. Ratios use nativeeffectRMS,notaccuracy; exactzerodenominatorundefined,noepsilon. No qualifiedCI/FWER/population or worldwidepriorityclaim, no causalmodelsizecomparison. Model/artifact/operator/readout differ fromGemmaB andE041L21; originalresults remain separate."
+}

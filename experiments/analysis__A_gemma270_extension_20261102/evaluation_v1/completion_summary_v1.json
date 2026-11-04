@@ -1,0 +1,8 @@
+{
+  "forward": 20480,
+  "backward": 0,
+  "LLM_loads": 0,
+  "runtime_returncode": 0,
+  "new_calls_by_closure": 0,
+  "independent_review": "pending"
+}

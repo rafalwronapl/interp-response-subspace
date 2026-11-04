@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "snapshot_sha256": "519304b4eb35e250cf4131fc666c322f7518f21f39f3922bb2735498aacd912b",
+  "reviewer_id": "/root/sol_parallel_acceptance",
+  "independent": true,
+  "verdict": "approved",
+  "topics_checked": [
+    "design",
+    "implementation",
+    "data",
+    "cost",
+    "claims"
+  ],
+  "findings": [],
+  "limitations": "Focused actual-source/data/schedule review with previous independently accepted full2844capture proofs reused by exact bytehash membership. All50arms/2048holdoutdocs/102400logicalforwardIDs and current tracked/config/operations bytes inspected; no model/head/refit/bootstrap rerun. Stage-local BundleRuntime and six fault/resume fixtures preserve full logical accounting, cached replay zero callbacks and unknown consumed batches fail closed. Invocation-only immutable-capture memo avoids duplicate reads, not persistent/mtime attestation; no-D feature whitelist/seal ordering unchanged. Closed original-Base lastL27 capture proof is adopted; unused full checkpoint is not a consumed head input and not rehashed. Three new matched FIT pairs are primary, allnine secondary; pooled256-label ridge baseline retained. Oracle D and no-D estimated residual are different interventions; full residual gate is algebraically trivial. Unique6144gradientpoints incur18432analytic evaluations. Common A1999draw95%block intervals are nominal, Cmetrics descriptive means, no FWER/coverage/power guarantee or exact historical E041L21 replication. Actual final claims require independent output review. Source proofs: source_review_sol_gemma_peer_v1.json and bundle_source_review_sol_gemma_peer_v1.json; current actual packet hashes supersede earlier drafts. NEWv2 narrow schema repair independently checked: exact AST selector from bound evaluate_v2.py evaluated on actual2816docs, all six disjoint128FITgroups selected and all2048HOLDOUT docs withoutcohort skipped; old selector reproduces KeyErrorcohort. Source diff is only roleFIT guard ordering, no numerical/threshold/hypothesis changes. Originalv1 failed with no ledger/cache/fits/bundles, only immutable identity/schedule;0F0B/0FIT calls. Originalv1/source/logs preserved; newnamespace does not replay any charged scientific work. Actual boundv2source/config/schedule/current artifacts rechecked; priorreview and Bundle/memo proofs otherwise unchanged."
+}

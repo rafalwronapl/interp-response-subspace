@@ -1,0 +1,62 @@
+[
+  {
+    "source": "analysis/A_L21_learned_20261103/stage1_run/SUMMARY.json",
+    "file": "evidence/L21_learned/stage1_run__SUMMARY.json",
+    "sha256": "40e28839df0139407cfa05c93b55f7236c4ecf5e3bab97e1a333a2383a39beb9"
+  },
+  {
+    "source": "analysis/A_L21_learned_20261103/completion_review.json",
+    "file": "evidence/L21_learned/completion_review.json",
+    "sha256": "f18e667663ebe93d7506cbe05a392b210ff551f95dde139be260d6e2a1c97430"
+  },
+  {
+    "source": "analysis/A_L21_learned_20261103/stage2/run/summary.json",
+    "file": "evidence/L21_learned/stage2__run__summary.json",
+    "sha256": "f551539322d5573831bb4ec672378a42081ad24222ae2dc13f17b96cab45bb20"
+  },
+  {
+    "source": "analysis/A_L21_learned_20261103/stage2/REPORT.txt",
+    "file": "evidence/L21_learned/stage2__REPORT.txt",
+    "sha256": "7243b4f5d53225aa548e5f0c1f6a81bc2c700a0e29b9f4b0ba98ff089f42e8cc"
+  },
+  {
+    "source": "analysis/A_L21_learned_20261103/stage2/completion_review.json",
+    "file": "evidence/L21_learned/stage2__completion_review.json",
+    "sha256": "1f7472d41bdab1bfff9f674fbf2561eb3a8a47c810ead69b596ac3de79b994e4"
+  },
+  {
+    "source": "analysis/A_L21_learned_20261103/stage2/completion_checks.json",
+    "file": "evidence/L21_learned/stage2__completion_checks.json",
+    "sha256": "ab2629417b136599e24ec2302da1a47bfe662b4977afe12bb2b950454f8753d5"
+  },
+  {
+    "source": "analysis/A_L21_learned_20261103/stage2/review/independent_completion_audit.json",
+    "file": "evidence/L21_learned/stage2__review__independent_completion_audit.json",
+    "sha256": "c9cedf81825b4ec64d88ed125ed30b1e7b5873e4aeed2fa91152d54166b12d07"
+  },
+  {
+    "source": "analysis/A_L21_learned_20261103/stage2/pre_run_review.json",
+    "file": "evidence/L21_learned/stage2__pre_run_review.json",
+    "sha256": "5396a2258a0955cd28a106bf1cc7311f5d5f41b77023a1898358c14b85b43738"
+  },
+  {
+    "source": "analysis/A_L21_learned_20261103/stage2/config.json",
+    "file": "evidence/L21_learned/stage2__config.json",
+    "sha256": "076a5bb1d51792dd789f225c7dad4bd1d4c83ff943da1df82dbfe49674da7a8e"
+  },
+  {
+    "source": "analysis/A_L21_learned_20261103/stage2/data_checks.json",
+    "file": "evidence/L21_learned/stage2__data_checks.json",
+    "sha256": "ed47d273c4e024bc7ec822477a91c5af650cacdfa26ed7dda758a58ab1131762"
+  },
+  {
+    "source": "plans/A_L21_LEARNED_20261103/PLAN.txt",
+    "file": "evidence/L21_learned/PLAN.txt",
+    "sha256": "68cbb634957e52322c52cab10409adcf77dbbc639a2fb852b934edb235235350"
+  },
+  {
+    "source": "plans/A_L21_LEARNED_20261103/review/plan_review_v1.json",
+    "file": "evidence/L21_learned/review__plan_review_v1.json",
+    "sha256": "abf0a1f57348fba29989774cb377ab028bcbd99d0dfa2f249c8d4fadc7b98da1"
+  }
+]

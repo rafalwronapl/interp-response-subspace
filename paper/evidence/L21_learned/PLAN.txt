@@ -1,0 +1,127 @@
+Plan A-L21 learned correction, version1, 2026-11-03
+Requested by user: proceed with the learned-correction direction and obtain
+an independent Astra review; update manuscripts separately with completed data.
+This document freezes the scientific design. It is not a claim of completion
+or a substitute for implementation-specific pre-run approval.
+
+QUESTION AND PRIMARY CLAIM
+Can FIT-learned eight coefficients improve historical B5 intervention-effect
+prediction without true TEST D? Preserve original Qwen3-0.6B-Base checkpoint,
+L19 neuron1317 edit, optional L20 neuron1423 restore, targetL21, F1, c=.5/1,
+are-minus-is, original fixed P/U/scale, exact native L22--27 suffix.
+Existing oracle99.245% is diagnostic motivation, not the expected learned gain.
+Primary practical comparison: readout MSE(C*) minus MSE(P). Negative favors
+learned correction. Separate secondary comparison against strong direct model.
+No arbitrary80%/20% success threshold, optional sample extension or retry until
+positive. Report signed paired differences and nominal block95% intervals.
+
+ALLOWED INFORMATION
+phi = concat(dx20/old_scale20,dx21/old_scale21)/sqrt(2), exactly the historical
+target-free prefix inputs. dx21 is MLP21 INPUT, never its native output.
+Original P is the historical FP32 prediction. Coefficient target a=U.T@(D-P)
+uses native D only as a FIT label and as a later oracle reference, never as
+a learned TEST feature. U/P are disclosed historical priors, not fold-refitted.
+No learned gate initially. The method still consumes a native upstream prefix;
+do not advertise zero inference cost or plain-text-only prediction.
+
+STAGE1: FIT-ONLY FEASIBILITY AND FREEZE, ZERO NEW MODEL EVALUATIONS
+Reuse exactly96natural FIT records and384prefix/native target condition pairs
+from A_L21/main_run, all24 lexical blocks in3previously fixed groups8blocks.
+Bind actual receipts/cache/model identity and immutable completion receipt.
+Do not read the exposed64block TEST targets for selection, fitting or scoring.
+Allowed prior exposure: global results of those64TESTblocks are already known;
+the present design is motivated by those observations, not wholly ex ante.
+
+Outer folds = the3fixed FIT groups. Each trains on16blocks/256labels and scores
+8blocks/128labels. All4forms/2branches/2doses of a lexical pair stay together.
+Inside each outer training set:4inner folds, sorted training blocks assigned
+round-robin by index. Every centering/kernel scale refit inside inner train.
+Tune only lambda in[1e-6,1e-4,1e-2,1] and kernel linear/RBF. Include intercept
+by centering inputs/outputs on training data. Linear K=phi_centered@phi_centered.T.
+RBF K=exp(-distance_squared/median_positive_train_pair_distance_squared).
+Median uses training data only; if all distances zero report technical
+degeneracy and use a predeclared constant kernel, not a new handpicked scale.
+Ridge solve (K+n*lambda*I)^(-1). No random initialization or extra search.
+Choose hyperparameters minimizing coefficient squared L2, averaged by inner
+lexical block. Ties: linear beforeRBF, then larger lambda (stronger shrinkage).
+C = P + U*a_hat. Mean coefficient baseline trained only on the same fold.
+
+Controls in identical outer folds/input information/new-label budget:
+ - unchanged historical P;
+ - same-U direct LINEAR refit predicting U.T@D, with the same lambda grid;
+ - direct full-D linear/RBF predictor, independently tuned by vector L2 loss;
+ - mean eight-coefficient residual;
+ - selected eight-coefficient residual C.
+Report coefficient/vector errors, byfold/branch/dose, versus each baseline.
+Same-U direct prediction has no outside-U component. Linear residual fitting
+is a prior-centered same-U refit, not a new expressive class; include a
+synthetic numerical unregularized equivalence identity check.
+Outer results are a limited feasibility assessment conditional on historical
+priors/24blocks, not new downstream utility evidence. No native/suffix calls.
+
+For prospective stage2, choose residual hyperparameters by4fold CV on all24
+FITblocks (round-robin sorted block IDs) and fit all384labels once. Freeze C*,
+same-U linear refit, full-D direct predictor, mean coefficients and code hashes.
+Direct384 means384NEW native vector labels; historical P/U were trained earlier,
+so equal new budget is NOT equal total historical training information.
+Hyperparameters of direct baselines selected using their own training losses,
+not made to inherit an unfavorable residual configuration. Keep every CV result.
+Do not cancel valid stage2 because stage1 improvement is small or negative.
+
+STAGE2: NEW HELD-OUT READOUT TEST (SEPARATE IMPLEMENTATION REVIEW)
+64new unordered lexical blocks,4forms,2branches,2doses=1024conditions.
+Generate and freeze exact corpus/tokenization and exposure inventory before
+native TEST targets. No overlap with historical/campaign FIT/TEST pair or prompt;
+same vocabulary items may recur, this is pair-level freshness. Seed3110361.
+Keep F1/operator/checkpoint fixed; no attempt to establish task/model generality.
+Capture natural states and target-free upstream prefixes, then freeze all
+learned predictions globally BEFORE acquiring native intervention targets.
+Report P,C*,same-U linear refit,Direct384,mean coefficient correction, oracle
+inside U; zero-change uses stored natural margin and no additional call.
+Oracle target constructed only after learned forecast freeze, labelled oracle.
+Evaluate actual modified upstream residual plus exact native suffix, not a
+surrogate scalar gradient. Adopt qualified batch16 adapter_v4 unchanged.
+
+Logical budget:256natural fullF +1024target-free prefixF +1024native targetF
++6*1024suffixF=8448F maximum,0backward; exact target aliases saved explicitly.
+Add12qualificationF:2fixed existing FIT contexts (lexicographic first2 from
+FIT0) x3targets(P,C*,Direct384) x(fullreference,suffix). Cached natural and
+upstream settings adopted. Require full/suffix margin difference<=1e-4;
+reuse prior35F general sham/sensitivity evidence, no repeat of that qualification.
+Grand maximum8460F/0B, one local model load,0newFIT acquisition. Count logical
+versus physical batched calls separately and all actual load attempts.
+Use two-row final head +dynamic suffix, no frozen attention or altered operator.
+
+ANALYSIS AND GUARDS
+Unit=lexical block; equal16conditions/block then64blocks. Primary paired C*-P
+MSE difference,1999block bootstrap seed3110362, nominal95 conditional on frozen
+fits. Secondary C*-Direct384 and remaining contrasts pointwise descriptive;
+no new family-error/population guarantee or independent64x3fit sample count.
+Report all branches/doses, absolute loss and coefficient/vector prediction,
+native signal, coverage, labels/training history and prefix/suffix cost.
+Oracle is not asserted a readout upper bound. A negative result is retained.
+
+Implementation must use canonical research_checks launch with independent
+pre-run review of actual code/tests/inputs, source closure/model versions,
+full call schedule, target-free freeze, numerical identity/restart fixtures,
+durable attempt reservation/cache/receipts and bounded STATUS publication.
+No repeated74MBFIT digest percontext: memoize only immutable verified objects.
+Compute fixed predictions once/batch; exact aliases explicit. Completed replay
+must make0calls; uncertain attempts require separately reviewed recovery.
+No D writes, downloads/cloud, duplicate model jobs or altered old caches.
+
+CURRENT STATUS
+Design prepared; no stage1 fit/CV or stage2 measurement performed yet.
+Astra independent plan review requested. Plan approval alone does not approve
+an unseen worker. Articles receive only completed approved five-experiment
+findings; this learned study remains planned until actual evidence exists.
+
+PRIOR ART AND LOCAL EVIDENCE
+Reuse A_oracle_to_learned_20261103/DECISION.txt+review.json; A_L21 REPORT,
+PROTOCOL/completion_review; A10 learnedL27 section; program assessments
+Ranking20261025 and opinie_calosc20261026. E036/E038 already had useful learned
+corrections; their comparison with direct predictors prevents a universal
+failure narrative. Engels/Riggs/Tegmark2410.14670 predicts natural SAE residuals,
+not this native intervention-delta target. No claim that learning residuals,
+ridge, kernel regression or projection correction is new; practical value
+must be measured against the strong direct and same-U refit controls.

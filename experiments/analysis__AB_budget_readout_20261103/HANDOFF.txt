@@ -1,0 +1,33 @@
+A fresh native-readout budget study, launched2026-11-03.
+ACTUAL COMPLETED: canonical returncode0,1024conditions/64blocks,18726logicalF,
+3336physicalforward,0backward,one model-load attempt,0aliases.
+Rawseal run/completed.json, canonicalexit operations/research_launch_12a364dcdd024ca3ab29e4794c9b4624.json.
+Offline validator passed7706outputfiles; REPORT.txt and completion_snapshot.json
+67b3ded9852cef03e6d8fe6808698d27e4d8c722e3bfa19e38710f2530116b49.
+Independent completion review requested from /root/fast_followup_review;
+check actual review/completion_review.json status, do not infer approval here.
+Primary C32-Direct32 deltaMSE -0.0008092423813,bootstrap95%
+[-0.001215298222,-0.000446333424];C32~48.03%lowerreadoutMSE.
+Direct has lower meanMSE at64/128/256/384;C64worseC32. Allresults retained.
+Conditional fixed FIT0seed17 sequence and historicalprior;no overallmethodsuperiority.
+
+Independent pre-run approval review/pre_run_review.json binds snapshot
+4f5beed5d111a8dd60bfbc737616a95b86d6173947f687c8efd53eb4ab6f84df.
+Canonical hidden launcher started PID17500. PID alone is not execution proof.
+Check current processes, operations/research_worker.lock,run/STATUS.json,
+qualification receipts,ledger,completed.json and matching research_launch receipt.
+Preserve every existing raw measurement and forecast; do not start duplicateworker.
+
+Frozen design:64freshblocks,16arms=3methods×5budgets+P; zerochange aliasesnatural.
+FIT0seed17 lowerbudgets32/64/128/256;384exact oldfullpoolmodels, compositiondiffers.
+Primary C32-Direct32; all other contrasts descriptive.18726logicalFmax/0B,
+3336physicalforwardmaximum. Two FITcontexts qualify batch16 against3fullrefs.
+
+On successful actual completion and canonical returncode0:
+python -m analysis.AB_budget_readout_20261103.complete
+This validates rawcache/ledger/forecastboundtargets,produces REPORT and
+completion_snapshot.json. Send actual snapshot to independent reviewer.
+Root updates user living report and plan, preserving historical files.
+
+If any uncertain attempt lacks durable cache,worker refuses before load;
+require explicit independent recovery, do not erase ledger or fabricate receipts.

@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "snapshot_sha256": "a391e6be3b84866388c616152ba576edd4f1d527b0f54f3a09243d276f188666",
+  "reviewer_id": "/root/sol_parallel_acceptance",
+  "independent": true,
+  "verdict": "approved",
+  "topics_checked": [
+    "design",
+    "implementation",
+    "data",
+    "cost",
+    "claims"
+  ],
+  "findings": [],
+  "limitations": "Full saved-output review: all102400marginrows,18432forecastseach,all matched/allnine frame/block/perfit means/SE/energytranslations checked; scalar_review_sol_gemma_peer_v1.json. All2048bundle/cache actualbytehashes, results and102400logicalattempt/computed IDs/requestkeys/chronology joined; bundle_output_review_sol_gemma_peer_v1.json. NoDseal precedes oracle seal and firstfiniteheadattempt. All24FITreceipt hashes joined,U0orthonormalitychecked; no independent ridge re-solve/KKT/SVD, model/head or1999resampling rerun. Actualexit0/childutf8_mode1 confirmed; allpreRunmembers unchanged. Originalv1failed0F0B beforeFIT/head; v2onlyschema-roleordering fix. Three matchedfits/256blocks primary (3072dependentcells/frame), allnine secondary. CI95 nominalpointwise, not qualifiedcoverage/FWER/power; endpointsource/seeds reused. T5inside harms/T2helps; noDgateT5harmsP despite signaccuracy gains, pooleddirect256 stronger bothframes. Oracle/noD use different correctionvectors andscores, nativeinformation/Jaccess remains. Outside1016directions vsinside8, unmatchednorm/dimensionalbudget; Ccomponentenergy versus Aresidualnorm labels distinguished. CurrentBase lastL27 differs fromhistoricalE041L21/operator/fits/data. FinalREPORT/SUMMARY bytehashes verified (compactA omits onlyper_block, retained in fullsummary). B is separate futurestage; this receipt does not admit it."
+}

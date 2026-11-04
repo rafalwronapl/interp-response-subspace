@@ -1,0 +1,9 @@
+{
+  "fresh_corpus": true,
+  "qualified_native_reused": true,
+  "capture": 2048,
+  "backward": 0,
+  "LLM_loads": 1,
+  "output_drive": "C",
+  "no_new_FIT": true
+}

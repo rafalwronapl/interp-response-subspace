@@ -1,0 +1,5566 @@
+{
+  "documents": [
+    {
+      "id": "LC_000_0_0",
+      "block": 0,
+      "split": "TEST",
+      "frame": 1,
+      "S": 0,
+      "A": 0,
+      "prompt": "The blacksmith that the designer can see",
+      "ids": [
+        151643,
+        785,
+        3691,
+        33017,
+        429,
+        279,
+        14692,
+        646,
+        1490
+      ],
+      "donor": "LC_000_1_0"
+    },
+    {
+      "id": "LC_000_0_1",
+      "block": 0,
+      "split": "TEST",
+      "frame": 1,
+      "S": 0,
+      "A": 1,
+      "prompt": "The blacksmith that the designers can see",
+      "ids": [
+        151643,
+        785,
+        3691,
+        33017,
+        429,
+        279,
+        25812,
+        646,
+        1490
+      ],
+      "donor": "LC_000_1_1"
+    },
+    {
+      "id": "LC_000_1_0",
+      "block": 0,
+      "split": "TEST",
+      "frame": 1,
+      "S": 1,
+      "A": 0,
+      "prompt": "The blacksmiths that the designer can see",
+      "ids": [
+        151643,
+        785,
+        3691,
+        33017,
+        82,
+        429,
+        279,
+        14692,
+        646,
+        1490
+      ],
+      "donor": "LC_000_0_0"
+    },
+    {
+      "id": "LC_000_1_1",
+      "block": 0,
+      "split": "TEST",
+      "frame": 1,
+      "S": 1,
+      "A": 1,
+      "prompt": "The blacksmiths that the designers can see",
+      "ids": [
+        151643,
+        785,
+        3691,
+        33017,
+        82,
+        429,
+        279,
+        25812,
+        646,
+        1490
+      ],
+      "donor": "LC_000_0_1"
+    },
+    {
+      "id": "LC_001_0_0",
+      "block": 1,
+      "split": "TEST",
+      "frame": 1,
+      "S": 0,
+      "A": 0,
+      "prompt": "The engineer that the painter can see",
+      "ids": [
+        151643,
+        785,
+        23576,
+        429,
+        279,
+        29481,
+        646,
+        1490
+      ],
+      "donor": "LC_001_1_0"
+    },
+    {
+      "id": "LC_001_0_1",
+      "block": 1,
+      "split": "TEST",
+      "frame": 1,
+      "S": 0,
+      "A": 1,
+      "prompt": "The engineer that the painters can see",
+      "ids": [
+        151643,
+        785,
+        23576,
+        429,
+        279,
+        96853,
+        646,
+        1490
+      ],
+      "donor": "LC_001_1_1"
+    },
+    {
+      "id": "LC_001_1_0",
+      "block": 1,
+      "split": "TEST",
+      "frame": 1,
+      "S": 1,
+      "A": 0,
+      "prompt": "The engineers that the painter can see",
+      "ids": [
+        151643,
+        785,
+        24198,
+        429,
+        279,
+        29481,
+        646,
+        1490
+      ],
+      "donor": "LC_001_0_0"
+    },
+    {
+      "id": "LC_001_1_1",
+      "block": 1,
+      "split": "TEST",
+      "frame": 1,
+      "S": 1,
+      "A": 1,
+      "prompt": "The engineers that the painters can see",
+      "ids": [
+        151643,
+        785,
+        24198,
+        429,
+        279,
+        96853,
+        646,
+        1490
+      ],
+      "donor": "LC_001_0_1"
+    },
+    {
+      "id": "LC_002_0_0",
+      "block": 2,
+      "split": "TEST",
+      "frame": 1,
+      "S": 0,
+      "A": 0,
+      "prompt": "The novelist that the officer can see",
+      "ids": [
+        151643,
+        785,
+        80647,
+        429,
+        279,
+        9452,
+        646,
+        1490
+      ],
+      "donor": "LC_002_1_0"
+    },
+    {
+      "id": "LC_002_0_1",
+      "block": 2,
+      "split": "TEST",
+      "frame": 1,
+      "S": 0,
+      "A": 1,
+      "prompt": "The novelist that the officers can see",
+      "ids": [
+        151643,
+        785,
+        80647,
+        429,
+        279,
+        9611,
+        646,
+        1490
+      ],
+      "donor": "LC_002_1_1"
+    },
+    {
+      "id": "LC_002_1_0",
+      "block": 2,
+      "split": "TEST",
+      "frame": 1,
+      "S": 1,
+      "A": 0,
+      "prompt": "The novelists that the officer can see",
+      "ids": [
+        151643,
+        785,
+        11514,
+        1671,
+        429,
+        279,
+        9452,
+        646,
+        1490
+      ],
+      "donor": "LC_002_0_0"
+    },
+    {
+      "id": "LC_002_1_1",
+      "block": 2,
+      "split": "TEST",
+      "frame": 1,
+      "S": 1,
+      "A": 1,
+      "prompt": "The novelists that the officers can see",
+      "ids": [
+        151643,
+        785,
+        11514,
+        1671,
+        429,
+        279,
+        9611,
+        646,
+        1490
+      ],
+      "donor": "LC_002_0_1"
+    },
+    {
+      "id": "LC_003_0_0",
+      "block": 3,
+      "split": "TEST",
+      "frame": 1,
+      "S": 0,
+      "A": 0,
+      "prompt": "The lawyer that the librarian can see",
+      "ids": [
+        151643,
+        785,
+        15417,
+        429,
+        279,
+        94207,
+        646,
+        1490
+      ],
+      "donor": "LC_003_1_0"
+    },
+    {
+      "id": "LC_003_0_1",
+      "block": 3,
+      "split": "TEST",
+      "frame": 1,
+      "S": 0,
+      "A": 1,
+      "prompt": "The lawyer that the librarians can see",
+      "ids": [
+        151643,
+        785,
+        15417,
+        429,
+        279,
+        60359,
+        29527,
+        646,
+        1490
+      ],
+      "donor": "LC_003_1_1"
+    },
+    {
+      "id": "LC_003_1_0",
+      "block": 3,
+      "split": "TEST",
+      "frame": 1,
+      "S": 1,
+      "A": 0,
+      "prompt": "The lawyers that the librarian can see",
+      "ids": [
+        151643,
+        785,
+        21177,
+        429,
+        279,
+        94207,
+        646,
+        1490
+      ],
+      "donor": "LC_003_0_0"
+    },
+    {
+      "id": "LC_003_1_1",
+      "block": 3,
+      "split": "TEST",
+      "frame": 1,
+      "S": 1,
+      "A": 1,
+      "prompt": "The lawyers that the librarians can see",
+      "ids": [
+        151643,
+        785,
+        21177,
+        429,
+        279,
+        60359,
+        29527,
+        646,
+        1490
+      ],
+      "donor": "LC_003_0_1"
+    },
+    {
+      "id": "LC_004_0_0",
+      "block": 4,
+      "split": "TEST",
+      "frame": 1,
+      "S": 0,
+      "A": 0,
+      "prompt": "The translator that the watchmaker can see",
+      "ids": [
+        151643,
+        785,
+        45488,
+        429,
+        279,
+        3736,
+        25766,
+        646,
+        1490
+      ],
+      "donor": "LC_004_1_0"
+    },
+    {
+      "id": "LC_004_0_1",
+      "block": 4,
+      "split": "TEST",
+      "frame": 1,
+      "S": 0,
+      "A": 1,
+      "prompt": "The translator that the watchmakers can see",
+      "ids": [
+        151643,
+        785,
+        45488,
+        429,
+        279,
+        3736,
+        19887,
+        646,
+        1490
+      ],
+      "donor": "LC_004_1_1"
+    },
+    {
+      "id": "LC_004_1_0",
+      "block": 4,
+      "split": "TEST",
+      "frame": 1,
+      "S": 1,
+      "A": 0,
+      "prompt": "The translators that the watchmaker can see",
+      "ids": [
+        151643,
+        785,
+        72704,
+        429,
+        279,
+        3736,
+        25766,
+        646,
+        1490
+      ],
+      "donor": "LC_004_0_0"
+    },
+    {
+      "id": "LC_004_1_1",
+      "block": 4,
+      "split": "TEST",
+      "frame": 1,
+      "S": 1,
+      "A": 1,
+      "prompt": "The translators that the watchmakers can see",
+      "ids": [
+        151643,
+        785,
+        72704,
+        429,
+        279,
+        3736,
+        19887,
+        646,
+        1490
+      ],
+      "donor": "LC_004_0_1"
+    },
+    {
+      "id": "LC_005_0_0",
+      "block": 5,
+      "split": "TEST",
+      "frame": 1,
+      "S": 0,
+      "A": 0,
+      "prompt": "The diver that the lawyer can see",
+      "ids": [
+        151643,
+        785,
+        36341,
+        429,
+        279,
+        15417,
+        646,
+        1490
+      ],
+      "donor": "LC_005_1_0"
+    },
+    {
+      "id": "LC_005_0_1",
+      "block": 5,
+      "split": "TEST",
+      "frame": 1,
+      "S": 0,
+      "A": 1,
+      "prompt": "The diver that the lawyers can see",
+      "ids": [
+        151643,
+        785,
+        36341,
+        429,
+        279,
+        21177,
+        646,
+        1490
+      ],
+      "donor": "LC_005_1_1"
+    },
+    {
+      "id": "LC_005_1_0",
+      "block": 5,
+      "split": "TEST",
+      "frame": 1,
+      "S": 1,
+      "A": 0,
+      "prompt": "The divers that the lawyer can see",
+      "ids": [
+        151643,
+        785,
+        21113,
+        429,
+        279,
+        15417,
+        646,
+        1490
+      ],
+      "donor": "LC_005_0_0"
+    },
+    {
+      "id": "LC_005_1_1",
+      "block": 5,
+      "split": "TEST",
+      "frame": 1,
+      "S": 1,
+      "A": 1,
+      "prompt": "The divers that the lawyers can see",
+      "ids": [
+        151643,
+        785,
+        21113,
+        429,
+        279,
+        21177,
+        646,
+        1490
+      ],
+      "donor": "LC_005_0_1"
+    },
+    {
+      "id": "LC_006_0_0",
+      "block": 6,
+      "split": "TEST",
+      "frame": 1,
+      "S": 0,
+      "A": 0,
+      "prompt": "The novelist that the receptionist can see",
+      "ids": [
+        151643,
+        785,
+        80647,
+        429,
+        279,
+        23117,
+        380,
+        646,
+        1490
+      ],
+      "donor": "LC_006_1_0"
+    },
+    {
+      "id": "LC_006_0_1",
+      "block": 6,
+      "split": "TEST",
+      "frame": 1,
+      "S": 0,
+      "A": 1,
+      "prompt": "The novelist that the receptionists can see",
+      "ids": [
+        151643,
+        785,
+        80647,
+        429,
+        279,
+        23117,
+        1671,
+        646,
+        1490
+      ],
+      "donor": "LC_006_1_1"
+    },
+    {
+      "id": "LC_006_1_0",
+      "block": 6,
+      "split": "TEST",
+      "frame": 1,
+      "S": 1,
+      "A": 0,
+      "prompt": "The novelists that the receptionist can see",
+      "ids": [
+        151643,
+        785,
+        11514,
+        1671,
+        429,
+        279,
+        23117,
+        380,
+        646,
+        1490
+      ],
+      "donor": "LC_006_0_0"
+    },
+    {
+      "id": "LC_006_1_1",
+      "block": 6,
+      "split": "TEST",
+      "frame": 1,
+      "S": 1,
+      "A": 1,
+      "prompt": "The novelists that the receptionists can see",
+      "ids": [
+        151643,
+        785,
+        11514,
+        1671,
+        429,
+        279,
+        23117,
+        1671,
+        646,
+        1490
+      ],
+      "donor": "LC_006_0_1"
+    },
+    {
+      "id": "LC_007_0_0",
+      "block": 7,
+      "split": "TEST",
+      "frame": 1,
+      "S": 0,
+      "A": 0,
+      "prompt": "The counselor that the inspector can see",
+      "ids": [
+        151643,
+        785,
+        61375,
+        429,
+        279,
+        44725,
+        646,
+        1490
+      ],
+      "donor": "LC_007_1_0"
+    },
+    {
+      "id": "LC_007_0_1",
+      "block": 7,
+      "split": "TEST",
+      "frame": 1,
+      "S": 0,
+      "A": 1,
+      "prompt": "The counselor that the inspectors can see",
+      "ids": [
+        151643,
+        785,
+        61375,
+        429,
+        279,
+        68830,
+        646,
+        1490
+      ],
+      "donor": "LC_007_1_1"
+    },
+    {
+      "id": "LC_007_1_0",
+      "block": 7,
+      "split": "TEST",
+      "frame": 1,
+      "S": 1,
+      "A": 0,
+      "prompt": "The counselors that the inspector can see",
+      "ids": [
+        151643,
+        785,
+        85247,
+        429,
+        279,
+        44725,
+        646,
+        1490
+      ],
+      "donor": "LC_007_0_0"
+    },
+    {
+      "id": "LC_007_1_1",
+      "block": 7,
+      "split": "TEST",
+      "frame": 1,
+      "S": 1,
+      "A": 1,
+      "prompt": "The counselors that the inspectors can see",
+      "ids": [
+        151643,
+        785,
+        85247,
+        429,
+        279,
+        68830,
+        646,
+        1490
+      ],
+      "donor": "LC_007_0_1"
+    },
+    {
+      "id": "LC_008_0_0",
+      "block": 8,
+      "split": "TEST",
+      "frame": 1,
+      "S": 0,
+      "A": 0,
+      "prompt": "The geologist that the interpreter can see",
+      "ids": [
+        151643,
+        785,
+        3893,
+        16155,
+        429,
+        279,
+        39299,
+        646,
+        1490
+      ],
+      "donor": "LC_008_1_0"
+    },
+    {
+      "id": "LC_008_0_1",
+      "block": 8,
+      "split": "TEST",
+      "frame": 1,
+      "S": 0,
+      "A": 1,
+      "prompt": "The geologist that the interpreters can see",
+      "ids": [
+        151643,
+        785,
+        3893,
+        16155,
+        429,
+        279,
+        17929,
+        5045,
+        646,
+        1490
+      ],
+      "donor": "LC_008_1_1"
+    },
+    {
+      "id": "LC_008_1_0",
+      "block": 8,
+      "split": "TEST",
+      "frame": 1,
+      "S": 1,
+      "A": 0,
+      "prompt": "The geologists that the interpreter can see",
+      "ids": [
+        151643,
+        785,
+        3893,
+        21306,
+        429,
+        279,
+        39299,
+        646,
+        1490
+      ],
+      "donor": "LC_008_0_0"
+    },
+    {
+      "id": "LC_008_1_1",
+      "block": 8,
+      "split": "TEST",
+      "frame": 1,
+      "S": 1,
+      "A": 1,
+      "prompt": "The geologists that the interpreters can see",
+      "ids": [
+        151643,
+        785,
+        3893,
+        21306,
+        429,
+        279,
+        17929,
+        5045,
+        646,
+        1490
+      ],
+      "donor": "LC_008_0_1"
+    },
+    {
+      "id": "LC_009_0_0",
+      "block": 9,
+      "split": "TEST",
+      "frame": 1,
+      "S": 0,
+      "A": 0,
+      "prompt": "The mason that the welder can see",
+      "ids": [
+        151643,
+        785,
+        296,
+        1497,
+        429,
+        279,
+        32766,
+        261,
+        646,
+        1490
+      ],
+      "donor": "LC_009_1_0"
+    },
+    {
+      "id": "LC_009_0_1",
+      "block": 9,
+      "split": "TEST",
+      "frame": 1,
+      "S": 0,
+      "A": 1,
+      "prompt": "The mason that the welders can see",
+      "ids": [
+        151643,
+        785,
+        296,
+        1497,
+        429,
+        279,
+        32766,
+        388,
+        646,
+        1490
+      ],
+      "donor": "LC_009_1_1"
+    },
+    {
+      "id": "LC_009_1_0",
+      "block": 9,
+      "split": "TEST",
+      "frame": 1,
+      "S": 1,
+      "A": 0,
+      "prompt": "The masons that the welder can see",
+      "ids": [
+        151643,
+        785,
+        296,
+        98849,
+        429,
+        279,
+        32766,
+        261,
+        646,
+        1490
+      ],
+      "donor": "LC_009_0_0"
+    },
+    {
+      "id": "LC_009_1_1",
+      "block": 9,
+      "split": "TEST",
+      "frame": 1,
+      "S": 1,
+      "A": 1,
+      "prompt": "The masons that the welders can see",
+      "ids": [
+        151643,
+        785,
+        296,
+        98849,
+        429,
+        279,
+        32766,
+        388,
+        646,
+        1490
+      ],
+      "donor": "LC_009_0_1"
+    },
+    {
+      "id": "LC_010_0_0",
+      "block": 10,
+      "split": "TEST",
+      "frame": 1,
+      "S": 0,
+      "A": 0,
+      "prompt": "The guard that the hunter can see",
+      "ids": [
+        151643,
+        785,
+        7616,
+        429,
+        279,
+        39727,
+        646,
+        1490
+      ],
+      "donor": "LC_010_1_0"
+    },
+    {
+      "id": "LC_010_0_1",
+      "block": 10,
+      "split": "TEST",
+      "frame": 1,
+      "S": 0,
+      "A": 1,
+      "prompt": "The guard that the hunters can see",
+      "ids": [
+        151643,
+        785,
+        7616,
+        429,
+        279,
+        47973,
+        646,
+        1490
+      ],
+      "donor": "LC_010_1_1"
+    },
+    {
+      "id": "LC_010_1_0",
+      "block": 10,
+      "split": "TEST",
+      "frame": 1,
+      "S": 1,
+      "A": 0,
+      "prompt": "The guards that the hunter can see",
+      "ids": [
+        151643,
+        785,
+        26178,
+        429,
+        279,
+        39727,
+        646,
+        1490
+      ],
+      "donor": "LC_010_0_0"
+    },
+    {
+      "id": "LC_010_1_1",
+      "block": 10,
+      "split": "TEST",
+      "frame": 1,
+      "S": 1,
+      "A": 1,
+      "prompt": "The guards that the hunters can see",
+      "ids": [
+        151643,
+        785,
+        26178,
+        429,
+        279,
+        47973,
+        646,
+        1490
+      ],
+      "donor": "LC_010_0_1"
+    },
+    {
+      "id": "LC_011_0_0",
+      "block": 11,
+      "split": "TEST",
+      "frame": 1,
+      "S": 0,
+      "A": 0,
+      "prompt": "The farmer that the watchmaker can see",
+      "ids": [
+        151643,
+        785,
+        36400,
+        429,
+        279,
+        3736,
+        25766,
+        646,
+        1490
+      ],
+      "donor": "LC_011_1_0"
+    },
+    {
+      "id": "LC_011_0_1",
+      "block": 11,
+      "split": "TEST",
+      "frame": 1,
+      "S": 0,
+      "A": 1,
+      "prompt": "The farmer that the watchmakers can see",
+      "ids": [
+        151643,
+        785,
+        36400,
+        429,
+        279,
+        3736,
+        19887,
+        646,
+        1490
+      ],
+      "donor": "LC_011_1_1"
+    },
+    {
+      "id": "LC_011_1_0",
+      "block": 11,
+      "split": "TEST",
+      "frame": 1,
+      "S": 1,
+      "A": 0,
+      "prompt": "The farmers that the watchmaker can see",
+      "ids": [
+        151643,
+        785,
+        20336,
+        429,
+        279,
+        3736,
+        25766,
+        646,
+        1490
+      ],
+      "donor": "LC_011_0_0"
+    },
+    {
+      "id": "LC_011_1_1",
+      "block": 11,
+      "split": "TEST",
+      "frame": 1,
+      "S": 1,
+      "A": 1,
+      "prompt": "The farmers that the watchmakers can see",
+      "ids": [
+        151643,
+        785,
+        20336,
+        429,
+        279,
+        3736,
+        19887,
+        646,
+        1490
+      ],
+      "donor": "LC_011_0_1"
+    },
+    {
+      "id": "LC_012_0_0",
+      "block": 12,
+      "split": "TEST",
+      "frame": 1,
+      "S": 0,
+      "A": 0,
+      "prompt": "The designer that the magician can see",
+      "ids": [
+        151643,
+        785,
+        14692,
+        429,
+        279,
+        89341,
+        646,
+        1490
+      ],
+      "donor": "LC_012_1_0"
+    },
+    {
+      "id": "LC_012_0_1",
+      "block": 12,
+      "split": "TEST",
+      "frame": 1,
+      "S": 0,
+      "A": 1,
+      "prompt": "The designer that the magicians can see",
+      "ids": [
+        151643,
+        785,
+        14692,
+        429,
+        279,
+        4878,
+        9621,
+        646,
+        1490
+      ],
+      "donor": "LC_012_1_1"
+    },
+    {
+      "id": "LC_012_1_0",
+      "block": 12,
+      "split": "TEST",
+      "frame": 1,
+      "S": 1,
+      "A": 0,
+      "prompt": "The designers that the magician can see",
+      "ids": [
+        151643,
+        785,
+        25812,
+        429,
+        279,
+        89341,
+        646,
+        1490
+      ],
+      "donor": "LC_012_0_0"
+    },
+    {
+      "id": "LC_012_1_1",
+      "block": 12,
+      "split": "TEST",
+      "frame": 1,
+      "S": 1,
+      "A": 1,
+      "prompt": "The designers that the magicians can see",
+      "ids": [
+        151643,
+        785,
+        25812,
+        429,
+        279,
+        4878,
+        9621,
+        646,
+        1490
+      ],
+      "donor": "LC_012_0_1"
+    },
+    {
+      "id": "LC_013_0_0",
+      "block": 13,
+      "split": "TEST",
+      "frame": 1,
+      "S": 0,
+      "A": 0,
+      "prompt": "The ranger that the secretary can see",
+      "ids": [
+        151643,
+        785,
+        78059,
+        429,
+        279,
+        19067,
+        646,
+        1490
+      ],
+      "donor": "LC_013_1_0"
+    },
+    {
+      "id": "LC_013_0_1",
+      "block": 13,
+      "split": "TEST",
+      "frame": 1,
+      "S": 0,
+      "A": 1,
+      "prompt": "The ranger that the secretaries can see",
+      "ids": [
+        151643,
+        785,
+        78059,
+        429,
+        279,
+        6234,
+        5431,
+        646,
+        1490
+      ],
+      "donor": "LC_013_1_1"
+    },
+    {
+      "id": "LC_013_1_0",
+      "block": 13,
+      "split": "TEST",
+      "frame": 1,
+      "S": 1,
+      "A": 0,
+      "prompt": "The rangers that the secretary can see",
+      "ids": [
+        151643,
+        785,
+        435,
+        14052,
+        429,
+        279,
+        19067,
+        646,
+        1490
+      ],
+      "donor": "LC_013_0_0"
+    },
+    {
+      "id": "LC_013_1_1",
+      "block": 13,
+      "split": "TEST",
+      "frame": 1,
+      "S": 1,
+      "A": 1,
+      "prompt": "The rangers that the secretaries can see",
+      "ids": [
+        151643,
+        785,
+        435,
+        14052,
+        429,
+        279,
+        6234,
+        5431,
+        646,
+        1490
+      ],
+      "donor": "LC_013_0_1"
+    },
+    {
+      "id": "LC_014_0_0",
+      "block": 14,
+      "split": "TEST",
+      "frame": 1,
+      "S": 0,
+      "A": 0,
+      "prompt": "The baker that the geologist can see",
+      "ids": [
+        151643,
+        785,
+        75828,
+        429,
+        279,
+        3893,
+        16155,
+        646,
+        1490
+      ],
+      "donor": "LC_014_1_0"
+    },
+    {
+      "id": "LC_014_0_1",
+      "block": 14,
+      "split": "TEST",
+      "frame": 1,
+      "S": 0,
+      "A": 1,
+      "prompt": "The baker that the geologists can see",
+      "ids": [
+        151643,
+        785,
+        75828,
+        429,
+        279,
+        3893,
+        21306,
+        646,
+        1490
+      ],
+      "donor": "LC_014_1_1"
+    },
+    {
+      "id": "LC_014_1_0",
+      "block": 14,
+      "split": "TEST",
+      "frame": 1,
+      "S": 1,
+      "A": 0,
+      "prompt": "The bakers that the geologist can see",
+      "ids": [
+        151643,
+        785,
+        293,
+        8312,
+        429,
+        279,
+        3893,
+        16155,
+        646,
+        1490
+      ],
+      "donor": "LC_014_0_0"
+    },
+    {
+      "id": "LC_014_1_1",
+      "block": 14,
+      "split": "TEST",
+      "frame": 1,
+      "S": 1,
+      "A": 1,
+      "prompt": "The bakers that the geologists can see",
+      "ids": [
+        151643,
+        785,
+        293,
+        8312,
+        429,
+        279,
+        3893,
+        21306,
+        646,
+        1490
+      ],
+      "donor": "LC_014_0_1"
+    },
+    {
+      "id": "LC_015_0_0",
+      "block": 15,
+      "split": "TEST",
+      "frame": 1,
+      "S": 0,
+      "A": 0,
+      "prompt": "The firefighter that the photographer can see",
+      "ids": [
+        151643,
+        785,
+        94165,
+        429,
+        279,
+        28767,
+        646,
+        1490
+      ],
+      "donor": "LC_015_1_0"
+    },
+    {
+      "id": "LC_015_0_1",
+      "block": 15,
+      "split": "TEST",
+      "frame": 1,
+      "S": 0,
+      "A": 1,
+      "prompt": "The firefighter that the photographers can see",
+      "ids": [
+        151643,
+        785,
+        94165,
+        429,
+        279,
+        47177,
+        646,
+        1490
+      ],
+      "donor": "LC_015_1_1"
+    },
+    {
+      "id": "LC_015_1_0",
+      "block": 15,
+      "split": "TEST",
+      "frame": 1,
+      "S": 1,
+      "A": 0,
+      "prompt": "The firefighters that the photographer can see",
+      "ids": [
+        151643,
+        785,
+        52106,
+        429,
+        279,
+        28767,
+        646,
+        1490
+      ],
+      "donor": "LC_015_0_0"
+    },
+    {
+      "id": "LC_015_1_1",
+      "block": 15,
+      "split": "TEST",
+      "frame": 1,
+      "S": 1,
+      "A": 1,
+      "prompt": "The firefighters that the photographers can see",
+      "ids": [
+        151643,
+        785,
+        52106,
+        429,
+        279,
+        47177,
+        646,
+        1490
+      ],
+      "donor": "LC_015_0_1"
+    },
+    {
+      "id": "LC_016_0_0",
+      "block": 16,
+      "split": "TEST",
+      "frame": 1,
+      "S": 0,
+      "A": 0,
+      "prompt": "The conductor that the director can see",
+      "ids": [
+        151643,
+        785,
+        60756,
+        429,
+        279,
+        7538,
+        646,
+        1490
+      ],
+      "donor": "LC_016_1_0"
+    },
+    {
+      "id": "LC_016_0_1",
+      "block": 16,
+      "split": "TEST",
+      "frame": 1,
+      "S": 0,
+      "A": 1,
+      "prompt": "The conductor that the directors can see",
+      "ids": [
+        151643,
+        785,
+        60756,
+        429,
+        279,
+        27354,
+        646,
+        1490
+      ],
+      "donor": "LC_016_1_1"
+    },
+    {
+      "id": "LC_016_1_0",
+      "block": 16,
+      "split": "TEST",
+      "frame": 1,
+      "S": 1,
+      "A": 0,
+      "prompt": "The conductors that the director can see",
+      "ids": [
+        151643,
+        785,
+        6786,
+        1087,
+        429,
+        279,
+        7538,
+        646,
+        1490
+      ],
+      "donor": "LC_016_0_0"
+    },
+    {
+      "id": "LC_016_1_1",
+      "block": 16,
+      "split": "TEST",
+      "frame": 1,
+      "S": 1,
+      "A": 1,
+      "prompt": "The conductors that the directors can see",
+      "ids": [
+        151643,
+        785,
+        6786,
+        1087,
+        429,
+        279,
+        27354,
+        646,
+        1490
+      ],
+      "donor": "LC_016_0_1"
+    },
+    {
+      "id": "LC_017_0_0",
+      "block": 17,
+      "split": "TEST",
+      "frame": 1,
+      "S": 0,
+      "A": 0,
+      "prompt": "The doctor that the weaver can see",
+      "ids": [
+        151643,
+        785,
+        10668,
+        429,
+        279,
+        582,
+        7255,
+        646,
+        1490
+      ],
+      "donor": "LC_017_1_0"
+    },
+    {
+      "id": "LC_017_0_1",
+      "block": 17,
+      "split": "TEST",
+      "frame": 1,
+      "S": 0,
+      "A": 1,
+      "prompt": "The doctor that the weavers can see",
+      "ids": [
+        151643,
+        785,
+        10668,
+        429,
+        279,
+        582,
+        21565,
+        646,
+        1490
+      ],
+      "donor": "LC_017_1_1"
+    },
+    {
+      "id": "LC_017_1_0",
+      "block": 17,
+      "split": "TEST",
+      "frame": 1,
+      "S": 1,
+      "A": 0,
+      "prompt": "The doctors that the weaver can see",
+      "ids": [
+        151643,
+        785,
+        16026,
+        429,
+        279,
+        582,
+        7255,
+        646,
+        1490
+      ],
+      "donor": "LC_017_0_0"
+    },
+    {
+      "id": "LC_017_1_1",
+      "block": 17,
+      "split": "TEST",
+      "frame": 1,
+      "S": 1,
+      "A": 1,
+      "prompt": "The doctors that the weavers can see",
+      "ids": [
+        151643,
+        785,
+        16026,
+        429,
+        279,
+        582,
+        21565,
+        646,
+        1490
+      ],
+      "donor": "LC_017_0_1"
+    },
+    {
+      "id": "LC_018_0_0",
+      "block": 18,
+      "split": "TEST",
+      "frame": 1,
+      "S": 0,
+      "A": 0,
+      "prompt": "The dancer that the porter can see",
+      "ids": [
+        151643,
+        785,
+        63582,
+        429,
+        279,
+        87186,
+        646,
+        1490
+      ],
+      "donor": "LC_018_1_0"
+    },
+    {
+      "id": "LC_018_0_1",
+      "block": 18,
+      "split": "TEST",
+      "frame": 1,
+      "S": 0,
+      "A": 1,
+      "prompt": "The dancer that the porters can see",
+      "ids": [
+        151643,
+        785,
+        63582,
+        429,
+        279,
+        2635,
+        388,
+        646,
+        1490
+      ],
+      "donor": "LC_018_1_1"
+    },
+    {
+      "id": "LC_018_1_0",
+      "block": 18,
+      "split": "TEST",
+      "frame": 1,
+      "S": 1,
+      "A": 0,
+      "prompt": "The dancers that the porter can see",
+      "ids": [
+        151643,
+        785,
+        60483,
+        429,
+        279,
+        87186,
+        646,
+        1490
+      ],
+      "donor": "LC_018_0_0"
+    },
+    {
+      "id": "LC_018_1_1",
+      "block": 18,
+      "split": "TEST",
+      "frame": 1,
+      "S": 1,
+      "A": 1,
+      "prompt": "The dancers that the porters can see",
+      "ids": [
+        151643,
+        785,
+        60483,
+        429,
+        279,
+        2635,
+        388,
+        646,
+        1490
+      ],
+      "donor": "LC_018_0_1"
+    },
+    {
+      "id": "LC_019_0_0",
+      "block": 19,
+      "split": "TEST",
+      "frame": 1,
+      "S": 0,
+      "A": 0,
+      "prompt": "The shoemaker that the tutor can see",
+      "ids": [
+        151643,
+        785,
+        71519,
+        58675,
+        429,
+        279,
+        25302,
+        646,
+        1490
+      ],
+      "donor": "LC_019_1_0"
+    },
+    {
+      "id": "LC_019_0_1",
+      "block": 19,
+      "split": "TEST",
+      "frame": 1,
+      "S": 0,
+      "A": 1,
+      "prompt": "The shoemaker that the tutors can see",
+      "ids": [
+        151643,
+        785,
+        71519,
+        58675,
+        429,
+        279,
+        82932,
+        646,
+        1490
+      ],
+      "donor": "LC_019_1_1"
+    },
+    {
+      "id": "LC_019_1_0",
+      "block": 19,
+      "split": "TEST",
+      "frame": 1,
+      "S": 1,
+      "A": 0,
+      "prompt": "The shoemakers that the tutor can see",
+      "ids": [
+        151643,
+        785,
+        71519,
+        336,
+        8312,
+        429,
+        279,
+        25302,
+        646,
+        1490
+      ],
+      "donor": "LC_019_0_0"
+    },
+    {
+      "id": "LC_019_1_1",
+      "block": 19,
+      "split": "TEST",
+      "frame": 1,
+      "S": 1,
+      "A": 1,
+      "prompt": "The shoemakers that the tutors can see",
+      "ids": [
+        151643,
+        785,
+        71519,
+        336,
+        8312,
+        429,
+        279,
+        82932,
+        646,
+        1490
+      ],
+      "donor": "LC_019_0_1"
+    },
+    {
+      "id": "LC_020_0_0",
+      "block": 20,
+      "split": "TEST",
+      "frame": 1,
+      "S": 0,
+      "A": 0,
+      "prompt": "The counselor that the engineer can see",
+      "ids": [
+        151643,
+        785,
+        61375,
+        429,
+        279,
+        23576,
+        646,
+        1490
+      ],
+      "donor": "LC_020_1_0"
+    },
+    {
+      "id": "LC_020_0_1",
+      "block": 20,
+      "split": "TEST",
+      "frame": 1,
+      "S": 0,
+      "A": 1,
+      "prompt": "The counselor that the engineers can see",
+      "ids": [
+        151643,
+        785,
+        61375,
+        429,
+        279,
+        24198,
+        646,
+        1490
+      ],
+      "donor": "LC_020_1_1"
+    },
+    {
+      "id": "LC_020_1_0",
+      "block": 20,
+      "split": "TEST",
+      "frame": 1,
+      "S": 1,
+      "A": 0,
+      "prompt": "The counselors that the engineer can see",
+      "ids": [
+        151643,
+        785,
+        85247,
+        429,
+        279,
+        23576,
+        646,
+        1490
+      ],
+      "donor": "LC_020_0_0"
+    },
+    {
+      "id": "LC_020_1_1",
+      "block": 20,
+      "split": "TEST",
+      "frame": 1,
+      "S": 1,
+      "A": 1,
+      "prompt": "The counselors that the engineers can see",
+      "ids": [
+        151643,
+        785,
+        85247,
+        429,
+        279,
+        24198,
+        646,
+        1490
+      ],
+      "donor": "LC_020_0_1"
+    },
+    {
+      "id": "LC_021_0_0",
+      "block": 21,
+      "split": "TEST",
+      "frame": 1,
+      "S": 0,
+      "A": 0,
+      "prompt": "The guard that the historian can see",
+      "ids": [
+        151643,
+        785,
+        7616,
+        429,
+        279,
+        42968,
+        646,
+        1490
+      ],
+      "donor": "LC_021_1_0"
+    },
+    {
+      "id": "LC_021_0_1",
+      "block": 21,
+      "split": "TEST",
+      "frame": 1,
+      "S": 0,
+      "A": 1,
+      "prompt": "The guard that the historians can see",
+      "ids": [
+        151643,
+        785,
+        7616,
+        429,
+        279,
+        50701,
+        646,
+        1490
+      ],
+      "donor": "LC_021_1_1"
+    },
+    {
+      "id": "LC_021_1_0",
+      "block": 21,
+      "split": "TEST",
+      "frame": 1,
+      "S": 1,
+      "A": 0,
+      "prompt": "The guards that the historian can see",
+      "ids": [
+        151643,
+        785,
+        26178,
+        429,
+        279,
+        42968,
+        646,
+        1490
+      ],
+      "donor": "LC_021_0_0"
+    },
+    {
+      "id": "LC_021_1_1",
+      "block": 21,
+      "split": "TEST",
+      "frame": 1,
+      "S": 1,
+      "A": 1,
+      "prompt": "The guards that the historians can see",
+      "ids": [
+        151643,
+        785,
+        26178,
+        429,
+        279,
+        50701,
+        646,
+        1490
+      ],
+      "donor": "LC_021_0_1"
+    },
+    {
+      "id": "LC_022_0_0",
+      "block": 22,
+      "split": "TEST",
+      "frame": 1,
+      "S": 0,
+      "A": 0,
+      "prompt": "The florist that the interpreter can see",
+      "ids": [
+        151643,
+        785,
+        69140,
+        380,
+        429,
+        279,
+        39299,
+        646,
+        1490
+      ],
+      "donor": "LC_022_1_0"
+    },
+    {
+      "id": "LC_022_0_1",
+      "block": 22,
+      "split": "TEST",
+      "frame": 1,
+      "S": 0,
+      "A": 1,
+      "prompt": "The florist that the interpreters can see",
+      "ids": [
+        151643,
+        785,
+        69140,
+        380,
+        429,
+        279,
+        17929,
+        5045,
+        646,
+        1490
+      ],
+      "donor": "LC_022_1_1"
+    },
+    {
+      "id": "LC_022_1_0",
+      "block": 22,
+      "split": "TEST",
+      "frame": 1,
+      "S": 1,
+      "A": 0,
+      "prompt": "The florists that the interpreter can see",
+      "ids": [
+        151643,
+        785,
+        69140,
+        1671,
+        429,
+        279,
+        39299,
+        646,
+        1490
+      ],
+      "donor": "LC_022_0_0"
+    },
+    {
+      "id": "LC_022_1_1",
+      "block": 22,
+      "split": "TEST",
+      "frame": 1,
+      "S": 1,
+      "A": 1,
+      "prompt": "The florists that the interpreters can see",
+      "ids": [
+        151643,
+        785,
+        69140,
+        1671,
+        429,
+        279,
+        17929,
+        5045,
+        646,
+        1490
+      ],
+      "donor": "LC_022_0_1"
+    },
+    {
+      "id": "LC_023_0_0",
+      "block": 23,
+      "split": "TEST",
+      "frame": 1,
+      "S": 0,
+      "A": 0,
+      "prompt": "The florist that the locksmith can see",
+      "ids": [
+        151643,
+        785,
+        69140,
+        380,
+        429,
+        279,
+        97960,
+        646,
+        1490
+      ],
+      "donor": "LC_023_1_0"
+    },
+    {
+      "id": "LC_023_0_1",
+      "block": 23,
+      "split": "TEST",
+      "frame": 1,
+      "S": 0,
+      "A": 1,
+      "prompt": "The florist that the locksmiths can see",
+      "ids": [
+        151643,
+        785,
+        69140,
+        380,
+        429,
+        279,
+        97960,
+        82,
+        646,
+        1490
+      ],
+      "donor": "LC_023_1_1"
+    },
+    {
+      "id": "LC_023_1_0",
+      "block": 23,
+      "split": "TEST",
+      "frame": 1,
+      "S": 1,
+      "A": 0,
+      "prompt": "The florists that the locksmith can see",
+      "ids": [
+        151643,
+        785,
+        69140,
+        1671,
+        429,
+        279,
+        97960,
+        646,
+        1490
+      ],
+      "donor": "LC_023_0_0"
+    },
+    {
+      "id": "LC_023_1_1",
+      "block": 23,
+      "split": "TEST",
+      "frame": 1,
+      "S": 1,
+      "A": 1,
+      "prompt": "The florists that the locksmiths can see",
+      "ids": [
+        151643,
+        785,
+        69140,
+        1671,
+        429,
+        279,
+        97960,
+        82,
+        646,
+        1490
+      ],
+      "donor": "LC_023_0_1"
+    },
+    {
+      "id": "LC_024_0_0",
+      "block": 24,
+      "split": "TEST",
+      "frame": 1,
+      "S": 0,
+      "A": 0,
+      "prompt": "The collector that the painter can see",
+      "ids": [
+        151643,
+        785,
+        31953,
+        429,
+        279,
+        29481,
+        646,
+        1490
+      ],
+      "donor": "LC_024_1_0"
+    },
+    {
+      "id": "LC_024_0_1",
+      "block": 24,
+      "split": "TEST",
+      "frame": 1,
+      "S": 0,
+      "A": 1,
+      "prompt": "The collector that the painters can see",
+      "ids": [
+        151643,
+        785,
+        31953,
+        429,
+        279,
+        96853,
+        646,
+        1490
+      ],
+      "donor": "LC_024_1_1"
+    },
+    {
+      "id": "LC_024_1_0",
+      "block": 24,
+      "split": "TEST",
+      "frame": 1,
+      "S": 1,
+      "A": 0,
+      "prompt": "The collectors that the painter can see",
+      "ids": [
+        151643,
+        785,
+        51448,
+        429,
+        279,
+        29481,
+        646,
+        1490
+      ],
+      "donor": "LC_024_0_0"
+    },
+    {
+      "id": "LC_024_1_1",
+      "block": 24,
+      "split": "TEST",
+      "frame": 1,
+      "S": 1,
+      "A": 1,
+      "prompt": "The collectors that the painters can see",
+      "ids": [
+        151643,
+        785,
+        51448,
+        429,
+        279,
+        96853,
+        646,
+        1490
+      ],
+      "donor": "LC_024_0_1"
+    },
+    {
+      "id": "LC_025_0_0",
+      "block": 25,
+      "split": "TEST",
+      "frame": 1,
+      "S": 0,
+      "A": 0,
+      "prompt": "The psychologist that the researcher can see",
+      "ids": [
+        151643,
+        785,
+        53495,
+        429,
+        279,
+        31085,
+        646,
+        1490
+      ],
+      "donor": "LC_025_1_0"
+    },
+    {
+      "id": "LC_025_0_1",
+      "block": 25,
+      "split": "TEST",
+      "frame": 1,
+      "S": 0,
+      "A": 1,
+      "prompt": "The psychologist that the researchers can see",
+      "ids": [
+        151643,
+        785,
+        53495,
+        429,
+        279,
+        11811,
+        646,
+        1490
+      ],
+      "donor": "LC_025_1_1"
+    },
+    {
+      "id": "LC_025_1_0",
+      "block": 25,
+      "split": "TEST",
+      "frame": 1,
+      "S": 1,
+      "A": 0,
+      "prompt": "The psychologists that the researcher can see",
+      "ids": [
+        151643,
+        785,
+        73091,
+        429,
+        279,
+        31085,
+        646,
+        1490
+      ],
+      "donor": "LC_025_0_0"
+    },
+    {
+      "id": "LC_025_1_1",
+      "block": 25,
+      "split": "TEST",
+      "frame": 1,
+      "S": 1,
+      "A": 1,
+      "prompt": "The psychologists that the researchers can see",
+      "ids": [
+        151643,
+        785,
+        73091,
+        429,
+        279,
+        11811,
+        646,
+        1490
+      ],
+      "donor": "LC_025_0_1"
+    },
+    {
+      "id": "LC_026_0_0",
+      "block": 26,
+      "split": "TEST",
+      "frame": 1,
+      "S": 0,
+      "A": 0,
+      "prompt": "The historian that the surgeon can see",
+      "ids": [
+        151643,
+        785,
+        42968,
+        429,
+        279,
+        44998,
+        646,
+        1490
+      ],
+      "donor": "LC_026_1_0"
+    },
+    {
+      "id": "LC_026_0_1",
+      "block": 26,
+      "split": "TEST",
+      "frame": 1,
+      "S": 0,
+      "A": 1,
+      "prompt": "The historian that the surgeons can see",
+      "ids": [
+        151643,
+        785,
+        42968,
+        429,
+        279,
+        73172,
+        646,
+        1490
+      ],
+      "donor": "LC_026_1_1"
+    },
+    {
+      "id": "LC_026_1_0",
+      "block": 26,
+      "split": "TEST",
+      "frame": 1,
+      "S": 1,
+      "A": 0,
+      "prompt": "The historians that the surgeon can see",
+      "ids": [
+        151643,
+        785,
+        50701,
+        429,
+        279,
+        44998,
+        646,
+        1490
+      ],
+      "donor": "LC_026_0_0"
+    },
+    {
+      "id": "LC_026_1_1",
+      "block": 26,
+      "split": "TEST",
+      "frame": 1,
+      "S": 1,
+      "A": 1,
+      "prompt": "The historians that the surgeons can see",
+      "ids": [
+        151643,
+        785,
+        50701,
+        429,
+        279,
+        73172,
+        646,
+        1490
+      ],
+      "donor": "LC_026_0_1"
+    },
+    {
+      "id": "LC_027_0_0",
+      "block": 27,
+      "split": "TEST",
+      "frame": 1,
+      "S": 0,
+      "A": 0,
+      "prompt": "The cleaner that the sailor can see",
+      "ids": [
+        151643,
+        785,
+        31881,
+        429,
+        279,
+        92537,
+        646,
+        1490
+      ],
+      "donor": "LC_027_1_0"
+    },
+    {
+      "id": "LC_027_0_1",
+      "block": 27,
+      "split": "TEST",
+      "frame": 1,
+      "S": 0,
+      "A": 1,
+      "prompt": "The cleaner that the sailors can see",
+      "ids": [
+        151643,
+        785,
+        31881,
+        429,
+        279,
+        68838,
+        646,
+        1490
+      ],
+      "donor": "LC_027_1_1"
+    },
+    {
+      "id": "LC_027_1_0",
+      "block": 27,
+      "split": "TEST",
+      "frame": 1,
+      "S": 1,
+      "A": 0,
+      "prompt": "The cleaners that the sailor can see",
+      "ids": [
+        151643,
+        785,
+        74865,
+        429,
+        279,
+        92537,
+        646,
+        1490
+      ],
+      "donor": "LC_027_0_0"
+    },
+    {
+      "id": "LC_027_1_1",
+      "block": 27,
+      "split": "TEST",
+      "frame": 1,
+      "S": 1,
+      "A": 1,
+      "prompt": "The cleaners that the sailors can see",
+      "ids": [
+        151643,
+        785,
+        74865,
+        429,
+        279,
+        68838,
+        646,
+        1490
+      ],
+      "donor": "LC_027_0_1"
+    },
+    {
+      "id": "LC_028_0_0",
+      "block": 28,
+      "split": "TEST",
+      "frame": 1,
+      "S": 0,
+      "A": 0,
+      "prompt": "The accountant that the novelist can see",
+      "ids": [
+        151643,
+        785,
+        74921,
+        429,
+        279,
+        80647,
+        646,
+        1490
+      ],
+      "donor": "LC_028_1_0"
+    },
+    {
+      "id": "LC_028_0_1",
+      "block": 28,
+      "split": "TEST",
+      "frame": 1,
+      "S": 0,
+      "A": 1,
+      "prompt": "The accountant that the novelists can see",
+      "ids": [
+        151643,
+        785,
+        74921,
+        429,
+        279,
+        11514,
+        1671,
+        646,
+        1490
+      ],
+      "donor": "LC_028_1_1"
+    },
+    {
+      "id": "LC_028_1_0",
+      "block": 28,
+      "split": "TEST",
+      "frame": 1,
+      "S": 1,
+      "A": 0,
+      "prompt": "The accountants that the novelist can see",
+      "ids": [
+        151643,
+        785,
+        2692,
+        1783,
+        429,
+        279,
+        80647,
+        646,
+        1490
+      ],
+      "donor": "LC_028_0_0"
+    },
+    {
+      "id": "LC_028_1_1",
+      "block": 28,
+      "split": "TEST",
+      "frame": 1,
+      "S": 1,
+      "A": 1,
+      "prompt": "The accountants that the novelists can see",
+      "ids": [
+        151643,
+        785,
+        2692,
+        1783,
+        429,
+        279,
+        11514,
+        1671,
+        646,
+        1490
+      ],
+      "donor": "LC_028_0_1"
+    },
+    {
+      "id": "LC_029_0_0",
+      "block": 29,
+      "split": "TEST",
+      "frame": 1,
+      "S": 0,
+      "A": 0,
+      "prompt": "The interpreter that the painter can see",
+      "ids": [
+        151643,
+        785,
+        39299,
+        429,
+        279,
+        29481,
+        646,
+        1490
+      ],
+      "donor": "LC_029_1_0"
+    },
+    {
+      "id": "LC_029_0_1",
+      "block": 29,
+      "split": "TEST",
+      "frame": 1,
+      "S": 0,
+      "A": 1,
+      "prompt": "The interpreter that the painters can see",
+      "ids": [
+        151643,
+        785,
+        39299,
+        429,
+        279,
+        96853,
+        646,
+        1490
+      ],
+      "donor": "LC_029_1_1"
+    },
+    {
+      "id": "LC_029_1_0",
+      "block": 29,
+      "split": "TEST",
+      "frame": 1,
+      "S": 1,
+      "A": 0,
+      "prompt": "The interpreters that the painter can see",
+      "ids": [
+        151643,
+        785,
+        17929,
+        5045,
+        429,
+        279,
+        29481,
+        646,
+        1490
+      ],
+      "donor": "LC_029_0_0"
+    },
+    {
+      "id": "LC_029_1_1",
+      "block": 29,
+      "split": "TEST",
+      "frame": 1,
+      "S": 1,
+      "A": 1,
+      "prompt": "The interpreters that the painters can see",
+      "ids": [
+        151643,
+        785,
+        17929,
+        5045,
+        429,
+        279,
+        96853,
+        646,
+        1490
+      ],
+      "donor": "LC_029_0_1"
+    },
+    {
+      "id": "LC_030_0_0",
+      "block": 30,
+      "split": "TEST",
+      "frame": 1,
+      "S": 0,
+      "A": 0,
+      "prompt": "The pharmacist that the ranger can see",
+      "ids": [
+        151643,
+        785,
+        89294,
+        429,
+        279,
+        78059,
+        646,
+        1490
+      ],
+      "donor": "LC_030_1_0"
+    },
+    {
+      "id": "LC_030_0_1",
+      "block": 30,
+      "split": "TEST",
+      "frame": 1,
+      "S": 0,
+      "A": 1,
+      "prompt": "The pharmacist that the rangers can see",
+      "ids": [
+        151643,
+        785,
+        89294,
+        429,
+        279,
+        435,
+        14052,
+        646,
+        1490
+      ],
+      "donor": "LC_030_1_1"
+    },
+    {
+      "id": "LC_030_1_0",
+      "block": 30,
+      "split": "TEST",
+      "frame": 1,
+      "S": 1,
+      "A": 0,
+      "prompt": "The pharmacists that the ranger can see",
+      "ids": [
+        151643,
+        785,
+        35349,
+        1671,
+        429,
+        279,
+        78059,
+        646,
+        1490
+      ],
+      "donor": "LC_030_0_0"
+    },
+    {
+      "id": "LC_030_1_1",
+      "block": 30,
+      "split": "TEST",
+      "frame": 1,
+      "S": 1,
+      "A": 1,
+      "prompt": "The pharmacists that the rangers can see",
+      "ids": [
+        151643,
+        785,
+        35349,
+        1671,
+        429,
+        279,
+        435,
+        14052,
+        646,
+        1490
+      ],
+      "donor": "LC_030_0_1"
+    },
+    {
+      "id": "LC_031_0_0",
+      "block": 31,
+      "split": "TEST",
+      "frame": 1,
+      "S": 0,
+      "A": 0,
+      "prompt": "The astronomer that the driver can see",
+      "ids": [
+        151643,
+        785,
+        45282,
+        261,
+        429,
+        279,
+        5579,
+        646,
+        1490
+      ],
+      "donor": "LC_031_1_0"
+    },
+    {
+      "id": "LC_031_0_1",
+      "block": 31,
+      "split": "TEST",
+      "frame": 1,
+      "S": 0,
+      "A": 1,
+      "prompt": "The astronomer that the drivers can see",
+      "ids": [
+        151643,
+        785,
+        45282,
+        261,
+        429,
+        279,
+        11788,
+        646,
+        1490
+      ],
+      "donor": "LC_031_1_1"
+    },
+    {
+      "id": "LC_031_1_0",
+      "block": 31,
+      "split": "TEST",
+      "frame": 1,
+      "S": 1,
+      "A": 0,
+      "prompt": "The astronomers that the driver can see",
+      "ids": [
+        151643,
+        785,
+        86787,
+        429,
+        279,
+        5579,
+        646,
+        1490
+      ],
+      "donor": "LC_031_0_0"
+    },
+    {
+      "id": "LC_031_1_1",
+      "block": 31,
+      "split": "TEST",
+      "frame": 1,
+      "S": 1,
+      "A": 1,
+      "prompt": "The astronomers that the drivers can see",
+      "ids": [
+        151643,
+        785,
+        86787,
+        429,
+        279,
+        11788,
+        646,
+        1490
+      ],
+      "donor": "LC_031_0_1"
+    },
+    {
+      "id": "LC_032_0_0",
+      "block": 32,
+      "split": "TEST",
+      "frame": 1,
+      "S": 0,
+      "A": 0,
+      "prompt": "The astronomer that the clerk can see",
+      "ids": [
+        151643,
+        785,
+        45282,
+        261,
+        429,
+        279,
+        44257,
+        646,
+        1490
+      ],
+      "donor": "LC_032_1_0"
+    },
+    {
+      "id": "LC_032_0_1",
+      "block": 32,
+      "split": "TEST",
+      "frame": 1,
+      "S": 0,
+      "A": 1,
+      "prompt": "The astronomer that the clerks can see",
+      "ids": [
+        151643,
+        785,
+        45282,
+        261,
+        429,
+        279,
+        56360,
+        2787,
+        646,
+        1490
+      ],
+      "donor": "LC_032_1_1"
+    },
+    {
+      "id": "LC_032_1_0",
+      "block": 32,
+      "split": "TEST",
+      "frame": 1,
+      "S": 1,
+      "A": 0,
+      "prompt": "The astronomers that the clerk can see",
+      "ids": [
+        151643,
+        785,
+        86787,
+        429,
+        279,
+        44257,
+        646,
+        1490
+      ],
+      "donor": "LC_032_0_0"
+    },
+    {
+      "id": "LC_032_1_1",
+      "block": 32,
+      "split": "TEST",
+      "frame": 1,
+      "S": 1,
+      "A": 1,
+      "prompt": "The astronomers that the clerks can see",
+      "ids": [
+        151643,
+        785,
+        86787,
+        429,
+        279,
+        56360,
+        2787,
+        646,
+        1490
+      ],
+      "donor": "LC_032_0_1"
+    },
+    {
+      "id": "LC_033_0_0",
+      "block": 33,
+      "split": "TEST",
+      "frame": 1,
+      "S": 0,
+      "A": 0,
+      "prompt": "The inspector that the lawyer can see",
+      "ids": [
+        151643,
+        785,
+        44725,
+        429,
+        279,
+        15417,
+        646,
+        1490
+      ],
+      "donor": "LC_033_1_0"
+    },
+    {
+      "id": "LC_033_0_1",
+      "block": 33,
+      "split": "TEST",
+      "frame": 1,
+      "S": 0,
+      "A": 1,
+      "prompt": "The inspector that the lawyers can see",
+      "ids": [
+        151643,
+        785,
+        44725,
+        429,
+        279,
+        21177,
+        646,
+        1490
+      ],
+      "donor": "LC_033_1_1"
+    },
+    {
+      "id": "LC_033_1_0",
+      "block": 33,
+      "split": "TEST",
+      "frame": 1,
+      "S": 1,
+      "A": 0,
+      "prompt": "The inspectors that the lawyer can see",
+      "ids": [
+        151643,
+        785,
+        68830,
+        429,
+        279,
+        15417,
+        646,
+        1490
+      ],
+      "donor": "LC_033_0_0"
+    },
+    {
+      "id": "LC_033_1_1",
+      "block": 33,
+      "split": "TEST",
+      "frame": 1,
+      "S": 1,
+      "A": 1,
+      "prompt": "The inspectors that the lawyers can see",
+      "ids": [
+        151643,
+        785,
+        68830,
+        429,
+        279,
+        21177,
+        646,
+        1490
+      ],
+      "donor": "LC_033_0_1"
+    },
+    {
+      "id": "LC_034_0_0",
+      "block": 34,
+      "split": "TEST",
+      "frame": 1,
+      "S": 0,
+      "A": 0,
+      "prompt": "The geologist that the inventor can see",
+      "ids": [
+        151643,
+        785,
+        3893,
+        16155,
+        429,
+        279,
+        70901,
+        646,
+        1490
+      ],
+      "donor": "LC_034_1_0"
+    },
+    {
+      "id": "LC_034_0_1",
+      "block": 34,
+      "split": "TEST",
+      "frame": 1,
+      "S": 0,
+      "A": 1,
+      "prompt": "The geologist that the inventors can see",
+      "ids": [
+        151643,
+        785,
+        3893,
+        16155,
+        429,
+        279,
+        17023,
+        1087,
+        646,
+        1490
+      ],
+      "donor": "LC_034_1_1"
+    },
+    {
+      "id": "LC_034_1_0",
+      "block": 34,
+      "split": "TEST",
+      "frame": 1,
+      "S": 1,
+      "A": 0,
+      "prompt": "The geologists that the inventor can see",
+      "ids": [
+        151643,
+        785,
+        3893,
+        21306,
+        429,
+        279,
+        70901,
+        646,
+        1490
+      ],
+      "donor": "LC_034_0_0"
+    },
+    {
+      "id": "LC_034_1_1",
+      "block": 34,
+      "split": "TEST",
+      "frame": 1,
+      "S": 1,
+      "A": 1,
+      "prompt": "The geologists that the inventors can see",
+      "ids": [
+        151643,
+        785,
+        3893,
+        21306,
+        429,
+        279,
+        17023,
+        1087,
+        646,
+        1490
+      ],
+      "donor": "LC_034_0_1"
+    },
+    {
+      "id": "LC_035_0_0",
+      "block": 35,
+      "split": "TEST",
+      "frame": 1,
+      "S": 0,
+      "A": 0,
+      "prompt": "The guard that the teacher can see",
+      "ids": [
+        151643,
+        785,
+        7616,
+        429,
+        279,
+        11079,
+        646,
+        1490
+      ],
+      "donor": "LC_035_1_0"
+    },
+    {
+      "id": "LC_035_0_1",
+      "block": 35,
+      "split": "TEST",
+      "frame": 1,
+      "S": 0,
+      "A": 1,
+      "prompt": "The guard that the teachers can see",
+      "ids": [
+        151643,
+        785,
+        7616,
+        429,
+        279,
+        13336,
+        646,
+        1490
+      ],
+      "donor": "LC_035_1_1"
+    },
+    {
+      "id": "LC_035_1_0",
+      "block": 35,
+      "split": "TEST",
+      "frame": 1,
+      "S": 1,
+      "A": 0,
+      "prompt": "The guards that the teacher can see",
+      "ids": [
+        151643,
+        785,
+        26178,
+        429,
+        279,
+        11079,
+        646,
+        1490
+      ],
+      "donor": "LC_035_0_0"
+    },
+    {
+      "id": "LC_035_1_1",
+      "block": 35,
+      "split": "TEST",
+      "frame": 1,
+      "S": 1,
+      "A": 1,
+      "prompt": "The guards that the teachers can see",
+      "ids": [
+        151643,
+        785,
+        26178,
+        429,
+        279,
+        13336,
+        646,
+        1490
+      ],
+      "donor": "LC_035_0_1"
+    },
+    {
+      "id": "LC_036_0_0",
+      "block": 36,
+      "split": "TEST",
+      "frame": 1,
+      "S": 0,
+      "A": 0,
+      "prompt": "The plumber that the watchmaker can see",
+      "ids": [
+        151643,
+        785,
+        88586,
+        429,
+        279,
+        3736,
+        25766,
+        646,
+        1490
+      ],
+      "donor": "LC_036_1_0"
+    },
+    {
+      "id": "LC_036_0_1",
+      "block": 36,
+      "split": "TEST",
+      "frame": 1,
+      "S": 0,
+      "A": 1,
+      "prompt": "The plumber that the watchmakers can see",
+      "ids": [
+        151643,
+        785,
+        88586,
+        429,
+        279,
+        3736,
+        19887,
+        646,
+        1490
+      ],
+      "donor": "LC_036_1_1"
+    },
+    {
+      "id": "LC_036_1_0",
+      "block": 36,
+      "split": "TEST",
+      "frame": 1,
+      "S": 1,
+      "A": 0,
+      "prompt": "The plumbers that the watchmaker can see",
+      "ids": [
+        151643,
+        785,
+        41172,
+        1902,
+        429,
+        279,
+        3736,
+        25766,
+        646,
+        1490
+      ],
+      "donor": "LC_036_0_0"
+    },
+    {
+      "id": "LC_036_1_1",
+      "block": 36,
+      "split": "TEST",
+      "frame": 1,
+      "S": 1,
+      "A": 1,
+      "prompt": "The plumbers that the watchmakers can see",
+      "ids": [
+        151643,
+        785,
+        41172,
+        1902,
+        429,
+        279,
+        3736,
+        19887,
+        646,
+        1490
+      ],
+      "donor": "LC_036_0_1"
+    },
+    {
+      "id": "LC_037_0_0",
+      "block": 37,
+      "split": "TEST",
+      "frame": 1,
+      "S": 0,
+      "A": 0,
+      "prompt": "The chemist that the physicist can see",
+      "ids": [
+        151643,
+        785,
+        8424,
+        380,
+        429,
+        279,
+        82223,
+        646,
+        1490
+      ],
+      "donor": "LC_037_1_0"
+    },
+    {
+      "id": "LC_037_0_1",
+      "block": 37,
+      "split": "TEST",
+      "frame": 1,
+      "S": 0,
+      "A": 1,
+      "prompt": "The chemist that the physicists can see",
+      "ids": [
+        151643,
+        785,
+        8424,
+        380,
+        429,
+        279,
+        97317,
+        646,
+        1490
+      ],
+      "donor": "LC_037_1_1"
+    },
+    {
+      "id": "LC_037_1_0",
+      "block": 37,
+      "split": "TEST",
+      "frame": 1,
+      "S": 1,
+      "A": 0,
+      "prompt": "The chemists that the physicist can see",
+      "ids": [
+        151643,
+        785,
+        8424,
+        1671,
+        429,
+        279,
+        82223,
+        646,
+        1490
+      ],
+      "donor": "LC_037_0_0"
+    },
+    {
+      "id": "LC_037_1_1",
+      "block": 37,
+      "split": "TEST",
+      "frame": 1,
+      "S": 1,
+      "A": 1,
+      "prompt": "The chemists that the physicists can see",
+      "ids": [
+        151643,
+        785,
+        8424,
+        1671,
+        429,
+        279,
+        97317,
+        646,
+        1490
+      ],
+      "donor": "LC_037_0_1"
+    },
+    {
+      "id": "LC_038_0_0",
+      "block": 38,
+      "split": "TEST",
+      "frame": 1,
+      "S": 0,
+      "A": 0,
+      "prompt": "The artist that the mechanic can see",
+      "ids": [
+        151643,
+        785,
+        10049,
+        429,
+        279,
+        44139,
+        646,
+        1490
+      ],
+      "donor": "LC_038_1_0"
+    },
+    {
+      "id": "LC_038_0_1",
+      "block": 38,
+      "split": "TEST",
+      "frame": 1,
+      "S": 0,
+      "A": 1,
+      "prompt": "The artist that the mechanics can see",
+      "ids": [
+        151643,
+        785,
+        10049,
+        429,
+        279,
+        29026,
+        646,
+        1490
+      ],
+      "donor": "LC_038_1_1"
+    },
+    {
+      "id": "LC_038_1_0",
+      "block": 38,
+      "split": "TEST",
+      "frame": 1,
+      "S": 1,
+      "A": 0,
+      "prompt": "The artists that the mechanic can see",
+      "ids": [
+        151643,
+        785,
+        13511,
+        429,
+        279,
+        44139,
+        646,
+        1490
+      ],
+      "donor": "LC_038_0_0"
+    },
+    {
+      "id": "LC_038_1_1",
+      "block": 38,
+      "split": "TEST",
+      "frame": 1,
+      "S": 1,
+      "A": 1,
+      "prompt": "The artists that the mechanics can see",
+      "ids": [
+        151643,
+        785,
+        13511,
+        429,
+        279,
+        29026,
+        646,
+        1490
+      ],
+      "donor": "LC_038_0_1"
+    },
+    {
+      "id": "LC_039_0_0",
+      "block": 39,
+      "split": "TEST",
+      "frame": 1,
+      "S": 0,
+      "A": 0,
+      "prompt": "The composer that the tailor can see",
+      "ids": [
+        151643,
+        785,
+        39450,
+        429,
+        279,
+        50956,
+        646,
+        1490
+      ],
+      "donor": "LC_039_1_0"
+    },
+    {
+      "id": "LC_039_0_1",
+      "block": 39,
+      "split": "TEST",
+      "frame": 1,
+      "S": 0,
+      "A": 1,
+      "prompt": "The composer that the tailors can see",
+      "ids": [
+        151643,
+        785,
+        39450,
+        429,
+        279,
+        9787,
+        1087,
+        646,
+        1490
+      ],
+      "donor": "LC_039_1_1"
+    },
+    {
+      "id": "LC_039_1_0",
+      "block": 39,
+      "split": "TEST",
+      "frame": 1,
+      "S": 1,
+      "A": 0,
+      "prompt": "The composers that the tailor can see",
+      "ids": [
+        151643,
+        785,
+        94735,
+        429,
+        279,
+        50956,
+        646,
+        1490
+      ],
+      "donor": "LC_039_0_0"
+    },
+    {
+      "id": "LC_039_1_1",
+      "block": 39,
+      "split": "TEST",
+      "frame": 1,
+      "S": 1,
+      "A": 1,
+      "prompt": "The composers that the tailors can see",
+      "ids": [
+        151643,
+        785,
+        94735,
+        429,
+        279,
+        9787,
+        1087,
+        646,
+        1490
+      ],
+      "donor": "LC_039_0_1"
+    },
+    {
+      "id": "LC_040_0_0",
+      "block": 40,
+      "split": "TEST",
+      "frame": 1,
+      "S": 0,
+      "A": 0,
+      "prompt": "The decorator that the writer can see",
+      "ids": [
+        151643,
+        785,
+        50678,
+        429,
+        279,
+        6916,
+        646,
+        1490
+      ],
+      "donor": "LC_040_1_0"
+    },
+    {
+      "id": "LC_040_0_1",
+      "block": 40,
+      "split": "TEST",
+      "frame": 1,
+      "S": 0,
+      "A": 1,
+      "prompt": "The decorator that the writers can see",
+      "ids": [
+        151643,
+        785,
+        50678,
+        429,
+        279,
+        16093,
+        646,
+        1490
+      ],
+      "donor": "LC_040_1_1"
+    },
+    {
+      "id": "LC_040_1_0",
+      "block": 40,
+      "split": "TEST",
+      "frame": 1,
+      "S": 1,
+      "A": 0,
+      "prompt": "The decorators that the writer can see",
+      "ids": [
+        151643,
+        785,
+        62678,
+        429,
+        279,
+        6916,
+        646,
+        1490
+      ],
+      "donor": "LC_040_0_0"
+    },
+    {
+      "id": "LC_040_1_1",
+      "block": 40,
+      "split": "TEST",
+      "frame": 1,
+      "S": 1,
+      "A": 1,
+      "prompt": "The decorators that the writers can see",
+      "ids": [
+        151643,
+        785,
+        62678,
+        429,
+        279,
+        16093,
+        646,
+        1490
+      ],
+      "donor": "LC_040_0_1"
+    },
+    {
+      "id": "LC_041_0_0",
+      "block": 41,
+      "split": "TEST",
+      "frame": 1,
+      "S": 0,
+      "A": 0,
+      "prompt": "The professor that the tailor can see",
+      "ids": [
+        151643,
+        785,
+        14227,
+        429,
+        279,
+        50956,
+        646,
+        1490
+      ],
+      "donor": "LC_041_1_0"
+    },
+    {
+      "id": "LC_041_0_1",
+      "block": 41,
+      "split": "TEST",
+      "frame": 1,
+      "S": 0,
+      "A": 1,
+      "prompt": "The professor that the tailors can see",
+      "ids": [
+        151643,
+        785,
+        14227,
+        429,
+        279,
+        9787,
+        1087,
+        646,
+        1490
+      ],
+      "donor": "LC_041_1_1"
+    },
+    {
+      "id": "LC_041_1_0",
+      "block": 41,
+      "split": "TEST",
+      "frame": 1,
+      "S": 1,
+      "A": 0,
+      "prompt": "The professors that the tailor can see",
+      "ids": [
+        151643,
+        785,
+        44624,
+        429,
+        279,
+        50956,
+        646,
+        1490
+      ],
+      "donor": "LC_041_0_0"
+    },
+    {
+      "id": "LC_041_1_1",
+      "block": 41,
+      "split": "TEST",
+      "frame": 1,
+      "S": 1,
+      "A": 1,
+      "prompt": "The professors that the tailors can see",
+      "ids": [
+        151643,
+        785,
+        44624,
+        429,
+        279,
+        9787,
+        1087,
+        646,
+        1490
+      ],
+      "donor": "LC_041_0_1"
+    },
+    {
+      "id": "LC_042_0_0",
+      "block": 42,
+      "split": "TEST",
+      "frame": 1,
+      "S": 0,
+      "A": 0,
+      "prompt": "The carpenter that the sculptor can see",
+      "ids": [
+        151643,
+        785,
+        38639,
+        1950,
+        429,
+        279,
+        26765,
+        269,
+        646,
+        1490
+      ],
+      "donor": "LC_042_1_0"
+    },
+    {
+      "id": "LC_042_0_1",
+      "block": 42,
+      "split": "TEST",
+      "frame": 1,
+      "S": 0,
+      "A": 1,
+      "prompt": "The carpenter that the sculptors can see",
+      "ids": [
+        151643,
+        785,
+        38639,
+        1950,
+        429,
+        279,
+        26765,
+        1087,
+        646,
+        1490
+      ],
+      "donor": "LC_042_1_1"
+    },
+    {
+      "id": "LC_042_1_0",
+      "block": 42,
+      "split": "TEST",
+      "frame": 1,
+      "S": 1,
+      "A": 0,
+      "prompt": "The carpenters that the sculptor can see",
+      "ids": [
+        151643,
+        785,
+        38639,
+        306,
+        388,
+        429,
+        279,
+        26765,
+        269,
+        646,
+        1490
+      ],
+      "donor": "LC_042_0_0"
+    },
+    {
+      "id": "LC_042_1_1",
+      "block": 42,
+      "split": "TEST",
+      "frame": 1,
+      "S": 1,
+      "A": 1,
+      "prompt": "The carpenters that the sculptors can see",
+      "ids": [
+        151643,
+        785,
+        38639,
+        306,
+        388,
+        429,
+        279,
+        26765,
+        1087,
+        646,
+        1490
+      ],
+      "donor": "LC_042_0_1"
+    },
+    {
+      "id": "LC_043_0_0",
+      "block": 43,
+      "split": "TEST",
+      "frame": 1,
+      "S": 0,
+      "A": 0,
+      "prompt": "The electrician that the tutor can see",
+      "ids": [
+        151643,
+        785,
+        9072,
+        1103,
+        429,
+        279,
+        25302,
+        646,
+        1490
+      ],
+      "donor": "LC_043_1_0"
+    },
+    {
+      "id": "LC_043_0_1",
+      "block": 43,
+      "split": "TEST",
+      "frame": 1,
+      "S": 0,
+      "A": 1,
+      "prompt": "The electrician that the tutors can see",
+      "ids": [
+        151643,
+        785,
+        9072,
+        1103,
+        429,
+        279,
+        82932,
+        646,
+        1490
+      ],
+      "donor": "LC_043_1_1"
+    },
+    {
+      "id": "LC_043_1_0",
+      "block": 43,
+      "split": "TEST",
+      "frame": 1,
+      "S": 1,
+      "A": 0,
+      "prompt": "The electricians that the tutor can see",
+      "ids": [
+        151643,
+        785,
+        9072,
+        5380,
+        429,
+        279,
+        25302,
+        646,
+        1490
+      ],
+      "donor": "LC_043_0_0"
+    },
+    {
+      "id": "LC_043_1_1",
+      "block": 43,
+      "split": "TEST",
+      "frame": 1,
+      "S": 1,
+      "A": 1,
+      "prompt": "The electricians that the tutors can see",
+      "ids": [
+        151643,
+        785,
+        9072,
+        5380,
+        429,
+        279,
+        82932,
+        646,
+        1490
+      ],
+      "donor": "LC_043_0_1"
+    },
+    {
+      "id": "LC_044_0_0",
+      "block": 44,
+      "split": "TEST",
+      "frame": 1,
+      "S": 0,
+      "A": 0,
+      "prompt": "The coach that the journalist can see",
+      "ids": [
+        151643,
+        785,
+        7247,
+        429,
+        279,
+        22825,
+        646,
+        1490
+      ],
+      "donor": "LC_044_1_0"
+    },
+    {
+      "id": "LC_044_0_1",
+      "block": 44,
+      "split": "TEST",
+      "frame": 1,
+      "S": 0,
+      "A": 1,
+      "prompt": "The coach that the journalists can see",
+      "ids": [
+        151643,
+        785,
+        7247,
+        429,
+        279,
+        22532,
+        646,
+        1490
+      ],
+      "donor": "LC_044_1_1"
+    },
+    {
+      "id": "LC_044_1_0",
+      "block": 44,
+      "split": "TEST",
+      "frame": 1,
+      "S": 1,
+      "A": 0,
+      "prompt": "The coaches that the journalist can see",
+      "ids": [
+        151643,
+        785,
+        23956,
+        429,
+        279,
+        22825,
+        646,
+        1490
+      ],
+      "donor": "LC_044_0_0"
+    },
+    {
+      "id": "LC_044_1_1",
+      "block": 44,
+      "split": "TEST",
+      "frame": 1,
+      "S": 1,
+      "A": 1,
+      "prompt": "The coaches that the journalists can see",
+      "ids": [
+        151643,
+        785,
+        23956,
+        429,
+        279,
+        22532,
+        646,
+        1490
+      ],
+      "donor": "LC_044_0_1"
+    },
+    {
+      "id": "LC_045_0_0",
+      "block": 45,
+      "split": "TEST",
+      "frame": 1,
+      "S": 0,
+      "A": 0,
+      "prompt": "The farmer that the sculptor can see",
+      "ids": [
+        151643,
+        785,
+        36400,
+        429,
+        279,
+        26765,
+        269,
+        646,
+        1490
+      ],
+      "donor": "LC_045_1_0"
+    },
+    {
+      "id": "LC_045_0_1",
+      "block": 45,
+      "split": "TEST",
+      "frame": 1,
+      "S": 0,
+      "A": 1,
+      "prompt": "The farmer that the sculptors can see",
+      "ids": [
+        151643,
+        785,
+        36400,
+        429,
+        279,
+        26765,
+        1087,
+        646,
+        1490
+      ],
+      "donor": "LC_045_1_1"
+    },
+    {
+      "id": "LC_045_1_0",
+      "block": 45,
+      "split": "TEST",
+      "frame": 1,
+      "S": 1,
+      "A": 0,
+      "prompt": "The farmers that the sculptor can see",
+      "ids": [
+        151643,
+        785,
+        20336,
+        429,
+        279,
+        26765,
+        269,
+        646,
+        1490
+      ],
+      "donor": "LC_045_0_0"
+    },
+    {
+      "id": "LC_045_1_1",
+      "block": 45,
+      "split": "TEST",
+      "frame": 1,
+      "S": 1,
+      "A": 1,
+      "prompt": "The farmers that the sculptors can see",
+      "ids": [
+        151643,
+        785,
+        20336,
+        429,
+        279,
+        26765,
+        1087,
+        646,
+        1490
+      ],
+      "donor": "LC_045_0_1"
+    },
+    {
+      "id": "LC_046_0_0",
+      "block": 46,
+      "split": "TEST",
+      "frame": 1,
+      "S": 0,
+      "A": 0,
+      "prompt": "The baker that the historian can see",
+      "ids": [
+        151643,
+        785,
+        75828,
+        429,
+        279,
+        42968,
+        646,
+        1490
+      ],
+      "donor": "LC_046_1_0"
+    },
+    {
+      "id": "LC_046_0_1",
+      "block": 46,
+      "split": "TEST",
+      "frame": 1,
+      "S": 0,
+      "A": 1,
+      "prompt": "The baker that the historians can see",
+      "ids": [
+        151643,
+        785,
+        75828,
+        429,
+        279,
+        50701,
+        646,
+        1490
+      ],
+      "donor": "LC_046_1_1"
+    },
+    {
+      "id": "LC_046_1_0",
+      "block": 46,
+      "split": "TEST",
+      "frame": 1,
+      "S": 1,
+      "A": 0,
+      "prompt": "The bakers that the historian can see",
+      "ids": [
+        151643,
+        785,
+        293,
+        8312,
+        429,
+        279,
+        42968,
+        646,
+        1490
+      ],
+      "donor": "LC_046_0_0"
+    },
+    {
+      "id": "LC_046_1_1",
+      "block": 46,
+      "split": "TEST",
+      "frame": 1,
+      "S": 1,
+      "A": 1,
+      "prompt": "The bakers that the historians can see",
+      "ids": [
+        151643,
+        785,
+        293,
+        8312,
+        429,
+        279,
+        50701,
+        646,
+        1490
+      ],
+      "donor": "LC_046_0_1"
+    },
+    {
+      "id": "LC_047_0_0",
+      "block": 47,
+      "split": "TEST",
+      "frame": 1,
+      "S": 0,
+      "A": 0,
+      "prompt": "The electrician that the lecturer can see",
+      "ids": [
+        151643,
+        785,
+        9072,
+        1103,
+        429,
+        279,
+        71135,
+        646,
+        1490
+      ],
+      "donor": "LC_047_1_0"
+    },
+    {
+      "id": "LC_047_0_1",
+      "block": 47,
+      "split": "TEST",
+      "frame": 1,
+      "S": 0,
+      "A": 1,
+      "prompt": "The electrician that the lecturers can see",
+      "ids": [
+        151643,
+        785,
+        9072,
+        1103,
+        429,
+        279,
+        16513,
+        11807,
+        646,
+        1490
+      ],
+      "donor": "LC_047_1_1"
+    },
+    {
+      "id": "LC_047_1_0",
+      "block": 47,
+      "split": "TEST",
+      "frame": 1,
+      "S": 1,
+      "A": 0,
+      "prompt": "The electricians that the lecturer can see",
+      "ids": [
+        151643,
+        785,
+        9072,
+        5380,
+        429,
+        279,
+        71135,
+        646,
+        1490
+      ],
+      "donor": "LC_047_0_0"
+    },
+    {
+      "id": "LC_047_1_1",
+      "block": 47,
+      "split": "TEST",
+      "frame": 1,
+      "S": 1,
+      "A": 1,
+      "prompt": "The electricians that the lecturers can see",
+      "ids": [
+        151643,
+        785,
+        9072,
+        5380,
+        429,
+        279,
+        16513,
+        11807,
+        646,
+        1490
+      ],
+      "donor": "LC_047_0_1"
+    },
+    {
+      "id": "LC_048_0_0",
+      "block": 48,
+      "split": "TEST",
+      "frame": 1,
+      "S": 0,
+      "A": 0,
+      "prompt": "The designer that the guard can see",
+      "ids": [
+        151643,
+        785,
+        14692,
+        429,
+        279,
+        7616,
+        646,
+        1490
+      ],
+      "donor": "LC_048_1_0"
+    },
+    {
+      "id": "LC_048_0_1",
+      "block": 48,
+      "split": "TEST",
+      "frame": 1,
+      "S": 0,
+      "A": 1,
+      "prompt": "The designer that the guards can see",
+      "ids": [
+        151643,
+        785,
+        14692,
+        429,
+        279,
+        26178,
+        646,
+        1490
+      ],
+      "donor": "LC_048_1_1"
+    },
+    {
+      "id": "LC_048_1_0",
+      "block": 48,
+      "split": "TEST",
+      "frame": 1,
+      "S": 1,
+      "A": 0,
+      "prompt": "The designers that the guard can see",
+      "ids": [
+        151643,
+        785,
+        25812,
+        429,
+        279,
+        7616,
+        646,
+        1490
+      ],
+      "donor": "LC_048_0_0"
+    },
+    {
+      "id": "LC_048_1_1",
+      "block": 48,
+      "split": "TEST",
+      "frame": 1,
+      "S": 1,
+      "A": 1,
+      "prompt": "The designers that the guards can see",
+      "ids": [
+        151643,
+        785,
+        25812,
+        429,
+        279,
+        26178,
+        646,
+        1490
+      ],
+      "donor": "LC_048_0_1"
+    },
+    {
+      "id": "LC_049_0_0",
+      "block": 49,
+      "split": "TEST",
+      "frame": 1,
+      "S": 0,
+      "A": 0,
+      "prompt": "The librarian that the watchmaker can see",
+      "ids": [
+        151643,
+        785,
+        94207,
+        429,
+        279,
+        3736,
+        25766,
+        646,
+        1490
+      ],
+      "donor": "LC_049_1_0"
+    },
+    {
+      "id": "LC_049_0_1",
+      "block": 49,
+      "split": "TEST",
+      "frame": 1,
+      "S": 0,
+      "A": 1,
+      "prompt": "The librarian that the watchmakers can see",
+      "ids": [
+        151643,
+        785,
+        94207,
+        429,
+        279,
+        3736,
+        19887,
+        646,
+        1490
+      ],
+      "donor": "LC_049_1_1"
+    },
+    {
+      "id": "LC_049_1_0",
+      "block": 49,
+      "split": "TEST",
+      "frame": 1,
+      "S": 1,
+      "A": 0,
+      "prompt": "The librarians that the watchmaker can see",
+      "ids": [
+        151643,
+        785,
+        60359,
+        29527,
+        429,
+        279,
+        3736,
+        25766,
+        646,
+        1490
+      ],
+      "donor": "LC_049_0_0"
+    },
+    {
+      "id": "LC_049_1_1",
+      "block": 49,
+      "split": "TEST",
+      "frame": 1,
+      "S": 1,
+      "A": 1,
+      "prompt": "The librarians that the watchmakers can see",
+      "ids": [
+        151643,
+        785,
+        60359,
+        29527,
+        429,
+        279,
+        3736,
+        19887,
+        646,
+        1490
+      ],
+      "donor": "LC_049_0_1"
+    },
+    {
+      "id": "LC_050_0_0",
+      "block": 50,
+      "split": "TEST",
+      "frame": 1,
+      "S": 0,
+      "A": 0,
+      "prompt": "The astronomer that the director can see",
+      "ids": [
+        151643,
+        785,
+        45282,
+        261,
+        429,
+        279,
+        7538,
+        646,
+        1490
+      ],
+      "donor": "LC_050_1_0"
+    },
+    {
+      "id": "LC_050_0_1",
+      "block": 50,
+      "split": "TEST",
+      "frame": 1,
+      "S": 0,
+      "A": 1,
+      "prompt": "The astronomer that the directors can see",
+      "ids": [
+        151643,
+        785,
+        45282,
+        261,
+        429,
+        279,
+        27354,
+        646,
+        1490
+      ],
+      "donor": "LC_050_1_1"
+    },
+    {
+      "id": "LC_050_1_0",
+      "block": 50,
+      "split": "TEST",
+      "frame": 1,
+      "S": 1,
+      "A": 0,
+      "prompt": "The astronomers that the director can see",
+      "ids": [
+        151643,
+        785,
+        86787,
+        429,
+        279,
+        7538,
+        646,
+        1490
+      ],
+      "donor": "LC_050_0_0"
+    },
+    {
+      "id": "LC_050_1_1",
+      "block": 50,
+      "split": "TEST",
+      "frame": 1,
+      "S": 1,
+      "A": 1,
+      "prompt": "The astronomers that the directors can see",
+      "ids": [
+        151643,
+        785,
+        86787,
+        429,
+        279,
+        27354,
+        646,
+        1490
+      ],
+      "donor": "LC_050_0_1"
+    },
+    {
+      "id": "LC_051_0_0",
+      "block": 51,
+      "split": "TEST",
+      "frame": 1,
+      "S": 0,
+      "A": 0,
+      "prompt": "The bouncer that the engineer can see",
+      "ids": [
+        151643,
+        785,
+        293,
+        79745,
+        429,
+        279,
+        23576,
+        646,
+        1490
+      ],
+      "donor": "LC_051_1_0"
+    },
+    {
+      "id": "LC_051_0_1",
+      "block": 51,
+      "split": "TEST",
+      "frame": 1,
+      "S": 0,
+      "A": 1,
+      "prompt": "The bouncer that the engineers can see",
+      "ids": [
+        151643,
+        785,
+        293,
+        79745,
+        429,
+        279,
+        24198,
+        646,
+        1490
+      ],
+      "donor": "LC_051_1_1"
+    },
+    {
+      "id": "LC_051_1_0",
+      "block": 51,
+      "split": "TEST",
+      "frame": 1,
+      "S": 1,
+      "A": 0,
+      "prompt": "The bouncers that the engineer can see",
+      "ids": [
+        151643,
+        785,
+        293,
+        2981,
+        388,
+        429,
+        279,
+        23576,
+        646,
+        1490
+      ],
+      "donor": "LC_051_0_0"
+    },
+    {
+      "id": "LC_051_1_1",
+      "block": 51,
+      "split": "TEST",
+      "frame": 1,
+      "S": 1,
+      "A": 1,
+      "prompt": "The bouncers that the engineers can see",
+      "ids": [
+        151643,
+        785,
+        293,
+        2981,
+        388,
+        429,
+        279,
+        24198,
+        646,
+        1490
+      ],
+      "donor": "LC_051_0_1"
+    },
+    {
+      "id": "LC_052_0_0",
+      "block": 52,
+      "split": "TEST",
+      "frame": 1,
+      "S": 0,
+      "A": 0,
+      "prompt": "The butcher that the watchmaker can see",
+      "ids": [
+        151643,
+        785,
+        75094,
+        429,
+        279,
+        3736,
+        25766,
+        646,
+        1490
+      ],
+      "donor": "LC_052_1_0"
+    },
+    {
+      "id": "LC_052_0_1",
+      "block": 52,
+      "split": "TEST",
+      "frame": 1,
+      "S": 0,
+      "A": 1,
+      "prompt": "The butcher that the watchmakers can see",
+      "ids": [
+        151643,
+        785,
+        75094,
+        429,
+        279,
+        3736,
+        19887,
+        646,
+        1490
+      ],
+      "donor": "LC_052_1_1"
+    },
+    {
+      "id": "LC_052_1_0",
+      "block": 52,
+      "split": "TEST",
+      "frame": 1,
+      "S": 1,
+      "A": 0,
+      "prompt": "The butchers that the watchmaker can see",
+      "ids": [
+        151643,
+        785,
+        714,
+        98623,
+        429,
+        279,
+        3736,
+        25766,
+        646,
+        1490
+      ],
+      "donor": "LC_052_0_0"
+    },
+    {
+      "id": "LC_052_1_1",
+      "block": 52,
+      "split": "TEST",
+      "frame": 1,
+      "S": 1,
+      "A": 1,
+      "prompt": "The butchers that the watchmakers can see",
+      "ids": [
+        151643,
+        785,
+        714,
+        98623,
+        429,
+        279,
+        3736,
+        19887,
+        646,
+        1490
+      ],
+      "donor": "LC_052_0_1"
+    },
+    {
+      "id": "LC_053_0_0",
+      "block": 53,
+      "split": "TEST",
+      "frame": 1,
+      "S": 0,
+      "A": 0,
+      "prompt": "The farmer that the novelist can see",
+      "ids": [
+        151643,
+        785,
+        36400,
+        429,
+        279,
+        80647,
+        646,
+        1490
+      ],
+      "donor": "LC_053_1_0"
+    },
+    {
+      "id": "LC_053_0_1",
+      "block": 53,
+      "split": "TEST",
+      "frame": 1,
+      "S": 0,
+      "A": 1,
+      "prompt": "The farmer that the novelists can see",
+      "ids": [
+        151643,
+        785,
+        36400,
+        429,
+        279,
+        11514,
+        1671,
+        646,
+        1490
+      ],
+      "donor": "LC_053_1_1"
+    },
+    {
+      "id": "LC_053_1_0",
+      "block": 53,
+      "split": "TEST",
+      "frame": 1,
+      "S": 1,
+      "A": 0,
+      "prompt": "The farmers that the novelist can see",
+      "ids": [
+        151643,
+        785,
+        20336,
+        429,
+        279,
+        80647,
+        646,
+        1490
+      ],
+      "donor": "LC_053_0_0"
+    },
+    {
+      "id": "LC_053_1_1",
+      "block": 53,
+      "split": "TEST",
+      "frame": 1,
+      "S": 1,
+      "A": 1,
+      "prompt": "The farmers that the novelists can see",
+      "ids": [
+        151643,
+        785,
+        20336,
+        429,
+        279,
+        11514,
+        1671,
+        646,
+        1490
+      ],
+      "donor": "LC_053_0_1"
+    },
+    {
+      "id": "LC_054_0_0",
+      "block": 54,
+      "split": "TEST",
+      "frame": 1,
+      "S": 0,
+      "A": 0,
+      "prompt": "The director that the novelist can see",
+      "ids": [
+        151643,
+        785,
+        7538,
+        429,
+        279,
+        80647,
+        646,
+        1490
+      ],
+      "donor": "LC_054_1_0"
+    },
+    {
+      "id": "LC_054_0_1",
+      "block": 54,
+      "split": "TEST",
+      "frame": 1,
+      "S": 0,
+      "A": 1,
+      "prompt": "The director that the novelists can see",
+      "ids": [
+        151643,
+        785,
+        7538,
+        429,
+        279,
+        11514,
+        1671,
+        646,
+        1490
+      ],
+      "donor": "LC_054_1_1"
+    },
+    {
+      "id": "LC_054_1_0",
+      "block": 54,
+      "split": "TEST",
+      "frame": 1,
+      "S": 1,
+      "A": 0,
+      "prompt": "The directors that the novelist can see",
+      "ids": [
+        151643,
+        785,
+        27354,
+        429,
+        279,
+        80647,
+        646,
+        1490
+      ],
+      "donor": "LC_054_0_0"
+    },
+    {
+      "id": "LC_054_1_1",
+      "block": 54,
+      "split": "TEST",
+      "frame": 1,
+      "S": 1,
+      "A": 1,
+      "prompt": "The directors that the novelists can see",
+      "ids": [
+        151643,
+        785,
+        27354,
+        429,
+        279,
+        11514,
+        1671,
+        646,
+        1490
+      ],
+      "donor": "LC_054_0_1"
+    },
+    {
+      "id": "LC_055_0_0",
+      "block": 55,
+      "split": "TEST",
+      "frame": 1,
+      "S": 0,
+      "A": 0,
+      "prompt": "The carpenter that the painter can see",
+      "ids": [
+        151643,
+        785,
+        38639,
+        1950,
+        429,
+        279,
+        29481,
+        646,
+        1490
+      ],
+      "donor": "LC_055_1_0"
+    },
+    {
+      "id": "LC_055_0_1",
+      "block": 55,
+      "split": "TEST",
+      "frame": 1,
+      "S": 0,
+      "A": 1,
+      "prompt": "The carpenter that the painters can see",
+      "ids": [
+        151643,
+        785,
+        38639,
+        1950,
+        429,
+        279,
+        96853,
+        646,
+        1490
+      ],
+      "donor": "LC_055_1_1"
+    },
+    {
+      "id": "LC_055_1_0",
+      "block": 55,
+      "split": "TEST",
+      "frame": 1,
+      "S": 1,
+      "A": 0,
+      "prompt": "The carpenters that the painter can see",
+      "ids": [
+        151643,
+        785,
+        38639,
+        306,
+        388,
+        429,
+        279,
+        29481,
+        646,
+        1490
+      ],
+      "donor": "LC_055_0_0"
+    },
+    {
+      "id": "LC_055_1_1",
+      "block": 55,
+      "split": "TEST",
+      "frame": 1,
+      "S": 1,
+      "A": 1,
+      "prompt": "The carpenters that the painters can see",
+      "ids": [
+        151643,
+        785,
+        38639,
+        306,
+        388,
+        429,
+        279,
+        96853,
+        646,
+        1490
+      ],
+      "donor": "LC_055_0_1"
+    },
+    {
+      "id": "LC_056_0_0",
+      "block": 56,
+      "split": "TEST",
+      "frame": 1,
+      "S": 0,
+      "A": 0,
+      "prompt": "The astronaut that the mason can see",
+      "ids": [
+        151643,
+        785,
+        46633,
+        429,
+        279,
+        296,
+        1497,
+        646,
+        1490
+      ],
+      "donor": "LC_056_1_0"
+    },
+    {
+      "id": "LC_056_0_1",
+      "block": 56,
+      "split": "TEST",
+      "frame": 1,
+      "S": 0,
+      "A": 1,
+      "prompt": "The astronaut that the masons can see",
+      "ids": [
+        151643,
+        785,
+        46633,
+        429,
+        279,
+        296,
+        98849,
+        646,
+        1490
+      ],
+      "donor": "LC_056_1_1"
+    },
+    {
+      "id": "LC_056_1_0",
+      "block": 56,
+      "split": "TEST",
+      "frame": 1,
+      "S": 1,
+      "A": 0,
+      "prompt": "The astronauts that the mason can see",
+      "ids": [
+        151643,
+        785,
+        68422,
+        429,
+        279,
+        296,
+        1497,
+        646,
+        1490
+      ],
+      "donor": "LC_056_0_0"
+    },
+    {
+      "id": "LC_056_1_1",
+      "block": 56,
+      "split": "TEST",
+      "frame": 1,
+      "S": 1,
+      "A": 1,
+      "prompt": "The astronauts that the masons can see",
+      "ids": [
+        151643,
+        785,
+        68422,
+        429,
+        279,
+        296,
+        98849,
+        646,
+        1490
+      ],
+      "donor": "LC_056_0_1"
+    },
+    {
+      "id": "LC_057_0_0",
+      "block": 57,
+      "split": "TEST",
+      "frame": 1,
+      "S": 0,
+      "A": 0,
+      "prompt": "The courier that the historian can see",
+      "ids": [
+        151643,
+        785,
+        74517,
+        429,
+        279,
+        42968,
+        646,
+        1490
+      ],
+      "donor": "LC_057_1_0"
+    },
+    {
+      "id": "LC_057_0_1",
+      "block": 57,
+      "split": "TEST",
+      "frame": 1,
+      "S": 0,
+      "A": 1,
+      "prompt": "The courier that the historians can see",
+      "ids": [
+        151643,
+        785,
+        74517,
+        429,
+        279,
+        50701,
+        646,
+        1490
+      ],
+      "donor": "LC_057_1_1"
+    },
+    {
+      "id": "LC_057_1_0",
+      "block": 57,
+      "split": "TEST",
+      "frame": 1,
+      "S": 1,
+      "A": 0,
+      "prompt": "The couriers that the historian can see",
+      "ids": [
+        151643,
+        785,
+        2081,
+        4813,
+        429,
+        279,
+        42968,
+        646,
+        1490
+      ],
+      "donor": "LC_057_0_0"
+    },
+    {
+      "id": "LC_057_1_1",
+      "block": 57,
+      "split": "TEST",
+      "frame": 1,
+      "S": 1,
+      "A": 1,
+      "prompt": "The couriers that the historians can see",
+      "ids": [
+        151643,
+        785,
+        2081,
+        4813,
+        429,
+        279,
+        50701,
+        646,
+        1490
+      ],
+      "donor": "LC_057_0_1"
+    },
+    {
+      "id": "LC_058_0_0",
+      "block": 58,
+      "split": "TEST",
+      "frame": 1,
+      "S": 0,
+      "A": 0,
+      "prompt": "The courier that the musician can see",
+      "ids": [
+        151643,
+        785,
+        74517,
+        429,
+        279,
+        38744,
+        646,
+        1490
+      ],
+      "donor": "LC_058_1_0"
+    },
+    {
+      "id": "LC_058_0_1",
+      "block": 58,
+      "split": "TEST",
+      "frame": 1,
+      "S": 0,
+      "A": 1,
+      "prompt": "The courier that the musicians can see",
+      "ids": [
+        151643,
+        785,
+        74517,
+        429,
+        279,
+        31529,
+        646,
+        1490
+      ],
+      "donor": "LC_058_1_1"
+    },
+    {
+      "id": "LC_058_1_0",
+      "block": 58,
+      "split": "TEST",
+      "frame": 1,
+      "S": 1,
+      "A": 0,
+      "prompt": "The couriers that the musician can see",
+      "ids": [
+        151643,
+        785,
+        2081,
+        4813,
+        429,
+        279,
+        38744,
+        646,
+        1490
+      ],
+      "donor": "LC_058_0_0"
+    },
+    {
+      "id": "LC_058_1_1",
+      "block": 58,
+      "split": "TEST",
+      "frame": 1,
+      "S": 1,
+      "A": 1,
+      "prompt": "The couriers that the musicians can see",
+      "ids": [
+        151643,
+        785,
+        2081,
+        4813,
+        429,
+        279,
+        31529,
+        646,
+        1490
+      ],
+      "donor": "LC_058_0_1"
+    },
+    {
+      "id": "LC_059_0_0",
+      "block": 59,
+      "split": "TEST",
+      "frame": 1,
+      "S": 0,
+      "A": 0,
+      "prompt": "The psychologist that the soldier can see",
+      "ids": [
+        151643,
+        785,
+        53495,
+        429,
+        279,
+        26110,
+        646,
+        1490
+      ],
+      "donor": "LC_059_1_0"
+    },
+    {
+      "id": "LC_059_0_1",
+      "block": 59,
+      "split": "TEST",
+      "frame": 1,
+      "S": 0,
+      "A": 1,
+      "prompt": "The psychologist that the soldiers can see",
+      "ids": [
+        151643,
+        785,
+        53495,
+        429,
+        279,
+        14856,
+        646,
+        1490
+      ],
+      "donor": "LC_059_1_1"
+    },
+    {
+      "id": "LC_059_1_0",
+      "block": 59,
+      "split": "TEST",
+      "frame": 1,
+      "S": 1,
+      "A": 0,
+      "prompt": "The psychologists that the soldier can see",
+      "ids": [
+        151643,
+        785,
+        73091,
+        429,
+        279,
+        26110,
+        646,
+        1490
+      ],
+      "donor": "LC_059_0_0"
+    },
+    {
+      "id": "LC_059_1_1",
+      "block": 59,
+      "split": "TEST",
+      "frame": 1,
+      "S": 1,
+      "A": 1,
+      "prompt": "The psychologists that the soldiers can see",
+      "ids": [
+        151643,
+        785,
+        73091,
+        429,
+        279,
+        14856,
+        646,
+        1490
+      ],
+      "donor": "LC_059_0_1"
+    },
+    {
+      "id": "LC_060_0_0",
+      "block": 60,
+      "split": "TEST",
+      "frame": 1,
+      "S": 0,
+      "A": 0,
+      "prompt": "The gardener that the professor can see",
+      "ids": [
+        151643,
+        785,
+        21881,
+        798,
+        429,
+        279,
+        14227,
+        646,
+        1490
+      ],
+      "donor": "LC_060_1_0"
+    },
+    {
+      "id": "LC_060_0_1",
+      "block": 60,
+      "split": "TEST",
+      "frame": 1,
+      "S": 0,
+      "A": 1,
+      "prompt": "The gardener that the professors can see",
+      "ids": [
+        151643,
+        785,
+        21881,
+        798,
+        429,
+        279,
+        44624,
+        646,
+        1490
+      ],
+      "donor": "LC_060_1_1"
+    },
+    {
+      "id": "LC_060_1_0",
+      "block": 60,
+      "split": "TEST",
+      "frame": 1,
+      "S": 1,
+      "A": 0,
+      "prompt": "The gardeners that the professor can see",
+      "ids": [
+        151643,
+        785,
+        13551,
+        388,
+        429,
+        279,
+        14227,
+        646,
+        1490
+      ],
+      "donor": "LC_060_0_0"
+    },
+    {
+      "id": "LC_060_1_1",
+      "block": 60,
+      "split": "TEST",
+      "frame": 1,
+      "S": 1,
+      "A": 1,
+      "prompt": "The gardeners that the professors can see",
+      "ids": [
+        151643,
+        785,
+        13551,
+        388,
+        429,
+        279,
+        44624,
+        646,
+        1490
+      ],
+      "donor": "LC_060_0_1"
+    },
+    {
+      "id": "LC_061_0_0",
+      "block": 61,
+      "split": "TEST",
+      "frame": 1,
+      "S": 0,
+      "A": 0,
+      "prompt": "The physicist that the professor can see",
+      "ids": [
+        151643,
+        785,
+        82223,
+        429,
+        279,
+        14227,
+        646,
+        1490
+      ],
+      "donor": "LC_061_1_0"
+    },
+    {
+      "id": "LC_061_0_1",
+      "block": 61,
+      "split": "TEST",
+      "frame": 1,
+      "S": 0,
+      "A": 1,
+      "prompt": "The physicist that the professors can see",
+      "ids": [
+        151643,
+        785,
+        82223,
+        429,
+        279,
+        44624,
+        646,
+        1490
+      ],
+      "donor": "LC_061_1_1"
+    },
+    {
+      "id": "LC_061_1_0",
+      "block": 61,
+      "split": "TEST",
+      "frame": 1,
+      "S": 1,
+      "A": 0,
+      "prompt": "The physicists that the professor can see",
+      "ids": [
+        151643,
+        785,
+        97317,
+        429,
+        279,
+        14227,
+        646,
+        1490
+      ],
+      "donor": "LC_061_0_0"
+    },
+    {
+      "id": "LC_061_1_1",
+      "block": 61,
+      "split": "TEST",
+      "frame": 1,
+      "S": 1,
+      "A": 1,
+      "prompt": "The physicists that the professors can see",
+      "ids": [
+        151643,
+        785,
+        97317,
+        429,
+        279,
+        44624,
+        646,
+        1490
+      ],
+      "donor": "LC_061_0_1"
+    },
+    {
+      "id": "LC_062_0_0",
+      "block": 62,
+      "split": "TEST",
+      "frame": 1,
+      "S": 0,
+      "A": 0,
+      "prompt": "The designer that the engineer can see",
+      "ids": [
+        151643,
+        785,
+        14692,
+        429,
+        279,
+        23576,
+        646,
+        1490
+      ],
+      "donor": "LC_062_1_0"
+    },
+    {
+      "id": "LC_062_0_1",
+      "block": 62,
+      "split": "TEST",
+      "frame": 1,
+      "S": 0,
+      "A": 1,
+      "prompt": "The designer that the engineers can see",
+      "ids": [
+        151643,
+        785,
+        14692,
+        429,
+        279,
+        24198,
+        646,
+        1490
+      ],
+      "donor": "LC_062_1_1"
+    },
+    {
+      "id": "LC_062_1_0",
+      "block": 62,
+      "split": "TEST",
+      "frame": 1,
+      "S": 1,
+      "A": 0,
+      "prompt": "The designers that the engineer can see",
+      "ids": [
+        151643,
+        785,
+        25812,
+        429,
+        279,
+        23576,
+        646,
+        1490
+      ],
+      "donor": "LC_062_0_0"
+    },
+    {
+      "id": "LC_062_1_1",
+      "block": 62,
+      "split": "TEST",
+      "frame": 1,
+      "S": 1,
+      "A": 1,
+      "prompt": "The designers that the engineers can see",
+      "ids": [
+        151643,
+        785,
+        25812,
+        429,
+        279,
+        24198,
+        646,
+        1490
+      ],
+      "donor": "LC_062_0_1"
+    },
+    {
+      "id": "LC_063_0_0",
+      "block": 63,
+      "split": "TEST",
+      "frame": 1,
+      "S": 0,
+      "A": 0,
+      "prompt": "The conductor that the soldier can see",
+      "ids": [
+        151643,
+        785,
+        60756,
+        429,
+        279,
+        26110,
+        646,
+        1490
+      ],
+      "donor": "LC_063_1_0"
+    },
+    {
+      "id": "LC_063_0_1",
+      "block": 63,
+      "split": "TEST",
+      "frame": 1,
+      "S": 0,
+      "A": 1,
+      "prompt": "The conductor that the soldiers can see",
+      "ids": [
+        151643,
+        785,
+        60756,
+        429,
+        279,
+        14856,
+        646,
+        1490
+      ],
+      "donor": "LC_063_1_1"
+    },
+    {
+      "id": "LC_063_1_0",
+      "block": 63,
+      "split": "TEST",
+      "frame": 1,
+      "S": 1,
+      "A": 0,
+      "prompt": "The conductors that the soldier can see",
+      "ids": [
+        151643,
+        785,
+        6786,
+        1087,
+        429,
+        279,
+        26110,
+        646,
+        1490
+      ],
+      "donor": "LC_063_0_0"
+    },
+    {
+      "id": "LC_063_1_1",
+      "block": 63,
+      "split": "TEST",
+      "frame": 1,
+      "S": 1,
+      "A": 1,
+      "prompt": "The conductors that the soldiers can see",
+      "ids": [
+        151643,
+        785,
+        6786,
+        1087,
+        429,
+        279,
+        14856,
+        646,
+        1490
+      ],
+      "donor": "LC_063_0_1"
+    }
+  ],
+  "pairs": [
+    [
+      "blacksmith",
+      "designer"
+    ],
+    [
+      "engineer",
+      "painter"
+    ],
+    [
+      "novelist",
+      "officer"
+    ],
+    [
+      "lawyer",
+      "librarian"
+    ],
+    [
+      "translator",
+      "watchmaker"
+    ],
+    [
+      "diver",
+      "lawyer"
+    ],
+    [
+      "novelist",
+      "receptionist"
+    ],
+    [
+      "counselor",
+      "inspector"
+    ],
+    [
+      "geologist",
+      "interpreter"
+    ],
+    [
+      "mason",
+      "welder"
+    ],
+    [
+      "guard",
+      "hunter"
+    ],
+    [
+      "farmer",
+      "watchmaker"
+    ],
+    [
+      "designer",
+      "magician"
+    ],
+    [
+      "ranger",
+      "secretary"
+    ],
+    [
+      "baker",
+      "geologist"
+    ],
+    [
+      "firefighter",
+      "photographer"
+    ],
+    [
+      "conductor",
+      "director"
+    ],
+    [
+      "doctor",
+      "weaver"
+    ],
+    [
+      "dancer",
+      "porter"
+    ],
+    [
+      "shoemaker",
+      "tutor"
+    ],
+    [
+      "counselor",
+      "engineer"
+    ],
+    [
+      "guard",
+      "historian"
+    ],
+    [
+      "florist",
+      "interpreter"
+    ],
+    [
+      "florist",
+      "locksmith"
+    ],
+    [
+      "collector",
+      "painter"
+    ],
+    [
+      "psychologist",
+      "researcher"
+    ],
+    [
+      "historian",
+      "surgeon"
+    ],
+    [
+      "cleaner",
+      "sailor"
+    ],
+    [
+      "accountant",
+      "novelist"
+    ],
+    [
+      "interpreter",
+      "painter"
+    ],
+    [
+      "pharmacist",
+      "ranger"
+    ],
+    [
+      "astronomer",
+      "driver"
+    ],
+    [
+      "astronomer",
+      "clerk"
+    ],
+    [
+      "inspector",
+      "lawyer"
+    ],
+    [
+      "geologist",
+      "inventor"
+    ],
+    [
+      "guard",
+      "teacher"
+    ],
+    [
+      "plumber",
+      "watchmaker"
+    ],
+    [
+      "chemist",
+      "physicist"
+    ],
+    [
+      "artist",
+      "mechanic"
+    ],
+    [
+      "composer",
+      "tailor"
+    ],
+    [
+      "decorator",
+      "writer"
+    ],
+    [
+      "professor",
+      "tailor"
+    ],
+    [
+      "carpenter",
+      "sculptor"
+    ],
+    [
+      "electrician",
+      "tutor"
+    ],
+    [
+      "coach",
+      "journalist"
+    ],
+    [
+      "farmer",
+      "sculptor"
+    ],
+    [
+      "baker",
+      "historian"
+    ],
+    [
+      "electrician",
+      "lecturer"
+    ],
+    [
+      "designer",
+      "guard"
+    ],
+    [
+      "librarian",
+      "watchmaker"
+    ],
+    [
+      "astronomer",
+      "director"
+    ],
+    [
+      "bouncer",
+      "engineer"
+    ],
+    [
+      "butcher",
+      "watchmaker"
+    ],
+    [
+      "farmer",
+      "novelist"
+    ],
+    [
+      "director",
+      "novelist"
+    ],
+    [
+      "carpenter",
+      "painter"
+    ],
+    [
+      "astronaut",
+      "mason"
+    ],
+    [
+      "courier",
+      "historian"
+    ],
+    [
+      "courier",
+      "musician"
+    ],
+    [
+      "psychologist",
+      "soldier"
+    ],
+    [
+      "gardener",
+      "professor"
+    ],
+    [
+      "physicist",
+      "professor"
+    ],
+    [
+      "designer",
+      "engineer"
+    ],
+    [
+      "conductor",
+      "soldier"
+    ]
+  ],
+  "seed": 3110361,
+  "scope": "Pair and exact-prompt disjointness against recorded exposure; individual words may recur; no pretraining novelty."
+}

@@ -1,0 +1,7 @@
+{
+  "accepted_capture": true,
+  "forward": 20480,
+  "backward": 0,
+  "no_new_FIT": true,
+  "LLM_loads": 0
+}

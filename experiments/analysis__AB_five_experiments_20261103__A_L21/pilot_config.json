@@ -1,0 +1,39 @@
+{
+  "model": {
+    "id": "Qwen/Qwen3-0.6B-Base",
+    "revision": "da87bfb608c14b7cf20ba1ce41287e8de496c0cd",
+    "weights_sha256": "cd2a512003e2f9f3cd3c32a9c3573f820bb28c940f73c57b1ddaa983d9223eba",
+    "dtype": "float32",
+    "device": "cpu",
+    "threads": 4,
+    "attention": "eager",
+    "use_cache": false
+  },
+  "document": {
+    "id": "E041_00_F1_S0_A0",
+    "block": 0,
+    "split": "main",
+    "frame": 1,
+    "S": 0,
+    "A": 0,
+    "subject": "violinist",
+    "attractor": "pianist",
+    "prompt": "The violinist that the pianist can see",
+    "ids": [
+      151643,
+      785,
+      62037,
+      380,
+      429,
+      279,
+      59066,
+      380,
+      646,
+      1490
+    ],
+    "last_position": 9,
+    "donor": "E041_00_F1_S1_A0",
+    "donor_last_position": 9,
+    "donor_length_equal": true
+  }
+}

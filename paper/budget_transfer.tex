@@ -1,0 +1,53 @@
+\subsection{Budget dependence and conditional comparative benefit}\label{sec:budget}
+An offline developmental analysis reuses 384 vector labels from 24 lexical blocks. Three leave-group-out splits hold out eight blocks each; seeds 17/43/101 select nested whole-block training subsets. The 256-label point uses the same 16 training blocks at every seed; no 384-label heldout point exists. Hyperparameters are selected strictly within each budget, with two folds at 32 labels (two blocks) and four otherwise. Table~\ref{tab:devbudget} reports squared vector errors, not downstream MSE. Repeated seeds share heldout blocks and are dependent. No new native labels or model calls are acquired.
+
+\begin{table}[ht]\centering\small
+\begin{tabular}{rrrrr}\toprule Labels & C & Same-$U$ & Direct & P\\\midrule
+32 & 3.300493 & 3.297872 & .987112 & 4.302696\\
+64 & 3.268383 & 3.248347 & .742026 & 4.302696\\
+128 & 3.233326 & 3.228428 & .566218 & 4.302696\\
+256 & 3.208254 & 3.211810 & .414477 & 4.302696\\\bottomrule
+\end{tabular}
+\caption{Developmental vector squared-L2 losses, averaged over the saved splits/seeds. All budgets and comparators are retained.}\label{tab:devbudget}
+\end{table}
+Direct has lower vector error at every budget. C and same-$U$ share a rank-eight representational floor of about 3.160407 from the unpredicted orthogonal component; Direct predicts all output directions. Historical P lies in $U$ up to rounding. This developmental curve does not establish readout performance or a small-budget advantage.
+
+A separate prospective native-readout TEST uses 64 fresh lexical pairs (256 prompts, 1,024 conditions), the literal E041 upstream operator and native L22--27 suffix. One fixed lexicographic FIT0/seed17 sequence supplies budgets 32/64/128/256; 384 uses the original full-pool predictors and adds FIT0 blocks, so it is not strictly the same nested lower-budget population. All 16 P/learned forecasts are globally frozen before the first intervened TEST target. Freshness is against 812 inventoried exposure files; nouns and prompt family recur. Table~\ref{tab:readbudget} retains every budget.
+
+\begin{table}[ht]\centering\small
+\begin{tabular}{rrrr}\toprule Vector labels & C & Same-$U$ & Direct\\\midrule
+32 & .000875571 & .001435104 & .001684814\\
+64 & .001275866 & .000927738 & .000790169\\
+128 & .000767452 & .000696753 & .000481287\\
+256 & .000489643 & .000496114 & .000440074\\
+384 & .000342340 & .000321220 & .000308196\\\bottomrule
+\end{tabular}
+\caption{Fresh budget TEST is/are readout MSE; $P=.015209579$. The natural-prompt zero-change comparator has MSE $.870107090$. One fixed training sequence, not independent-fit replication.}\label{tab:readbudget}
+\end{table}
+The single prespecified primary C32-minus-Direct32 contrast is $-.000809242$, saved paired-block 95\% interval $[-.001215298,-.000446333]$: C32 has 48.0316\% lower MSE. C32 also has lower point loss than same-$U$32. Direct has lower mean loss at 64/128/256/384; the C-minus-Direct intervals at 256 and 384 include zero, so those point rankings do not establish a nonzero contrast; C is nonmonotonic, with C64 worse than C32. Other contrasts are descriptive and nominal pointwise. Intervals use 1,999 draws over 64 paired lexical blocks, seed 3111033, conditional on the fixed priors and fits. This benefit is conditional on one fixed training sequence, not equal-total-information dominance or an average over training draws. All three 32-label models select the linear kernel and $\lambda=10^{-4}$. With the common smoother, C versus same-$U$ therefore differs through the historical prior (up to FP32 rounding); C versus Direct also changes the output span. This algebraic distinction does not prove a general cause of small-budget success.
+
+All methods use frozen E036 input normalization. C also uses historical $W$, and C/same-$U$ use historical $U$. The prior development pool contained 512 target rows across 128 documents, with FIT and selection roles; not all 512 are asserted to be training rows. Its recorded operations were 640 network, 640 CLT, 512 JVP and 512 target operations, with 233.05 seconds ledger time excluding unrecorded setup/training. Those resources are additional to the 384-label pool. Matching additional labels does not match total information or cost.
+
+\subsection{Three new FIT32 cohorts and another grammatical readout}\label{sec:transfer32}
+After observing the favorable C32 result, a separate study acquires 96 new vector labels: three disjoint two-block FIT cohorts, 32 labels each. Every CV fold trains on one block. The completed 64-block budget TEST is reused posthoc. A new have-minus-has readout is measured on those same contexts/model/operator; this is readout transfer, not new-context or model transfer. All nine learned forecasts and P are frozen before the new TEST suffix calls; both readouts use the same 12-vector batches. Unlike the earlier budget/learned384 stages, all three methods here use the same eight-candidate linear/RBF grid; this protocol change is retained, not retroactively applied to earlier fits. No readout labels select the vector models.
+
+\begin{table}[ht]\centering\small
+\begin{tabular}{llrrr}\toprule Readout & FIT & C32 & Same-$U$32 & Direct32\\\midrule
+have/has & 0 & .001510795 & .000919902 & .001141759\\
+ & 1 & .002368869 & .002213545 & .001259948\\
+ & 2 & .000916476 & .001934133 & .001290201\\
+ & Mean & .001598713 & .001689193 & .001230636\\\midrule
+is/are & 0 & .001873326 & .001586614 & .001127235\\
+ & 1 & .001232012 & .001323733 & .001247500\\
+ & 2 & .001175300 & .000935494 & .001387240\\
+ & Mean & .001426879 & .001281947 & .001253991\\\bottomrule
+\end{tabular}
+\caption{All three new FIT cohorts on the reused 64-block TEST. Means are arithmetic averages of published per-fit MSEs, not new statistical estimates. P MSE is $.009422655$ (have/has) and $.015209418$ (is/are). The is/are reference is recomputed through the suffix, as explained below.}\label{tab:transfer32}
+\end{table}
+All 1,024 saved P vectors and P is/are margins are identical to the budget study. Its MSE changes from .0152095786461 to .0152094175820 solely because the native reference is recomputed through a batched suffix/restricted-head numerical path rather than adopted from the full native forward. Native reference margins differ in 851/1,024 conditions, by at most $1.90735\times10^{-5}$ logits. The cache audit does not separately identify batching, head multiplication shape or subtraction precision as the cause. Neither raw reference is rewritten.
+
+The primary have/has mean C32-minus-Direct32 contrast is $+.000368077$, saved nominal 95\% interval $[+.000134272,+.000653699]$, favoring Direct. The descriptive is/are mean contrast is $+.000172888$, interval $[-.000127204,+.000484746]$. The per-FIT have/has contrasts are $+.000369036$, $+.001108920$ and $-.000373724$; is/are contrasts are $+.000746091$, $-.000015488$ and $-.000211940$. Rankings are mixed. These saved 1,999-draw intervals (seed 3111038) resample 64 blocks conditional on these three fits; they do not estimate uncertainty over a training population or independently confirm the selected original C32 win.
+
+The new arm named \texttt{zero} inserts natural MLP21 output into the \emph{intervened upstream residual}: it predicts zero MLP delta while keeping the upstream intervention fixed. It is not the original natural prompt or zero whole intervention. Its MSE is $.022365204$ for have/has and $.023878914$ for is/are; original natural-prompt have/has margins were not measured. Saved worker fields named \texttt{natural\_margin\_range}, \texttt{natural\_margin\_sign\_counts} and \texttt{native\_effect} have misleading names; the completion report records this semantic correction without changing raw records. The earlier learned384 and budget natural-margin zero-change comparators retain their distinct meanings. Learned/native errors and C--Direct contrasts are unaffected.
+
+The budget TEST uses 18,726 logical forwards in 3,336 physical calls, zero backward, one load, and 1,659.328 seconds from first load attempt to immutable completion. The new-FIT/readout study records 12,516 attempts and 1,248 physical forwards, zero backward. Each has its own actual independent completion approval and canonical evidence. The manuscript copies those reports, summaries, protocols and receipts without rerunning measurements, fitting or bootstrap.

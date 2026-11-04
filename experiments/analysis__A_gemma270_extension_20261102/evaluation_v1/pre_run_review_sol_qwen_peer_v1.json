@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "snapshot_sha256": "d8f2fe67c25afde13539886e634f59f9c3d553823b3a9900d1a46e3bf2989897",
+  "reviewer_id": "/root/sol_qwen06_parallel",
+  "independent": true,
+  "verdict": "approved",
+  "topics_checked": [
+    "design",
+    "implementation",
+    "data",
+    "cost",
+    "claims"
+  ],
+  "findings": [],
+  "limitations": "Focused actual source/packet pre-run review after independently checking all2048 capture payloads/requests/accounting. Complete accepted capture membership, three fixed native-vector MAP/U fits and actual head asset bindings retained. Ten exactFP32 native-norm/head arms percontext, FP64repair computations and vector-energy formulas checked; native intervention arm is not a natural baseline. New source calls the prospectively frozen scalar analyzer only after immutable head results and reuses an existing valid analysis receipt onresume;1999samefixed block draws, no new model operations or fitted selection. Nominal95percent intervals descriptive, no qualifiedpopulation/FWER guarantee. No prior measured heads replayed, no pretrained model load or newFIT. Narrow runtimepolicy admission still requires separate accepted policy; this receipt does not authorize a different worker/snapshot."
+}

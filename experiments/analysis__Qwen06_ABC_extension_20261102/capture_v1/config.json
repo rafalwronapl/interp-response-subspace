@@ -1,0 +1,70 @@
+{
+  "model": "qwen",
+  "corpus": "analysis/Qwen06_ABC_extension_20261102/capture_v1/corpus.json",
+  "tokens": "analysis/Qwen06_ABC_extension_20261102/capture_v1/tokens.json",
+  "model_identity": "analysis/Qwen06_ABC_extension_20261102/capture_v1/model_identity.json",
+  "output": "analysis/Qwen06_ABC_extension_20261102/capture_v1/run",
+  "schedule": "analysis/Qwen06_ABC_extension_20261102/capture_v1/operations.json",
+  "controls": [
+    "A_r1_FIT_MAP_0000_F0_s0_q0",
+    "A_r1_FIT_MAP_0000_F0_s0_q1",
+    "A_r1_FIT_MAP_0000_F0_s1_q0",
+    "A_r1_FIT_MAP_0000_F0_s1_q1"
+  ],
+  "assets": {
+    "model": "qwen",
+    "answer_ids": [
+      374,
+      525
+    ],
+    "eps": 1e-06,
+    "softcap": null,
+    "architecture": "qwen3",
+    "sources": {
+      "model.norm.weight": {
+        "path": "C:\\Users\\rafal\\.cache\\huggingface\\hub\\models--Qwen--Qwen3-0.6B\\snapshots\\c1899de289a04d12100db370d81485cdf75e47ca\\model.safetensors",
+        "header_sha256": "399d16f500e925c7e923fe05966c6df6862ab64da60916843119e802f1801bca",
+        "tensor_header": {
+          "dtype": "BF16",
+          "shape": [
+            1024
+          ],
+          "data_offsets": [
+            1503262720,
+            1503264768
+          ]
+        },
+        "selected_rows": null,
+        "source_byte_hash_status": "Recorded accepted checkpoint identity reused; no new giant weight hash",
+        "current_bytes": 1503300328,
+        "current_mtime_ns": 1793362733204903000
+      },
+      "lm_head.weight": {
+        "path": "C:\\Users\\rafal\\.cache\\huggingface\\hub\\models--Qwen--Qwen3-0.6B\\snapshots\\c1899de289a04d12100db370d81485cdf75e47ca\\model.safetensors",
+        "header_sha256": "399d16f500e925c7e923fe05966c6df6862ab64da60916843119e802f1801bca",
+        "tensor_header": {
+          "dtype": "BF16",
+          "shape": [
+            151936,
+            1024
+          ],
+          "data_offsets": [
+            0,
+            311164928
+          ]
+        },
+        "selected_rows": [
+          374,
+          525
+        ],
+        "source_byte_hash_status": "Recorded accepted checkpoint identity reused; no new giant weight hash",
+        "current_bytes": 1503300328,
+        "current_mtime_ns": 1793362733204903000
+      }
+    },
+    "asset_sha256": "38a29e099706ca3e16c40d57a171b7cb3f4c8ae48077c3c83c51a6be78cee597"
+  },
+  "asset_path": "analysis/Qwen06_ABC_extension_20261102/capture_v1/qwen_head_assets.npz",
+  "resource_min_free_disk_bytes": 1073741824,
+  "threads": 1
+}

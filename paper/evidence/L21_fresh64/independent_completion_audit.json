@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "independent": true,
+  "reviewer": "/root/five_campaign_review",
+  "rows": 1024,
+  "blocks": 64,
+  "metrics_recomputed": 62,
+  "block_means_recomputed": true,
+  "attempts": 66284,
+  "aliases": 372,
+  "skips": 0,
+  "max_rounded_normmatch_difference": 5.181349774230348e-07,
+  "scope": "No model calls, refits or bootstrap repeats. Completion seal hash verification recorded separately.",
+  "sealed_files_verified": 9789,
+  "completed_sha256": "dd5995cebfc2ea487120aec1a90cd9070b34ec6a581257ff67969bff7cafff0c",
+  "actual_exit": 0,
+  "model_loads": 1
+}

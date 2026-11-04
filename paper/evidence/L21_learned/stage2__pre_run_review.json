@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "snapshot_sha256": "d28944628f71c570bcc07dd557dd7f874856339356dc2c916241e92fa8c69e34",
+  "reviewer_id": "/root/astra_learned_plan_review",
+  "independent": true,
+  "verdict": "approved",
+  "topics_checked": [
+    "design",
+    "implementation",
+    "data",
+    "cost",
+    "claims"
+  ],
+  "findings": [
+    {
+      "id": "PARTIAL-RESTART-EVIDENCE",
+      "severity": "high",
+      "status": "resolved",
+      "evidence": "Initial fixture covered completed replay only. Strengthened fixture now injects actual-worker crashes after global TEST forecast publication and first durable TEST row, checks byte preservation of prior cache/bundles/qualification/forecasts/rows, and tests uncertain attempt missing cache before load.",
+      "resolution": "Independently reran fixture:64synthetic conditions,300logical/200physical calls,240aliases,9predict calls and1bootstrap across3synthetic loads; no duplicated measurement or forecast recalculation, completed replay0calls, corrupt seal and uncertain attempt rejected. Worker hash0b42279b24a1242f8e7801abc87b2880e33e00d42cdaeb804186561501b3477b matches evidence."
+    },
+    {
+      "id": "FRESHNESS-AND-FREEZE",
+      "severity": "low",
+      "status": "resolved",
+      "evidence": "Independently reread776 exposure files and verified64unordered new pairs/256prompts with0recorded pair/prompt overlaps, correct token continuations374/525 and donor block/A/S alignment. Actual worker freezes all five learned prediction matrices globally before any intervention TEST target; trueD used only for evaluation/oracle.",
+      "resolution": "Accept fresh-pair scope relative to recorded inventory, not pretraining or new task/model. Current64completed historicalTEST targets are not reused. Detailed audit in review/independent_data_audit.json. Native natural states and upstream prefix remain required inputs and costs."
+    },
+    {
+      "id": "OPERATOR-AND-QUALIFICATION",
+      "severity": "low",
+      "status": "accepted",
+      "evidence": "Unchanged adapter_v4 and native Subject implement L19neuron1317 edit, optionalL20neuron1423 restore, nativeL21 target, dynamicL22-27 suffix and two-token head. Existing35F pilot audit records tail parity1.049e-5 and nonzero sensitivity4.3697. First2lexicographic FIT0conditions qualify P/C/Direct384 full versus suffix with12newF before TEST, tolerance1e-4.",
+      "resolution": "Accept reuse of independently qualified unchanged general hook/sensitivity controls, plus mandatory new actual-prediction parity. Numerical qualification failure must stop. Zero-change is explicitly the original-natural-margin predictor, not a zero target inserted under the modified residual."
+    },
+    {
+      "id": "INPUTS-ACCOUNTING-AND-ESTIMANDS",
+      "severity": "low",
+      "status": "resolved",
+      "evidence": "Verified exact snapshot digest and all854 bound file hashes including model files, local closure, library identity, frozen stage1MODELS/prior/completion approval and FIT qualification sources. Schedule contains8460unique forwardIDs and0backwards:256natural+1024prefix+1024native+6144suffix+12qualification. Exact FP32 target aliases explicit; physical batch count separate; every model load retained; bounded advisory STATUS publication.",
+      "resolution": "Approve canonical stage2 launch on this snapshot only. C-P readoutMSE is primary; C-Direct384 secondary; all arms/subgroups retained; nominal1999block intervals conditional on fixed fits. No arbitrary improvement gate, historical TEST tuning, new fit or extra calls authorized. Negative outcomes remain valid."
+    }
+  ],
+  "limitations": "Pre-run source/data/numerical-fixture review, not a learned readout result or guarantee of benefit. Independent fixture uses synthetic model states; actual12FIT full/suffix checks are enforced at run start. No native-model calls, FIT refits or scientific bootstrap by reviewer. Old empirical oracle result and completed stage1 coefficient/vector feasibility remain distinct. Author must check live worker/lock state before canonical launch and preserve uncertain attempts for separate reviewed recovery."
+}

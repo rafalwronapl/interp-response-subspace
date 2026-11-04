@@ -1,0 +1,19 @@
+{
+  "model": {
+    "id": "Qwen/Qwen3-0.6B-Base",
+    "revision": "da87bfb608c14b7cf20ba1ce41287e8de496c0cd",
+    "weights_sha256": "cd2a512003e2f9f3cd3c32a9c3573f820bb28c940f73c57b1ddaa983d9223eba",
+    "dtype": "float32",
+    "device": "cpu",
+    "threads": 4,
+    "attention": "eager",
+    "use_cache": false
+  },
+  "checkpoint": "model",
+  "prior": "runs/E036/development/predictors.npz",
+  "maximum_forward": 30444,
+  "physical_maximum": 4794,
+  "new_fit_labels": 192,
+  "new_test_blocks": 64,
+  "planned_model_loads": 1
+}

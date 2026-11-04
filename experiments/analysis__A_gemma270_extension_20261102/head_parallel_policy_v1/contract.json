@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "id": "A270_HEAD_BESIDE_EXACT_Q06_V1",
+  "kind": "maintenance",
+  "primary_agent": "/root",
+  "purpose": "Only exact head snapshot pin; unchanged wrapper, locks and Q native identity.",
+  "tracked_files": [
+    "concurrency_a270_q06_20261102.py",
+    "concurrency_runtime_v2.py",
+    "research_checks/gate.py",
+    "research_checks/_worker.py",
+    "research_checks/__init__.py",
+    "research_checks/reachability.py",
+    "analysis/A_gemma270_extension_20261102/head_parallel_policy_v1/policy.json",
+    "analysis/A_gemma270_extension_20261102/head_parallel_policy_v1/evidence.json",
+    "analysis/A_gemma270_extension_20261102/runtime_fixtures_root.py",
+    "analysis/A_gemma270_extension_20261102/runtime_fixtures_root_v1.json",
+    "analysis/A_gemma270_extension_20261102/evaluation_v1/pre_run_snapshot_v1.json",
+    "analysis/A_gemma270_extension_20261102/evaluation_v1/pre_run_review_sol_qwen_peer_v1.json",
+    "analysis/Qwen06_ABC_extension_20261102/capture_base_v2/pre_run_snapshot_v3.json",
+    "analysis/Qwen06_ABC_extension_20261102/capture_base_v2/pre_run_review_resume_v3.json",
+    "analysis/A_gemma270_extension_20261102/prepare_head_policy.py",
+    "analysis/A_gemma270_extension_20261102/parallel_policy_v1/snapshot_v1.json",
+    "analysis/A_gemma270_extension_20261102/parallel_policy_v1/review_resume_v1.json"
+  ],
+  "tracked_trees": [],
+  "input_manifests": [],
+  "gates": [
+    {
+      "id": "hooks",
+      "category": "hooks",
+      "evidence": "analysis/A_gemma270_extension_20261102/head_parallel_policy_v1/evidence.json",
+      "pointer": "/ready",
+      "op": "eq",
+      "expected": true,
+      "reason": "Exact new head snapshot reviewed; unchanged lock/legacy identity implementation, no new maintenancecalls."
+    },
+    {
+      "id": "data",
+      "category": "data",
+      "evidence": "analysis/A_gemma270_extension_20261102/head_parallel_policy_v1/evidence.json",
+      "pointer": "/ready",
+      "op": "eq",
+      "expected": true,
+      "reason": "Exact new head snapshot reviewed; unchanged lock/legacy identity implementation, no new maintenancecalls."
+    },
+    {
+      "id": "pilot",
+      "category": "pilot",
+      "evidence": "analysis/A_gemma270_extension_20261102/head_parallel_policy_v1/evidence.json",
+      "pointer": "/ready",
+      "op": "eq",
+      "expected": true,
+      "reason": "Exact new head snapshot reviewed; unchanged lock/legacy identity implementation, no new maintenancecalls."
+    },
+    {
+      "id": "accounting",
+      "category": "accounting",
+      "evidence": "analysis/A_gemma270_extension_20261102/head_parallel_policy_v1/evidence.json",
+      "pointer": "/ready",
+      "op": "eq",
+      "expected": true,
+      "reason": "Exact new head snapshot reviewed; unchanged lock/legacy identity implementation, no new maintenancecalls."
+    },
+    {
+      "id": "restart",
+      "category": "restart",
+      "evidence": "analysis/A_gemma270_extension_20261102/head_parallel_policy_v1/evidence.json",
+      "pointer": "/ready",
+      "op": "eq",
+      "expected": true,
+      "reason": "Exact new head snapshot reviewed; unchanged lock/legacy identity implementation, no new maintenancecalls."
+    }
+  ],
+  "circuits": [],
+  "structural_scope": "Additive runtime only, scientific capture sources unchanged.",
+  "entrypoint": null,
+  "schedule": null,
+  "budget": null
+}

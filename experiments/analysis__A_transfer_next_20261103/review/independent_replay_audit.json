@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "files_unchanged": 3531,
+  "new_calls": 0,
+  "new_model_loads": 0,
+  "scope": "Independent actual worker.main with blocked loader; hashes before/after allrunfiles"
+}

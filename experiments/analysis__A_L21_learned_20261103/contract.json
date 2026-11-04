@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "id": "A_L21_LEARNED_STAGE1_20261103",
+  "kind": "experiment",
+  "primary_agent": "/root",
+  "purpose": "Previously captured FIT-only nested coefficient/vector feasibility and384-label model freeze. Zero native/TC evaluations; no readout utility claim.",
+  "tracked_files": [
+    "analysis/A_L21_learned_20261103/stage1.py",
+    "analysis/A_L21_learned_20261103/models.py",
+    "analysis/A_L21_learned_20261103/common.py",
+    "analysis/A_L21_learned_20261103/prepare.py",
+    "analysis/A_L21_learned_20261103/fixtures.py",
+    "analysis/A_L21_learned_20261103/fixtures.json",
+    "analysis/A_L21_learned_20261103/e2e.py",
+    "analysis/A_L21_learned_20261103/e2e.json"
+  ],
+  "tracked_trees": [],
+  "input_manifests": [
+    "analysis/A_L21_learned_20261103/input_manifest.json"
+  ],
+  "gates": [
+    {
+      "id": "hooks",
+      "category": "hooks",
+      "evidence": "analysis/A_L21_learned_20261103/fixtures.json",
+      "pointer": "/payload/passed",
+      "op": "eq",
+      "expected": true,
+      "reason": "Pure NumPy regression and group-separated FIT sources; actual inputs/implementation reviewed independently."
+    },
+    {
+      "id": "data",
+      "category": "data",
+      "evidence": "analysis/A_L21_learned_20261103/fixtures.json",
+      "pointer": "/payload/passed",
+      "op": "eq",
+      "expected": true,
+      "reason": "Pure NumPy regression and group-separated FIT sources; actual inputs/implementation reviewed independently."
+    },
+    {
+      "id": "pilot",
+      "category": "pilot",
+      "evidence": "analysis/A_L21_learned_20261103/fixtures.json",
+      "pointer": "/payload/passed",
+      "op": "eq",
+      "expected": true,
+      "reason": "Pure NumPy regression and group-separated FIT sources; actual inputs/implementation reviewed independently."
+    },
+    {
+      "id": "accounting",
+      "category": "accounting",
+      "evidence": "analysis/A_L21_learned_20261103/fixtures.json",
+      "pointer": "/payload/passed",
+      "op": "eq",
+      "expected": true,
+      "reason": "Pure NumPy regression and group-separated FIT sources; actual inputs/implementation reviewed independently."
+    },
+    {
+      "id": "restart",
+      "category": "restart",
+      "evidence": "analysis/A_L21_learned_20261103/fixtures.json",
+      "pointer": "/payload/passed",
+      "op": "eq",
+      "expected": true,
+      "reason": "Pure NumPy regression and group-separated FIT sources; actual inputs/implementation reviewed independently."
+    },
+    {
+      "id": "full_worker_restart",
+      "category": "restart",
+      "evidence": "analysis/A_L21_learned_20261103/e2e.json",
+      "pointer": "/payload/passed",
+      "op": "eq",
+      "expected": true,
+      "reason": "Full synthetic384-condition worker, summary-crash recovery, completedreplay withoutfits, corruptionreject."
+    }
+  ],
+  "circuits": [],
+  "structural_scope": "No native-model computation or circuit; FIT-only supervised algebra, distinct from future held-out readout stage.",
+  "entrypoint": {
+    "module": "analysis.A_L21_learned_20261103.stage1",
+    "args": []
+  },
+  "schedule": "analysis/A_L21_learned_20261103/operations.json",
+  "budget": {
+    "forward": 0,
+    "backward": 0
+  }
+}

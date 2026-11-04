@@ -1,0 +1,27 @@
+\documentclass[11pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amssymb,booktabs,graphicx,hyperref,array}
+\setlength{\emergencystretch}{2em}
+\hypersetup{colorlinks=true,linkcolor=blue,citecolor=blue,urlcolor=blue}
+\title{Supplement: When Oracle Low-Rank Error Repair Helps or Harms\\Intervention Predictions}
+\author{Author information to be supplied}
+\date{November 4, 2026 --- supplement}
+\renewcommand{\thetable}{S\arabic{table}}
+\renewcommand{\thefigure}{S\arabic{figure}}
+\begin{document}
+\maketitle
+\section*{Guide to this supplement}
+This document preserves the complete extended report underlying the concise main article: detailed methods, all result tables, historical comparisons, inference qualifications, operation accounting and evidence provenance. Its section order follows the preceding approved version; supplementary tables and figures carry S prefixes. The original source files, PDF and review are also preserved byte-for-byte in \path{prior_version/}. The evidence directories keep their source hashes and scientific review receipts.
+
+The concise main article states the central empirical claim and essential limitations. This extended record retains the context of every reported result, including negative results and previously exposed cohorts. The split involved no model calls, fitting or resampling. No result from the separate prior-matched experiment is integrated here.
+
+\paragraph{Literature update.} Gradient-based feature-intervention selection is established by Guo et al.~\cite{guo2026}; Luo et al.~\cite{luo2026} examine matching intervention strength, surface and basis; Deshpande~\cite{deshpande2026} studies readout preservation under sparse compression. The main article gives the precise relation to the present estimands. Versioned primary-source lookup notes and hashes are supplied in \path{literature/}.
+\clearpage
+\input{extended_report}
+\clearpage
+\small
+\bibliographystyle{plain}
+\bibliography{references}
+\end{document}

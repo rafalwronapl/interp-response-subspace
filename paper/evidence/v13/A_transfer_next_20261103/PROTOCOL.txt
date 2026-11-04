@@ -1,0 +1,55 @@
+A new grammatical readout and independent small-FIT stability, 2026-11-03
+Preparation only; no model measurement before independent hash-bound approval.
+
+Fixed model/operator: historical Qwen3-0.6B-Base float32 CPU, E041 neuron
+L19:1317 transplant, B/C L20:1423 restoration, doses .5/1, MLP21 prediction,
+exact dynamic native L22-27 suffix. P/U/scales are immutable E036 priors.
+
+Three new mutually disjoint lexical FIT cohorts, each two whole blocks,
+four S/A prompts and four conditions per prompt =32 vector labels/cohort.
+All use F1: The SUBJECT that the ATTRACTOR can see. Each method selects
+linear/RBF ridge from historical eight-item grid by twofold whole-block CV
+within its own32labels; no additional labels. Tie order is historical grid.
+C predicts (D-P)U; same-U predicts DU; Direct predicts D. No readout labels
+select models. Fresh pairs/prompts are excluded against the recorded corpus
+inventory; individual nouns and grammatical template recur.
+
+TEST is the COMPLETED AB_budget_readout_20261103 64-block cohort, not fresh
+prospective data. Its known is/are outcomes motivated this extension. Reuse
+all exact native/prefix/natural records, preserving old files. New FITs and
+predictors are frozen before any new TEST suffix measurement. This is a
+posthoc extrapolation conditional on already observed TEST, not independent
+confirmation. Full input closure must include every adopted cache/bundle.
+
+New readout: have-minus-has. These are grammatical number-agreement
+continuations of the same F1 prefixes (e.g. ... can see has/have arrived).
+The tokenizer must establish both single tokens after every actual prompt.
+It is a second grammatical readout, NOT a new context/task family/model.
+is/are provides descriptive stability across three independent FIT cohorts.
+
+At every TEST condition run a12-item native suffix batch: P, nine learned
+arms, exact native y, natural y. Four lm_head rows return both margins from
+the SAME suffix states. Repeated natural y under intervention is valid
+because all earlier token states are invariant; exact full/suffix parity
+and nonzero sensitivity qualification must precede TEST measurements.
+
+Primary prespecified new-readout contrast: mean across three FIT draws of
+C32 minus Direct32 block squared error on have-minus-has. Paired block
+bootstrap1999 draws, seed3111038,64blocks; condition on these three fits.
+Report each FIT contrast, same-U/P/zero, original is/are descriptively,
+native effect magnitude/sign coverage, per branch/dose/S/A, all outcomes.
+No claim of average over a training population with only three fits.
+No positive-effect gate, no adaptive extra readout or fit, no paper update.
+
+Cost baseline:24 new FIT natural full +96 target-free prefixes +96 targets
+=216physical calls;1024 TEST12-item suffix batches =1024physical calls;
+qualification: two fixed newFIT conditions, three full replacement references
+and one three-item suffix batch each =8physical/12logical calls. Third patch
+is a fixed .01*[.5..1.5] ramp in output coordinates; both heads must respond
+above1e-8, parity maxabs<=1e-4. This is a technical sensitivity gate, never a
+native-effect or positive-benefit threshold. Total1248physical/12516logical.
+No TEST native full/prefix repeat.0 backward, one local model load, no cloud
+or downloads. Historical priors and the old TEST cache remain extra costs.
+Nearest work is the existing reviewed A12 bibliography and the exact E036/
+E041 transfer recipes; learning curves/readout projection are established,
+no new literature-priority or methodological-superiority claim is made.

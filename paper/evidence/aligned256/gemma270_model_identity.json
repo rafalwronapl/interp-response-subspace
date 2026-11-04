@@ -1,0 +1,40 @@
+{
+  "A": {
+    "folder": "C:\\Users\\rafal\\interpretability-lab\\models\\gemma-3-270m",
+    "files": {
+      "C:\\Users\\rafal\\interpretability-lab\\models\\gemma-3-270m\\added_tokens.json": {
+        "sha256": "50b2f405ba56a26d4913fd772089992252d7f942123cc0a034d96424221ba946",
+        "bytes": 35
+      },
+      "C:\\Users\\rafal\\interpretability-lab\\models\\gemma-3-270m\\config.json": {
+        "sha256": "8983343e5bfbf8e336d222a522a1d781443491e9de2d081b8856f8fd26ab6046",
+        "bytes": 1352
+      },
+      "C:\\Users\\rafal\\interpretability-lab\\models\\gemma-3-270m\\generation_config.json": {
+        "sha256": "5f5e01a065c3a4efb169a97bc13dbe5d62031f40a3e7004323daaaff348ec420",
+        "bytes": 133
+      },
+      "C:\\Users\\rafal\\interpretability-lab\\models\\gemma-3-270m\\model.safetensors": {
+        "sha256": "abb58eb73aece5163624090d5383c59cbcdb9e9539ec84cb864f74386c4b21d5",
+        "bytes": 536223056
+      },
+      "C:\\Users\\rafal\\interpretability-lab\\models\\gemma-3-270m\\special_tokens_map.json": {
+        "sha256": "2f7b0adf4fb469770bb1490e3e35df87b1dc578246c5e7e6fc76ecf33213a397",
+        "bytes": 662
+      },
+      "C:\\Users\\rafal\\interpretability-lab\\models\\gemma-3-270m\\tokenizer.json": {
+        "sha256": "7d4046bf0505a327dd5a0abbb427ecd4fc82f99c2ceaa170bc61ecde12809b0c",
+        "bytes": 33384570
+      },
+      "C:\\Users\\rafal\\interpretability-lab\\models\\gemma-3-270m\\tokenizer_config.json": {
+        "sha256": "94b03056ec5831e9021c3e3fe9db682778c4f2d081c4188f1fcb8b90541cf1cf",
+        "bytes": 1155375
+      }
+    },
+    "dtype": "float32",
+    "backend": "CPU eager",
+    "loaded": false
+  },
+  "source": "analysis/AB_confirmatory_execution_20261101/model_identity.json",
+  "source_sha256": "2e0f2cdc96d5eb4917014287776c1711508327b4c2b64006822783b3550f6289"
+}

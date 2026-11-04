@@ -1,0 +1,58 @@
+{
+  "reviewer": "/root/astra_learned_plan_review",
+  "sealed_files": 7706,
+  "ledger_attempt_bundles": 3336,
+  "unique_logical_forwards": 8460,
+  "all_prefixes_and_naturals_before_TEST_targets": true,
+  "raw_rows_reconstructed": 1024,
+  "native_targets_and_margins_reconstructed": true,
+  "all_frozen_patch_targets_verified": true,
+  "vector_coefficient_checks": 14336,
+  "aggregate_block_checks": 469,
+  "subgroups_and_paired_deltas_checked": true,
+  "blocks": 64,
+  "qualification": [
+    {
+      "full": [
+        -5.516911506652832,
+        -5.562723159790039,
+        -5.562192916870117
+      ],
+      "maxabs": 2.86102294921875e-06,
+      "passed": true,
+      "tail": [
+        -5.516908645629883,
+        -5.562723159790039,
+        -5.562191009521484
+      ]
+    },
+    {
+      "full": [
+        -4.662313461303711,
+        -4.784236907958984,
+        -4.786989212036133
+      ],
+      "maxabs": 3.814697265625e-06,
+      "passed": true,
+      "tail": [
+        -4.662313461303711,
+        -4.784238815307617,
+        -4.786985397338867
+      ]
+    }
+  ],
+  "metrics": {
+    "C": 0.0004294409591194537,
+    "Direct384": 0.00032652203263783264,
+    "P": 0.015392716423659358,
+    "mean8": 0.016050053618450022,
+    "oracle_inside": 8.827773871988853e-05,
+    "same_U": 0.000405985539555509,
+    "zero_change": 0.7668914429507447
+  },
+  "C_reduction_percent": 97.21010283500459,
+  "C_over_Direct_percent": 31.5197494178824,
+  "native_calls": 0,
+  "refits": 0,
+  "bootstrap_reruns": 0
+}
